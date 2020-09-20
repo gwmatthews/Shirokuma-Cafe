@@ -1,0 +1,3 @@
+#!/bin/bash
+ffmpeg -i Shirokuma-Cafe-09.mkv -f mp3 -ab 192000 -vn Shirokuma-Cafe-09.mp3
+

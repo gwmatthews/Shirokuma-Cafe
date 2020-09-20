@@ -1,0 +1,17 @@
+name: "Shirokuma Cafe"
+output_dir: "."
+navbar:
+  title: ""
+  left:
+    - text: "シロクマ　カフェー"
+      href: index.html
+
+output:
+  html_document:
+    theme: simplex
+#    includes:
+#      in_header: header.html
+    css: style.css
+    beforeInit: macros.js
+
+

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma Cafe 7</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shirokuma Cafe 7</h1>
+
+</div>
+
+
+<p>半田さん改造計画</p>
+<p>ねぇねぇ モテ期って知ってる？</p>
+<p>モテ期？</p>
+<p>それは　汽笛</p>
+<p>それは　射的</p>
+<p>それは　奇跡</p>
+<p>モテ期って？</p>
+<p>人は一生のうちすごくモテる時期があって</p>
+<p>それをモテ期って言うんだって</p>
+<p>それ繁殖期でしょ</p>
+<p>だよね</p>
+<p>ちょっと違うらしいよ</p>
+<p>繁殖期は　季節が巡ってこないと 訪れないんだけど</p>
+<p>モテ期は　努力によって くるらしいんだよ</p>
+<p>何のお話ですか？</p>
+<p>見てて</p>
+<p>笹子さん</p>
+<p>はい？</p>
+<p>はい！</p>
+<p>お面？</p>
+<p>あれ？　じゃあ…</p>
+<p>はい</p>
+<p>ニンジン？</p>
+<p>あれ？　じゃあ…</p>
+<p>僕　体重１００キロ以上あるんだ</p>
+<p>そう</p>
+<p>重いでしょ？</p>
+<p>重いね</p>
+<p>それだけ？</p>
+<p>うん</p>
+<p>おかしいな…</p>
+<p>モテるには　お面で野菜で 重かったりするはずなんだけど…</p>
+<p>あの…　</p>
+<p>イケメンで優しくて おもしろかったりしたらじゃ…</p>
+<p>ちょっと違った</p>
+<p>ニアピン賞</p>
+<p>いや　大きく間違ってるから</p>
+<p>あっ！ 配達ですか？</p>
+<p>ステキなお花ですね</p>
+<p>ありがとうございます</p>
+<p>あれがモテ期かぁ</p>
+<p>じゃあ　これ 売店に届けてきますので</p>
+<p>行っちゃイヤ！</p>
+<p>す…　すみません</p>
+<p>ああ　いえ　こちらこそ</p>
+<p>大丈夫ですか？</p>
+<p>ケガはないかい？</p>
+<p>ああ　僕は　大丈夫です</p>
+<p>本当に？</p>
+<p>ええ</p>
+<p>よかった</p>
+<p>心配しちゃったよ</p>
+<p>半田さん</p>
+<p>僕が力になるよ</p>
+<p>なんとかしてあげるから</p>
+<p>ああ　パンダくん　おはよう！</p>
+<p>リンリンは　僕のこと必要ないでしょ</p>
+<p>さあ　半田さん行こう</p>
+<p>こんにちは！ 聞いて　聞いて！</p>
+<p>どうしたんですか？</p>
+<p>やっと仮免　受かったよ</p>
+<p>ついにだよ　とうとうだよ！</p>
+<p>あれ？　シロクマくんはいないの？</p>
+<p>大切な用事があるからって…</p>
+<p>ここでやるの？</p>
+<p>協力してね　シロクマくん</p>
+<p>パンダくん　やる気だね</p>
+<p>いろいろ情報　仕入れてきたよ</p>
+<p>ごめん！　ちょっと お年寄りに道を聞かれてさ</p>
+<p>さあ　行くよ　半田さん</p>
+<p>えっ？　どこへ？</p>
+<p>半田さん改造計画！</p>
+<p>まずは　ファッションだよ</p>
+<p>さり気ない　トラッド</p>
+<p>う～ん　ちょっとカタイね</p>
+<p>パンクはどう？</p>
+<p>う～ん　これもね…</p>
+<p>渋谷系とか</p>
+<p>というより　サブカル系？</p>
+<p>あぁ～！　これ　これ</p>
+<p>いいんじゃない？</p>
+<p>これじゃ　いつもと同じだよ</p>
+<p>う～ん　じゃあ…</p>
+<p>モテファッションといえば　</p>
+<p>オスとして 強く　アピールできるものがいいよね</p>
+<p>ニワトリなら　立派なトサカだし</p>
+<p>猫なら　耳かな？</p>
+<p>鳥なら　羽でしょ</p>
+<p>でも　やっぱ　これだよね　</p>
+<p>パンダの着ぐるみ？</p>
+<p>半田さん 日ごろの僕を見てて　わからない？</p>
+<p>モテモテだよ</p>
+<p>これなんか　どう？</p>
+<p>ちょっと　きついけど</p>
+<p>シロクマくん　パンダみたいだね</p>
+<p>パンダくんの代わりに 動物園で働こうかな</p>
+<p>ムリでしょ</p>
+<p>袋　開けたんだから ちゃんと買いなよ</p>
+<p>お財布　持ってきてない</p>
+<p>ありがとうございました</p>
+<p>じゃあ　次</p>
+<p>グルメ情報も大事らしいよ</p>
+<p>どう　大事なの？</p>
+<p>半田さんの人生にだよ</p>
+<p>そうなんだ…</p>
+<p>もう！　何？　そのやる気のなさ</p>
+<p>僕が　こんなに一生懸命なのに</p>
+<p>おいしそうなもの いっぱい　あるね</p>
+<p>あぁ～！　笹まんじゅう 笹だんご　笹ようかん</p>
+<p>買ってあげなよ</p>
+<p>しようがないな…　１個だけね</p>
+<p>これも　よろしく</p>
+<p>半田さん！</p>
+<p>半田さん！</p>
+<p>１００円　１００円</p>
+<p>シロクマくん　何やってるの！？</p>
+<p>半田さん　いっぱい　持ってるね　モテモテだよ</p>
+<p>これで　半田さんも だいぶ　改造人間になったね</p>
+<p>いや…　それ　戦っちゃうから</p>
+<p>どうする？</p>
+<p>行こう！</p>
+<p>なんだろう？　こっち　見てるよ</p>
+<p>あの…</p>
+<p>はい</p>
+<p>もし　よかったら…</p>
+<p>一緒に写真　撮ってもらえますか？</p>
+<p>きたよ　モテ期！</p>
+<p>いいですよ</p>
+<p>お願いします！</p>
+<p>パンダくん　人気者だね</p>
+<p>僕も一緒に撮ってくる</p>
+<p>もう１枚　撮りますよ</p>
+<p>は～い！</p>
+<p>あぁ　楽しかった！</p>
+<p>おかえり　遅かったね</p>
+<p>すみません！ 注文　お願いします</p>
+<p>はい　お待たせしました</p>
+<p>お水のお代わりください</p>
+<p>ただ今！</p>
+<p>忙しそうだな</p>
+<p>笹子さん　モテモテだね</p>
+<p>あっ！ 半田さんじゃないですか</p>
+<p>すみません お水　お代わり　お願いします</p>
+<p>あぁ　半田さん！ 背中　かいてもらえますか？</p>
+<p>半田さ～ん…</p>
+<p>ここに座らないように言って</p>
+<p>はい　はい</p>
+<p>うん　ありがとうございます</p>
+<p>いえ　いえ</p>
+<p>このへん？</p>
+<p>も…　もうちょい　右です</p>
+<p>ここに座ってね</p>
+<p>ありがとう</p>
+<p>半田さんにも　やっと…</p>
+<p>きたね</p>
+<p>モテ期</p>
+<p>半田さん お水　もう１杯　もらえますか？</p>
+<p>はい　はい</p>
+<p>半田さん　こっちもかいて</p>
+<p>かくよ！</p>
+<p>半田さ～ん！</p>
+<p>なんだい？</p>
+<p>ラブラブ　ドライブ　大作戦</p>
+<p>見て　見て！</p>
+<p>ついに取ったよ！</p>
+<p>免許！</p>
+<p>よかったね</p>
+<p>ちょっと！ おめでとうって言ってよ！</p>
+<p>それは　こんぺいとう！</p>
+<p>それは　エッフェル塔！</p>
+<p>それは　合気道！</p>
+<p>違う！　全然違うよ</p>
+<p>おめでとうございます</p>
+<p>うん！　ありがとう</p>
+<p>おめでとう</p>
+<p>うん！</p>
+<p>永遠に取れないかと思ったよ</p>
+<p>縁起でもないこと 言わないでくれる？</p>
+<p>さぁ　これで　ペン子さんと…</p>
+<p>海へ　ドライブだよ！</p>
+<p>いきなりはどうかな？</p>
+<p>なんで？</p>
+<p>たとえば…</p>
+<p>道を間違えて　海へ行くはずが 山へ行っちゃったり…</p>
+<p>ギア　壊しちゃったり…</p>
+<p>ハンドル　引っこ抜いたり…</p>
+<p>いや　そんな失敗しないから</p>
+<p>でも　ただのドライブじゃないよね？</p>
+<p>デートだよ　デート</p>
+<p>ペン子さんを助手席に乗せて</p>
+<p>洒落た会話をこなしつつ</p>
+<p>しかも　道を間違えずに うまくエスコートできるかな？</p>
+<p>すごいミッションだね</p>
+<p>わかった！ 明日　予行演習しよう</p>
+<p>デートの練習って何するの？</p>
+<p>それは　いろいろ考えてあるから</p>
+<p>ペンギンさん　おはよう</p>
+<p>あれ？</p>
+<p>ペン子さん…</p>
+<p>ペンギンさん！</p>
+<p>なんで　こんなとこで寝てるの？</p>
+<p>いや…　</p>
+<p>３時間前に来ちゃって…</p>
+<p>早いのはいいけど 寝るのは最悪だね</p>
+<p>その１　待ち合わせ　不合格</p>
+<p>何それ？</p>
+<p>採点表だよ</p>
+<p>合格しないと デートする免許がもらえないの</p>
+<p>デートにも免許がいるんだ？</p>
+<p>いるの</p>
+<p>いや　普通いらないから</p>
+<p>ペンギンさん 今日は僕がデートの教官</p>
+<p>わ…　わかってるよ</p>
+<p>で…　今日の計画は？</p>
+<p>海に行きます！</p>
+<p>それだけ？</p>
+<p>オシャレなレストランで食事したり</p>
+<p>ムード盛り上げる演出はないの？</p>
+<p>考えてなかったでしょ？</p>
+<p>その２　段取り　不合格</p>
+<p>合格までの道のりは 厳しそうだね</p>
+<p>あとはどんなチェック項目があるの？</p>
+<p>３　楽しい会話。</p>
+<p>４　おいしい食事</p>
+<p>５　ロマンチックなムード</p>
+<p>全部合格すれば　仮免</p>
+<p>で　ラブラブでドライブした最後に 愛の告白</p>
+<p>そうすれば ラブラブ免許を獲得できるよ</p>
+<p>えっ　ラブラブ免許？</p>
+<p>すでに２つ不合格だね</p>
+<p>え～っ！</p>
+<p>じゃあ　やり直してみよう</p>
+<p>はい</p>
+<p>おはよう　待った？</p>
+<p>おはよう</p>
+<p>僕も　今　来たところだよ</p>
+<p>いいね　合格</p>
+<p>デートの計画は？</p>
+<p>おいしいレストランに行って　海に行って</p>
+<p>ムードを盛り上げて 告白します　教官</p>
+<p>ザックリしてるけど　まぁ合格</p>
+<p>じゃあ　いこうか</p>
+<p>ハァー　なんか疲れた</p>
+<p>シロクマくん　運転して</p>
+<p>ダメでしょ　それ</p>
+<p>あ　おやつ忘れた</p>
+<p>ペンギンさん持ってない？</p>
+<p>気が散るから　話かけないで</p>
+<p>そういえばさぁ　この間ね…</p>
+<p>だから　話かけないで</p>
+<p>３　楽しい会話　不合格</p>
+<p>もっと盛り上げないと</p>
+<p>だって　男３人でドライブじゃ 盛り上がらないよ</p>
+<p>予行演習したいって言ったの ペンギンさんでしょ</p>
+<p>そうだけどさ</p>
+<p>仕方ないな</p>
+<p>うわ～　ステキな景色ね</p>
+<p>何やってるの？</p>
+<p>僕がペン子さんのふりしてあげるから</p>
+<p>えっ シロクマくん　今から女の子なんだ</p>
+<p>私　日焼け止め持ってくるの忘れちゃった</p>
+<p>へぇ～</p>
+<p>ちょっと　それじゃダメ</p>
+<p>えっ　何言えばいいの？</p>
+<p>とにかく褒めて　私を褒めて</p>
+<p>う　うん</p>
+<p>シ　シロクマちゃんて 色白できれいだね</p>
+<p>やだ　ペンギンさんたら</p>
+<p>うわ～っ！</p>
+<p>あら　ごめんなさい</p>
+<p>私　最近　太っちゃって</p>
+<p>へぇ～</p>
+<p>へぇ～？</p>
+<p>シ　シロクマちゃんみたいにポッチャリしてる 女の子のほうが　かわいいよ</p>
+<p>ホント？</p>
+<p>うわ～っ　シロクマちゃん　爪　　爪！</p>
+<p>あら　ごめんなさい</p>
+<p>爪　痛かったかしら</p>
+<p>痛いよ！</p>
+<p>シロクマちゃんの爪　頑丈でステキ</p>
+<p>ホント？</p>
+<p>ホント　ホント</p>
+<p>３　楽しい会話　合格</p>
+<p>よかったね　ペンギンさん</p>
+<p>お昼は　どうする？</p>
+<p>笹食べたい！</p>
+<p>ん～　ペン子さんが 喜びそうなところ…</p>
+<p>笹がない</p>
+<p>全然　レストランじゃないわね</p>
+<p>本番ではステキなシーフードレストランに行くから</p>
+<p>すみません　サーモンください</p>
+<p>売り切れです</p>
+<p>シロクマくんが　食べきっちゃったよ　ここのサーモン</p>
+<p>じゃあ　いきましょうか</p>
+<p>もちろん　ペンギンさんのおごりね</p>
+<p>えっ？</p>
+<p>やだ　デートで女の子にお金払わせるつもり？</p>
+<p>信じらんな～い</p>
+<p>わかったよ…</p>
+<p>４　おいしい食事も合格だね</p>
+<p>う～ん…　デートで回転寿司って どうなのかしら…</p>
+<p>あれだけ食べといて！？</p>
+<p>じゃ　合格でいいよ　合格で…</p>
+<p>会話…　ないんだけど</p>
+<p>そこは　もう合格したから</p>
+<p>ここからが本番だよ</p>
+<p>ムード　盛り上げないと</p>
+<p>どうやって？</p>
+<p>会話が途切れたら　ＢＧМとか</p>
+<p>ＣＤ　持ってきてないよ</p>
+<p>じゃあ　僕　歌うよ</p>
+<p>「ねむれ　ねむれ」</p>
+<p>「母のむねに」</p>
+<p>「ねむれ　ねむれ」</p>
+<p>ペンギンさん！　眠っちゃ　ダメ！！</p>
+<p>なんで　子守唄　歌うの！？</p>
+<p>これじゃ　合格点　あげられないね</p>
+<p>じゃあ　不合格？</p>
+<p>海　見たら　絶対　盛り上がるから！</p>
+<p>ペンギン的には</p>
+<p>海だ</p>
+<p>遠いけどね</p>
+<p>道　間違えた…</p>
+<p>あっ…　ペンギンさん　</p>
+<p>１００円　１００円</p>
+<p>もう見なくていいから…</p>
+<p>もう… 道　間違えるなんて　最低</p>
+<p>ペン子さん　怒って帰っちゃうよ？</p>
+<p>大丈夫…　これは　予行演習</p>
+<p>今から行くと　ちょうど 海に夕日が沈む頃だから…</p>
+<p>絶対　ロマンチックだよ！！</p>
+<p>海だ</p>
+<p>けど…</p>
+<p>夕日　間に合わなかったね</p>
+<p>５　ロマンチックなムードは　不合格と…</p>
+<p>や…　夜景も　きれいじゃない？</p>
+<p>ほらほら　ムードが盛り上がってるよ！</p>
+<p>じゃあ　いってみる？　告白</p>
+<p>いってみようよ</p>
+<p>さあ　ペンギンさん</p>
+<p>私への思いのたけを　熱く語って</p>
+<p>ペ…　ペン子さん…</p>
+<p>ずっと…　好きでした</p>
+<p>僕と…</p>
+<p>僕と…</p>
+<p>つきあってください</p>
+<p>はい</p>
+<p>痛い！！</p>
+<p>やったね！</p>
+<p>いや…　練習とわかっていても ドキドキするよね</p>
+<p>じゃあ… まあ　合格ってことで</p>
+<p>はい　ラブラブ免許</p>
+<p>やった！</p>
+<p>よかったね</p>
+<p>あっ　ペンギンさん</p>
+<p>デート　どうだった？</p>
+<p>はい　食べて</p>
+<p>ありがとうございます</p>
+<p>それで　デートは？</p>
+<p>行ってないよ</p>
+<p>えっ？</p>
+<p>いや　ほら…　まだ夏じゃないし 海へドライブには早いよ</p>
+<p>ダメじゃん…</p>
+<p>ペンギンさん　ペンギンさん</p>
+<p>何？　パンダ君</p>
+<p>どうしたら　黙っていてもアイドルたちから告白されるかな</p>
+<p>図々しいなぁ</p>
+<p>白熊君　終わろ</p>
+<p>次回　しろくまカフェ</p>
+<p>ＶＳ　カンブリヤ宮殿</p>
+<p>しろくまカフェだけでいいでしょう</p>
+<p>お楽しみに</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

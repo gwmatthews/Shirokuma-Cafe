@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Sawarabi+Mincho);
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
+
+p {
+  font-family: 'Sawarabi Mincho';
+  font-size: 200%;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.audiobox {
+  transform: scale(0.75,1);
+}
+
+audio, button {
+  outline: none;
+}

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>シロクマくん　動物園へ</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">シロクマくん　動物園へ</h1>
+
+</div>
+
+
+<p>シロクマくん　動物園へ</p>
+<audio controls>
+<source src="03/001.mp3">
+</audio>
+<hr>
+<p>シロクマくん　暇だから　何か問題出してよ</p>
+<p>いいよ</p>
+<audio controls>
+<source src="03/002.mp3">
+</audio>
+<hr>
+<p>第１問</p>
+<p>Ｔ字路と呼ばれる交差点</p>
+<audio controls>
+<source src="03/003.mp3">
+</audio>
+<hr>
+<p>法令上の正式名称は　Ｔ字路ではありません</p>
+<p>さて　何と言うでしょう</p>
+<audio controls>
+<source src="03/004.mp3">
+</audio>
+<hr>
+<p>もっと　フランクな問題がいいな</p>
+<audio controls>
+<source src="03/005.mp3">
+</audio>
+<hr>
+<p>無洗米の製法には　いくつかありますが</p>
+<audio controls>
+<source src="03/006.mp3">
+</audio>
+<hr>
+<p>加工法という方法では　よく…　</p>
+<p>ごめん、もういいや(ー_ー)!!</p>
+<audio controls>
+<source src="03/007.mp3">
+</audio>
+<hr>
+<p>おぉ　パンダくん</p>
+<p>いらっしゃい</p>
+<audio controls>
+<source src="03/008.mp3">
+</audio>
+<hr>
+<p>パンダくん　いつもの？</p>
+<audio controls>
+<source src="03/009.mp3">
+</audio>
+<hr>
+<p>どうしたの？　クイズ出す？</p>
+<audio controls>
+<source src="03/010.mp3">
+</audio>
+<hr>
+<p>クイズより</p>
+<p>どうして　シロクマくんは　動物園に来てくれないの？</p>
+<audio controls>
+<source src="03/011.mp3">
+</audio>
+<hr>
+<p>何？　急に</p>
+<p>僕は　いつもシロクマくんの仕事場に　遊びに来てるのに　ずるいよ</p>
+<audio controls>
+<source src="03/012.mp3">
+</audio>
+<hr>
+<p>カフェに　お茶しに来てるだけでしょ</p>
+<audio controls>
+<source src="03/013.mp3">
+</audio>
+<hr>
+<p>僕　人には　モテるんだからね　（　<sup>ω</sup>）</p>
+<p>聞いてないなぁ…</p>
+<audio controls>
+<source src="03/014.mp3">
+</audio>
+<hr>
+<p>一度　動物園に遊びに来てよ</p>
+<audio controls>
+<source src="03/015.mp3">
+</audio>
+<hr>
+<p>大人気で　びっくりするよ(#<sup>.</sup>#)</p>
+<p>大人気で　びっくりするよ(#<sup>.</sup>#)</p>
+<audio controls>
+<source src="03/016.mp3">
+</audio>
+<hr>
+<p>なんで　２回言うの？／(-_-)＼</p>
+<audio controls>
+<source src="03/017.mp3">
+</audio>
+<hr>
+<p>もしもし　シロクマくん？</p>
+<p>明日　動物園に来る件だけど　忘れないでよ</p>
+<audio controls>
+<source src="03/018.mp3">
+</audio>
+<hr>
+<p>じゃあ　ペンギンさんにも　伝えておいてね</p>
+<audio controls>
+<source src="03/019.mp3">
+</audio>
+<hr>
+<p>おはようございま～す</p>
+<p>おはよう　パンダくん</p>
+<p>なんだか　元気だね</p>
+<audio controls>
+<source src="03/020.mp3">
+</audio>
+<hr>
+<p>今日　友達が僕のこと見に来るの</p>
+<p>そうなんだ</p>
+<audio controls>
+<source src="03/021.mp3">
+</audio>
+<hr>
+<p>あっ　そうだ　今日は　常勤パンダさんが　娘さんの参観日だから　休むって</p>
+<p>そうなの？(｀・ω・´)</p>
+<audio controls>
+<source src="03/022.mp3">
+</audio>
+<hr>
+<p>あれ？　ということは…</p>
+<audio controls>
+<source src="03/023.mp3">
+</audio>
+<hr>
+<p>パンダは　僕ひとり…</p>
+<p>パンダさん　かわいい～！＼(<sup>o</sup>)／</p>
+<p>パンダく～ん！　かわいい！</p>
+<audio controls>
+<source src="03/024.mp3">
+</audio>
+<hr>
+<p>ようし！　頑張るぞ～！(^_-)-☆</p>
+<audio controls>
+<source src="03/025.mp3">
+</audio>
+<hr>
+<p>何名様ですか？</p>
+<p>動物が</p>
+<p>２名です</p>
+<audio controls>
+<source src="03/026.mp3">
+</audio>
+<hr>
+<p>ここが　動物園か</p>
+<p>思ったより　広いね　　</p>
+<p>まずは　パンダくんを見に行こう</p>
+<audio controls>
+<source src="03/027.mp3">
+</audio>
+<hr>
+<p>ただ今から　シロクマの　おやつタイムを行います</p>
+<p>シロクマが　プールへダイビングする姿を　どうぞお楽しみください</p>
+<audio controls>
+<source src="03/028.mp3">
+</audio>
+<hr>
+<p>見たい！　すごそう！</p>
+<p>えっ！？　見たい！？</p>
+<audio controls>
+<source src="03/029.mp3">
+</audio>
+<hr>
+<p>シロクマくんって　シロクマだよね？</p>
+<p>シロクマが　シロクマのダイビングする姿が見たいの？</p>
+<audio controls>
+<source src="03/030.mp3">
+</audio>
+<hr>
+<p>行こう　行こう！</p>
+<p>パンダく～ん</p>
+<audio controls>
+<source src="03/031.mp3">
+</audio>
+<hr>
+<p>そんなに飛ばして大丈夫？</p>
+<p>半田さん　友達が来たら　ちゃんと写真撮ってね</p>
+<audio controls>
+<source src="03/032.mp3">
+</audio>
+<hr>
+<p>でも　おかしいなぁ</p>
+<p>シロクマくんたち　１時って言ったのに　来ないね</p>
+<audio controls>
+<source src="03/033.mp3">
+</audio>
+<hr>
+<p>シロクマくん　駄目だよ　ほら</p>
+<p>なに？　</p>
+<audio controls>
+<source src="03/034.mp3">
+</audio>
+<hr>
+<p>入館不可だって</p>
+<p>しろくま館へのシロクマの入館は　ご遠慮ください</p>
+<audio controls>
+<source src="03/035.mp3">
+</audio>
+<hr>
+<p>まぎらわしいので</p>
+<p>こっそり入れば　バレない　バレない　(*￣∇￣)ノ</p>
+<audio controls>
+<source src="03/036.mp3">
+</audio>
+<hr>
+<p>いや　すごく目立ってるから</p>
+<audio controls>
+<source src="03/037.mp3">
+</audio>
+<hr>
+<p>お～！　すごい迫力</p>
+<p>シロクマ！</p>
+<audio controls>
+<source src="03/038.mp3">
+</audio>
+<hr>
+<p>ちょっと　ちょっと　シロクマは　入れないって書いてあったでしょう</p>
+<p>困りますよ</p>
+<audio controls>
+<source src="03/039.mp3">
+</audio>
+<hr>
+<p>え？　これ　剥製ですけど</p>
+<audio controls>
+<source src="03/040.mp3">
+</audio>
+<hr>
+<p>今　動いてましたよ　剥製なわけないでしょう</p>
+<audio controls>
+<source src="03/041.mp3">
+</audio>
+<hr>
+<p>なんで来ないの？　</p>
+<p>もう行っていいかな？来たら呼んで</p>
+<audio controls>
+<source src="03/042.mp3">
+</audio>
+<hr>
+<p>もう　叱られたじゃない</p>
+<p>僕は　バレるって言ったのに</p>
+<p>じゃあ　パンダくんとこに行こう</p>
+<p>うん</p>
+<audio controls>
+<source src="03/043.mp3">
+</audio>
+<hr>
+<p>パンダくん　かわいい　キャ～ッ　かわいい(&gt;_&lt;)</p>
+<p>パンダく～ん</p>
+<p>パンダくん　遅れてごめん</p>
+<p>あれ？　</p>
+<audio controls>
+<source src="03/044.mp3">
+</audio>
+<hr>
+<p>お～い　パンダくん</p>
+<p>寝てる</p>
+<p>パンダくん　起きて(#`O′)　</p>
+<audio controls>
+<source src="03/045.mp3">
+</audio>
+<hr>
+<p>笑ってる</p>
+<p>パンダくん　おい　パンダくん！</p>
+<p>駄目だ</p>
+<audio controls>
+<source src="03/046.mp3">
+</audio>
+<hr>
+<p>他のとこ回ってこようか</p>
+<p>寝ててもいいなんて　うらやましい仕事だね</p>
+<audio controls>
+<source src="03/047.mp3">
+</audio>
+<hr>
+<p>ハッ　今　ペンギンさんの声が</p>
+<p>いない</p>
+<audio controls>
+<source src="03/048.mp3">
+</audio>
+<hr>
+<p>あっ　半田さん　</p>
+<p>なに？</p>
+<p>友達来なかった？　</p>
+<p>え？　気づかなかったな</p>
+<p>ちゃんと写真撮ってよ　</p>
+<p>はいはい</p>
+<audio controls>
+<source src="03/049.mp3">
+</audio>
+<hr>
+<p>おっ　あざらし館　行こう　行こう</p>
+<audio controls>
+<source src="03/050.mp3">
+</audio>
+<hr>
+<p>シロクマの入館は　ご遠慮ください</p>
+<audio controls>
+<source src="03/051.mp3">
+</audio>
+<hr>
+<p>あざらしが怖がるので…</p>
+<p>だってさ</p>
+<audio controls>
+<source src="03/052.mp3">
+</audio>
+<hr>
+<p>バレない　バレない　</p>
+<p>いや　目立ってるし</p>
+<audio controls>
+<source src="03/053.mp3">
+</audio>
+<hr>
+<p>食べない　食べない(*￣∇￣)ノ</p>
+<p>シロクマ！</p>
+<p>食べないとわかっていても　実際　本物見るとテンション上がるなあ</p>
+<audio controls>
+<source src="03/054.mp3">
+</audio>
+<hr>
+<p>シロクマくんの野性が　呼び覚まされないうちに　早く行こうよ</p>
+<audio controls>
+<source src="03/055.mp3">
+</audio>
+<hr>
+<p>ちょっと　ちょっと</p>
+<p>シロクマは　入らないで　って書いてあったでしょう</p>
+<audio controls>
+<source src="03/056.mp3">
+</audio>
+<hr>
+<p>え？　これ絨毯ですよ</p>
+<p>ほ～ら　見てみて　こんなに　ふっかふかo(<em>￣▽￣</em>)o　</p>
+<audio controls>
+<source src="03/057.mp3">
+</audio>
+<hr>
+<p>いや～　騙せないもんだね</p>
+<p>もう</p>
+<p>パンダくん　そろそろ起きてるんじゃない？</p>
+<audio controls>
+<source src="03/058.mp3">
+</audio>
+<hr>
+<p>お～い　パンダくん　</p>
+<p>また　笑ってる</p>
+<audio controls>
+<source src="03/059.mp3">
+</audio>
+<hr>
+<p>よくあんな状態で寝られるね</p>
+<p>あれは逆に尊敬するね</p>
+<audio controls>
+<source src="03/060.mp3">
+</audio>
+<hr>
+<p>あの　もしかして　パンダくんのお友達ですか？</p>
+<p>あ　はい　</p>
+<p>写真撮りましょうか</p>
+<p>撮ってくれって頼まれてるんで</p>
+<audio controls>
+<source src="03/061.mp3">
+</audio>
+<hr>
+<p>キリンさん　しろくまカフェに　来てくれないかな？</p>
+<p>いや　カフェに入れないでしょ</p>
+<audio controls>
+<source src="03/062.mp3">
+</audio>
+<hr>
+<p>別のところも回ってみよう</p>
+<p>そうだね</p>
+<p>で　どこ行こうか？</p>
+<audio controls>
+<source src="03/063.mp3">
+</audio>
+<hr>
+<p>う～ん　あっ！　ペンギンコーナー</p>
+<p>えぇ～</p>
+<p>ペンギンさん　曲芸に飛び入りしてよ</p>
+<audio controls>
+<source src="03/064.mp3">
+</audio>
+<hr>
+<p>僕　運動神経　悪いから</p>
+<p>ちょっと　ちょっと　</p>
+<audio controls>
+<source src="03/065.mp3">
+</audio>
+<hr>
+<p>あ　ラマさん</p>
+<p>今日は　どうしたんですか？</p>
+<audio controls>
+<source src="03/066.mp3">
+</audio>
+<hr>
+<p>パンダくんに会いにきたのに　寝てるんだよね</p>
+<p>たまには　起きてますよ</p>
+<p>そっか</p>
+<audio controls>
+<source src="03/067.mp3">
+</audio>
+<hr>
+<p>いいかげん　パンダくん　起きてるよね？</p>
+<p>戻ろう</p>
+<audio controls>
+<source src="03/068.mp3">
+</audio>
+<hr>
+<p>また寝てる</p>
+<p>更に　だらしないね</p>
+<p>パンダくん　僕たちに　いったい何を　見てもらいたかったんだろうね</p>
+<audio controls>
+<source src="03/069.mp3">
+</audio>
+<hr>
+<p>あのパンダさん　寝てばっかりで　つまんない</p>
+<p>うん　行こう</p>
+<audio controls>
+<source src="03/070.mp3">
+</audio>
+<hr>
+<p>大人気ねぇ…</p>
+<p>あ　また　笑った</p>
+<audio controls>
+<source src="03/071.mp3">
+</audio>
+<hr>
+<p>ず～っと待ってたのに　なんで来てくれなかったの？</p>
+<p>いや　何度も行ったよ</p>
+<audio controls>
+<source src="03/072.mp3">
+</audio>
+<hr>
+<p>ほんと？　</p>
+<p>行ったってば</p>
+<p>ねぇ　ラマさん　今日　動物園で会ったよね？</p>
+<p>会いましたよ</p>
+<p>ほら　ちゃんと行ったでしょ？</p>
+<audio controls>
+<source src="03/073.mp3">
+</audio>
+<hr>
+<p>どうして僕のとこには　来てくれないの？</p>
+<p>だから　行ったんだって！</p>
+<p>そんなに　ずっと　ラマさんを見てたの？</p>
+<audio controls>
+<source src="03/074.mp3">
+</audio>
+<hr>
+<p>だから　パンダくんとこに行ったってば！</p>
+<p>じゃあ　なんで　会えなかったんだろうね</p>
+<p>パンダくんが　寝てばっかりだったからでしょ</p>
+<audio controls>
+<source src="03/075.mp3">
+</audio>
+<hr>
+<p>起こしてよ　</p>
+<p>起きなかったよｍ(＿　＿)ｍ　</p>
+<p>せっかく半田さんが　写真　撮ってくれるって言ってたのに</p>
+<audio controls>
+<source src="03/076.mp3">
+</audio>
+<hr>
+<p>撮ったよ</p>
+<p>ほんとだ　来てたんだね</p>
+<audio controls>
+<source src="03/077.mp3">
+</audio>
+<hr>
+<p>だから　言ったのに</p>
+<p>へぇ～　僕って　寝てても　かわいいなぁ</p>
+<audio controls>
+<source src="03/078.mp3">
+</audio>
+<hr>
+<p>ねえねえ　どの寝顔が　いちばん好き？</p>
+<p>シロクマくん　おかわりくれる？</p>
+<audio controls>
+<source src="03/079.mp3">
+</audio>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

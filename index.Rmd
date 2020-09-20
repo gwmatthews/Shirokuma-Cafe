@@ -1,0 +1,44 @@
+---
+pagetitle: "Shirokuma Cafe"
+author: "George Matthews"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+ html_document:
+   css: style.css
+   
+---
+
+## シロクマ　カフェー
+
+
+- [Episode 1](Shirokuma-Cafe-01.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-01-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-01-audio-02.html)
+
+- [Episode 2](Shirokuma-Cafe-02.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-02-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-02-audio-02.html)
+
+- [Episode 3](Shirokuma-Cafe-03.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-03-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-03-audio-02.html)
+
+- [Episode 4](Shirokuma-Cafe-04.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-04-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-04-audio-02.html)
+
+
+- [Episode 5](Shirokuma-Cafe-05.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-05-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-05-audio-02.html)
+
+- [Episode 6](Shirokuma-Cafe-06.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-06-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-06-audio-02.html)
+

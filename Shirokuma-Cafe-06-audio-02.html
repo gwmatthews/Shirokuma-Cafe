@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma Cafe 6</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shirokuma Cafe 6</h1>
+
+</div>
+
+
+<p>目指せ！　ワイルドパンダ</p>
+<audio controls>
+<source src="06/101.mp3">
+</audio>
+<hr>
+<p>いらっしゃい</p>
+<audio controls>
+<source src="06/102.mp3">
+</audio>
+<hr>
+<p>こんにちは</p>
+<p>何してるの　パンダくん</p>
+<audio controls>
+<source src="06/103.mp3">
+</audio>
+<hr>
+<p>どうしたの　その格好</p>
+<p>悪いヤツな気分になってみたくて</p>
+<p>ワルな人って憧れちゃうな</p>
+<audio controls>
+<source src="06/104.mp3">
+</audio>
+<hr>
+<p>パンダくん　いつもの？</p>
+<p>うん　あ　いや　ストロングコーヒー</p>
+<p>えっ　ストロング？　結構　苦いよ</p>
+<audio controls>
+<source src="06/105.mp3">
+</audio>
+<hr>
+<p>今日は　ワルの気分だから</p>
+<p>はい　ストロング</p>
+<p>いただきます</p>
+<p>外せば</p>
+<audio controls>
+<source src="06/106.mp3">
+</audio>
+<hr>
+<p>ねぇ　ワルのどこに憧れたの？</p>
+<p>ほら　僕って優柔不断だから</p>
+<p>強気な人が羨ましくって</p>
+<audio controls>
+<source src="06/107.mp3">
+</audio>
+<hr>
+<p>それ　ワルとは関係ないでしょ</p>
+<p>えっ　そう？</p>
+<p>僕に足りないのは ワイルドさだと思うんだ</p>
+<audio controls>
+<source src="06/108.mp3">
+</audio>
+<hr>
+<p>ワイルドねぇ…</p>
+<p>うわ～　苦っ！</p>
+<p>やっぱり…</p>
+<p>マイルドなコーヒーね</p>
+<audio controls>
+<source src="06/109.mp3">
+</audio>
+<hr>
+<p>いろいろビデオを見て ワイルドなイメージを膨らませてみたの</p>
+<p>ビデオ？</p>
+<p>うんとね…</p>
+<audio controls>
+<source src="06/110.mp3">
+</audio>
+<hr>
+<p>山吹色の お菓子でございます</p>
+<audio controls>
+<source src="06/111.mp3">
+</audio>
+<hr>
+<p>越後屋　お主もワルよのう</p>
+<p>ノー　ノー！</p>
+<audio controls>
+<source src="06/112.mp3">
+</audio>
+<hr>
+<p>微妙に　ズレてない？　それ</p>
+<p>イマイチ強気で ワイルドなイメージがつかめなくて</p>
+<audio controls>
+<source src="06/113.mp3">
+</audio>
+<hr>
+<p>強気で　ワイルドですか</p>
+<p>グリズリーくんとか　そうかも</p>
+<p>えっ　誰？　誰？</p>
+<p>お店やってるから 夜　行ってみる？</p>
+<audio controls>
+<source src="06/114.mp3">
+</audio>
+<hr>
+<p>グリズリーさんのお店って　この辺りなの？</p>
+<p>いや　もっと先</p>
+<audio controls>
+<source src="06/115.mp3">
+</audio>
+<hr>
+<p>ここを抜けると　すぐそこ</p>
+<audio controls>
+<source src="06/116.mp3">
+</audio>
+<hr>
+<p>着いたよ　ここね</p>
+<audio controls>
+<source src="06/117.mp3">
+</audio>
+<hr>
+<p>パンダくん　こっち　こっち</p>
+<audio controls>
+<source src="06/118.mp3">
+</audio>
+<hr>
+<p>確かに　ワイルドなお店だね</p>
+<p>猛獣館って感じ？</p>
+<audio controls>
+<source src="06/119.mp3">
+</audio>
+<hr>
+<p>こんばんは　グリズリーくん</p>
+<p>よお　シロクマ 久しぶりじゃねえか</p>
+<audio controls>
+<source src="06/120.mp3">
+</audio>
+<hr>
+<p>本当に　ワイルドだ…</p>
+<p>相変わらず なまっちろい野郎だぜ　この　シロクマ野郎</p>
+<audio controls>
+<source src="06/121.mp3">
+</audio>
+<hr>
+<p>ちょっと焼いてこいよ　日サロで</p>
+<p>いや…　行っても たぶん変わらない</p>
+<p>今日は　友達を連れてきた</p>
+<audio controls>
+<source src="06/122.mp3">
+</audio>
+<hr>
+<p>は…　はじめまして</p>
+<p>白いのか　黒いのか はっきりしねえ野郎だな</p>
+<audio controls>
+<source src="06/123.mp3">
+</audio>
+<hr>
+<p>パンダだからね</p>
+<p>まあ　いいか　座れ</p>
+<audio controls>
+<source src="06/124.mp3">
+</audio>
+<hr>
+<p>何にする？</p>
+<p>シングルモルト</p>
+<audio controls>
+<source src="06/125.mp3">
+</audio>
+<hr>
+<p>おい　パンダ</p>
+<p>はい…</p>
+<p>お前は？</p>
+<p>えっと…　竹　大盛り</p>
+<p>悪いな　ヘルシーなものは 置いてないんだ</p>
+<audio controls>
+<source src="06/126.mp3">
+</audio>
+<hr>
+<p>じゃ…　じゃあ… アイスコーヒー　お願いします</p>
+<p>ソフトドリンクもないね</p>
+<audio controls>
+<source src="06/127.mp3">
+</audio>
+<hr>
+<p>じゃあ　笹の入ったパフェを お願いします</p>
+<p>ヘルシーなものは ないっつってんだろ！！</p>
+<audio controls>
+<source src="06/128.mp3">
+</audio>
+<hr>
+<p>グリズリーくん</p>
+<p>しようがねえな</p>
+<p>シロクマの友人だ 特別に　コーヒー　いれてやるよ</p>
+<audio controls>
+<source src="06/129.mp3">
+</audio>
+<hr>
+<p>ミルクは？</p>
+<p>なしで</p>
+<p>あっ　いや…　ありで</p>
+<p>あっ　やっぱ　なしで</p>
+<p>白黒　はっきりしろ！！</p>
+<audio controls>
+<source src="06/130.mp3">
+</audio>
+<hr>
+<p>もう…　相変わらず短気だな</p>
+<p>まあ　パンダが白黒はっきりしたら</p>
+<p>シロクマか ただのクマになっちまうよな</p>
+<audio controls>
+<source src="06/131.mp3">
+</audio>
+<hr>
+<p>グリズリーさんって　怖い人だね</p>
+<p>そう？</p>
+<audio controls>
+<source src="06/132.mp3">
+</audio>
+<hr>
+<p>よう　兄ちゃん</p>
+<p>アンタ　丸々と太ってて うまそうだな</p>
+<audio controls>
+<source src="06/133.mp3">
+</audio>
+<hr>
+<p>どうやって食べるのがいいかな</p>
+<p>丸飲みとか</p>
+<audio controls>
+<source src="06/134.mp3">
+</audio>
+<hr>
+<p>ヤシの実とか</p>
+<p>バーベキューとか</p>
+<audio controls>
+<source src="06/135.mp3">
+</audio>
+<hr>
+<p>もろきゅうとか</p>
+<p>活け作りとか</p>
+<p>若作りとか</p>
+<audio controls>
+<source src="06/136.mp3">
+</audio>
+<hr>
+<p>おい　お前！</p>
+<p>あんまり他の客を 怖がらすんじゃねえよ</p>
+<p>か…　帰ります！</p>
+<audio controls>
+<source src="06/137.mp3">
+</audio>
+<hr>
+<p>おい　パンダ！</p>
+<p>悪かったな ほらよ　コーヒーだ</p>
+<audio controls>
+<source src="06/138.mp3">
+</audio>
+<hr>
+<p>グリズリーさん　ありがとう！</p>
+<p>ねぇ　グリズリーさん</p>
+<p>何だ？</p>
+<audio controls>
+<source src="06/139.mp3">
+</audio>
+<hr>
+<p>あの写真って グリズリーさんだよね？</p>
+<p>うん？　おお　あれか</p>
+<p>愛車で　アメリカを 横断したときのやつさ</p>
+<p>かっこいい！</p>
+<audio controls>
+<source src="06/140.mp3">
+</audio>
+<hr>
+<p>よかったぜ　地平線まで続く道を ぶっ飛ばしてよ</p>
+<p>わぁ～　憧れちゃうな</p>
+<audio controls>
+<source src="06/141.mp3">
+</audio>
+<hr>
+<p>どうせ　お前らはスローライフとかいって ダラダラ暮らしてやがんだろ？</p>
+<audio controls>
+<source src="06/142.mp3">
+</audio>
+<hr>
+<p>ロハスって言ってよ</p>
+<p>言い方変えただけだろ</p>
+<p>ゆっくりでも そんなに変わらないよ</p>
+<p>昔からマイペースだよな　お前は</p>
+<audio controls>
+<source src="06/143.mp3">
+</audio>
+<hr>
+<p>人生は　一度きりだぜ</p>
+<p>熱く　ぶっ飛ばさなきゃな</p>
+<audio controls>
+<source src="06/144.mp3">
+</audio>
+<hr>
+<p>グリズリーさん　すごくかっこいいね</p>
+<p>僕　そういうの大好き！</p>
+<p>おっ？ シロクマの知り合いにしちゃあ</p>
+<p>話のわかるヤツじゃないか</p>
+<p>ほら　冷めちまうぞ　飲めよ</p>
+<p>うん！</p>
+<audio controls>
+<source src="06/145.mp3">
+</audio>
+<hr>
+<p>どうだ？ アイリッシュコーヒーにしてみたんだ</p>
+<p>まっ　コーヒーより　ウイスキーのほうが 多かったかもな</p>
+<p>えっ？　それは…</p>
+<audio controls>
+<source src="06/146.mp3">
+</audio>
+<hr>
+<p>また　ソイツと来いよ</p>
+<p>今度は　インスタントじゃないコーヒーを いれてやるから</p>
+<p>うん　マイルドで　よろしくね</p>
+<audio controls>
+<source src="06/147.mp3">
+</audio>
+<hr>
+<p>あれ？</p>
+<p>目が覚めた？</p>
+<p>シロクマくん　運んでくれたんだね</p>
+<p>うん</p>
+<p>ありがとう</p>
+<audio controls>
+<source src="06/148.mp3">
+</audio>
+<hr>
+<p>いいよ　別に</p>
+<p>それと　もうひとつ　ありがとう</p>
+<audio controls>
+<source src="06/149.mp3">
+</audio>
+<hr>
+<p>えっ？</p>
+<p>僕　だいぶ　ワイルドってのが わかった気がするよ</p>
+<p>そう　それならよかった</p>
+<audio controls>
+<source src="06/150.mp3">
+</audio>
+<hr>
+<p>シロクマくん　どう？　これ　</p>
+<p>ワイルド？</p>
+<p>いやぁ　マイルドかな</p>
+<p>じゃあ！</p>
+<audio controls>
+<source src="06/151.mp3">
+</audio>
+<hr>
+<p>あれ？　パンダくん　どこ行くの？</p>
+<p>ワルは後ろを振り返らない</p>
+<p>あっ　そう…</p>
+<audio controls>
+<source src="06/152.mp3">
+</audio>
+<hr>
+<p>ペンギンさん　ペンギンさん</p>
+<p>どうしたの　パンダ君</p>
+<p>ペンギンさんって　どうしてみんなに嫌われてるんだっけ</p>
+<audio controls>
+<source src="06/153.mp3">
+</audio>
+<hr>
+<p>そんな事実ないでしょう</p>
+<p>人気ものだよ　僕は</p>
+<p>どっちでもいいじゃない</p>
+<p>次回のしろくまカフェは</p>
+<audio controls>
+<source src="06/154.mp3">
+</audio>
+<hr>
+<p>鉛筆書きでお送りします</p>
+<p>塗ります</p>
+<p>お楽しみに</p>
+<audio controls>
+<source src="06/155.mp3">
+</audio>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

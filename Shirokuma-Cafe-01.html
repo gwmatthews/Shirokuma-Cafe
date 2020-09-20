@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma Cafe 1</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shirokuma Cafe 1</h1>
+
+</div>
+
+
+<p>しろくまカフェへようこそ</p>
+<p>笹を食べながらのんびりするのは最高だなぁ</p>
+<p>ちょっと またこの子は昼間からゴロゴロして</p>
+<p>掃除の邪魔よ どきなさい</p>
+<p>はいー</p>
+<p>お母さん おかわり</p>
+<p>どうするの あなた将来は</p>
+<p>もう ゴロゴロしてるときに 将来の話なんかしないでよ</p>
+<p>暇があるなら ちょっとはバイトでも探しなさい</p>
+<p>ええ ゴロゴロするのに忙しいから 後にするよ</p>
+<p>ああー 吸わないで</p>
+<p>もう</p>
+<p>どうしてお母さんはゴロゴロする忙しさが分かんないんだろな</p>
+<p>えーと 働かないでお金がもらえる仕事が載っているのはどれですか</p>
+<p>ないと思います</p>
+<p>え</p>
+<p>どうせなら お洒落なバイトがいいなぁ</p>
+<p>あ これいいな</p>
+<p>はい</p>
+<p>あ もしもし パンダと申しますが</p>
+<p>そちらでデザインなー デザイナーのアルバイト募集してますよね</p>
+<p>ええ そうですよ 経験は？</p>
+<p>ありません</p>
+<p>パソコンのマウスは使えますか</p>
+<p>使えないです あんまり細かい作業はできません</p>
+<p>そうですか 得意なことはありますか</p>
+<p>あります</p>
+<p>笹を食べたり 寝ながらぼんやりするのが得意です</p>
+<p>あれ もしもーし</p>
+<p>もしもし そちらでインテリアコーディネーターも募集してますよね</p>
+<p>はい</p>
+<p>インテリアコーディネーターって なんですか</p>
+<p>またゴロゴロして</p>
+<p>アルバイト見つかったの</p>
+<p>全然ないよ</p>
+<p>確かコンビニで募集してたでしょう</p>
+<p>コンビニ</p>
+<p>品数多過ぎるよ 覚えられないよ</p>
+<p>あー 吸わないで</p>
+<p>もう 外でだらだらしようっと</p>
+<p>ははは あら 糸屑</p>
+<p>あ 取って</p>
+<p>うん 取れた</p>
+<p>ありがとう</p>
+<p>じっとしてて</p>
+<p>あ 待って</p>
+<p>へぇー こんな所にカフェがあったんだ</p>
+<p>いらっしゃいませ</p>
+<p>ようこそ しろくまカフェへ</p>
+<p>お客様 お一人様ですか</p>
+<p>あ 別に僕は</p>
+<p>お好きな席へどうぞ</p>
+<p>はい</p>
+<p>ご注文は</p>
+<p>えーと 竹はありますか</p>
+<p>竹はないです</p>
+<p>じゃ 笹ください</p>
+<p>笹もないです</p>
+<p>じゃ アイスコーヒー</p>
+<p>はい</p>
+<p>ねえ 白熊くん</p>
+<p>財布のポイントカードって増えすぎちゃわない</p>
+<p>ペンギンさん ポイント貯める派</p>
+<p>うん</p>
+<p>あ カフェモカお願い おかわり</p>
+<p>それはひまわり</p>
+<p>それは日替わり</p>
+<p>それは薪割り</p>
+<p>それは西瓜割り</p>
+<p>「おかわり」ね</p>
+<p>はい カフェモカ</p>
+<p>このカフェ ダジャレがなければなぁ</p>
+<p>そういえば アルバイト募集してるんだって</p>
+<p>うん 人手が足りなくて</p>
+<p>ペンギンさん どう</p>
+<p>え？ぼく お客とバイトの両立 できるかな</p>
+<p>ウーソ これから四名ほど 面接に来るんだよ</p>
+<p>なんだ ちょっと考えちゃったよ</p>
+<p>僕もいいですか</p>
+<p>僕もアルバイトしたいと思って</p>
+<p>受けてみる 面接</p>
+<p>あ</p>
+<p>では 最初の方 どうぞ</p>
+<p>はい</p>
+<p>穴熊です</p>
+<p>えーと ホール係やれますか</p>
+<p>はい ホールなら任せてください</p>
+<p>穴を掘るの 得意なんです</p>
+<p>いや そのホールは違うし</p>
+<p>次の方</p>
+<p>はい</p>
+<p>ゾ～ウ～ガ～メ～で～す</p>
+<p>料理とか 運べますか</p>
+<p>は～い～</p>
+<p>ヨ～イ～ショー</p>
+<p>ゆっくりだね</p>
+<p>うん</p>
+<p>百年くらい働かせて～</p>
+<p>いえ そんなには</p>
+<p>マンドリルです</p>
+<p>食べるのが得意です</p>
+<p>ちょっと それは</p>
+<p>小蟻食です</p>
+<p>い 威嚇ができます</p>
+<p>うん わぁ</p>
+<p>それだけ</p>
+<p>みたいだね</p>
+<p>最後の方 どうぞ</p>
+<p>はい</p>
+<p>パンダと申します</p>
+<p>よろしくです</p>
+<p>やっとまともな人が来たね</p>
+<p>パンダ君 何か得意なことはありますか</p>
+<p>はい ゴロゴロしながら笹を食べることです</p>
+<p>あれ (′?ω?)y–oO○ ??????</p>
+<p>えーと 条件に希望はありますか</p>
+<p>週二日希望です</p>
+<p>うん 週二日ですか</p>
+<p>え 週一日でいいんですか</p>
+<p>いや せめて週四日くらい</p>
+<p>そんなの無理です</p>
+<p>あ けど</p>
+<p>呼びに来てくれたら すぐ行きます</p>
+<p>僕が呼びに行くんですか</p>
+<p>あ そんなそんな</p>
+<p>遅刻した場合だけですよ</p>
+<p>遅刻する気満々だね</p>
+<p>ちなみに やる気はありますか</p>
+<p>そんなにありません</p>
+<p>発表します</p>
+<p>全員不合格</p>
+<p>えー工????(′д｀)????工</p>
+<p>そこ驚くとこ</p>
+<p>結局バイトの人</p>
+<p>見つからなかったね</p>
+<p>残念だね</p>
+<p>まだいたの</p>
+<p>家に帰ると お母さんに吸われるし</p>
+<p>す 吸われる</p>
+<p>うん　ゴーって</p>
+<p>あのう　面接中すみません</p>
+<p>住み込み希望でーす</p>
+<p>不合格</p>
+<p>あのう アルバイト希望じゃないみたいですよ</p>
+<p>庭に住み込みたいんですー</p>
+<p>ここまで運んで欲しいって　頼まれちゃいまして</p>
+<p>あなた お名前は</p>
+<p>え 私ですか</p>
+<p>笹子ですけど</p>
+<p>笹子さん 合格</p>
+<p>え</p>
+<p>ねぇ　お母さん</p>
+<p>僕今日、すごくいい感じのカフェ見つけちゃったよ</p>
+<p>しろくまカフェって言うんだけど</p>
+<p>なんに言ってるの？知ってるわよ</p>
+<p>へ？！そうなの？</p>
+<p>ずっと前からあるじゃない？</p>
+<p>あ？</p>
+<p>うちの隣りに～</p>
+<p>へーーーーーーーー！！！！</p>
+<p>パンダ君の就職</p>
+<p>はい、しろくまカフェです</p>
+<p>あ　こんにちは　先日面接にいった、パンダですよ</p>
+<p>ああ　不合格の～</p>
+<p>出前を お願いしたいんです</p>
+<p>出前はやってないですが</p>
+<p>え？！となりなのに</p>
+<p>今忙しいし</p>
+<p>どうすれば出前してくれるの？</p>
+<p>ちょっと</p>
+<p>お母さん</p>
+<p>またゴロゴロして</p>
+<p>今仕事探してたの</p>
+<p>ねえねえ　家近いんだから、出前してよ</p>
+<p>お願い～～～</p>
+<p>あああ～～～～　吸わないで～～～</p>
+<p>いらっしゃいませ</p>
+<p>こんにちは</p>
+<p>何しますか？</p>
+<p>ペンギンさん、何にする？</p>
+<p>そうだね</p>
+<p>いつものやつ</p>
+<p>うん</p>
+<p>いつものやつ</p>
+<p>えっ？！いつものやつって 言われたんですけど</p>
+<p>任せて</p>
+<p>カレーライスです。。。。</p>
+<p>違ったみたいですよ</p>
+<p>やっぱりね</p>
+<p>ちょっと</p>
+<p>あの、竹か笹はないんですか</p>
+<p>ないです</p>
+<p>じゃ～アイスコーヒー</p>
+<p>あ、君バイト探してたよね</p>
+<p>こんなのあるよ</p>
+<p>マグロ船船員大募集</p>
+<p>経験者大歓迎、激しく重労働</p>
+<p>どう？</p>
+<p>嫌だよ、僕泳げないし</p>
+<p>こっちのがいいじやない？</p>
+<p>動物園 未経験者歓迎</p>
+<p>呼び相談におします</p>
+<p>先ずはお電話ください　フリアイ動物園</p>
+<p>マグロ船にしなよ</p>
+<p>しろくまさん</p>
+<p>動物園か　面白そう</p>
+<p>えっと 週二日の勤務希望ですか？</p>
+<p>はい</p>
+<p>では、パンダの仕事はどうでしょう？</p>
+<p>常勤パンダさんが一頭いるですが</p>
+<p>非常勤でもう一頭募集してるんです</p>
+<p>パンダって　あのパンダですよね</p>
+<p>気が進みませんか？</p>
+<p>でしたら　月の輪熊とゴリラも募集していますよ</p>
+<p>パンダでいいです</p>
+<p>そうですか、では、来週から来てください</p>
+<p>僕、バイト決まったよ</p>
+<p>良かったですね</p>
+<p>まぐろ船？</p>
+<p>違うよ　動物園～</p>
+<p>動物園のバイトって、何やるんですか</p>
+<p>えへへ　まだ内緒</p>
+<p>なんで照れてんの</p>
+<p>いよいよ今日からバイトか　ドキドキしちゃうなぁ</p>
+<p>改めまして、半田と申します</p>
+<p>今日は幼稚園から園児たちが来ます</p>
+<p>少しサービスしてあげてください</p>
+<p>はい～～～～～</p>
+<p>サービスですね　分かりました</p>
+<p>それ以外の時間はどんな感じで？</p>
+<p>自然態でいいです</p>
+<p>ね　しろくま君</p>
+<p>パンダ君うまくやってるかなぁ～</p>
+<p>きっと大漁だよ、まぐろ船</p>
+<p>引っ張るねぇ～</p>
+<p>あっ、カフェモカちょうだい</p>
+<p>って、それは 影武者、いいから、そういうの</p>
+<p>え　一週七日も</p>
+<p>休みはないんですか？</p>
+<p>あたしは常勤パンダですからね</p>
+<p>でも月に二日くらいは休みますよ</p>
+<p>非常勤でよかった</p>
+<p>ハハハハ　まぁ　今日からよろしくお願いします</p>
+<p>はい～！</p>
+<p>あっ　そういえば</p>
+<p>どうしました？</p>
+<p>半田さんから</p>
+<p>自然態でって言われたんです</p>
+<p>こんな感じでしょうか？自然と一体的な？</p>
+<p>多分違うと思う　というか　すごく不自然</p>
+<p>まぁ～　難しく考えずに普通にしてれば大丈夫ですよ</p>
+<p>あ～～　パンダさん～～～</p>
+<p>はい　皆　パンダさんですよ</p>
+<p>あ　園児が来ましたね</p>
+<p>さ～　頑張りましょう</p>
+<p>はい！</p>
+<p>パンダさんは食べているよ</p>
+<p>そうね～</p>
+<p>はは～パンダさんは滑り台滑ってるの</p>
+<p>そうね～</p>
+<p>パンダさんが転がってるよ</p>
+<p>そうね～</p>
+<p>これでサービスになってるんですか？</p>
+<p>もうちょっとの辛抱ですよ～</p>
+<p>あ～　もう一サービスしましょう</p>
+<p>は、はい！</p>
+<p>サービス～サービス～～</p>
+<p>サービス～サービス～～</p>
+<p>皆、次はキリンさんを見ましょう</p>
+<p>はい～～～</p>
+<p>こっちにしよう</p>
+<p>サービス～サービス～～</p>
+<p>サービス～サービス～～</p>
+<p>サービス～サー～ビス～</p>
+<p>は！爆睡してた！</p>
+<p>なんで起こしてくれないんですか、常勤パンダさん、え！</p>
+<p>閉園の時間になりました　またのご来園をお待ちしております</p>
+<p>お疲れ様でした</p>
+<p>お先です</p>
+<p>あ～　パンダ君</p>
+<p>あれ　皆来てたの</p>
+<p>お知り合いなんですか</p>
+<p>僕たちも動物園でバイトしてるんですよ</p>
+<p>パンダ君　こっちこっち</p>
+<p>今日は園児が可愛かったね</p>
+<p>僕　張り切り過ぎでて 途中で ばてちゃった</p>
+<p>わかります　わかります</p>
+<p>今日は一日真面目に働いたなぁ</p>
+<p>そうですね</p>
+<p>すごいやりきった顔だけど　パンダ君途中からずっと寝てたらしいよ</p>
+<p>パンダ君の自然態なんだねぇ　きっと</p>
+<p>パンダ君って　割りと図々しいよね</p>
+<p>パンダ君　一先何か頼みませんか？</p>
+<p>どうしようかな～～～</p>
+<p>何にする？</p>
+<p>竹！大盛りで</p>
+<p>しろくま君　それは　守宮！</p>
+<p>オー　よちよち～</p>
+<p>それは　子守！</p>
+<p>笹子さんが突っ込みを！</p>
+<p>それは　ハモリ</p>
+<p>ね～　早く頂戴～</p>
+<p>ペンギンさんペンギンさん</p>
+<p>僕が全部毛を剃ると　どうなってると思う？</p>
+<p>今はいいかな　予告しなきゃいけないから</p>
+<p>じゃ～さ　ペンギンさんのだめな部分三つ教えて</p>
+<p>それもいいかな　テンション下がっちゃうから</p>
+<p>しろくま君　しゃべろう</p>
+<p>ペンギンさんのダメなところは　お金にだらしないところ</p>
+<p>やめて！もう終わって！</p>
+<p>はい！次回しろくまカフェ最終回　お楽しみに</p>
+<p>終わらせないよ　しろくまカフェ第二話　お楽しみに</p>
+<p>本字幕由諸神字幕組出品,僅供學習交流之用 更多中日雙語字幕，請登錄 www.kamigami.org</p>
+<p>—諸神字幕組— 日听：阿紫 月 翻译：辛然 校对：LaLa 英英 时间轴：那年夏天 后期：Russel</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

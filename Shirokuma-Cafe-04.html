@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma Cafe 4</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shirokuma Cafe 4</h1>
+
+</div>
+
+
+<p>スマフォに夢中</p>
+<p>ねぇ　シロクマくん</p>
+<p>それ　楽しい？(^^)</p>
+<p>そういう時もあるね</p>
+<p>どんな時？</p>
+<p>こんなのが折れた時</p>
+<p>おぉ～！ (<em><sup>▽</sup></em>)</p>
+<p>シロクマだね</p>
+<p>ねぇ　どうやったの？</p>
+<p>秘密 (#<sup>.</sup>#)</p>
+<p>器用だね</p>
+<p>写真撮っていいかな？</p>
+<p>写真？　カメラ持ってるんだ？</p>
+<p>カメラっていうかさ…</p>
+<p>買ったんだ　スマフォ</p>
+<p>なに？　スマフォって</p>
+<p>それは　す巻き</p>
+<p>それは　ちまき</p>
+<p>はちまき</p>
+<p>葉巻</p>
+<p>ハマチ！　</p>
+<p>キムチ！</p>
+<p>スマフォだよ！　ス　マ　フォ！(-_-;)</p>
+<p>スマートフォン　携帯電話の一種だよ</p>
+<p>あっ！　ペンギンさん それが　スマートフォンですか？</p>
+<p>私も　よく知らないんですよね</p>
+<p>え？　笹子さんも？</p>
+<p>何ができるんですか？</p>
+<p>いろいろ便利だよ　アプリも多いし</p>
+<p>地図とかも見られますしね</p>
+<p>ネットだって見られるんだよ　ほら</p>
+<p>なんか　小さくて 字　読みづらくないですか？</p>
+<p>そんなことないよ こういう時はね　こうするの</p>
+<p>パンチ操作って言ってね</p>
+<p>叩くんですか？</p>
+<p>違うよ</p>
+<p>ピンチ操作じゃないですか？</p>
+<p>似たようなもんでしょ</p>
+<p>そうですか</p>
+<p>そうだよ</p>
+<p>いい？　笹子さん　見てて…</p>
+<p>よっ…(｀・ω・´)</p>
+<p>本当に　それ　便利なんですか？</p>
+<p>便利だってば！</p>
+<p>え～と　こうやって…</p>
+<p>そのうち　簡単に 操作できるようになるよ</p>
+<p>あれ？　シロクマくんも持ってたの？</p>
+<p>まぁね　見てて</p>
+<p>こうやるの</p>
+<p>あぁ～　かっこいい！ (m´・ω・｀)m</p>
+<p>シロクマさん　器用ですね</p>
+<p>それほどでも アヤメの花　折ってみた</p>
+<p>すご～い！</p>
+<p>ほんと器用ですね！</p>
+<p>よ～し　こうやって…</p>
+<p>えい！　それ！(・∀・)</p>
+<p>駄目だ…</p>
+<p>まぁ　慣れですよ　慣れ</p>
+<p>なんか上から目線</p>
+<p>僕も　スマフォですし</p>
+<p>えっ　そうなの？</p>
+<p>はい</p>
+<p>ラマさん　そういう君こそ 上手に操作できるの？</p>
+<p>もちろんですよ　見ててください</p>
+<p>おぉ～　(ﾉﾟοﾟ)ﾉすごい！ なんて柔軟な発想！</p>
+<p>そうか… わぁ…</p>
+<p>あっ　プロフ交換します？</p>
+<p>するする</p>
+<p>お勧めの便利なアプリ　知ってるよ</p>
+<p>え？ なになに？　教えて！</p>
+<p>やっぱ時代は　スマフォだよね</p>
+<p>そうなの？</p>
+<p>そうだよ</p>
+<p>スマフォがあると すっごく便利なんだから</p>
+<p>どんなふうに？</p>
+<p>えっとね…</p>
+<p>画面を ちまちま触って操作したり…</p>
+<p>なめたり…</p>
+<p>くちばしで　つついたり…</p>
+<p>そんでもって 字が　すっごく小さくて</p>
+<p>読みづらいんだよ</p>
+<p>便利なの？それ</p>
+<p>あれ？</p>
+<p>とにかく　外で働いてるパンダが ケータイ持ってないなんて</p>
+<p>駄目だよ　困るよ(/ω＼)</p>
+<p>別に困らないわよ</p>
+<p>いらないでしょ</p>
+<p>それだと困るなぁ</p>
+<p>何が？</p>
+<p>ほら　ケータイあると 何かあったときに便利だよ</p>
+<p>何かあったときね…</p>
+<p>ねぇ　キッチンのバルサミコ酢が きれちゃったの</p>
+<p>バイト帰りに買ってきてくれる？</p>
+<p>うん　いいよ</p>
+<p>便利じゃない！(＾ｖ＾)</p>
+<p>いいわよ　買ってあげる</p>
+<p>やった～！Ｖ（=＾0＾=）ｖ</p>
+<p>ほら　見て見て～</p>
+<p>何ですか？</p>
+<p>この前撮った写真 待ち受けにしてみたんだ</p>
+<p>へぇ～　今日は 折り紙折らないんですか？</p>
+<p>えっ？ 気が向いたら</p>
+<p>そっちの感想！？ (;ﾟДﾟ)!</p>
+<p>こんにちは～</p>
+<p>いらっしゃい</p>
+<p>パンダくん　嬉しそうだね</p>
+<p>実はさぁ…</p>
+<p>ジャーン！</p>
+<p>あぁ　それ！</p>
+<p>パンダカバーのスマフォだよ！</p>
+<p>かわいいね！(#<sup>.</sup>#)</p>
+<p>いいでしょう～ 見つけるの苦労したんだよ</p>
+<p>どう？　スマフォ</p>
+<p>やっぱり便利だよね</p>
+<p>ほら　好きな時に　いつだって 天気予報も見られるしね</p>
+<p>地図も見られるから 迷子にならなくて済むし</p>
+<p>頭にのせて バランス感覚も　みがけるし</p>
+<p>それ スマフォの使い方じゃないけどね</p>
+<p>でも　ペンギンさんより 使いこなしてませんか？</p>
+<p>ぼ　僕だって 待ち受けかえてるし</p>
+<p>他にも…</p>
+<p>写真を撮ったり</p>
+<p>音楽だって聴けるしね</p>
+<p>あ… あ…(;ﾟДﾟ)!</p>
+<p>だ　大丈夫だよ　パンダくん</p>
+<p>壊れたのは　カバーだけみたい</p>
+<p>だって</p>
+<p>だから　元気出して</p>
+<p>スマフォが無事でよかったです</p>
+<p>はい　パンダくん</p>
+<p>僕にとって…　スマフォは パンダカバーのおまけだから</p>
+<p>あら　ちょっと スマホは　どうしたの？　スマホは</p>
+<p>さっき電話したのよ</p>
+<p>ねぇ　聞こえてる？</p>
+<p>バ　ル　サ　ミ　コ　酢よ　バールーサーミーコー酢！</p>
+<p>この電話は　お客様の 都合により　出られません</p>
+<p>えっ？</p>
+<p>ちっとも便利じゃないわね　スマホ</p>
+<p>あのさ　スマートフォンなんだから スマホじゃなくて　スマフォだよ</p>
+<p>どっちだっていいじゃない</p>
+<p>こんにちは～(=゜ω゜)ノ</p>
+<p>シロクマくん　いつものお願い</p>
+<p>パンダくん　ひょっとして 立ち直った？</p>
+<p>何が？</p>
+<p>心配した僕が　バカだったよ</p>
+<p>パンダくんのスマフォ　ここにあるからね</p>
+<p>あぁ　スマフォなら　もういいんだ</p>
+<p>強がり？</p>
+<p>本気　だって　パンダじゃないし</p>
+<p>えっ？　せっかく買ったんだから 大事に使ったら？</p>
+<p>パンダくん　これ見て　スマフォのケース</p>
+<p>こんなの折ってみた</p>
+<p>あっ　パンダだ～！</p>
+<p>これなら　紙だから割れないね</p>
+<p>よかったですね</p>
+<p>シロクマさん　さすが！</p>
+<p>フフッ　やっぱり　パンダは最高だね</p>
+<p>わくわくドライブレッスン</p>
+<p>はぁ～</p>
+<p>どうしたの　ペンギンさん　食あたり？</p>
+<p>そんなんじゃないよ</p>
+<p>ペン子さんのことですよね</p>
+<p>違うよ　今 教習所に通ってて　それで…</p>
+<p>車の免許取るんだって</p>
+<p>どうして急に？(・∀・(・∀・(・∀・*)</p>
+<p>ペン子さんをドライブに誘いたいみたい</p>
+<p>どうして　それを？</p>
+<p>ブログに書いてありましたよ</p>
+<p>あ～　ペン子さん　ペン子さん あなたと行きたい海辺のドライブ</p>
+<p>僕は通うよ　教習所</p>
+<p>人の日記勝手に読まないでよ！(#`O′)</p>
+<p>いや　ブログってそういうものだし</p>
+<p>読まれたくないなら 非公開にした方がいいですよ</p>
+<p>教習所　大変なんですか？</p>
+<p>結構</p>
+<p>車の運転って　そんなに難しいの？</p>
+<p>まあね 教えてくれる教官は厳しいし</p>
+<p>今日も縦列駐車ができなくってさ</p>
+<p>最初は難しいよね　縦列駐車</p>
+<p>だよね</p>
+<p>縦列駐車？</p>
+<p>１０列駐車？</p>
+<p>１０列注射？</p>
+<p>１０列カチューシャ？</p>
+<p>１０列チュ～？</p>
+<p>じゃあ　明日１１時に集合ね</p>
+<p>もう　聞いてなかったの？</p>
+<p>勉強に行くの</p>
+<p>そうなの？</p>
+<p>シロクマさんに　ペンギンさんが運転の コツを教えてもらうんですよ</p>
+<p>パンダくん　どうせ暇でしょ？</p>
+<p>ゴロゴロするのに忙しいよ(*￣∇￣)ノ</p>
+<p>それって暇じゃないの？ まあいいや</p>
+<p>じゃあ　やめとく？　ドライブ</p>
+<p>え？　ドライブなの？　行くよ</p>
+<p>もう　じゃあ明日　カフェの前ね</p>
+<p>うん</p>
+<p>パンダくん　まだかな？</p>
+<p>呼びに行こうか？</p>
+<p>そのうち来るよ</p>
+<p>おはよう</p>
+<p>遅いよ　パンダくん　</p>
+<p>え？　何　その竹は？</p>
+<p>ドライブに　おやつは必要だよ</p>
+<p>みんなの分も持ってきたからね</p>
+<p>いや　いらないから</p>
+<p>それ　パンダくんだけのおやつだし</p>
+<p>おやつ</p>
+<p>それは　こたつ</p>
+<p>それは　脚立</p>
+<p>それは　キャベツ</p>
+<p>いいから出発しようよ</p>
+<p>ラマさんは？</p>
+<p>動物園のバイトだって</p>
+<p>じゃあ　シロクマくん　頼むね</p>
+<p>後部座席って微妙だよね</p>
+<p>寝っ転がるには狭いしさ</p>
+<p>パンダくん　ちゃんと座って</p>
+<p>じゃあ　行くよ</p>
+<p>お～　さすが 発車からして上手だね和ヾ(≧O≦)〃</p>
+<p>それほどでも</p>
+<p>ねぇ　コツは？　コツ</p>
+<p>そうだね　グッときたらピッとして ゴー！　</p>
+<p>って感じ</p>
+<p>抽象的だな　よくわかんないよ(o´∀｀o)</p>
+<p>ペンギンさん</p>
+<p>なに？</p>
+<p>つるしたタイヤに ジャレるみたいな感じだよ　たぶん</p>
+<p>ますます　わかんないから</p>
+<p>で　どこに行く？</p>
+<p>山とか？</p>
+<p>笹が　いっぱい生えてそうな</p>
+<p>その辺でいいよ</p>
+<p>今日は　シロクマくんの運転技術を 僕が勉強するドライブなんだからね</p>
+<p>シロクマくん　免許はいつ取ったの？</p>
+<p>大人になってから</p>
+<p>いや　そうじゃなくてさ</p>
+<p>終わりました</p>
+<p>ご苦労さまでした</p>
+<p>笹の葉？</p>
+<p>こんにちは　パンダくん</p>
+<p>ん？</p>
+<p>お出かけ？</p>
+<p>おやつ中</p>
+<p>バイバ～イ！ヾ(￣▽￣)~</p>
+<p>あ～あ なんか　お腹減っちゃったね</p>
+<p>今　笹食べてたじゃない</p>
+<p>あっ！　あそこ行こうよ！</p>
+<p>いらっしゃいませ ご注文は　お決まりですか？</p>
+<p>笹か竹ください</p>
+<p>申し訳ありません 当店のメニューにはございません</p>
+<p>えぇ～ ( ⊙o⊙ )</p>
+<p>また来ます</p>
+<p>いらっしゃいませ ご注文は　お決まりですか？</p>
+<p>フィッシュバーガー　フィッシュ　生で</p>
+<p>申し訳ありません 当店のメニューにはございません</p>
+<p>えぇ～ (⊙﹏⊙)</p>
+<p>また来ます</p>
+<p>いらっしゃいませ ご注文は　お決まりですか？</p>
+<p>いいボケが思いつかないので</p>
+<p>また来ます</p>
+<p>あの　お客様！</p>
+<p>いらっしゃいませ</p>
+<p>だから フィッシュバーガーセットでいいじゃない</p>
+<p>レタスバーガーセットがいいよ　</p>
+<p>笹じゃないけど葉っぱだし</p>
+<p>てりやきバーガーセットがいいよ</p>
+<p>よし</p>
+<p>じゃあ…</p>
+<p>お決まりですか？</p>
+<p>また来ます</p>
+<p>あの　グルグル回らず そこで相談なさって かまいませんから！</p>
+<p>ご注文を　うけたまわりました</p>
+<p>受け渡し窓口まで お進みになって　お待ちください</p>
+<p>はい</p>
+<p>はぁ…</p>
+<p>うわっ！</p>
+<p>ここでいいの？</p>
+<p>ドライブスルーで遊ばないでくださいw(ﾟДﾟ)w</p>
+<p>どう？　ペンギンさん　コツは　つかめた？</p>
+<p>何の？</p>
+<p>ドライブスルーで遊ぶコツ？</p>
+<p>僕は　運転のコツを つかみたいんだけどな～</p>
+<p>ねえ　シロクマくん あれは　やらないの？</p>
+<p>あれ？</p>
+<p>ほら　わらしべ長者</p>
+<p>縦列駐車のこと？</p>
+<p>それそれ</p>
+<p>全然　違うから</p>
+<p>ペンギンさん　よくわかったね</p>
+<p>ねぇ　やってみてよ　シロクマくん</p>
+<p>ちゃんと運転のコツ教えてよ</p>
+<p>うん　わかった</p>
+<p>よし　ここにしよう</p>
+<p>じゃあ　よく見ててね</p>
+<p>うん</p>
+<p>周りをよく見て　バックする</p>
+<p>よく見て　バックね</p>
+<p>コツはね…</p>
+<p>コツは？</p>
+<p>こうやって　上からだと見やすい</p>
+<p>真似できないから！　もう…╮(￣▽￣")╭</p>
+<p>あっ 何？</p>
+<p>大丈夫？　ぶつけた？</p>
+<p>お～い！　笹子さ～ん！</p>
+<p>あっ　シロクマさん</p>
+<p>今日は皆さんでドライブですか？ どちらまで？</p>
+<p>当てのない旅です</p>
+<p>笹子さんは？</p>
+<p>家に帰るところです</p>
+<p>あ…　そうだ</p>
+<p>これ　おすそ分け</p>
+<p>ベーグル？</p>
+<p>この先に　おいしいお店があるって 聞いて　買いに行ったんです</p>
+<p>わぁ～　ありがとうO(∩_∩)O</p>
+<p>ちょうど　お腹が減ってたんだ</p>
+<p>食べてばっかりだね</p>
+<p>育ち盛りだもの</p>
+<p>大丈夫です…　笹は別腹ですから</p>
+<p>パンダくん　夢のなかでも まだ食べてるみたいだね</p>
+<p>ペンギンさん？</p>
+<p>ねねね…　寝てないよ！(PД`q。)•。’゜</p>
+<p>助手席で寝るなんて失礼なこと 僕は　しないよ！</p>
+<p>ペンギンさんって　黙ってると 寝てるか起きてるかわからないね</p>
+<p>起きてる！　ほんと　信じて！</p>
+<p>いや　寝てても　かまわないけど</p>
+<p>パンダくんと一緒にしないでよ！</p>
+<p>僕は運転のコツを学ぶんだから</p>
+<p>免許取ったら　車買うの？</p>
+<p>え？　う～ん　どうしようかなぁ</p>
+<p>この車みたいなミニバンもいいよね～</p>
+<p>ああいうのも　かっこいいな～</p>
+<p>ペン子さん 君に見せたいものがあるんだ</p>
+<p>わぁ～　何かしら？</p>
+<p>ほら　見てごらん</p>
+<p>あれは？(⊙_⊙)</p>
+<p>トビウオさ</p>
+<p>まぁ～！</p>
+<p>食べ放題ですよ o(<em>￣▽￣</em>)o</p>
+<p>すてき…</p>
+<p>ペン子さん…　</p>
+<p>笹だらけ…</p>
+<p>ベーグル？</p>
+<p>イーグル？</p>
+<p>サーベル？</p>
+<p>ヨロレ　ヒヒ～！　ヨーデル？</p>
+<p>うん…　ツッコんでくれる 相手がいないとは　寂しいね</p>
+<p>何なに？</p>
+<p>これって…</p>
+<p>あれだね</p>
+<p>それは　ダンク</p>
+<p>それは　インク</p>
+<p>それは　ピンク</p>
+<p>それは　スカンク</p>
+<p>いいねo(<em><sup>▽</sup></em>)o</p>
+<p>何言ってるの？　よくないでしょ</p>
+<p>どうするの？　ペンギンさん</p>
+<p>そうだなぁ 車屋さん呼べばいいのかなぁ</p>
+<p>慌てない　慌てない</p>
+<p>こういうときはね</p>
+<p>引いて帰ればいいから</p>
+<p>なるほどね</p>
+<p>コツは　バンパーにツメを引っ掛ける</p>
+<p>いろいろ 教えてもらえてよかったね</p>
+<p>絶対　真似はできないけどね</p>
+<p>まぁ　でも　おもしろいから 写真撮っておこう(＾－＾)V</p>
+<p>ペンギンさん　ペンギンさん　何か面白い話して</p>
+<p>お～　パンダ君</p>
+<p>絵に書いたようなむちゃぶりだね</p>
+<p>じゃ～今日からペンギンさんのこと　忠実な下部と考えていい</p>
+<p>ダメ</p>
+<p>ペンギンさんって　絵に書いたようにケチだね</p>
+<p>白熊君</p>
+<p>さ～て　来週のしろくまカフェは　</p>
+<p>ジャン　ケン</p>
+<p>ちょっと　やめて　そういうの</p>
+<p>お楽しみに</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

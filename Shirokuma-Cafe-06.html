@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma Cafe 6</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shirokuma Cafe 6</h1>
+
+</div>
+
+
+<p>パンダくんのダイエット</p>
+<p>いらっしゃいませ　</p>
+<p>どうしたの？　元気ないね</p>
+<p>パンダくん　いつもの？</p>
+<p>うん</p>
+<p>あぁ　いや…　普通盛りで</p>
+<p>えっ！？　大盛りじゃないの？</p>
+<p>今日から　ダイエットするの</p>
+<p>え～っ！？</p>
+<p>ダイエット？</p>
+<p>それは　インターネット</p>
+<p>それは　イヌイット</p>
+<p>それは　カルテット</p>
+<p>どうしたの？　急に</p>
+<p>実は　今日　動物園でさ…</p>
+<p>パンダさん！</p>
+<p>サービス　サービス</p>
+<p>え～っ！？　ケガしなくて　よかったね</p>
+<p>それで　ダイエット？</p>
+<p>まぁ　昔から　</p>
+<p>スマートな動物に 生まれたかったなって　思ってたんだよ</p>
+<p>スタイル　気になるの？</p>
+<p>うん　だって…</p>
+<p>生まれたときから おっさん体型なんだもん</p>
+<p>どうなりたいの？</p>
+<p>僕の理想はね…</p>
+<p>もっと　脚が長くて</p>
+<p>逆三角形の体型で</p>
+<p>顔も逆三角形なの</p>
+<p>ドリームパンダ　ハハハハハ！</p>
+<p>それ　かっこいいの？</p>
+<p>パンダくん 悪いヤツみたいになっちゃうね</p>
+<p>いいの 僕　ワルに憧れてるから</p>
+<p>お待たせ</p>
+<p>はい　普通盛りね</p>
+<p>やっぱり　いつもので</p>
+<p>大盛りね</p>
+<p>ダイエットは？</p>
+<p>明日からにするよ</p>
+<p>パンダさん！</p>
+<p>エビドリア！</p>
+<p>パンダくん　起きなさい！</p>
+<p>たった　週２回のバイトなのに</p>
+<p>朝から居眠りしないでよ</p>
+<p>はい　パンダだんご</p>
+<p>いらない</p>
+<p>えっ！？　どうして？</p>
+<p>今日から　ダイエットするの</p>
+<p>ダイエット！？</p>
+<p>へぇ…　私なんか すっかり　メタボだけど</p>
+<p>なんにもしてないな</p>
+<p>昨日は　すべり台を 壊しちゃったしさ…</p>
+<p>ごめん　ごめん</p>
+<p>あれは　柱が シロアリに食われてたからで</p>
+<p>パンダくんのせいじゃないから</p>
+<p>それに　まだ若いのに おっさん体型だし…</p>
+<p>でも　それが自然なパンダだし</p>
+<p>そもそも パンダの名前の由来を知らないの？</p>
+<p>えっ　何？　かわいいとか？</p>
+<p>まぁ　いろんな説があるんだけどさ そのうちの一つは…</p>
+<p>むか～しむかし</p>
+<p>外国人が　中国を 探検していたときのこと…</p>
+<p>ワオ！</p>
+<p>what’s the name of that animal?</p>
+<p>あ～　パンダ…</p>
+<p>ah~ they called pandas</p>
+<p>こうして　中国語の 「太った」という意味のパンダが</p>
+<p>名前として 広まったという説があるんだ</p>
+<p>じゃあ　僕って…</p>
+<p>パンダ　パンダ</p>
+<p>メタボー　メタボー</p>
+<p>なんか　すごくへこんできた…</p>
+<p>世の中には　知らないほうが 幸せなこともあるよね</p>
+<p>バイトのせいだよ</p>
+<p>超ヒマで　</p>
+<p>おやつを食べて　お昼寝するしかないから 太っちゃったんだ</p>
+<p>ヒマじゃないでしょう！</p>
+<p>ちゃんと お客さんにサービスしなさい！</p>
+<p>なんか最近　マンネリでさ…</p>
+<p>タイヤやすべり台で遊ぶのも 飽きちゃって…</p>
+<p>お仕事でしょ！</p>
+<p>ねぇ　フィットネスゲーム持ってきていい？</p>
+<p>ダメ！</p>
+<p>ゲルマニウム温浴　作ってよ</p>
+<p>ダメです！</p>
+<p>エアロビのお姉さんを呼ぼうよ</p>
+<p>ダメだってば！</p>
+<p>はぁ～あ… なんか　きっかけさえあれば</p>
+<p>もっと　ダイエットやる気になるのにな</p>
+<p>まぁ　ダイエットしたいなら しっかりとサービスに励みなさい</p>
+<p>は～い　任せて</p>
+<p>僕って　やればできる子だから</p>
+<p>じゃあ　ちゃんと頼むよ</p>
+<p>パンダさん　起きて～！</p>
+<p>パンダさん　かわいい！</p>
+<p>サービス　サービス！</p>
+<p>サービス　サービス！</p>
+<p>かわいいって言われたときだけ 反応するね</p>
+<p>サービス　サービス！</p>
+<p>この下膨れ体型が かわいいんだよね</p>
+<p>メタボパンダさんだね</p>
+<p>目指せ　ドリームパンダ！</p>
+<p>パパンダー　パパンパン　パパンダー</p>
+<p>パパンダー　パンパンパン　パパンダー</p>
+<p>ダイエット！</p>
+<p>ダイエット</p>
+<p>ダイエット…</p>
+<p>パンダさ～ん！</p>
+<p>ダイエット　ダイエット！</p>
+<p>ダイエット　ダイエット！</p>
+<p>ダイエット　ダイエット！</p>
+<p>何だか　ドキドキするね</p>
+<p>大丈夫だよ</p>
+<p>ここんとこ ずっと頑張ってたんだから</p>
+<p>目標　とりあえず　１３０キロ</p>
+<p>やった！</p>
+<p>おめでとう　ダイエット成功だね</p>
+<p>僕　もっと頑張って スリムなドリームパンダになるよ</p>
+<p>いや～ そこまでしなくていいから</p>
+<p>頑張ったパンダくんに ご褒美があるよ</p>
+<p>えっ　何？</p>
+<p>楽しく滑れるように 工夫してみたんだ</p>
+<p>パンダくんが マンネリって言ってたからね</p>
+<p>半田さん　ありがとう</p>
+<p>待ってたよ　一緒に初滑りしよう</p>
+<p>うん！</p>
+<p>ワーイ！</p>
+<p>ワーイ！</p>
+<p>あっ！　どうしたんですか？</p>
+<p>あ　いや… お腹がつっかえて…(´･ω･)</p>
+<p>常勤パンダさん　メタボ</p>
+<p>ハァー　作り直しかな…</p>
+<p>目指せ！　ワイルドパンダ</p>
+<p>いらっしゃい</p>
+<p>こんにちは</p>
+<p>何してるの　パンダくん</p>
+<p>どうしたの　その格好</p>
+<p>悪いヤツな気分になってみたくて</p>
+<p>ワルな人って憧れちゃうな</p>
+<p>パンダくん　いつもの？</p>
+<p>うん　あ　いや　ストロングコーヒー</p>
+<p>えっ　ストロング？　結構　苦いよ</p>
+<p>今日は　ワルの気分だから</p>
+<p>はい　ストロング</p>
+<p>いただきます</p>
+<p>外せば</p>
+<p>ねぇ　ワルのどこに憧れたの？</p>
+<p>ほら　僕って優柔不断だから</p>
+<p>強気な人が羨ましくって</p>
+<p>それ　ワルとは関係ないでしょ</p>
+<p>えっ　そう？</p>
+<p>僕に足りないのは ワイルドさだと思うんだ</p>
+<p>ワイルドねぇ…</p>
+<p>うわ～　苦っ！</p>
+<p>やっぱり…</p>
+<p>マイルドなコーヒーね</p>
+<p>いろいろビデオを見て ワイルドなイメージを膨らませてみたの</p>
+<p>ビデオ？</p>
+<p>うんとね…</p>
+<p>グフッ　グフフフッ…</p>
+<p>山吹色の お菓子でございます</p>
+<p>越後屋　お主もワルよのう</p>
+<p>ノー　ノー！</p>
+<p>微妙に　ズレてない？　それ</p>
+<p>イマイチ強気で ワイルドなイメージがつかめなくて</p>
+<p>強気で　ワイルドですか</p>
+<p>グリズリーくんとか　そうかも</p>
+<p>えっ　誰？　誰？</p>
+<p>お店やってるから 夜　行ってみる？</p>
+<p>グリズリーさんのお店って　この辺りなの？</p>
+<p>いや　もっと先</p>
+<p>ここを抜けると　すぐそこ</p>
+<p>着いたよ　ここね</p>
+<p>パンダくん　こっち　こっち</p>
+<p>確かに　ワイルドなお店だね</p>
+<p>猛獣館って感じ？</p>
+<p>こんばんは　グリズリーくん</p>
+<p>よお　シロクマ 久しぶりじゃねえか</p>
+<p>本当に　ワイルドだ…</p>
+<p>相変わらず なまっちろい野郎だぜ　この　シロクマ野郎</p>
+<p>ちょっと焼いてこいよ　日サロで</p>
+<p>いや…　行っても たぶん変わらない</p>
+<p>今日は　友達を連れてきた</p>
+<p>は…　はじめまして</p>
+<p>白いのか　黒いのか はっきりしねえ野郎だな</p>
+<p>パンダだからね</p>
+<p>まあ　いいか　座れ</p>
+<p>何にする？</p>
+<p>シングルモルト</p>
+<p>おい　パンダ</p>
+<p>はい…</p>
+<p>お前は？</p>
+<p>えっと…　竹　大盛り</p>
+<p>悪いな　ヘルシーなものは 置いてないんだ</p>
+<p>じゃ…　じゃあ… アイスコーヒー　お願いします</p>
+<p>ソフトドリンクもないね</p>
+<p>じゃあ　笹の入ったパフェを お願いします</p>
+<p>ヘルシーなものは ないっつってんだろ！！</p>
+<p>グリズリーくん</p>
+<p>しようがねえな</p>
+<p>シロクマの友人だ 特別に　コーヒー　いれてやるよ</p>
+<p>ミルクは？</p>
+<p>なしで</p>
+<p>あっ　いや…　ありで</p>
+<p>あっ　やっぱ　なしで</p>
+<p>白黒　はっきりしろ！！</p>
+<p>もう…　相変わらず短気だな</p>
+<p>まあ　パンダが白黒はっきりしたら</p>
+<p>シロクマか ただのクマになっちまうよな</p>
+<p>ハハハハハハ！</p>
+<p>グリズリーさんって　怖い人だね</p>
+<p>そう？</p>
+<p>よう　兄ちゃん</p>
+<p>アンタ　丸々と太ってて うまそうだな</p>
+<p>どうやって食べるのがいいかな</p>
+<p>丸飲みとか</p>
+<p>ヤシの実とか</p>
+<p>バーベキューとか</p>
+<p>もろきゅうとか</p>
+<p>活け作りとか</p>
+<p>若作りとか</p>
+<p>おい　お前！</p>
+<p>あんまり他の客を 怖がらすんじゃねえよ</p>
+<p>か…　帰ります！</p>
+<p>おい　パンダ！</p>
+<p>悪かったな ほらよ　コーヒーだ</p>
+<p>グリズリーさん　ありがとう！</p>
+<p>ねぇ　グリズリーさん</p>
+<p>何だ？</p>
+<p>あの写真って グリズリーさんだよね？</p>
+<p>うん？　おお　あれか</p>
+<p>愛車で　アメリカを 横断したときのやつさ</p>
+<p>かっこいい！</p>
+<p>よかったぜ　地平線まで続く道を ぶっ飛ばしてよ</p>
+<p>わぁ～　憧れちゃうな</p>
+<p>どうせ　お前らはスローライフとかいって ダラダラ暮らしてやがんだろ？</p>
+<p>ロハスって言ってよ</p>
+<p>言い方変えただけだろ</p>
+<p>ゆっくりでも そんなに変わらないよ</p>
+<p>昔からマイペースだよな　お前は</p>
+<p>人生は　一度きりだぜ</p>
+<p>熱く　ぶっ飛ばさなきゃな</p>
+<p>グリズリーさん　すごくかっこいいね</p>
+<p>僕　そういうの大好き！</p>
+<p>おっ？ シロクマの知り合いにしちゃあ</p>
+<p>話のわかるヤツじゃないか</p>
+<p>ほら　冷めちまうぞ　飲めよ</p>
+<p>うん！</p>
+<p>どうだ？ アイリッシュコーヒーにしてみたんだ</p>
+<p>まっ　コーヒーより　ウイスキーのほうが 多かったかもな</p>
+<p>えっ？　それは…</p>
+<p>バルルルル…　グフッ　フフフ</p>
+<p>また　ソイツと来いよ</p>
+<p>今度は　インスタントじゃないコーヒーを いれてやるから</p>
+<p>うん　マイルドで　よろしくね</p>
+<p>あれ？</p>
+<p>目が覚めた？</p>
+<p>シロクマくん　運んでくれたんだね</p>
+<p>うん</p>
+<p>ありがとう</p>
+<p>いいよ　別に</p>
+<p>それと　もうひとつ　ありがとう</p>
+<p>えっ？</p>
+<p>僕　だいぶ　ワイルドってのが わかった気がするよ</p>
+<p>そう　それならよかった</p>
+<p>シロクマくん　どう？　これ　</p>
+<p>ワイルド？</p>
+<p>いやぁ　マイルドかな</p>
+<p>じゃあ！</p>
+<p>あれ？　パンダくん　どこ行くの？</p>
+<p>ワルは後ろを振り返らない</p>
+<p>あっ　そう…</p>
+<p>ペンギンさん　ペンギンさん</p>
+<p>どうしたの　パンダ君</p>
+<p>ペンギンさんって　どうしてみんなに嫌われてるんだっけ</p>
+<p>そんな事実ないでしょう</p>
+<p>人気ものだよ　僕は</p>
+<p>どっちでもいいじゃない</p>
+<p>次回のしろくまカフェは</p>
+<p>鉛筆書きでお送りします</p>
+<p>塗ります</p>
+<p>お楽しみに</p>
+<p>本字幕由諸神字幕組出品,僅供學習交流之用 更多中日雙語字幕，請登錄 www.kamigami.org</p>
+<p>—諸神字幕組— 日听：月 翻译：月 校对：lala syura 繁化：烨语 时间轴：那年夏天 后期：Ressul</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
