@@ -4,7 +4,9 @@ title: "しろくまカフェへようこそ"
 
 しろくまカフェへようこそ
 
-
+<audio controls>
+<source src="01/intro-1.mp3">
+</audio><hr>
 
 笹を食べながらのんびりするのは最高だなぁ
 
