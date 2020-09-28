@@ -15,3 +15,8 @@ p {
 audio, button {
   outline: none;
 }
+
+
+.section ul{
+  list-style-type: none;
+}

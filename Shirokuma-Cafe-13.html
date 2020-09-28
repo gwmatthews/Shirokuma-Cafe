@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>半田さん改造計画</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">半田さん改造計画</h1>
+
+</div>
+
+
+<p>半田さん改造計画</p>
+<audio controls>
+<source src="audio/13/001.mp3">
+</audio>
+<hr>
+<p>ねぇねぇ モテ期って知ってる？</p>
+<p>モテ期？</p>
+<audio controls>
+<source src="audio/13/002.mp3">
+</audio>
+<hr>
+<p>それは　汽笛</p>
+<p>それは　射的</p>
+<p>それは　奇跡</p>
+<p>モテ期って？</p>
+<audio controls>
+<source src="audio/13/003.mp3">
+</audio>
+<hr>
+<p>人は一生のうちすごくモテる時期があって</p>
+<p>それをモテ期って言うんだって</p>
+<p>それ繁殖期でしょ</p>
+<audio controls>
+<source src="audio/13/004.mp3">
+</audio>
+<hr>
+<p>だよね</p>
+<p>ちょっと違うらしいよ</p>
+<audio controls>
+<source src="audio/13/005.mp3">
+</audio>
+<hr>
+<p>繁殖期は　季節が巡ってこないと 訪れないんだけど</p>
+<p>モテ期は　努力によって くるらしいんだよ</p>
+<audio controls>
+<source src="audio/13/006.mp3">
+</audio>
+<hr>
+<p>何のお話ですか？</p>
+<p>見てて</p>
+<p>笹子さん</p>
+<p>はい？</p>
+<p>はい！</p>
+<audio controls>
+<source src="audio/13/007.mp3">
+</audio>
+<hr>
+<p>お面？</p>
+<p>あれ？　じゃあ…</p>
+<p>はい</p>
+<p>ニンジン？</p>
+<p>あれ？　じゃあ…</p>
+<p>僕　体重１００キロ以上あるんだ</p>
+<audio controls>
+<source src="audio/13/008.mp3">
+</audio>
+<hr>
+<p>そう</p>
+<p>重いでしょ？</p>
+<p>重いね</p>
+<p>それだけ？</p>
+<p>うん</p>
+<p>おかしいな…</p>
+<p>モテるには　お面で野菜で 重かったりするはずなんだけど…</p>
+<audio controls>
+<source src="audio/13/009.mp3">
+</audio>
+<hr>
+<p>あの…　</p>
+<p>イケメンで優しくて おもしろかったりしたらじゃ…</p>
+<audio controls>
+<source src="audio/13/010.mp3">
+</audio>
+<hr>
+<p>ちょっと違った</p>
+<p>ニアピン賞</p>
+<p>いや　大きく間違ってるから</p>
+<audio controls>
+<source src="audio/13/011.mp3">
+</audio>
+<hr>
+<p>あっ！ 配達ですか？</p>
+<p>ステキなお花ですね</p>
+<p>ありがとうございます</p>
+<audio controls>
+<source src="audio/13/012.mp3">
+</audio>
+<hr>
+<p>あれがモテ期かぁ</p>
+<p>じゃあ　これ 売店に届けてきますので</p>
+<p>行っちゃイヤ！</p>
+<audio controls>
+<source src="audio/13/013.mp3">
+</audio>
+<hr>
+<p>す…　すみません</p>
+<p>ああ　いえ　こちらこそ</p>
+<p>大丈夫ですか？</p>
+<audio controls>
+<source src="audio/13/014.mp3">
+</audio>
+<hr>
+<p>ケガはないかい？</p>
+<p>ああ　僕は　大丈夫です</p>
+<p>本当に？</p>
+<p>ええ</p>
+<p>よかった</p>
+<audio controls>
+<source src="audio/13/015.mp3">
+</audio>
+<hr>
+<p>心配しちゃったよ</p>
+<p>半田さん</p>
+<p>僕が力になるよ</p>
+<audio controls>
+<source src="audio/13/016.mp3">
+</audio>
+<hr>
+<p>なんとかしてあげるから</p>
+<p>ああ　パンダくん　おはよう！</p>
+<p>リンリンは　僕のこと必要ないでしょ</p>
+<audio controls>
+<source src="audio/13/017.mp3">
+</audio>
+<hr>
+<p>さあ　半田さん行こう</p>
+<audio controls>
+<source src="audio/13/018.mp3">
+</audio>
+<hr>
+<p>こんにちは！ 聞いて　聞いて！</p>
+<p>どうしたんですか？</p>
+<p>やっと仮免　受かったよ</p>
+<p>ついにだよ　とうとうだよ！</p>
+<audio controls>
+<source src="audio/13/019.mp3">
+</audio>
+<hr>
+<p>あれ？　シロクマくんはいないの？</p>
+<p>大切な用事があるからって…</p>
+<audio controls>
+<source src="audio/13/020.mp3">
+</audio>
+<hr>
+<p>ここでやるの？</p>
+<p>協力してね　シロクマくん</p>
+<p>パンダくん　やる気だね</p>
+<audio controls>
+<source src="audio/13/021.mp3">
+</audio>
+<hr>
+<p>いろいろ情報　仕入れてきたよ</p>
+<p>ごめん！　ちょっと お年寄りに道を聞かれてさ</p>
+<p>さあ　行くよ　半田さん</p>
+<audio controls>
+<source src="audio/13/022.mp3">
+</audio>
+<hr>
+<p>えっ？　どこへ？</p>
+<p>半田さん改造計画！</p>
+<audio controls>
+<source src="audio/13/023.mp3">
+</audio>
+<hr>
+<p>まずは　ファッションだよ</p>
+<p>さり気ない　トラッド</p>
+<p>う～ん　ちょっとカタイね</p>
+<audio controls>
+<source src="audio/13/024.mp3">
+</audio>
+<hr>
+<p>パンクはどう？</p>
+<p>う～ん　これもね…</p>
+<audio controls>
+<source src="audio/13/025.mp3">
+</audio>
+<hr>
+<p>渋谷系とか</p>
+<p>というより　サブカル系？</p>
+<audio controls>
+<source src="audio/13/026.mp3">
+</audio>
+<hr>
+<p>あぁ～！　これ　これ</p>
+<p>いいんじゃない？</p>
+<p>これじゃ　いつもと同じだよ</p>
+<p>う～ん　</p>
+<audio controls>
+<source src="audio/13/027.mp3">
+</audio>
+<hr>
+<p>じゃあ…</p>
+<p>モテファッションといえば　</p>
+<p>オスとして 強く　アピールできるものがいいよね</p>
+<audio controls>
+<source src="audio/13/028.mp3">
+</audio>
+<hr>
+<p>ニワトリなら　立派なトサカだし</p>
+<p>猫なら　耳かな？</p>
+<p>鳥なら　羽でしょ</p>
+<audio controls>
+<source src="audio/13/029.mp3">
+</audio>
+<hr>
+<p>でも　やっぱ　これだよね　</p>
+<p>パンダの着ぐるみ？</p>
+<p>半田さん 日ごろの僕を見てて　わからない？</p>
+<audio controls>
+<source src="audio/13/030.mp3">
+</audio>
+<hr>
+<p>モテモテだよ</p>
+<p>これなんか　どう？</p>
+<p>ちょっと　きついけど</p>
+<p>シロクマくん　パンダみたいだね</p>
+<p>パンダくんの代わりに 動物園で働こうかな</p>
+<audio controls>
+<source src="audio/13/031.mp3">
+</audio>
+<hr>
+<p>ムリでしょ</p>
+<p>袋　開けたんだから ちゃんと買いなよ</p>
+<p>お財布　持ってきてない</p>
+<audio controls>
+<source src="audio/13/032.mp3">
+</audio>
+<hr>
+<p>ありがとうございました</p>
+<p>じゃあ　次</p>
+<audio controls>
+<source src="audio/13/033.mp3">
+</audio>
+<hr>
+<p>グルメ情報も大事らしいよ</p>
+<p>どう　大事なの？</p>
+<p>半田さんの人生にだよ</p>
+<p>そうなんだ…</p>
+<audio controls>
+<source src="audio/13/034.mp3">
+</audio>
+<hr>
+<p>もう！　何？　そのやる気のなさ</p>
+<p>僕が　こんなに一生懸命なのに</p>
+<p>おいしそうなもの いっぱい　あるね</p>
+<audio controls>
+<source src="audio/13/035.mp3">
+</audio>
+<hr>
+<p>あぁ～！　笹まんじゅう 笹だんご　笹ようかん</p>
+<audio controls>
+<source src="audio/13/036.mp3">
+</audio>
+<hr>
+<p>買ってあげなよ</p>
+<p>しようがないな…　１個だけね</p>
+<p>これも　よろしく</p>
+<audio controls>
+<source src="audio/13/037.mp3">
+</audio>
+<hr>
+<p>半田さん！</p>
+<p>半田さん！</p>
+<p>１００円　１００円</p>
+<p>シロクマくん　何やってるの！？</p>
+<audio controls>
+<source src="audio/13/038.mp3">
+</audio>
+<hr>
+<p>半田さん　いっぱい　持ってるね　モテモテだよ</p>
+<p>これで　半田さんも だいぶ　改造人間になったね</p>
+<p>いや…　それ　戦っちゃうから</p>
+<audio controls>
+<source src="audio/13/039.mp3">
+</audio>
+<hr>
+<p>どうする？</p>
+<p>行こう！</p>
+<p>なんだろう？　こっち　見てるよ</p>
+<audio controls>
+<source src="audio/13/040.mp3">
+</audio>
+<hr>
+<p>あの…</p>
+<p>はい</p>
+<p>もし　よかったら…</p>
+<audio controls>
+<source src="audio/13/041.mp3">
+</audio>
+<hr>
+<p>一緒に写真　撮ってもらえますか？</p>
+<p>きたよ　モテ期！</p>
+<p>いいですよ</p>
+<p>お願いします！</p>
+<audio controls>
+<source src="audio/13/042.mp3">
+</audio>
+<hr>
+<p>パンダくん　人気者だね</p>
+<p>僕も一緒に撮ってくる</p>
+<audio controls>
+<source src="audio/13/043.mp3">
+</audio>
+<hr>
+<p>もう１枚　撮りますよ</p>
+<p>は～い！</p>
+<audio controls>
+<source src="audio/13/044.mp3">
+</audio>
+<hr>
+<p>あぁ　楽しかった！</p>
+<p>おかえり　遅かったね</p>
+<audio controls>
+<source src="audio/13/045.mp3">
+</audio>
+<hr>
+<p>すみません！ 注文　お願いします</p>
+<p>はい　お待たせしました</p>
+<p>お水のお代わりください</p>
+<p>ただ今！</p>
+<audio controls>
+<source src="audio/13/046.mp3">
+</audio>
+<hr>
+<p>忙しそうだな</p>
+<p>笹子さん　モテモテだね</p>
+<audio controls>
+<source src="audio/13/047.mp3">
+</audio>
+<hr>
+<p>あっ！ 半田さんじゃないですか</p>
+<p>すみません お水　お代わり　お願いします</p>
+<p>あぁ　半田さん！ 背中　かいてもらえますか？</p>
+<p>半田さ～ん…</p>
+<audio controls>
+<source src="audio/13/048.mp3">
+</audio>
+<hr>
+<p>ここに座らないように言って</p>
+<p>はい　はい</p>
+<audio controls>
+<source src="audio/13/049.mp3">
+</audio>
+<hr>
+<p>うん　ありがとうございます</p>
+<p>いえ　いえ</p>
+<p>このへん？</p>
+<p>も…　もうちょい　右です</p>
+<p>ここに座ってね</p>
+<p>ありがとう</p>
+<audio controls>
+<source src="audio/13/050.mp3">
+</audio>
+<hr>
+<p>半田さんにも　やっと…</p>
+<p>きたね</p>
+<p>モテ期</p>
+<p>半田さん お水　もう１杯　もらえますか？</p>
+<p>はい　はい</p>
+<p>半田さん　</p>
+<audio controls>
+<source src="audio/13/051.mp3">
+</audio>
+<hr>
+<p>こっちもかいて</p>
+<p>かくよ！</p>
+<p>半田さ～ん！</p>
+<p>なんだい？</p>
+<audio controls>
+<source src="audio/13/052.mp3">
+</audio>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shirokuma-Cafe-19.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p>半田さんの合コン？</p>
+<p>すみませんでした</p>
+<p>どうしたの？</p>
+<p>いつものって頼んだらさ</p>
+<p>餃子が出てきたんだよ</p>
+<p>僕　カフェで餃子頼んだことあった？</p>
+<p>ありませんでしたっけ？</p>
+<p>ないでしょ</p>
+<p>餃子…　メニューにないでしょ</p>
+<p>はい…</p>
+<p>わざわざ　作ったの？</p>
+<p>はい</p>
+<p>笹子さん　偉い！</p>
+<p>褒めるところかな？</p>
+<p>おいしいよ</p>
+<p>ホントですか？</p>
+<p>喜ぶところかな！？</p>
+<p>まぁ　いいや　いつものくれる？</p>
+<p>うん</p>
+<p>何　これ</p>
+<p>餃子定食</p>
+<p>頼んだことある？</p>
+<p>ないね</p>
+<p>遊んでる？</p>
+<p>うん</p>
+<p>はぁ…　疲れた</p>
+<p>バイト　お疲れ</p>
+<p>いつものちょうだい</p>
+<p>いつものね</p>
+<p>笹子さん　餃子定食</p>
+<p>はい　竹大盛りとアイスコーヒーね</p>
+<p>ねぇねぇ　聞いてよ　今日ね…</p>
+<p>え～？　もう　こんな時間？</p>
+<p>まだ眠いよ もうちょっと寝よう</p>
+<p>ちょっと待って！</p>
+<p>二度寝の話がしたいの？</p>
+<p>どっから話そうかなと思って</p>
+<p>もうちょっと　まとめてから 話してくれる？</p>
+<p>ヒマじゃないんだから</p>
+<p>うん　わかった</p>
+<p>桐野君　おはよう</p>
+<p>おはよう　パンダ君</p>
+<p>って…　早くないよ　遅刻だよ？</p>
+<p>半田さんのお弁当だ 開けてみよう</p>
+<p>ダメだよ　パンダ君</p>
+<p>ちょっと開けるだけだよ</p>
+<p>ダーメ！</p>
+<p>ダメだからね</p>
+<p>開けるだけだよ</p>
+<p>なんて　茶色いお弁当なんだろう</p>
+<p>おばあちゃんのお弁当みたいだ</p>
+<p>ちょっと待って！</p>
+<p>お弁当の話がしたいの？</p>
+<p>もう まだ　話してる途中なんだから</p>
+<p>頼むよ！ ヒマじゃないって言ってるでしょ</p>
+<p>ヒマでしょ？</p>
+<p>いつも　ここにいるじゃない</p>
+<p>ペンギンさんって ふだん　何してんの？</p>
+<p>い…　いいから 早く本題に入ってよ</p>
+<p>わかったよ</p>
+<p>パンダ君　今日は午後から小学生の団体が来るから</p>
+<p>サービスしようね</p>
+<p>はい　いつもより多めに　ゴロゴロしま～す</p>
+<p>ねぇ　常勤パンダさん</p>
+<p>何？</p>
+<p>今日　半田さんの お弁当見ちゃったんだけどね</p>
+<p>茶色くてさ　おばあちゃんの お弁当みたいだったよ</p>
+<p>おいしかったけど</p>
+<p>食べちゃったの？</p>
+<p>うん</p>
+<p>食べちゃったの…</p>
+<p>うん！</p>
+<p>お弁当おいしかったけど 何ていうのかな…</p>
+<p>男が男のために 作ったお弁当というか</p>
+<p>まぁ　半田さんが 自分のために作った弁当だからね</p>
+<p>というより　おばあちゃんが おばあちゃんのために作ったお弁当というか</p>
+<p>ひと言でいうと　モテなさそう</p>
+<p>モテなさそうなお弁当なんだよね</p>
+<p>見たかったな そのモテなさそうな弁当</p>
+<p>聞こえてますよ</p>
+<p>聞こえるように言ったんだよ</p>
+<p>半田さん　今度そのモテなさそうな弁当私にも見せてよ</p>
+<p>ちょっと　失礼だな</p>
+<p>じゃあ　モテるの？</p>
+<p>最近　女性と喋った？</p>
+<p>何　急に</p>
+<p>だから　最近　女性と喋った？</p>
+<p>お母さん以外だよ</p>
+<p>動物以外だよ</p>
+<p>ほらね</p>
+<p>おかしいな</p>
+<p>そんなモテない半田さんのために</p>
+<p>僕が桐野くんに頼んでおいたから</p>
+<p>え　何を</p>
+<p>半田さん！</p>
+<p>決まりましたよ</p>
+<p>何だ？</p>
+<p>合コンですよ 半田さんがやりたいって　パンダくんが</p>
+<p>俺言ってないよ</p>
+<p>そんなの行かないよ</p>
+<p>ちょっと待ってくださいよ</p>
+<p>半田さんのために セッティングしたんですから</p>
+<p>相手は　ＯＬさんですよ</p>
+<p>俺　忙しいから</p>
+<p>何かあるんですか？</p>
+<p>帰って風呂の掃除しないと</p>
+<p>それは忙しいに入りませんよ</p>
+<p>行くよね　半田さん</p>
+<p>桐野くん　半田さんをよろしくお願いします</p>
+<p>もう　勝手に決めないで</p>
+<p>行きましょうよ　半田さん</p>
+<p>半田さん！</p>
+<p>かわいくてもダメ！</p>
+<p>桐野くんはね パンダくんに言われて</p>
+<p>半田さんのために やったこともない合コンをセッティングしたんだよ</p>
+<p>ちょっとくらいは やったことありますけど</p>
+<p>半田さん行こうよ！</p>
+<p>もういいよ　２人とも</p>
+<p>わかりました　</p>
+<p>半田さんが どうしても嫌なら　断ります</p>
+<p>わかった　行くよ</p>
+<p>ホントですか！</p>
+<p>よかった</p>
+<p>男性チームは　僕の友人が来て ３対３です</p>
+<p>じゃあ　今晩７時ですから</p>
+<p>半田さん　ＯＬさんにお弁当見せちゃダメだよ</p>
+<p>見せないよ</p>
+<p>お疲れ様</p>
+<p>今日　合コン頑張ってね</p>
+<p>シーッ！　声が大きいよ</p>
+<p>ごめん　ごめん</p>
+<p>じゃあ　また明日</p>
+<p>これで 半田さんのお弁当も変わるな</p>
+<p>えっ　ウソ　ホントに？</p>
+<p>そうか　わかった</p>
+<p>困ったな</p>
+<p>どうしたの？</p>
+<p>今日の合コンなんだけど 友達が来られなくなっちゃって</p>
+<p>今からじゃ　メンバー見つからないよ</p>
+<p>桐野くん　大丈夫だよ</p>
+<p>僕にあてがあるから</p>
+<p>ホント？</p>
+<p>うん　任せておいて</p>
+<p>ありがとう パンダくん　ありがとう</p>
+<p>そういうわけなんだ</p>
+<p>ふ～ん　話はわかった</p>
+<p>要するに 合コンのメンバーが必要なんだね</p>
+<p>それでシロクマくんを誘おうと思うんだけど　どう思う？</p>
+<p>えっ！？　僕じゃなくて？</p>
+<p>シロクマくん　今日　ヒマ？</p>
+<p>今日　ヒマ？</p>
+<p>僕じゃないんだ…</p>
+<p>僕　結構　話　聞いてたのに</p>
+<p>ペンギンさん　さっきから ヒマじゃない　ヒマじゃないって…</p>
+<p>いや　まあ　そうだけど…</p>
+<p>やりくりすれば　合コンに行けないことも ないんじゃないかな</p>
+<p>ヒマじゃないんでしょ？</p>
+<p>ああ　僕　ヒマじゃないからね</p>
+<p>じゃ　楽しんでくれば？</p>
+<p>パンダくんにシロクマさん？</p>
+<p>どうして…</p>
+<p>今日の男性チームです</p>
+<p>半田さん　頑張ろうね</p>
+<p>半田さん　すみません 頑張りましょうね</p>
+<p>じゃあ　行こうか</p>
+<p>後半へつづく</p>
+<p>半田さんの合コン！</p>
+<p>前半からつづく</p>
+<p>ご注文　お決まりですか？</p>
+<p>シロクマ！？</p>
+<p>そ…　それじゃ 自己紹介から始めましょうか</p>
+<p>僕からいきますね</p>
+<p>桐野です</p>
+<p>動物園の飼育員をやっています</p>
+<p>よろしく　お願いします</p>
+<p>じゃ　次は先輩</p>
+<p>は…　は…　半田です！</p>
+<p>本日は　このように 晴れがましい合コンに　お…　お招きいただき</p>
+<p>誠にありがとうございます</p>
+<p>ふつつか者ではありますが</p>
+<p>以後　よろしく お見知りおきください</p>
+<p>先輩　かたい…</p>
+<p>そこまで丁寧な 自己紹介じゃなくて大丈夫です</p>
+<p>けど　初対面だから</p>
+<p>大丈夫です</p>
+<p>合コンって　そういう感じのものじゃないんで</p>
+<p>続きまして 私と同じ職場に勤める</p>
+<p>パンダくんを紹介します！</p>
+<p>だから　かたいって…</p>
+<p>すみません パンダ　連れてきちゃって</p>
+<p>パンダで～す</p>
+<p>かわいい！！</p>
+<p>パンダ　意外にウケた…</p>
+<p>では　続いて…</p>
+<p>シロクマです ふだんは　カフェやってます</p>
+<p>すご～い！</p>
+<p>カフェですか？</p>
+<p>行ってみたい！</p>
+<p>なんてカフェですか？</p>
+<p>しろくまカフェ</p>
+<p>そのまんまなんですね</p>
+<p>あの　もしかして 雑誌とかに載ってないですか？</p>
+<p>時々</p>
+<p>すごい！　見たことある</p>
+<p>今度　行ってもいいですか？</p>
+<p>もちろん</p>
+<p>こっちも大好評だな…</p>
+<p>趣味は　アザラシの捕獲</p>
+<p>何ですか？それ</p>
+<p>今度連れてってください</p>
+<p>やめたほうがいいよ…</p>
+<p>じゃあ　女子 いきますね　</p>
+<p>ヒロミで～す</p>
+<p>先輩　ヒロミちゃん</p>
+<p>リカです</p>
+<p>リカちゃん</p>
+<p>ミズキです</p>
+<p>ミズキちゃん</p>
+<p>わかってるよ　大丈夫 聞こえるから</p>
+<p>ご注文　どうぞ</p>
+<p>とりあえず　生</p>
+<p>はい</p>
+<p>とりあえず　竹</p>
+<p>竹？　</p>
+<p>ちょっと 置いてないんですが…</p>
+<p>え～っ　じゃあ　笹</p>
+<p>笹も　ないんですが…</p>
+<p>じゃあ　みんな　どうしてるの？</p>
+<p>ビール　飲んだり…</p>
+<p>枝豆　食べたり…</p>
+<p>唐揚げ　食べたり…</p>
+<p>とりあえず　アザラシ</p>
+<p>ないです</p>
+<p>持ち込みは？</p>
+<p>ダメです</p>
+<p>とりあえず　生６つと ジュース１つでいいです</p>
+<p>僕　竹がいいよ</p>
+<p>そうよね　パンダっていったら やっぱり竹よね</p>
+<p>食べてるとこ　見てみたい</p>
+<p>かわいいかも！</p>
+<p>いや～ん！ 竹　食べて！</p>
+<p>何なんだ？　この合コン…</p>
+<p>いや　僕はね　合コンに行きたいって言ってるわけじゃないんだよ</p>
+<p>はい</p>
+<p>ただね　僕がずっとパンダくんの話を聞いていたわけだからさ</p>
+<p>誘うなら　僕を誘うでしょ？</p>
+<p>僕にはペン子さんとい ペンギンがいるわけだから</p>
+<p>別に行きたくはないんだけど 社会勉強というか…</p>
+<p>行きたいんですか？</p>
+<p>だから行きたくないよ</p>
+<p>笹子さんも　笹子さんでしょ</p>
+<p>誘うなら　シロクマさんじゃなくてペンギンさんですよってひと言…</p>
+<p>欲しかったな</p>
+<p>行きたいんですか？</p>
+<p>行きたいよ</p>
+<p>みんな今頃楽しくやってるんだろうな！</p>
+<p>笹子さん カフェモカおかわり</p>
+<p>はい</p>
+<p>へぇ～　みんな大学からのお友達なんだ</p>
+<p>そうなんです</p>
+<p>そうそう　動物園にカピバラいますか？</p>
+<p>今　流行ってますよね</p>
+<p>カピバラはネズミだってホントですか？</p>
+<p>じゃあ　動物園にはカピバラの温泉とか あるんですか？</p>
+<p>先輩　声に出して しゃべってください</p>
+<p>っていうか　さっきから何も　しゃべって ないじゃないですか</p>
+<p>俺そろそろ…</p>
+<p>何か用事あるんですか？</p>
+<p>いや　風呂の掃除があるから</p>
+<p>わぁ～　ちょっと半田さん！</p>
+<p>風呂の掃除で帰るとか</p>
+<p>絶対女の子の前で言っちゃダメですって</p>
+<p>どうかしたの？</p>
+<p>い…　いや大丈夫</p>
+<p>先輩　ちょっと酔っちゃって</p>
+<p>掃除がどうかしたんですか？</p>
+<p>ソ…　ソーセージ注文しようかって 先輩が</p>
+<p>ねっ　先輩　僕注文しますね</p>
+<p>ソーセージ盛り合わせ２つ</p>
+<p>お刺身　盛り合わせも</p>
+<p>シロクマさん　すみません</p>
+<p>あれ？　パンダくんは？</p>
+<p>お待ちどおさま！</p>
+<p>待ってないよ！</p>
+<p>わざわざ取りに行ったの？</p>
+<p>だって　ここ　何もないんだもん</p>
+<p>あるでしょ　いろいろ！</p>
+<p>ナッツとか小エビの唐揚げとか</p>
+<p>いただきま～す</p>
+<p>かわいい！</p>
+<p>パンダが竹食べてるとこ初めて見た！</p>
+<p>私も　私も！</p>
+<p>写メ　撮っていいですか？</p>
+<p>うん！</p>
+<p>持ち込みはダメだって書いてあるよ</p>
+<p>お店の人にバレたら…</p>
+<p>お待ちどおさまで…</p>
+<p>すみません　持ち込みはダメだって 言ったんですけど</p>
+<p>か…かわいい！</p>
+<p>写メ　いいですか！？</p>
+<p>あの　持ち込みは？</p>
+<p>いいです　いいです！</p>
+<p>半田さんは何の動物の飼育を しているんですか？</p>
+<p>パ…　パンダとか</p>
+<p>パンダ！？ パンダの飼育をしてるんですか？</p>
+<p>え…　えぇ</p>
+<p>かわいい！</p>
+<p>か…　かわいい？</p>
+<p>パンダの話 いろいろ　聞かせてください！</p>
+<p>昼寝しているところ</p>
+<p>キャーッ！　かわいい！！</p>
+<p>遊んでいるところ</p>
+<p>キャーッ！　かわいい！！</p>
+<p>ダラダラしているところ</p>
+<p>キャーッ！　かわいい！！</p>
+<p>よく　見分けがつきますね</p>
+<p>一応　プロだから</p>
+<p>かわいい！</p>
+<p>もっと聞かせてください！</p>
+<p>パンダは腸が短くて　竹からだと あまり栄養がとれないんです</p>
+<p>だから量で補うために１日中竹を食べているんです</p>
+<p>腸が短いんだ</p>
+<p>かわいい！</p>
+<p>そこもかわいいんだ</p>
+<p>半田さん　もっと教えてあげて 僕のかわいいとこ</p>
+<p>竹しか食べてないから</p>
+<p>パンダのウンチって いいにおいなんですよ</p>
+<p>ちょっと レモンのにおいに似ているんです</p>
+<p>あぁ…　これ　これ</p>
+<p>うん　パンダのウンチのにおいです</p>
+<p>どうぞ</p>
+<p>先輩！　その情報は いらないんじゃないですか？</p>
+<p>もう！　もっと かわいいエピソードにしてよ</p>
+<p>えっ！？　そう？</p>
+<p>あっ！　パンダって 垂れ目でかわいい感じでしょ？</p>
+<p>あれって　実際の目は 小さくて　鋭いんですよ</p>
+<p>それも　いらないよ</p>
+<p>そうなの？</p>
+<p>僕にとっては かわいいところなんだけど</p>
+<p>もう！　半田さん！！</p>
+<p>かわいい！</p>
+<p>ペンギンさん　カフェモカ　おかわり お待たせしました</p>
+<p>あれ？　いない…</p>
+<p>今度　パンダコーナー 遊びにいってもいいですか？</p>
+<p>もちろんです　見にきてください</p>
+<p>常勤パンダさんも紹介しますよ</p>
+<p>常勤パンダさん？ このパンダさんは何なんですか？</p>
+<p>週２のバイトなんです</p>
+<p>へぇ～　アルバイトなんだ？</p>
+<p>かわいい！</p>
+<p>かわいいかな？</p>
+<p>かわいいですよ！</p>
+<p>ねっ？</p>
+<p>あっ！</p>
+<p>どうしたの？</p>
+<p>な…　何？</p>
+<p>ペンギン！？</p>
+<p>どうも　こんばんは</p>
+<p>何しにきたの？</p>
+<p>忙しいんじゃなかったの？ ペンギンさん</p>
+<p>いや　それは…</p>
+<p>かわいい！</p>
+<p>えっ！？　そこも？</p>
+<p>マ·マ·マハロ</p>
+<p>ペンギンさん　マイク 代わってもらっていいですか？</p>
+<p>もう１曲　もう１曲！</p>
+<p>しようがないな</p>
+<p>「ぐぅ」？</p>
+<p>寝てる！</p>
+<p>パンダくん　起きて！　パンダくん！！</p>
+<p>って…　先輩まで！</p>
+<p>見て　寝てる！</p>
+<p>ねぇ　なんか似てない？</p>
+<p>このカフェにたどり着いた ラッキーボーイズ　アンド　ガールズ</p>
+<p>今日は　ありがとうございました</p>
+<p>楽しかったです</p>
+<p>また　パンダの話聞かせてください</p>
+<p>えぇ　動物園に遊びにきてください</p>
+<p>はい じゃあ　おやすみなさい</p>
+<p>それじゃ　俺も 風呂の掃除あるから　帰るわ</p>
+<p>また　明日な</p>
+<p>はい</p>
+<p>半田さんらしいや</p>
+<p>うちで　コーヒーでも飲んでく？</p>
+<p>はい　シロクマさん</p>
+<p>マ·マ·マハロ</p>
+<p>イエーイ！</p>
+<p>あっ！　あれ？　みんなは？</p>
+<p>ペンギンさん　ペンギンさん</p>
+<p>何？　パンダ君</p>
+<p>ペンギンさんって　カフェの椅子にどうやって座ってるの</p>
+<p>白熊君　終わろ</p>
+<p>ペンギンさんって　カフェの椅子にどうやって座ってるの</p>
+<p>白熊君　終わろ</p>
+<p>ペンギンさんって　カフェの椅子に…</p>
+<p>終わろ</p>
+<p>次回のしろくまカフェ　第80話</p>
+<p>お楽しみに</p>
+<p>11話</p>
+<p>お楽しみに</p>
+<p>本字幕由諸神字幕組出品,僅供學習交流之用 更多中日雙語字幕，請登錄 www.kamigami.org</p>
+<p>—諸神字幕組— 日听：月 翻译：辛然 东坡 校对：lala syura 繁化：烨语 时间轴：那年夏天 后期：Ressul</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -11,38 +11,23 @@ output:
 ## シロクマ　カフェー
 
 
-- [Episode 1](Shirokuma-Cafe-01.html)
+- [1. シロクマ　カフェー へようこそ](Shirokuma-Cafe-01.html)
+- [2. パンダ君の就職](Shirokuma-Cafe-02.html)
 
-  - [with audio, part 1](Shirokuma-Cafe-01-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-01-audio-02.html)
+- [3. みんなのカフェ](Shirokuma-Cafe-03.html)
+- [4. カフェのお花見](Shirokuma-Cafe-04.html)
 
-- [Episode 2](Shirokuma-Cafe-02.html)
+- [5. シロクマくん　動物園へ](Shirokuma-Cafe-05.html)
+- [6. パンダくんの悩み](Shirokuma-Cafe-06.html)
 
-  - [with audio, part 1](Shirokuma-Cafe-02-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-02-audio-02.html)
+- [7. スマフォに夢中](Shirokuma-Cafe-07.html)
+- [8. わくわくドライブレッスン](Shirokuma-Cafe-08.html)
 
-- [Episode 3](Shirokuma-Cafe-03.html)
+- [9. パンダくん　張り切る](Shirokuma-Cafe-09.html)
+- [10. みんなのパフェ](Shirokuma-Cafe-10.html)
 
-  - [with audio, part 1](Shirokuma-Cafe-03-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-03-audio-02.html)
+- [11. パンダくんのダイエット](Shirokuma-Cafe-11.html)
+- [12. 目指せ！　ワイルドパンダ](Shirokuma-Cafe-12.html)
 
-- [Episode 4](Shirokuma-Cafe-04.html)
-
-  - [with audio, part 1](Shirokuma-Cafe-04-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-04-audio-02.html)
-
-
-- [Episode 5](Shirokuma-Cafe-05.html)
-
-  - [with audio, part 1](Shirokuma-Cafe-05-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-05-audio-02.html)
-
-- [Episode 6](Shirokuma-Cafe-06.html)
-
-  - [with audio, part 1](Shirokuma-Cafe-06-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-06-audio-02.html)
-
-- [Episode 7](Shirokuma-Cafe-07.html)
-
-  - [with audio, part 1](Shirokuma-Cafe-07-audio-01.html)
-  - [with audio, part 2](Shirokuma-Cafe-07-audio-02.html)
+- [13. 半田さん改造計画](Shirokuma-Cafe-13.html)
+- [14. ラブラブ　ドライブ　大作戦](Shirokuma-Cafe-14.html)
