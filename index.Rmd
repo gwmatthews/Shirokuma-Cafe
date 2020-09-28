@@ -42,3 +42,7 @@ output:
   - [with audio, part 1](Shirokuma-Cafe-06-audio-01.html)
   - [with audio, part 2](Shirokuma-Cafe-06-audio-02.html)
 
+- [Episode 7](Shirokuma-Cafe-07.html)
+
+  - [with audio, part 1](Shirokuma-Cafe-07-audio-01.html)
+  - [with audio, part 2](Shirokuma-Cafe-07-audio-02.html)
