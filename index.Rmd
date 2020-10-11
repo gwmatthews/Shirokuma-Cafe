@@ -35,3 +35,7 @@ output:
 
 - [15. 雑誌取材がやってきた](Shirokuma-Cafe-15.html)
 - [16. サケハンター　グリズリーさん](Shirokuma-Cafe-16.html)
+
+- [17. リンリン感激　パンダくんち！](Shirokuma-Cafe-17.html)
+- [18. ペンギンさんの告白](Shirokuma-Cafe-18.html)
+
