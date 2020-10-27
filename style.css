@@ -20,3 +20,8 @@ audio, button {
 .section ul{
   list-style-type: none;
 }
+
+.section ul li {
+  font-size: large;
+  
+}
