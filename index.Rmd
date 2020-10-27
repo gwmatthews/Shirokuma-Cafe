@@ -10,32 +10,53 @@ output:
 
 ## シロクマ　カフェー
 
+episode 1
 
-- [1. シロクマ　カフェー へようこそ](Shirokuma-Cafe-01.html)
-- [2. パンダ君の就職](Shirokuma-Cafe-02.html)
+- [シロクマ　カフェー へようこそ](Shirokuma-Cafe-01.html)
+- [パンダ君の就職](Shirokuma-Cafe-02.html)
 
-- [3. みんなのカフェ](Shirokuma-Cafe-03.html)
-- [4. カフェのお花見](Shirokuma-Cafe-04.html)
+episode 2
 
-- [5. シロクマくん　動物園へ](Shirokuma-Cafe-05.html)
-- [6. パンダくんの悩み](Shirokuma-Cafe-06.html)
+- [みんなのカフェ](Shirokuma-Cafe-03.html)
+- [カフェのお花見](Shirokuma-Cafe-04.html)
 
-- [7. スマフォに夢中](Shirokuma-Cafe-07.html)
-- [8. わくわくドライブレッスン](Shirokuma-Cafe-08.html)
+episode 3
 
-- [9. パンダくん　張り切る](Shirokuma-Cafe-09.html)
-- [10. みんなのパフェ](Shirokuma-Cafe-10.html)
+- [シロクマくん　動物園へ](Shirokuma-Cafe-05.html)
+- [パンダくんの悩み](Shirokuma-Cafe-06.html)
 
-- [11. パンダくんのダイエット](Shirokuma-Cafe-11.html)
-- [12. 目指せ！　ワイルドパンダ](Shirokuma-Cafe-12.html)
+episode 4
 
-- [13. 半田さん改造計画](Shirokuma-Cafe-13.html)
-- [14. ラブラブ　ドライブ　大作戦](Shirokuma-Cafe-14.html)
+- [スマフォに夢中](Shirokuma-Cafe-07.html)
+- [わくわくドライブレッスン](Shirokuma-Cafe-08.html)
 
+episode 5
 
-- [15. 雑誌取材がやってきた](Shirokuma-Cafe-15.html)
-- [16. サケハンター　グリズリーさん](Shirokuma-Cafe-16.html)
+- [パンダくん　張り切る](Shirokuma-Cafe-09.html)
+- [みんなのパフェ](Shirokuma-Cafe-10.html)
 
-- [17. リンリン感激　パンダくんち！](Shirokuma-Cafe-17.html)
-- [18. ペンギンさんの告白](Shirokuma-Cafe-18.html)
+episode 6
+
+- [パンダくんのダイエット](Shirokuma-Cafe-11.html)
+- [目指せ！　ワイルドパンダ](Shirokuma-Cafe-12.html)
+
+episode 7
+
+- [半田さん改造計画](Shirokuma-Cafe-13.html)
+- [ラブラブ　ドライブ　大作戦](Shirokuma-Cafe-14.html)
+
+episode 8
+
+- [雑誌取材がやってきた](Shirokuma-Cafe-15.html)
+- [サケハンター　グリズリーさん](Shirokuma-Cafe-16.html)
+
+episode 9
+
+- [リンリン感激　パンダくんち！](Shirokuma-Cafe-17.html)
+- [ペンギンさんの告白](Shirokuma-Cafe-18.html)
+
+episode 10
+
+- [半田さんの合コン？](Shirokuma-Cafe-19.html)
+- [半田さんの合コン！](Shirokuma-Cafe-20.html)
 
