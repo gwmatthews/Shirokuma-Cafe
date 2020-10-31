@@ -38,7 +38,7 @@ title: "みんなのカフェ"
 <source src="audio/03/006.mp3">
 </audio><hr>
 
-今日動物園休みなんだから　寝かせて（　^ω^）
+今日動物園休みなんだから　寝かせて
 
 <audio controls>
 <source src="audio/03/007.mp3">
@@ -50,7 +50,7 @@ title: "みんなのカフェ"
 <source src="audio/03/008.mp3">
 </audio><hr>
 
-太極拳でしょう　ベッドの上でやる(*￣∇￣)ノ
+太極拳でしょう　ベッドの上でやる
 
 <audio controls>
 <source src="audio/03/009.mp3">
@@ -58,7 +58,7 @@ title: "みんなのカフェ"
 
 まったくもう
 
-あ～　す　吸わないで(⊙﹏⊙)
+あ～　す　吸わないで
 
 <audio controls>
 <source src="audio/03/010.mp3">
@@ -73,8 +73,6 @@ title: "みんなのカフェ"
 </audio><hr>
 
 笹子さん　ちょっと　肩もんでくれない
-
-(´･ω･)y--oO○ ｴｰﾄ･･･
 
 <audio controls>
 <source src="audio/03/012.mp3">
@@ -106,7 +104,7 @@ title: "みんなのカフェ"
 <source src="audio/03/015.mp3">
 </audio><hr>
 
-刺さってる　刺さってるw(ﾟДﾟ)w
+刺さってる　刺さってる
 
 <audio controls>
 <source src="audio/03/016.mp3">
@@ -166,7 +164,7 @@ title: "みんなのカフェ"
 
 そうだね
 
-カフェやってる白熊君って格好よくない"o((>ω< ))o"
+カフェやってる白熊君って格好よくない
 
 <audio controls>
 <source src="audio/03/023.mp3">
@@ -182,7 +180,7 @@ title: "みんなのカフェ"
 <source src="audio/03/024.mp3">
 </audio><hr>
 
-僕と比べるのはやめてくれない(*′Д`)
+僕と比べるのはやめてくれない
 
 あ　白熊君　カフェモカ頂戴
 
@@ -248,7 +246,7 @@ title: "みんなのカフェ"
 
 いらっしゃいませ
 
-可愛いな　僕＼（≧Д≦）＜
+可愛いな　僕
 
 自分で言わないで
 
@@ -316,7 +314,7 @@ title: "みんなのカフェ"
 
 僕の好きなものは　皆もきっと好きだよ　
 
-美味しいよ　竹o(*￣▽￣*)o
+美味しいよ　竹
 
 <audio controls>
 <source src="audio/03/038.mp3">
@@ -370,7 +368,7 @@ title: "みんなのカフェ"
 <source src="audio/03/044.mp3">
 </audio><hr>
 
-え　絶対来るよ(*￣∇￣)ノ
+え　絶対来るよ
 
 なんでそう思えるの
 
@@ -396,21 +394,21 @@ title: "みんなのカフェ"
 
 ほら　パスタとかさあ
 
-いいね　竹パスタ（≧0≦）//
+いいね　竹パスタ
 
-いや　竹忘れよう（′Д`）
+いや　竹忘れよう
 
 <audio controls>
 <source src="audio/03/048.mp3">
 </audio><hr>
 
-やってみたいなあ　パンダカフェ（～o￣▽￣)～o
+やってみたいなあ　パンダカフェ
 
 <audio controls>
 <source src="audio/03/049.mp3">
 </audio><hr>
 
-悪い予感がするね  ヽ(´Д`；)ﾉ
+悪い予感がするね
 
 いらっしゃい
 
@@ -524,11 +522,11 @@ title: "みんなのカフェ"
 <source src="audio/03/062.mp3">
 </audio><hr>
 
-へ　いらっしゃい　o(*≧▽≦)ツ
+へ　いらっしゃい
 
-旦那　何しやしょうか(｀・ω・´)
+旦那　何しやしょうか
 
-戻してね／(-_-)＼
+戻してね
 
 <audio controls>
 <source src="audio/03/063.mp3">
