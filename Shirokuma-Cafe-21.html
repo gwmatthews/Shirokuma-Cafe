@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ペンギンさんの失恋</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">ペンギンさんの失恋</h1>
+
+</div>
+
+
+<p>ペンギンさんの失恋</p>
+<audio controls>
+<source src="audio/21/001.mp3">
+</audio>
+<hr>
+<p>はい</p>
+<p>頼んでないよ</p>
+<p>新メニューのホットケーキ　味見してみて</p>
+<audio controls>
+<source src="audio/21/002.mp3">
+</audio>
+<hr>
+<p>笹が入ってないよ</p>
+<p>普通入れないから</p>
+<audio controls>
+<source src="audio/21/003.mp3">
+</audio>
+<hr>
+<p>なんか　しょっぱい</p>
+<p>シャケ入れてみた</p>
+<audio controls>
+<source src="audio/21/004.mp3">
+</audio>
+<hr>
+<p>笹子さんも食べてみてよ</p>
+<p>あ…　はい</p>
+<p>やっぱり　しょっぱいです</p>
+<audio controls>
+<source src="audio/21/005.mp3">
+</audio>
+<hr>
+<p>あれ？ ペンギンさんいつからいたの？</p>
+<p>ずっといるでしょ！</p>
+<audio controls>
+<source src="audio/21/006.mp3">
+</audio>
+<hr>
+<p>ちゃんと気づいてたよ</p>
+<p>でも何か話しかけちゃいけないのかと思って</p>
+<p>話しかけてよ！</p>
+<audio controls>
+<source src="audio/21/007.mp3">
+</audio>
+<hr>
+<p>シャケ入りホットケーキ　食べる？</p>
+<audio controls>
+<source src="audio/21/008.mp3">
+</audio>
+<hr>
+<p>僕は今食欲なんかないの</p>
+<p>どうしたんですか？</p>
+<p>見てわからない？</p>
+<audio controls>
+<source src="audio/21/009.mp3">
+</audio>
+<hr>
+<p>わかんないよ</p>
+<p>僕はね…　僕はね…</p>
+<audio controls>
+<source src="audio/21/010.mp3">
+</audio>
+<hr>
+<p>失恋したんだよ！</p>
+<p>失恋？</p>
+<audio controls>
+<source src="audio/21/011.mp3">
+</audio>
+<hr>
+<p>それは　七輪！</p>
+<p>それは　一輪車！</p>
+<p>それは　三輪車！</p>
+<audio controls>
+<source src="audio/21/012.mp3">
+</audio>
+<hr>
+<p>だから　僕は　失恋して ツッコむ気力もないの！</p>
+<audio controls>
+<source src="audio/21/013.mp3">
+</audio>
+<hr>
+<p>ツッコんでるじゃない</p>
+<p>失恋って　ペン子さん？</p>
+<p>決まってるじゃない！</p>
+<audio controls>
+<source src="audio/21/014.mp3">
+</audio>
+<hr>
+<p>あ…　あの… なんて言ったらいいか…</p>
+<p>何も言わないで　ほっておいてよ</p>
+<audio controls>
+<source src="audio/21/015.mp3">
+</audio>
+<hr>
+<p>パンダくん駅前のベーグル屋さんおいしいらしいよ</p>
+<p>聞いてよ！</p>
+<audio controls>
+<source src="audio/21/016.mp3">
+</audio>
+<hr>
+<p>聞いてほしいんですか？</p>
+<p>当たり前じゃない！</p>
+<p>話せば楽になるぞ</p>
+<audio controls>
+<source src="audio/21/017.mp3">
+</audio>
+<hr>
+<p>刑事さん　実は…</p>
+<p>って…　僕は 犯人じゃないから！</p>
+<p>で…　どうしたの？</p>
+<audio controls>
+<source src="audio/21/018.mp3">
+</audio>
+<hr>
+<p>見ちゃったんだよ</p>
+<p>何を？</p>
+<p>ペン子さんがデートしてるところ…</p>
+<audio controls>
+<source src="audio/21/019.mp3">
+</audio>
+<hr>
+<p>だ…　誰とですか？</p>
+<p>それがなんと驚いたことに…</p>
+<audio controls>
+<source src="audio/21/020.mp3">
+</audio>
+<hr>
+<p>絶対に　ありえない相手で…</p>
+<p>本当に信じられない…</p>
+<p>誰なんですか？</p>
+<p>まさかと思うくらいの…</p>
+<audio controls>
+<source src="audio/21/021.mp3">
+</audio>
+<hr>
+<p>いいから　早く吐け</p>
+<p>って…　僕　犯人じゃないから！</p>
+<p>さっき　公園で 目撃しちゃったんだ</p>
+<audio controls>
+<source src="audio/21/022.mp3">
+</audio>
+<hr>
+<p>ペン子さん！</p>
+<p>こんなところで　めぐり会うなんて</p>
+<p>運命　感じちゃうな！</p>
+<audio controls>
+<source src="audio/21/023.mp3">
+</audio>
+<hr>
+<p>やぁ！　偶然ですねペン…</p>
+<p>お待たせ～</p>
+<p>じゃあ　行きましょう</p>
+<audio controls>
+<source src="audio/21/024.mp3">
+</audio>
+<hr>
+<p>ゾウガメさん？</p>
+<p>本当に？</p>
+<p>ゾウガメさんが？</p>
+<p>そう…　</p>
+<audio controls>
+<source src="audio/21/025.mp3">
+</audio>
+<hr>
+<p>ペン子さんと待ち合わせて デートしてたんだ</p>
+<audio controls>
+<source src="audio/21/026.mp3">
+</audio>
+<hr>
+<p>ステキなカフェですね</p>
+<p>僕…　ここに 甲羅干しに来るんです～</p>
+<audio controls>
+<source src="audio/21/027.mp3">
+</audio>
+<hr>
+<p>まぁ！</p>
+<p>僕も食べたいな～</p>
+<p>はい</p>
+<audio controls>
+<source src="audio/21/028.mp3">
+</audio>
+<hr>
+<p>いい天気</p>
+<p>だね～</p>
+<p>２人で楽しそうにお茶飲んだり</p>
+<p>あ～んってしたり ボートに乗ってたんだよ！</p>
+<audio controls>
+<source src="audio/21/029.mp3">
+</audio>
+<hr>
+<p>それ　どこで聞いてたの？</p>
+<p>そりゃ…</p>
+<audio controls>
+<source src="audio/21/030.mp3">
+</audio>
+<hr>
+<p>なんだか涙ぐましいね</p>
+<audio controls>
+<source src="audio/21/031.mp3">
+</audio>
+<hr>
+<p>でも　それだけじゃ</p>
+<p>恋人同士かどうかわかんないんじゃない？</p>
+<p>それが　決定的なことに…</p>
+<audio controls>
+<source src="audio/21/032.mp3">
+</audio>
+<hr>
+<p>私…　大好きなんですよね</p>
+<p>カ　メ…</p>
+<audio controls>
+<source src="audio/21/033.mp3">
+</audio>
+<hr>
+<p>そんな～っ！</p>
+<p>知らなかった…　ペン子さん カメが大好きだったなんて…</p>
+<p>カメのどこがいいんだろう？</p>
+<audio controls>
+<source src="audio/21/034.mp3">
+</audio>
+<hr>
+<p>ねぇどこがいいんだと思う？</p>
+<p>はっきり言ってよ！</p>
+<p>こ…　</p>
+<audio controls>
+<source src="audio/21/035.mp3">
+</audio>
+<hr>
+<p>甲羅があるとこですかね？</p>
+<p>首とか手足が引っ込むところも キュートかも</p>
+<audio controls>
+<source src="audio/21/036.mp3">
+</audio>
+<hr>
+<p>千年生きるのはすごいよね</p>
+<p>ペ…　ペンギンにだって いいとこあるでしょ？</p>
+<audio controls>
+<source src="audio/21/037.mp3">
+</audio>
+<hr>
+<p>ないの！？</p>
+<p>負けてる…　完璧に負けてるよ</p>
+<p>僕はどうして ペンギンに生まれたんだろう</p>
+<audio controls>
+<source src="audio/21/038.mp3">
+</audio>
+<hr>
+<p>お母さん！　どうして　僕を カメに生んでくれなかったの！？</p>
+<audio controls>
+<source src="audio/21/039.mp3">
+</audio>
+<hr>
+<p>ペンギンさん　あのね</p>
+<p>ペンギンからカメは生まれないんだよ</p>
+<p>わかってるよ！</p>
+<p>あ～あ… こんなことなら思い切って</p>
+<p>ペン子さんを ドライブに誘っとくんだった</p>
+<p>い…　</p>
+<audio controls>
+<source src="audio/21/040.mp3">
+</audio>
+<hr>
+<p>今からでも遅くないですよ</p>
+<audio controls>
+<source src="audio/21/041.mp3">
+</audio>
+<hr>
+<p>せっかく免許も取ったんだし…</p>
+<p>そ…　そうだよね！</p>
+<p>ペン子さんカメ好きなら</p>
+<p>速い乗り物は 好きじゃないかもね</p>
+<audio controls>
+<source src="audio/21/042.mp3">
+</audio>
+<hr>
+<p>ゆっくりじゃないとダメなのか～！</p>
+<p>やっぱ　ダメだ…</p>
+<p>もう　きっぱり ペン子さんのことは諦めよう</p>
+<audio controls>
+<source src="audio/21/043.mp3">
+</audio>
+<hr>
+<p>そうですね</p>
+<p>また　ステキな子が現れるよ</p>
+<p>そうだよね　いつまでも 引きずってちゃダメだよね</p>
+<audio controls>
+<source src="audio/21/044.mp3">
+</audio>
+<hr>
+<p>そうですよ</p>
+<p>やっぱ　諦めちゃダメでしょ！</p>
+<p>どっちなの？</p>
+<audio controls>
+<source src="audio/21/045.mp3">
+</audio>
+<hr>
+<p>でも　ペン子さんには　ゾウガメさんが…</p>
+<p>ペンギンがゾウガメなんかに 負けてたまるか～っ！</p>
+<audio controls>
+<source src="audio/21/046.mp3">
+</audio>
+<hr>
+<p>あっ　ゾウガメさん</p>
+<p>こんにちは～</p>
+<p>ライバル登場だよ</p>
+<audio controls>
+<source src="audio/21/047.mp3">
+</audio>
+<hr>
+<p>ペン子さんの彼氏　来た</p>
+<p>ダメだよ　そんなこと言っちゃ</p>
+<p>これから決闘するの？</p>
+<audio controls>
+<source src="audio/21/048.mp3">
+</audio>
+<hr>
+<p>しないよ</p>
+<p>えっと　こういうのたしか…</p>
+<p>シャバダバ？</p>
+<p>修羅場だよ</p>
+<p>ちょっと黙っててよ！</p>
+<audio controls>
+<source src="audio/21/049.mp3">
+</audio>
+<hr>
+<p>とにかく　ペン子さんと どういうおつきあいなのか</p>
+<p>はっきりさせないと</p>
+<audio controls>
+<source src="audio/21/050.mp3">
+</audio>
+<hr>
+<p>ゾ…　ゾウガメ君！</p>
+<p>なに～？</p>
+<p>あ…　いや…</p>
+<p>いい天気だね</p>
+<audio controls>
+<source src="audio/21/051.mp3">
+</audio>
+<hr>
+<p>ペンギンさん　はっきりさせるんじゃ なかったの？</p>
+<p>わかってるよ！</p>
+<audio controls>
+<source src="audio/21/052.mp3">
+</audio>
+<hr>
+<p>どうかした～？</p>
+<p>あ…　いや…　あのさ！ この間さ　公園で…</p>
+<audio controls>
+<source src="audio/21/053.mp3">
+</audio>
+<hr>
+<p>すごくおいしいマイワシを 食べたんだよね～</p>
+<p>おいしかった～</p>
+<audio controls>
+<source src="audio/21/054.mp3">
+</audio>
+<hr>
+<p>違うでしょ？</p>
+<p>わかってるよ！</p>
+<p>話には順序ってものが…</p>
+<audio controls>
+<source src="audio/21/055.mp3">
+</audio>
+<hr>
+<p>そういえば　あの公園でさ</p>
+<audio controls>
+<source src="audio/21/056.mp3">
+</audio>
+<hr>
+<p>女の子のペンギンと 一緒にいたじゃない？</p>
+<p>あの公園　気持いいよね</p>
+<audio controls>
+<source src="audio/21/057.mp3">
+</audio>
+<hr>
+<p>で　ゾウガメさんとペン子さんは どういう関係？</p>
+<p>あからさまに聞かないでよ！</p>
+<p>それで　</p>
+<audio controls>
+<source src="audio/21/058.mp3">
+</audio>
+<hr>
+<p>ゾウガメさんは どうして一緒に？</p>
+<p>笹子さんまで！？</p>
+<p>なんで　公園に一緒にいたの？</p>
+<p>誘われて～</p>
+<audio controls>
+<source src="audio/21/059.mp3">
+</audio>
+<hr>
+<p>ペン子さんに　誘われた！？</p>
+<p>好きだって～</p>
+<p>カ…　メ…</p>
+<audio controls>
+<source src="audio/21/060.mp3">
+</audio>
+<hr>
+<p>ゾウガメさん　ペン子さんとお幸せに！ うわ～ん！</p>
+<audio controls>
+<source src="audio/21/061.mp3">
+</audio>
+<hr>
+<p>ラ…</p>
+<p>ラ？</p>
+<audio controls>
+<source src="audio/21/062.mp3">
+</audio>
+<hr>
+<p>いや待てよ</p>
+<p>ペン子さんが そんなにカメ好きなら…</p>
+<audio controls>
+<source src="audio/21/063.mp3">
+</audio>
+<hr>
+<p>いらっしゃい</p>
+<audio controls>
+<source src="audio/21/064.mp3">
+</audio>
+<hr>
+<p>こんにちは</p>
+<audio controls>
+<source src="audio/21/065.mp3">
+</audio>
+<hr>
+<p>何やってるの　ペンギンさん</p>
+<p>どこから持ってきたんですか？ その甲羅</p>
+<audio controls>
+<source src="audio/21/066.mp3">
+</audio>
+<hr>
+<p>かたい</p>
+<p>ペン子さんはカメが大好き</p>
+<p>ああ　</p>
+<audio controls>
+<source src="audio/21/067.mp3">
+</audio>
+<hr>
+<p>ペン子さんはね</p>
+<p>カメじゃなくて</p>
+<p>大好きなのは　カメラ</p>
+<audio controls>
+<source src="audio/21/068.mp3">
+</audio>
+<hr>
+<p>最近　カメラが趣味らしいよ</p>
+<p>ゾウガメさんも同じ趣味みたいで</p>
+<audio controls>
+<source src="audio/21/069.mp3">
+</audio>
+<hr>
+<p>大好きなのはね　カメじゃなくてカメラだよ</p>
+<audio controls>
+<source src="audio/21/070.mp3">
+</audio>
+<hr>
+<p>出直してきます</p>
+<audio controls>
+<source src="audio/21/071.mp3">
+</audio>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

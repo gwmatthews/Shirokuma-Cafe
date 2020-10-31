@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>パンダくんの夜遊び</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">パンダくんの夜遊び</h1>
+
+</div>
+
+
+<p>パンダくんの夜遊び</p>
+<audio controls>
+<source src="audio/22/001.mp3">
+</audio>
+<hr>
+<p>お疲れさまでした</p>
+<p>お疲れさま</p>
+<audio controls>
+<source src="audio/22/002.mp3">
+</audio>
+<hr>
+<p>パンダくん　閉店なんだけど</p>
+<audio controls>
+<source src="audio/22/003.mp3">
+</audio>
+<hr>
+<p>パンダくん？</p>
+<p>ああ　おはよう</p>
+<p>もう　夜だよ</p>
+<audio controls>
+<source src="audio/22/004.mp3">
+</audio>
+<hr>
+<p>グリズリーくん</p>
+<p>よう　ちょっと遊びに行こうぜ</p>
+<p>いいよ</p>
+<audio controls>
+<source src="audio/22/005.mp3">
+</audio>
+<hr>
+<p>遊びに行くの？</p>
+<p>僕も行きたい！</p>
+<p>ガキの行くところじゃねぇんだよ</p>
+<audio controls>
+<source src="audio/22/006.mp3">
+</audio>
+<hr>
+<p>大人の夜遊びだ</p>
+<p>夜遊び？</p>
+<p>なんか　すごくおもしろそう</p>
+<audio controls>
+<source src="audio/22/007.mp3">
+</audio>
+<hr>
+<p>何でついてくるんだよ</p>
+<p>グリズリーくんが　誘ったんじゃない</p>
+<p>お前じゃねぇよ</p>
+<audio controls>
+<source src="audio/22/008.mp3">
+</audio>
+<hr>
+<p>コイツだよ</p>
+<p>どこ行くの？</p>
+<audio controls>
+<source src="audio/22/009.mp3">
+</audio>
+<hr>
+<p>というわけで　パンダくん</p>
+<p>今日は残念だけど中止だから帰ろう</p>
+<p>残念</p>
+<audio controls>
+<source src="audio/22/010.mp3">
+</audio>
+<hr>
+<p>何でそうなるんだ！</p>
+<p>ちょっと待て！</p>
+<p>やっぱり行くの？</p>
+<p>行くに決まってんだろ！</p>
+<audio controls>
+<source src="audio/22/011.mp3">
+</audio>
+<hr>
+<p>すごい　ここ何？</p>
+<p>バッティングセンター</p>
+<audio controls>
+<source src="audio/22/012.mp3">
+</audio>
+<hr>
+<p>来たことねぇのか</p>
+<p>何やってんだよ！</p>
+<p>ぶら下がって遊ぶとこじゃねぇんだよ！</p>
+<audio controls>
+<source src="audio/22/013.mp3">
+</audio>
+<hr>
+<p>そうなの？</p>
+<p>ったく…</p>
+<audio controls>
+<source src="audio/22/014.mp3">
+</audio>
+<hr>
+<p>これ気持いいね</p>
+<p>だから　そうじゃねぇんだよ</p>
+<audio controls>
+<source src="audio/22/015.mp3">
+</audio>
+<hr>
+<p>結構　凝りがほぐれるね</p>
+<p>お前までやってんじゃねぇ！</p>
+<audio controls>
+<source src="audio/22/016.mp3">
+</audio>
+<hr>
+<p>じゃあ　ここで何して遊ぶの？</p>
+<p>向こうから来た球を 打ち返すんだよ</p>
+<p>こうやるんだ</p>
+<audio controls>
+<source src="audio/22/017.mp3">
+</audio>
+<hr>
+<p>ナイスキャッチ</p>
+<p>シロクマくんすご～い！</p>
+<p>ピッチャーライナーだね</p>
+<audio controls>
+<source src="audio/22/018.mp3">
+</audio>
+<hr>
+<p>何やってんだよ！！</p>
+<p>僕もやる</p>
+<p>やらなくていいんだよ！</p>
+<audio controls>
+<source src="audio/22/019.mp3">
+</audio>
+<hr>
+<p>大当たり！</p>
+<p>グリズリーさんやったね！</p>
+<audio controls>
+<source src="audio/22/020.mp3">
+</audio>
+<hr>
+<p>なんかもうやる気なくなったぜ</p>
+<p>じゃあ僕がお手本を</p>
+<p>さあ　来い！</p>
+<audio controls>
+<source src="audio/22/021.mp3">
+</audio>
+<hr>
+<p>バット　持ちすぎだろう！</p>
+<p>じゃあ　改めてお手本を</p>
+<audio controls>
+<source src="audio/22/022.mp3">
+</audio>
+<hr>
+<p>バット　使えよ！</p>
+<p>もう　いい… パンダ　とにかく　やってみろ</p>
+<audio controls>
+<source src="audio/22/023.mp3">
+</audio>
+<hr>
+<p>パンダくん　バットを構えて よ～く球を見るんだよ</p>
+<audio controls>
+<source src="audio/22/024.mp3">
+</audio>
+<hr>
+<p>いや　そうじゃなくてな…</p>
+<p>ボールを　しっかり見て</p>
+<p>じ～～～</p>
+<p>こう？</p>
+<p>打てよ</p>
+<audio controls>
+<source src="audio/22/025.mp3">
+</audio>
+<hr>
+<p>やっぱり？</p>
+<p>やっぱりじゃねぇ！ バットで当てろ！！</p>
+<audio controls>
+<source src="audio/22/026.mp3">
+</audio>
+<hr>
+<p>ナイスショット</p>
+<p>やったぁ！</p>
+<p>ゴルフじゃねぇ！！</p>
+<audio controls>
+<source src="audio/22/027.mp3">
+</audio>
+<hr>
+<p>積み木じゃねぇ！</p>
+<p>ビリヤードじゃねぇ！</p>
+<audio controls>
+<source src="audio/22/028.mp3">
+</audio>
+<hr>
+<p>ああ　おもしろかった</p>
+<p>全然　バッティングしてねぇけどな</p>
+<p>次　いくぞ</p>
+<p>また　どこか行くの？</p>
+<audio controls>
+<source src="audio/22/029.mp3">
+</audio>
+<hr>
+<p>夜はこれからだからな</p>
+<p>これからなんだ…</p>
+<p>次は　どこかな？</p>
+<audio controls>
+<source src="audio/22/030.mp3">
+</audio>
+<hr>
+<p>風呂だ！</p>
+<p>広い！</p>
+<p>すごいね！</p>
+<p>すげぇだろう？</p>
+<audio controls>
+<source src="audio/22/031.mp3">
+</audio>
+<hr>
+<p>本当だ！</p>
+<audio controls>
+<source src="audio/22/032.mp3">
+</audio>
+<hr>
+<p>すごいよ！！</p>
+<p>そういう　すげぇじゃ ねぇんだけどな…</p>
+<p>ほら　ほら</p>
+<p>まずはちゃんと体洗えよ</p>
+<audio controls>
+<source src="audio/22/033.mp3">
+</audio>
+<hr>
+<p>背中　流してあげようか？</p>
+<p>うん　頼むよ</p>
+<audio controls>
+<source src="audio/22/034.mp3">
+</audio>
+<hr>
+<p>背中　流してあげようか？</p>
+<p>おう　お前も ちったぁ気が利くじゃねぇか</p>
+<audio controls>
+<source src="audio/22/035.mp3">
+</audio>
+<hr>
+<p>やめろ 何か　こそばゆいぞ</p>
+<p>パンダくん もっと強くこするんだよ</p>
+<audio controls>
+<source src="audio/22/036.mp3">
+</audio>
+<hr>
+<p>イテーッ！！　ツメ　立てんな　ツメ！</p>
+<p>あっ　ごめん</p>
+<audio controls>
+<source src="audio/22/037.mp3">
+</audio>
+<hr>
+<p>目に染みるよ</p>
+<p>早く流せ</p>
+<p>グリズリーさん…</p>
+<p>誰？</p>
+<audio controls>
+<source src="audio/22/038.mp3">
+</audio>
+<hr>
+<p>ハア…　</p>
+<p>すっきり</p>
+<p>グリズリーさんも流してあげるよ</p>
+<p>おう　頼むぜ</p>
+<p>アチーッ！！　熱いじゃねえか！</p>
+<p>ごめんなさい…</p>
+<audio controls>
+<source src="audio/22/039.mp3">
+</audio>
+<hr>
+<p>赤いほうを回すとお湯で</p>
+<p>青いほうが水だからな</p>
+<audio controls>
+<source src="audio/22/040.mp3">
+</audio>
+<hr>
+<p>わかった</p>
+<p>冷てぇ！！　ちゃんと調節しろよ！</p>
+<p>ごめんなさい…</p>
+<audio controls>
+<source src="audio/22/041.mp3">
+</audio>
+<hr>
+<p>アチーッ！！</p>
+<p>冷てぇ！！</p>
+<p>アチーッ！！</p>
+<p>冷てぇ！！</p>
+<audio controls>
+<source src="audio/22/042.mp3">
+</audio>
+<hr>
+<p>えっと…　えっと…</p>
+<p>パンダ…　もういい　気持だけ　もらっとく</p>
+<audio controls>
+<source src="audio/22/043.mp3">
+</audio>
+<hr>
+<p>いいニオイになったね</p>
+<p>何の香りだ？　ここのシャンプー</p>
+<p>うん　すごく　おいしそうなニオイ</p>
+<audio controls>
+<source src="audio/22/044.mp3">
+</audio>
+<hr>
+<p>これ</p>
+<p>クマザサシャンプーだね</p>
+<p>飲めないかな？</p>
+<p>飲むんじゃねぇぞ</p>
+<audio controls>
+<source src="audio/22/045.mp3">
+</audio>
+<hr>
+<p>というわけで　パンダくん お風呂に入れてみよう</p>
+<p>いいね</p>
+<p>よくねぇ　やめろ</p>
+<audio controls>
+<source src="audio/22/046.mp3">
+</audio>
+<hr>
+<p>わ～い！ わ～い　飛んだ飛んだ！</p>
+<p>そうそう　うまい　うまい</p>
+<p>あれ　どうやるの？</p>
+<p>こうだよ</p>
+<audio controls>
+<source src="audio/22/047.mp3">
+</audio>
+<hr>
+<p>やめろ！</p>
+<p>ったく！</p>
+<p>どこ行くの？</p>
+<p>俺は　サウナが好きなんだ</p>
+<audio controls>
+<source src="audio/22/048.mp3">
+</audio>
+<hr>
+<p>それは　魚！</p>
+<p>それは　アンテナ！</p>
+<p>それは　手品！</p>
+<p>サウナって何？</p>
+<audio controls>
+<source src="audio/22/049.mp3">
+</audio>
+<hr>
+<p>ふぅ～　なんかすごい汗出るよ</p>
+<p>それがサウナのいいところだ</p>
+<p>蒸されてる感じ</p>
+<audio controls>
+<source src="audio/22/050.mp3">
+</audio>
+<hr>
+<p>これが体にいいんだよ！</p>
+<p>もう限界…</p>
+<audio controls>
+<source src="audio/22/051.mp3">
+</audio>
+<hr>
+<p>情けねぇな</p>
+<p>僕も　もうダメ…</p>
+<p>辛抱が足りねぇな</p>
+<audio controls>
+<source src="audio/22/052.mp3">
+</audio>
+<hr>
+<p>今日は　やけに 時間が長く感じるぜ</p>
+<audio controls>
+<source src="audio/22/053.mp3">
+</audio>
+<hr>
+<p>俺も　もう限界…</p>
+<p>出よう</p>
+<audio controls>
+<source src="audio/22/054.mp3">
+</audio>
+<hr>
+<p>テメエらの仕業か！</p>
+<audio controls>
+<source src="audio/22/055.mp3">
+</audio>
+<hr>
+<p>おもしろかった！</p>
+<p>夜遊びって　おもしろいね</p>
+<p>小腹も空いたし</p>
+<audio controls>
+<source src="audio/22/056.mp3">
+</audio>
+<hr>
+<p>ちょっと一杯やってくか</p>
+<p>いいね</p>
+<p>えっ？　なになに？</p>
+<audio controls>
+<source src="audio/22/057.mp3">
+</audio>
+<hr>
+<p>へい　らっしゃい！</p>
+<p>おや　今日は新顔さんもご一緒で</p>
+<p>親父　とりあえず　生２つ</p>
+<audio controls>
+<source src="audio/22/058.mp3">
+</audio>
+<hr>
+<p>あとアイスコーヒーください</p>
+<p>カフェじゃねぇんだぞ</p>
+<audio controls>
+<source src="audio/22/059.mp3">
+</audio>
+<hr>
+<p>ああ　おいしそう！</p>
+<p>串ごと食うなよ</p>
+<audio controls>
+<source src="audio/22/060.mp3">
+</audio>
+<hr>
+<p>おいしい！</p>
+<p>まぁ　ぐいっと！</p>
+<p>ああ　すみません</p>
+<p>夜遊びって最高だね！</p>
+<p>だろ！</p>
+<p>人生はな</p>
+<audio controls>
+<source src="audio/22/061.mp3">
+</audio>
+<hr>
+<p>昼もあれば夜もある</p>
+<p>明るいときもあれば 暗いときもある</p>
+<p>暗いときにも楽しいことはたくさんあるんだよ</p>
+<audio controls>
+<source src="audio/22/062.mp3">
+</audio>
+<hr>
+<p>どっちもあるから いいんだよね</p>
+<p>お客さん　深いね</p>
+<p>そうだよね</p>
+<p>パンダも白いとこと黒いとこ　両方あるからいいんだもんね</p>
+<audio controls>
+<source src="audio/22/063.mp3">
+</audio>
+<hr>
+<p>おお　そうだな！ そのとおりだ！</p>
+<p>だね</p>
+<audio controls>
+<source src="audio/22/064.mp3">
+</audio>
+<hr>
+<p>グリズリーくん</p>
+<p>すっかり寝ちゃったね　パンダくん</p>
+<audio controls>
+<source src="audio/22/065.mp3">
+</audio>
+<hr>
+<p>なんで俺がコイツをおぶって 帰んなきゃなんねぇんだよ</p>
+<audio controls>
+<source src="audio/22/066.mp3">
+</audio>
+<hr>
+<p>楽しかった…</p>
+<p>楽しかったって</p>
+<audio controls>
+<source src="audio/22/067.mp3">
+</audio>
+<hr>
+<p>まっ　また連れてきてやっても いいかな</p>
+<audio controls>
+<source src="audio/22/068.mp3">
+</audio>
+<hr>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
