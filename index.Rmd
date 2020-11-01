@@ -65,3 +65,8 @@ episode 11
 - [ペンギンさんの失恋](Shirokuma-Cafe-21.html)
 - [パンダくんの夜遊び](Shirokuma-Cafe-22.html)
 
+episode 12
+
+- [パンダくんヒマに困る](Shirokuma-Cafe-23.html)
+- [パンダの悩み相談室](Shirokuma-Cafe-24.html)
+
