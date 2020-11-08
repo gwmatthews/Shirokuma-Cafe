@@ -1,3 +1,0 @@
-
-ffmpeg -i file.mkv -f mp3 -ab 192000 -vn file.mp3     ## to extract audio from video
-
