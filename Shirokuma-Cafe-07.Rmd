@@ -4,7 +4,7 @@ title: "スマフォに夢中"
 
 スマフォに夢中
 
-<audio controls>
+<audio>
 <source src="audio/07/001.mp3">
 </audio><hr>
 
@@ -12,7 +12,7 @@ title: "スマフォに夢中"
 
 それ　楽しい？
 
-<audio controls>
+<audio>
 <source src="audio/07/002.mp3">
 </audio><hr>
 
@@ -21,7 +21,7 @@ title: "スマフォに夢中"
 
 どんな時？
 
-<audio controls>
+<audio>
 <source src="audio/07/003.mp3">
 </audio><hr>
 
@@ -33,7 +33,7 @@ title: "スマフォに夢中"
 
 シロクマだね
 
-<audio controls>
+<audio>
 <source src="audio/07/004.mp3">
 </audio><hr>
 
@@ -45,7 +45,7 @@ title: "スマフォに夢中"
 
 写真撮っていいかな？
 
-<audio controls>
+<audio>
 <source src="audio/07/005.mp3">
 </audio><hr>
 
@@ -55,13 +55,13 @@ title: "スマフォに夢中"
 
 買ったんだ　スマフォ
 
-<audio controls>
+<audio>
 <source src="audio/07/006.mp3">
 </audio><hr>
 
 なに？　スマフォって
 
-<audio controls>
+<audio>
 <source src="audio/07/007.mp3">
 </audio><hr>
 
@@ -79,7 +79,7 @@ title: "スマフォに夢中"
 
 スマフォだよ！　ス　マ　フォ！
 
-<audio controls>
+<audio>
 <source src="audio/07/008.mp3">
 </audio><hr>
 
@@ -87,7 +87,7 @@ title: "スマフォに夢中"
 
 あっ！　ペンギンさん それが　スマートフォンですか？
 
-<audio controls>
+<audio>
 <source src="audio/07/009.mp3">
 </audio><hr>
 
@@ -95,7 +95,7 @@ title: "スマフォに夢中"
 
 え？　笹子さんも？
 
-<audio controls>
+<audio>
 <source src="audio/07/010.mp3">
 </audio><hr>
 
@@ -103,25 +103,25 @@ title: "スマフォに夢中"
 
 いろいろ便利だよ　アプリも多いし
 
-<audio controls>
+<audio>
 <source src="audio/07/011.mp3">
 </audio><hr>
 
 地図とかも見られますしね
 
-<audio controls>
+<audio>
 <source src="audio/07/012.mp3">
 </audio><hr>
 
 ネットだって見られるんだよ　ほら
 
-<audio controls>
+<audio>
 <source src="audio/07/013.mp3">
 </audio><hr>
 
 なんか　小さくて 字　読みづらくないですか？
 
-<audio controls>
+<audio>
 <source src="audio/07/014.mp3">
 </audio><hr>
 
@@ -133,7 +133,7 @@ title: "スマフォに夢中"
 
 違うよ
 
-<audio controls>
+<audio>
 <source src="audio/07/015.mp3">
 </audio><hr>
 
@@ -141,7 +141,7 @@ title: "スマフォに夢中"
 
 似たようなもんでしょ
 
-<audio controls>
+<audio>
 <source src="audio/07/016.mp3">
 </audio><hr>
 
@@ -153,7 +153,7 @@ title: "スマフォに夢中"
 
 よっ…
 
-<audio controls>
+<audio>
 <source src="audio/07/017.mp3">
 </audio><hr>
 
@@ -163,7 +163,7 @@ title: "スマフォに夢中"
 
 え～と　こうやって…
 
-<audio controls>
+<audio>
 <source src="audio/07/018.mp3">
 </audio><hr>
 
@@ -171,7 +171,7 @@ title: "スマフォに夢中"
 
 あれ？　シロクマくんも持ってたの？
 
-<audio controls>
+<audio>
 <source src="audio/07/019.mp3">
 </audio><hr>
 
@@ -183,7 +183,7 @@ title: "スマフォに夢中"
 
 シロクマさん　器用ですね
 
-<audio controls>
+<audio>
 <source src="audio/07/020.mp3">
 </audio><hr>
 
@@ -193,7 +193,7 @@ title: "スマフォに夢中"
 
 ほんと器用ですね！
 
-<audio controls>
+<audio>
 <source src="audio/07/021.mp3">
 </audio><hr>
 
@@ -203,7 +203,7 @@ title: "スマフォに夢中"
 
 駄目だ…
 
-<audio controls>
+<audio>
 <source src="audio/07/022.mp3">
 </audio><hr>
 
@@ -213,7 +213,7 @@ title: "スマフォに夢中"
 
 僕も　スマフォですし
 
-<audio controls>
+<audio>
 <source src="audio/07/023.mp3">
 </audio><hr>
 
@@ -223,7 +223,7 @@ title: "スマフォに夢中"
 
 ラマさん　そういう君こそ 上手に操作できるの？
 
-<audio controls>
+<audio>
 <source src="audio/07/024.mp3">
 </audio><hr>
 
@@ -231,7 +231,7 @@ title: "スマフォに夢中"
 
 おぉ～　すごい！ なんて柔軟な発想！
 
-<audio controls>
+<audio>
 <source src="audio/07/025.mp3">
 </audio><hr>
 
@@ -241,7 +241,7 @@ title: "スマフォに夢中"
 
 するする
 
-<audio controls>
+<audio>
 <source src="audio/07/026.mp3">
 </audio><hr>
 
@@ -249,7 +249,7 @@ title: "スマフォに夢中"
 
 え？ なになに？　教えて！
 
-<audio controls>
+<audio>
 <source src="audio/07/027.mp3">
 </audio><hr>
 
@@ -259,7 +259,7 @@ title: "スマフォに夢中"
 
 そうだよ
 
-<audio controls>
+<audio>
 <source src="audio/07/028.mp3">
 </audio><hr>
 
@@ -269,13 +269,13 @@ title: "スマフォに夢中"
 
 えっとね…
 
-<audio controls>
+<audio>
 <source src="audio/07/029.mp3">
 </audio><hr>
 
 画面を ちまちま触って操作したり…
 
-<audio controls>
+<audio>
 <source src="audio/07/030.mp3">
 </audio><hr>
 
@@ -283,7 +283,7 @@ title: "スマフォに夢中"
 
 くちばしで　つついたり…
 
-<audio controls>
+<audio>
 <source src="audio/07/031.mp3">
 </audio><hr>
 
@@ -291,7 +291,7 @@ title: "スマフォに夢中"
 
 読みづらいんだよ
 
-<audio controls>
+<audio>
 <source src="audio/07/032.mp3">
 </audio><hr>
 
@@ -299,7 +299,7 @@ title: "スマフォに夢中"
 
 あれ？
 
-<audio controls>
+<audio>
 <source src="audio/07/033.mp3">
 </audio><hr>
 
@@ -307,7 +307,7 @@ title: "スマフォに夢中"
 
 駄目だよ　困るよ
 
-<audio controls>
+<audio>
 <source src="audio/07/034.mp3">
 </audio><hr>
 
@@ -317,7 +317,7 @@ title: "スマフォに夢中"
 
 それだと困るなぁ
 
-<audio controls>
+<audio>
 <source src="audio/07/035.mp3">
 </audio><hr>
 
@@ -327,7 +327,7 @@ title: "スマフォに夢中"
 
 何かあったときね…
 
-<audio controls>
+<audio>
 <source src="audio/07/036.mp3">
 </audio><hr>
 
@@ -337,7 +337,7 @@ title: "スマフォに夢中"
 
 うん　いいよ
 
-<audio controls>
+<audio>
 <source src="audio/07/037.mp3">
 </audio><hr>
 
@@ -347,7 +347,7 @@ title: "スマフォに夢中"
 
 やった～！
 
-<audio controls>
+<audio>
 <source src="audio/07/038.mp3">
 </audio><hr>
 
@@ -357,7 +357,7 @@ title: "スマフォに夢中"
 
 この前撮った写真 待ち受けにしてみたんだ
 
-<audio controls>
+<audio>
 <source src="audio/07/039.mp3">
 </audio><hr>
 
@@ -367,7 +367,7 @@ title: "スマフォに夢中"
 
 そっちの感想！？
 
-<audio controls>
+<audio>
 <source src="audio/07/040.mp3">
 </audio><hr>
 
@@ -377,7 +377,7 @@ title: "スマフォに夢中"
 
 パンダくん　嬉しそうだね
 
-<audio controls>
+<audio>
 <source src="audio/07/041.mp3">
 </audio><hr>
 
@@ -391,7 +391,7 @@ title: "スマフォに夢中"
 
 かわいいね！
 
-<audio controls>
+<audio>
 <source src="audio/07/042.mp3">
 </audio><hr>
 
@@ -401,25 +401,25 @@ title: "スマフォに夢中"
 
 やっぱり便利だよね
 
-<audio controls>
+<audio>
 <source src="audio/07/043.mp3">
 </audio><hr>
 
 ほら　好きな時に　いつだって 天気予報も見られるしね
 
-<audio controls>
+<audio>
 <source src="audio/07/044.mp3">
 </audio><hr>
 
 地図も見られるから 迷子にならなくて済むし
 
-<audio controls>
+<audio>
 <source src="audio/07/045.mp3">
 </audio><hr>
 
 頭にのせて バランス感覚も　みがけるし
 
-<audio controls>
+<audio>
 <source src="audio/07/046.mp3">
 </audio><hr>
 
@@ -429,7 +429,7 @@ title: "スマフォに夢中"
 
 ぼ　僕だって 待ち受けかえてるし
 
-<audio controls>
+<audio>
 <source src="audio/07/047.mp3">
 </audio><hr>
 
@@ -439,7 +439,7 @@ title: "スマフォに夢中"
 
 音楽だって聴けるしね
 
-<audio controls>
+<audio>
 <source src="audio/07/048.mp3">
 </audio><hr>
 
@@ -449,7 +449,7 @@ title: "スマフォに夢中"
 
 だって
 
-<audio controls>
+<audio>
 <source src="audio/07/049.mp3">
 </audio><hr>
 
@@ -459,13 +459,13 @@ title: "スマフォに夢中"
 
 はい　パンダくん
 
-<audio controls>
+<audio>
 <source src="audio/07/050.mp3">
 </audio><hr>
 
 僕にとって…　スマフォは パンダカバーのおまけだから
 
-<audio controls>
+<audio>
 <source src="audio/07/051.mp3">
 </audio><hr>
 
@@ -473,7 +473,7 @@ title: "スマフォに夢中"
 
 さっき電話したのよ
 
-<audio controls>
+<audio>
 <source src="audio/07/052.mp3">
 </audio><hr>
 
@@ -481,7 +481,7 @@ title: "スマフォに夢中"
 
  バ　ル　サ　ミ　コ　酢よ　バールーサーミーコー酢！
  
- <audio controls>
+ <audio>
 <source src="audio/07/053.mp3">
 </audio><hr>
 
@@ -489,7 +489,7 @@ title: "スマフォに夢中"
 
 えっ？
 
-<audio controls>
+<audio>
 <source src="audio/07/054.mp3">
 </audio><hr>
 
@@ -499,7 +499,7 @@ title: "スマフォに夢中"
 
 どっちだっていいじゃない
 
-<audio controls>
+<audio>
 <source src="audio/07/055.mp3">
 </audio><hr>
 
@@ -507,7 +507,7 @@ title: "スマフォに夢中"
 
 シロクマくん　いつものお願い
 
-<audio controls>
+<audio>
 <source src="audio/07/056.mp3">
 </audio><hr>
 
@@ -515,7 +515,7 @@ title: "スマフォに夢中"
 
 何が？
 
-<audio controls>
+<audio>
 <source src="audio/07/057.mp3">
 </audio><hr>
 
@@ -523,7 +523,7 @@ title: "スマフォに夢中"
 
 パンダくんのスマフォ　ここにあるからね
 
-<audio controls>
+<audio>
 <source src="audio/07/058.mp3">
 </audio><hr>
 
@@ -533,7 +533,7 @@ title: "スマフォに夢中"
 
 本気　
 
-<audio controls>
+<audio>
 <source src="audio/07/059.mp3">
 </audio><hr>
 
@@ -541,13 +541,13 @@ title: "スマフォに夢中"
 
 えっ？　せっかく買ったんだから 大事に使ったら？
 
-<audio controls>
+<audio>
 <source src="audio/07/060.mp3">
 </audio><hr>
 
 パンダくん　これ見て　スマフォのケース
 
-<audio controls>
+<audio>
 <source src="audio/07/061.mp3">
 </audio><hr>
 
@@ -555,7 +555,7 @@ title: "スマフォに夢中"
 
 あっ　パンダだ～！
 
-<audio controls>
+<audio>
 <source src="audio/07/062.mp3">
 </audio><hr>
 
@@ -565,13 +565,13 @@ title: "スマフォに夢中"
 
 シロクマさん　さすが！
 
-<audio controls>
+<audio>
 <source src="audio/07/063.mp3">
 </audio><hr>
 
 フフッ　やっぱり　パンダは最高だね
 
-<audio controls>
+<audio>
 <source src="audio/07/064.mp3">
 </audio><hr>
 

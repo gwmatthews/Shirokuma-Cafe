@@ -4,7 +4,7 @@ title: "みんなのパフェ"
 
 みんなのパフェ
 
-<audio controls>
+<audio>
 <source src="audio/10/001.mp3">
 </audio><hr>
 
@@ -12,7 +12,7 @@ title: "みんなのパフェ"
 
 シロクマくん？
 
-<audio controls>
+<audio>
 <source src="audio/10/002.mp3">
 </audio><hr>
 
@@ -22,7 +22,7 @@ title: "みんなのパフェ"
 
 おだんご？
 
-<audio controls>
+<audio>
 <source src="audio/10/003.mp3">
 </audio><hr>
 
@@ -30,7 +30,7 @@ title: "みんなのパフェ"
 
 そうなんだ
 
-<audio controls>
+<audio>
 <source src="audio/10/004.mp3">
 </audio><hr>
 
@@ -40,7 +40,7 @@ title: "みんなのパフェ"
 
 スペシャルメニュー？
 
-<audio controls>
+<audio>
 <source src="audio/10/005.mp3">
 </audio><hr>
 
@@ -50,7 +50,7 @@ title: "みんなのパフェ"
 
 ああ　自動車教習所ね
 
-<audio controls>
+<audio>
 <source src="audio/10/006.mp3">
 </audio><hr>
 
@@ -58,7 +58,7 @@ title: "みんなのパフェ"
 
 どう細かいんですか？
 
-<audio controls>
+<audio>
 <source src="audio/10/007.mp3">
 </audio><hr>
 
@@ -68,7 +68,7 @@ title: "みんなのパフェ"
 
 ハンドルを握るときには 手を　パタパタさせるな！　とか
 
-<audio controls>
+<audio>
 <source src="audio/10/008.mp3">
 </audio><hr>
 
@@ -78,7 +78,7 @@ title: "みんなのパフェ"
 
 いつまでたってもペン子さんを　ドライブデートに誘えないよ
 
-<audio controls>
+<audio>
 <source src="audio/10/009.mp3">
 </audio><hr>
 
@@ -94,7 +94,7 @@ title: "みんなのパフェ"
 
 デートだってば！！
 
-<audio controls>
+<audio>
 <source src="audio/10/010.mp3">
 </audio><hr>
 
@@ -104,7 +104,7 @@ title: "みんなのパフェ"
 
 シロクマくんなら　どうする？
 
-<audio controls>
+<audio>
 <source src="audio/10/011.mp3">
 </audio><hr>
 
@@ -116,7 +116,7 @@ title: "みんなのパフェ"
 
 へえ～っ　なんか大人だね
 
-<audio controls>
+<audio>
 <source src="audio/10/012.mp3">
 </audio><hr>
 
@@ -126,7 +126,7 @@ title: "みんなのパフェ"
 
 ひたすら　待って　待って　待って
 
-<audio controls>
+<audio>
 <source src="audio/10/013.mp3">
 </audio><hr>
 
@@ -136,7 +136,7 @@ title: "みんなのパフェ"
 
 シロクマくん　ちゃんと考えてよ！
 
-<audio controls>
+<audio>
 <source src="audio/10/014.mp3">
 </audio><hr>
 
@@ -148,7 +148,7 @@ title: "みんなのパフェ"
 
 パフェですか　いいですね
 
-<audio controls>
+<audio>
 <source src="audio/10/015.mp3">
 </audio><hr>
 
@@ -160,7 +160,7 @@ title: "みんなのパフェ"
 
 なかなか決まらなくて
 
-<audio controls>
+<audio>
 <source src="audio/10/016.mp3">
 </audio><hr>
 
@@ -168,7 +168,7 @@ title: "みんなのパフェ"
 
 僕　パフェ好き
 
-<audio controls>
+<audio>
 <source src="audio/10/017.mp3">
 </audio><hr>
 
@@ -180,7 +180,7 @@ title: "みんなのパフェ"
 
 よし　決まり
 
-<audio controls>
+<audio>
 <source src="audio/10/018.mp3">
 </audio><hr>
 
@@ -188,7 +188,7 @@ title: "みんなのパフェ"
 
 言えてないよね
 
-<audio controls>
+<audio>
 <source src="audio/10/019.mp3">
 </audio><hr>
 
@@ -196,7 +196,7 @@ title: "みんなのパフェ"
 
 間違いはないけど　フェアなのに 定番だけじゃつまらない
 
-<audio controls>
+<audio>
 <source src="audio/10/020.mp3">
 </audio><hr>
 
@@ -209,7 +209,7 @@ title: "みんなのパフェ"
 
 をするんですよね？ 
 
-<audio controls>
+<audio>
 <source src="audio/10/021.mp3">
 </audio><hr>
 
@@ -219,7 +219,7 @@ title: "みんなのパフェ"
 
 だったらマンドリルパフェは　どうですか？
 
-<audio controls>
+<audio>
 <source src="audio/10/022.mp3">
 </audio><hr>
 
@@ -229,13 +229,13 @@ title: "みんなのパフェ"
 
 それはもう　すごい迫力なんです！
 
-<audio controls>
+<audio>
 <source src="audio/10/023.mp3">
 </audio><hr>
 
 パフェに迫力はいらないかな
 
-<audio controls>
+<audio>
 <source src="audio/10/024.mp3">
 </audio><hr>
 
@@ -245,7 +245,7 @@ title: "みんなのパフェ"
 
 ああ　ラマさん
 
-<audio controls>
+<audio>
 <source src="audio/10/025.mp3">
 </audio><hr>
 
@@ -259,7 +259,7 @@ title: "みんなのパフェ"
 
 ステキなパフェを思いついたんですよ
 
-<audio controls>
+<audio>
 <source src="audio/10/026.mp3">
 </audio><hr>
 
@@ -271,7 +271,7 @@ title: "みんなのパフェ"
 
 草　大盛りパフェです
 
-<audio controls>
+<audio>
 <source src="audio/10/027.mp3">
 </audio><hr>
 
@@ -283,19 +283,19 @@ title: "みんなのパフェ"
 
 その上に水煮の草が のっていていてですね
 
-<audio controls>
+<audio>
 <source src="audio/10/028.mp3">
 </audio><hr>
 
 更に　その上に覆いかぶさるように 産地直送の草がのるんです
 
-<audio controls>
+<audio>
 <source src="audio/10/029.mp3">
 </audio><hr>
 
 いや　それすでにパフェじゃないし どっちかっていうとサラダかな
 
-<audio controls>
+<audio>
 <source src="audio/10/030.mp3">
 </audio><hr>
 
@@ -303,7 +303,7 @@ title: "みんなのパフェ"
 
 シロクマさ～ん　ここです！
 
-<audio controls>
+<audio>
 <source src="audio/10/031.mp3">
 </audio><hr>
 
@@ -311,7 +311,7 @@ title: "みんなのパフェ"
 
 は…　話があるから…
 
-<audio controls>
+<audio>
 <source src="audio/10/032.mp3">
 </audio><hr>
 
@@ -323,7 +323,7 @@ title: "みんなのパフェ"
 
 甲羅パフェは？
 
-<audio controls>
+<audio>
 <source src="audio/10/033.mp3">
 </audio><hr>
 
@@ -331,7 +331,7 @@ title: "みんなのパフェ"
 
 食べづらいかな
 
-<audio controls>
+<audio>
 <source src="audio/10/034.mp3">
 </audio><hr>
 
@@ -339,7 +339,7 @@ title: "みんなのパフェ"
 
 何が　いいかな？
 
-<audio controls>
+<audio>
 <source src="audio/10/035.mp3">
 </audio><hr>
 
@@ -351,7 +351,7 @@ title: "みんなのパフェ"
 
 すごいパフェを考えました
 
-<audio controls>
+<audio>
 <source src="audio/10/036.mp3">
 </audio><hr>
 
@@ -363,7 +363,7 @@ title: "みんなのパフェ"
 
 すごく　うごめいている！
 
-<audio controls>
+<audio>
 <source src="audio/10/037.mp3">
 </audio><hr>
 
@@ -371,7 +371,7 @@ title: "みんなのパフェ"
 
 だから　めちゃくちゃ　生き生きと うごめいている　黒ゴマ的トッピングの…
 
-<audio controls>
+<audio>
 <source src="audio/10/038.mp3">
 </audio><hr>
 
@@ -379,7 +379,7 @@ title: "みんなのパフェ"
 
 どうしたの？　シロクマくん
 
-<audio controls>
+<audio>
 <source src="audio/10/039.mp3">
 </audio><hr>
 
@@ -387,7 +387,7 @@ title: "みんなのパフェ"
 
 暴走？(;ﾟДﾟ)!
 
-<audio controls>
+<audio>
 <source src="audio/10/040.mp3">
 </audio><hr>
 
@@ -395,7 +395,7 @@ title: "みんなのパフェ"
 
 はい　は～い！　僕に　いいアイディア
 
-<audio controls>
+<audio>
 <source src="audio/10/041.mp3">
 </audio><hr>
 
@@ -407,7 +407,7 @@ title: "みんなのパフェ"
 
 すごいでしょ？
 
-<audio controls>
+<audio>
 <source src="audio/10/042.mp3">
 </audio><hr>
 
@@ -415,7 +415,7 @@ title: "みんなのパフェ"
 
 刻んだ竹が いっぱい　のっかってるの
 
-<audio controls>
+<audio>
 <source src="audio/10/043.mp3">
 </audio><hr>
 
@@ -425,7 +425,7 @@ title: "みんなのパフェ"
 
 そう？ こんなに　おいしそうなのに？
 
-<audio controls>
+<audio>
 <source src="audio/10/044.mp3">
 </audio><hr>
 
@@ -435,13 +435,13 @@ title: "みんなのパフェ"
 
 任せておけないよ
 
-<audio controls>
+<audio>
 <source src="audio/10/045.mp3">
 </audio><hr>
 
 よし　ここは　僕のアイディアを…
 
-<audio controls>
+<audio>
 <source src="audio/10/046.mp3">
 </audio><hr>
 
@@ -451,7 +451,7 @@ title: "みんなのパフェ"
 
 ダメ？
 
-<audio controls>
+<audio>
 <source src="audio/10/047.mp3">
 </audio><hr>
 
@@ -463,13 +463,13 @@ title: "みんなのパフェ"
 
 オシャレなお刺身？
 
-<audio controls>
+<audio>
 <source src="audio/10/048.mp3">
 </audio><hr>
 
 あっ！ こういうのは　どうでしょうか？
 
-<audio controls>
+<audio>
 <source src="audio/10/049.mp3">
 </audio><hr>
 
@@ -477,13 +477,13 @@ title: "みんなのパフェ"
 
 パンダの頭は　バニラアイスで 耳や顔は　チョコレートです
 
-<audio controls>
+<audio>
 <source src="audio/10/050.mp3">
 </audio><hr>
 
 わぁ～！　パフェになっても パンダって　やっぱり　かわいいね
 
-<audio controls>
+<audio>
 <source src="audio/10/051.mp3">
 </audio><hr>
 
@@ -493,7 +493,7 @@ title: "みんなのパフェ"
 
 いいね！
 
-<audio controls>
+<audio>
 <source src="audio/10/052.mp3">
 </audio><hr>
 
@@ -509,31 +509,31 @@ title: "みんなのパフェ"
 
 えっ！？　いいんですか？
 
-<audio controls>
+<audio>
 <source src="audio/10/053.mp3">
 </audio><hr>
 
 では… いただきます！
 
-<audio controls>
+<audio>
 <source src="audio/10/054.mp3">
 </audio><hr>
 
 まずは　パンダさんから！
 
-<audio controls>
+<audio>
 <source src="audio/10/055.mp3">
 </audio><hr>
 
 じゃあ　ペンギンさんも！
 
-<audio controls>
+<audio>
 <source src="audio/10/056.mp3">
 </audio><hr>
 
 じゃあ　シロクマさんも！
 
-<audio controls>
+<audio>
 <source src="audio/10/057.mp3">
 </audio><hr>
 
@@ -545,7 +545,7 @@ title: "みんなのパフェ"
 
 よかった！　大人気です
 
-<audio controls>
+<audio>
 <source src="audio/10/058.mp3">
 </audio><hr>
 
@@ -553,7 +553,7 @@ title: "みんなのパフェ"
 
 ちょっと　聞いてよ！ また　今日も落とされたよ
 
-<audio controls>
+<audio>
 <source src="audio/10/060.mp3">
 </audio><hr>
 
@@ -563,7 +563,7 @@ title: "みんなのパフェ"
 
 新メニューのフェアが大人気らしいよ
 
-<audio controls>
+<audio>
 <source src="audio/10/061.mp3">
 </audio><hr>
 
@@ -571,13 +571,13 @@ title: "みんなのパフェ"
 
 ワンプレートランチフェア
 
-<audio controls>
+<audio>
 <source src="audio/10/062.mp3">
 </audio><hr>
 
 パフェじゃないんだ？
 
-<audio controls>
+<audio>
 <source src="audio/10/063.mp3">
 </audio><hr>
 
@@ -587,7 +587,7 @@ title: "みんなのパフェ"
 
 何も言わないで
 
-<audio controls>
+<audio>
 <source src="audio/10/064.mp3">
 </audio><hr>
 
@@ -595,7 +595,7 @@ title: "みんなのパフェ"
 
 嫌だってこといいかな
 
-<audio controls>
+<audio>
 <source src="audio/10/065.mp3">
 </audio><hr>
 
@@ -609,7 +609,7 @@ title: "みんなのパフェ"
 
 お楽しみに
 
-<audio controls>
+<audio>
 <source src="audio/10/066.mp3">
 </audio><hr>
 

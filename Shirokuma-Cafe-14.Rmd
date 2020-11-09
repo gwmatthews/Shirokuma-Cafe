@@ -4,7 +4,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ラブラブ　ドライブ　大作戦
 
-<audio controls>
+<audio>
 <source src="audio/14/001.mp3">
 </audio><hr>
 
@@ -18,7 +18,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ちょっと！ 
 
-<audio controls>
+<audio>
 <source src="audio/14/002.mp3">
 </audio><hr>
 
@@ -26,7 +26,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 それは　こんぺいとう！
 
-<audio controls>
+<audio>
 <source src="audio/14/003.mp3">
 </audio><hr>
 
@@ -34,7 +34,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 それは　合気道！
 
-<audio controls>
+<audio>
 <source src="audio/14/004.mp3">
 </audio><hr>
 
@@ -44,7 +44,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 うん！　ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/14/005.mp3">
 </audio><hr>
 
@@ -56,7 +56,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 縁起でもないこと 言わないでくれる？
 
-<audio controls>
+<audio>
 <source src="audio/14/006.mp3">
 </audio><hr>
 
@@ -64,7 +64,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 海へ　ドライブだよ！
 
-<audio controls>
+<audio>
 <source src="audio/14/007.mp3">
 </audio><hr>
 
@@ -76,7 +76,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 道を間違えて　海へ行くはずが 山へ行っちゃったり…
 
-<audio controls>
+<audio>
 <source src="audio/14/008.mp3">
 </audio><hr>
 
@@ -86,7 +86,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 いや　そんな失敗しないから
 
-<audio controls>
+<audio>
 <source src="audio/14/009.mp3">
 </audio><hr>
 
@@ -94,7 +94,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 デートだよ　デート
 
-<audio controls>
+<audio>
 <source src="audio/14/010.mp3">
 </audio><hr>
 
@@ -106,14 +106,14 @@ title: "ラブラブ　ドライブ　大作戦"
 
 すごいミッションだね
 
-<audio controls>
+<audio>
 <source src="audio/14/011.mp3">
 </audio><hr>
 
 
 わかった！ 明日　予行演習しよう
 
-<audio controls>
+<audio>
 <source src="audio/14/012.mp3">
 </audio><hr>
 
@@ -125,7 +125,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 あれ？
 
-<audio controls>
+<audio>
 <source src="audio/14/013.mp3">
 </audio><hr>
 
@@ -135,7 +135,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 なんで　こんなとこで寝てるの？
 
-<audio controls>
+<audio>
 <source src="audio/14/014.mp3">
 </audio><hr>
 
@@ -147,7 +147,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 その１　待ち合わせ　不合格
 
-<audio controls>
+<audio>
 <source src="audio/14/015.mp3">
 </audio><hr>
 
@@ -157,7 +157,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 合格しないと デートする免許がもらえないの
 
-<audio controls>
+<audio>
 <source src="audio/14/016.mp3">
 </audio><hr>
 
@@ -167,7 +167,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 いや　普通いらないから
 
-<audio controls>
+<audio>
 <source src="audio/14/017.mp3">
 </audio><hr>
 
@@ -179,7 +179,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 海に行きます！
 
-<audio controls>
+<audio>
 <source src="audio/14/018.mp3">
 </audio><hr>
 
@@ -189,7 +189,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ムード盛り上げる演出はないの？
 
-<audio controls>
+<audio>
 <source src="audio/14/019.mp3">
 </audio><hr>
 
@@ -197,7 +197,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 その２　段取り　不合格
 
-<audio controls>
+<audio>
 <source src="audio/14/020.mp3">
 </audio><hr>
 
@@ -205,7 +205,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 あとはどんなチェック項目があるの？
 
-<audio controls>
+<audio>
 <source src="audio/14/021.mp3">
 </audio><hr>
 
@@ -215,7 +215,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ５　ロマンチックなムード
 
-<audio controls>
+<audio>
 <source src="audio/14/022.mp3">
 </audio><hr>
 
@@ -227,7 +227,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 えっ　ラブラブ免許？
 
-<audio controls>
+<audio>
 <source src="audio/14/023.mp3">
 </audio><hr>
 
@@ -239,7 +239,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/14/024.mp3">
 </audio><hr>
 
@@ -251,7 +251,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 いいね　合格
 
-<audio controls>
+<audio>
 <source src="audio/14/025.mp3">
 </audio><hr>
 
@@ -261,7 +261,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ムードを盛り上げて 告白します　教官
 
-<audio controls>
+<audio>
 <source src="audio/14/026.mp3">
 </audio><hr>
 
@@ -275,7 +275,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ダメでしょ　
 
-<audio controls>
+<audio>
 <source src="audio/14/027.mp3">
 </audio><hr>
 
@@ -287,7 +287,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 気が散るから　話かけないで
 
-<audio controls>
+<audio>
 <source src="audio/14/028.mp3">
 </audio><hr>
 
@@ -297,7 +297,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ３　楽しい会話　不合格
 
-<audio controls>
+<audio>
 <source src="audio/14/029.mp3">
 </audio><hr>
 
@@ -305,7 +305,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 だって　男３人でドライブじゃ 盛り上がらないよ
 
-<audio controls>
+<audio>
 <source src="audio/14/030.mp3">
 </audio><hr>
 
@@ -315,7 +315,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 仕方ないな
 
-<audio controls>
+<audio>
 <source src="audio/14/031.mp3">
 </audio><hr>
 
@@ -327,7 +327,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 えっ シロクマくん　今から女の子なんだ
 
-<audio controls>
+<audio>
 <source src="audio/14/032.mp3">
 </audio><hr>
 
@@ -337,7 +337,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ちょっと　それじゃダメ
 
-<audio controls>
+<audio>
 <source src="audio/14/033.mp3">
 </audio><hr>
 
@@ -347,7 +347,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 う　うん
 
-<audio controls>
+<audio>
 <source src="audio/14/034.mp3">
 </audio><hr>
 
@@ -359,7 +359,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 あら　ごめんなさい
 
-<audio controls>
+<audio>
 <source src="audio/14/035.mp3">
 </audio><hr>
 
@@ -369,7 +369,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 へぇ～？
 
-<audio controls>
+<audio>
 <source src="audio/14/036.mp3">
 </audio><hr>
 
@@ -381,7 +381,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 あら
 
-<audio controls>
+<audio>
 <source src="audio/14/037.mp3">
 </audio><hr>
 
@@ -393,7 +393,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 シロクマちゃんの爪　頑丈でステキ
 
-<audio controls>
+<audio>
 <source src="audio/14/038.mp3">
 </audio><hr>
 
@@ -405,7 +405,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 よかったね　ペンギンさん
 
-<audio controls>
+<audio>
 <source src="audio/14/039.mp3">
 </audio><hr>
 
@@ -415,7 +415,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ん～　ペン子さんが 喜びそうなところ…
 
-<audio controls>
+<audio>
 <source src="audio/14/040.mp3">
 </audio><hr>
 
@@ -425,7 +425,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 本番ではステキなシーフードレストランに行くから
 
-<audio controls>
+<audio>
 <source src="audio/14/041.mp3">
 </audio><hr>
 
@@ -435,7 +435,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 シロクマくんが　食べきっちゃったよ　ここのサーモン
 
-<audio controls>
+<audio>
 <source src="audio/14/042.mp3">
 </audio><hr>
 
@@ -447,7 +447,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 やだ　デートで女の子にお金払わせるつもり？
 
-<audio controls>
+<audio>
 <source src="audio/14/043.mp3">
 </audio><hr>
 
@@ -457,7 +457,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ４　おいしい食事も合格だね
 
-<audio controls>
+<audio>
 <source src="audio/14/044.mp3">
 </audio><hr>
 
@@ -467,7 +467,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 じゃ　合格でいいよ　合格で…
 
-<audio controls>
+<audio>
 <source src="audio/14/045.mp3">
 </audio><hr>
 
@@ -481,7 +481,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 どうやって？
 
-<audio controls>
+<audio>
 <source src="audio/14/046.mp3">
 </audio><hr>
 
@@ -491,7 +491,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 じゃあ　僕　歌うよ
 
-<audio controls>
+<audio>
 <source src="audio/14/047.mp3">
 </audio><hr>
 
@@ -503,7 +503,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ペンギンさん！　眠っちゃ　ダメ！！
 
-<audio controls>
+<audio>
 <source src="audio/14/048.mp3">
 </audio><hr>
 
@@ -511,7 +511,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 これじゃ　合格点　あげられないね
 
-<audio controls>
+<audio>
 <source src="audio/14/049.mp3">
 </audio><hr>
 
@@ -521,7 +521,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ペンギン的には
 
-<audio controls>
+<audio>
 <source src="audio/14/050.mp3">
 </audio><hr>
 
@@ -531,7 +531,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 道　間違えた…
 
-<audio controls>
+<audio>
 <source src="audio/14/051.mp3">
 </audio><hr>
 
@@ -543,7 +543,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 もう… 
 
-<audio controls>
+<audio>
 <source src="audio/14/052.mp3">
 </audio><hr>
 
@@ -555,7 +555,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 今から行くと　ちょうど 海に夕日が沈む頃だから…
 
-<audio controls>
+<audio>
 <source src="audio/14/053.mp3">
 </audio><hr>
 
@@ -565,7 +565,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 けど…
 
-<audio controls>
+<audio>
 <source src="audio/14/054.mp3">
 </audio><hr>
 
@@ -573,7 +573,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ５　ロマンチックなムードは　不合格と…
 
-<audio controls>
+<audio>
 <source src="audio/14/055.mp3">
 </audio><hr>
 
@@ -583,7 +583,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 じゃあ　いってみる？　告白
 
-<audio controls>
+<audio>
 <source src="audio/14/056.mp3">
 </audio><hr>
 
@@ -595,7 +595,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ペ…　ペン子さん…
 
-<audio controls>
+<audio>
 <source src="audio/14/057.mp3">
 </audio><hr>
 
@@ -609,7 +609,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/14/058.mp3">
 </audio><hr>
 
@@ -621,7 +621,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 じゃあ… まあ　合格ってことで
 
-<audio controls>
+<audio>
 <source src="audio/14/059.mp3">
 </audio><hr>
 
@@ -631,7 +631,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 よかったね
 
-<audio controls>
+<audio>
 <source src="audio/14/060.mp3">
 </audio><hr>
 
@@ -647,7 +647,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 行ってないよ
 
-<audio controls>
+<audio>
 <source src="audio/14/061.mp3">
 </audio><hr>
 
@@ -657,7 +657,7 @@ title: "ラブラブ　ドライブ　大作戦"
 
 ダメじゃん…
 
-<audio controls>
+<audio>
 <source src="audio/14/062.mp3">
 </audio><hr>
 

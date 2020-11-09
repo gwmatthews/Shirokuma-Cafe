@@ -5,7 +5,7 @@ title: "カフェのお花見"
 
 カフェのお花見
 
-<audio controls>
+<audio>
 <source src="audio/04/001.mp3">
 </audio><hr>
 
@@ -13,7 +13,7 @@ title: "カフェのお花見"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/04/002.mp3">
 </audio><hr>
 
@@ -21,7 +21,7 @@ title: "カフェのお花見"
 
 すみません、抹茶パフェください
 
-<audio controls>
+<audio>
 <source src="audio/04/003.mp3">
 </audio><hr>
 
@@ -33,7 +33,7 @@ title: "カフェのお花見"
 
 ちょっと！聞く気ある？！
 
-<audio controls>
+<audio>
 <source src="audio/04/004.mp3">
 </audio><hr>
 
@@ -45,7 +45,7 @@ title: "カフェのお花見"
 
 いただきま～す
 
-<audio controls>
+<audio>
 <source src="audio/04/005.mp3">
 </audio><hr>
 
@@ -55,7 +55,7 @@ title: "カフェのお花見"
 
 ん？お花見
 
-<audio controls>
+<audio>
 <source src="audio/04/006.mp3">
 </audio><hr>
 
@@ -65,7 +65,7 @@ title: "カフェのお花見"
 
 あそこにしよう
 
-<audio controls>
+<audio>
 <source src="audio/04/007.mp3">
 </audio><hr>
 
@@ -73,7 +73,7 @@ title: "カフェのお花見"
 
 今年も綺麗に咲いたね
 
-<audio controls>
+<audio>
 <source src="audio/04/008.mp3">
 </audio><hr>
 
@@ -83,7 +83,7 @@ title: "カフェのお花見"
 
 桜は綺麗だなって話してるんだから
 
-<audio controls>
+<audio>
 <source src="audio/04/009.mp3">
 </audio><hr>
 
@@ -91,7 +91,7 @@ title: "カフェのお花見"
 
 聞いてないな　まぁ、いいや
 
-<audio controls>
+<audio>
 <source src="audio/04/010.mp3">
 </audio><hr>
 
@@ -101,7 +101,7 @@ title: "カフェのお花見"
 
 ラマさんは草が食べられるなら　食べられるんじゃない？
 
-<audio controls>
+<audio>
 <source src="audio/04/011.mp3">
 </audio><hr>
 
@@ -109,7 +109,7 @@ title: "カフェのお花見"
 
 持ってないよ
 
-<audio controls>
+<audio>
 <source src="audio/04/012.mp3">
 </audio><hr>
 
@@ -117,7 +117,7 @@ title: "カフェのお花見"
 
 さすがしろくま君
 
-<audio controls>
+<audio>
 <source src="audio/04/013.mp3">
 </audio><hr>
 
@@ -125,7 +125,7 @@ title: "カフェのお花見"
 
 なまけもの君？
 
-<audio controls>
+<audio>
 <source src="audio/04/014.mp3">
 </audio><hr>
 
@@ -135,7 +135,7 @@ title: "カフェのお花見"
 
 いいよ、あるものだけで
 
-<audio controls>
+<audio>
 <source src="audio/04/015.mp3">
 </audio><hr>
 
@@ -143,7 +143,7 @@ title: "カフェのお花見"
 
 行ってくるね
 
-<audio controls>
+<audio>
 <source src="audio/04/016.mp3">
 </audio><hr>
 
@@ -151,7 +151,7 @@ title: "カフェのお花見"
 
 いってらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/04/017.mp3">
 </audio><hr>
 
@@ -159,7 +159,7 @@ title: "カフェのお花見"
 
 最高だなぁ
 
-<audio controls>
+<audio>
 <source src="audio/04/018.mp3">
 </audio><hr>
 
@@ -167,7 +167,7 @@ title: "カフェのお花見"
 
 ホント　儚いよね
 
-<audio controls>
+<audio>
 <source src="audio/04/019.mp3">
 </audio><hr>
 
@@ -175,7 +175,7 @@ title: "カフェのお花見"
 
 あ～美味しそう　いただきます
 
-<audio controls>
+<audio>
 <source src="audio/04/020.mp3">
 </audio><hr>
 
@@ -183,7 +183,7 @@ title: "カフェのお花見"
 
 もっとお花見らしいことしようよ
 
-<audio controls>
+<audio>
 <source src="audio/04/021.mp3">
 </audio><hr>
 
@@ -197,7 +197,7 @@ title: "カフェのお花見"
 
 同じく
 
-<audio controls>
+<audio>
 <source src="audio/04/022.mp3">
 </audio><hr>
 
@@ -215,7 +215,7 @@ title: "カフェのお花見"
 
 腹ダンス？
 
-<audio controls>
+<audio>
 <source src="audio/04/023.mp3">
 </audio><hr>
 
@@ -223,7 +223,7 @@ title: "カフェのお花見"
 
 違うよ、ダジャレどうしようもなくて倒れちゃったんだよ
 
-<audio controls>
+<audio>
 <source src="audio/04/024.mp3">
 </audio><hr>
 
@@ -233,7 +233,7 @@ title: "カフェのお花見"
 
 お花見らしいこと、物真似とか
 
-<audio controls>
+<audio>
 <source src="audio/04/025.mp3">
 </audio><hr>
 
@@ -241,7 +241,7 @@ title: "カフェのお花見"
 
 食べてるだけなのに
 
-<audio controls>
+<audio>
 <source src="audio/04/026.mp3">
 </audio><hr>
 
@@ -253,7 +253,7 @@ title: "カフェのお花見"
 
 止めたほうがいいよ
 
-<audio controls>
+<audio>
 <source src="audio/04/027.mp3">
 </audio><hr>
 
@@ -261,7 +261,7 @@ title: "カフェのお花見"
 
 じゃパンダ君でいいよ
 
-<audio controls>
+<audio>
 <source src="audio/04/028.mp3">
 </audio><hr>
 
@@ -271,13 +271,13 @@ title: "カフェのお花見"
 
 酔ってますね
 
-<audio controls>
+<audio>
 <source src="audio/04/029.mp3">
 </audio><hr>
 
 飲み過ぎじゃない
 
-<audio controls>
+<audio>
 <source src="audio/04/030.mp3">
 </audio><hr>
 
@@ -285,7 +285,7 @@ title: "カフェのお花見"
 
 お花見らしくなってきたよ、ペンギンさん
 
-<audio controls>
+<audio>
 <source src="audio/04/031.mp3">
 </audio><hr>
 
@@ -297,7 +297,7 @@ title: "カフェのお花見"
 
 起きてるよ
 
-<audio controls>
+<audio>
 <source src="audio/04/032.mp3">
 </audio><hr>
 
@@ -307,7 +307,7 @@ title: "カフェのお花見"
 
 そうでしょう
 
-<audio controls>
+<audio>
 <source src="audio/04/033.mp3">
 </audio><hr>
 
@@ -315,7 +315,7 @@ title: "カフェのお花見"
 
 聞いてる、吉崎さん
 
-<audio controls>
+<audio>
 <source src="audio/04/034.mp3">
 </audio><hr>
 
@@ -325,7 +325,7 @@ title: "カフェのお花見"
 
 誰かに殴られたよ？大丈夫？
 
-<audio controls>
+<audio>
 <source src="audio/04/035.mp3">
 </audio><hr>
 
@@ -335,7 +335,7 @@ title: "カフェのお花見"
 
 食べてるだけなのに
 
-<audio controls>
+<audio>
 <source src="audio/04/036.mp3">
 </audio><hr>
 
@@ -345,7 +345,7 @@ title: "カフェのお花見"
 
 好きなペンギンがいるんだよ
 
-<audio controls>
+<audio>
 <source src="audio/04/037.mp3">
 </audio><hr>
 
@@ -353,7 +353,7 @@ title: "カフェのお花見"
 
 ペンコさん！
 
-<audio controls>
+<audio>
 <source src="audio/04/038.mp3">
 </audio><hr>
 
@@ -363,7 +363,7 @@ title: "カフェのお花見"
 
 お願いします
 
-<audio controls>
+<audio>
 <source src="audio/04/039.mp3">
 </audio><hr>
 
@@ -373,7 +373,7 @@ title: "カフェのお花見"
 
 き、聞いてくれますか
 
-<audio controls>
+<audio>
 <source src="audio/04/040.mp3">
 </audio><hr>
 
@@ -383,7 +383,7 @@ title: "カフェのお花見"
 
 どんな？
 
-<audio controls>
+<audio>
 <source src="audio/04/041.mp3">
 </audio><hr>
 
@@ -401,7 +401,7 @@ the？
 
 僕？
 
-<audio controls>
+<audio>
 <source src="audio/04/042.mp3">
 </audio><hr>
 
@@ -413,7 +413,7 @@ the？
 
 なんでまた僕？
 
-<audio controls>
+<audio>
 <source src="audio/04/043.mp3">
 </audio><hr>
 
@@ -423,7 +423,7 @@ the？
 
 いろいろ違ってる気がするよ
 
-<audio controls>
+<audio>
 <source src="audio/04/044.mp3">
 </audio><hr>
 
@@ -435,7 +435,7 @@ the？
 
 あれ！吉崎さん、いつの間に
 
-<audio controls>
+<audio>
 <source src="audio/04/045.mp3">
 </audio><hr>
 
@@ -445,13 +445,13 @@ the？
 
 ペンギンさん！
 
-<audio controls>
+<audio>
 <source src="audio/04/046.mp3">
 </audio><hr>
 
 寝ている
 
-<audio controls>
+<audio>
 <source src="audio/04/047.mp3">
 </audio><hr>
 
@@ -461,13 +461,13 @@ the？
 
 誰もいない
 
-<audio controls>
+<audio>
 <source src="audio/04/048.mp3">
 </audio><hr>
 
 夜桜も綺麗だよ
 
-<audio controls>
+<audio>
 <source src="audio/04/049.mp3">
 </audio><hr>
 
@@ -477,7 +477,7 @@ the？
 
 ペンギンさんって酒癖悪いね
 
-<audio controls>
+<audio>
 <source src="audio/04/050.mp3">
 </audio><hr>
 
@@ -485,13 +485,13 @@ the？
 
 なんか頭が痛いよ
 
-<audio controls>
+<audio>
 <source src="audio/04/051.mp3">
 </audio><hr>
 
 あれ　それでペンコさんのパン屋さんで買ったの
 
-<audio controls>
+<audio>
 <source src="audio/04/052.mp3">
 </audio><hr>
 
@@ -501,7 +501,7 @@ theペンコさん
 
 なんで僕のポエムを　なんで知ってるの
 
-<audio controls>
+<audio>
 <source src="audio/04/053.mp3">
 </audio><hr>
 
@@ -511,7 +511,7 @@ theペンコさん
 
 な　何でそれを！
 
-<audio controls>
+<audio>
 <source src="audio/04/054.mp3">
 </audio><hr>
 
@@ -519,7 +519,7 @@ theペンコさん
 
 誰にも話してないのに
 
-<audio controls>
+<audio>
 <source src="audio/04/055.mp3">
 </audio><hr>
 
@@ -531,7 +531,7 @@ theペンコさん
 
 やめて
 
-<audio controls>
+<audio>
 <source src="audio/04/056.mp3">
 </audio><hr>
 

@@ -9,9 +9,9 @@ navbar:
 output:
   html_document:
     theme: simplex
-#    includes:
-#      in_header: header.html
-    css: style.css
-    beforeInit: macros.js
+    includes:
+      after_body: "includes/footer.html"
+    css: "includes/style.css"
+#    beforeInit: macros.js
 
 

@@ -4,19 +4,19 @@ title: "シロクマ　カフェー へようこそ"
 
 シロクマ　カフェー へようこそ
 
-<audio controls>
+<audio>
 <source src="audio/01/001.mp3">
 </audio><hr>
 
 笹を食べながらのんびりするのは最高だなぁ
 
-<audio controls>
+<audio>
 <source src="audio/01/002.mp3">
 </audio><hr>
 
 ちょっと  またこの子は昼間からゴロゴロして
 
-<audio controls>
+<audio>
 <source src="audio/01/003.mp3">
 </audio><hr>
 
@@ -24,7 +24,7 @@ title: "シロクマ　カフェー へようこそ"
 
 
 
-<audio controls>
+<audio>
 <source src="audio/01/004.mp3">
 </audio><hr>
 
@@ -32,37 +32,37 @@ title: "シロクマ　カフェー へようこそ"
 
 お母さん  おかわり
 
-<audio controls>
+<audio>
 <source src="audio/01/005.mp3">
 </audio><hr>
 
 どうするの  あなた将来は
 
-<audio controls>
+<audio>
 <source src="audio/01/006.mp3">
 </audio><hr>
 
 もう  ゴロゴロしてるときに  将来の話なんかしないでよ
 
-<audio controls>
+<audio>
 <source src="audio/01/007.mp3">
 </audio><hr>
 
 暇があるなら  ちょっとはバイトでも探しなさい
 
-<audio controls>
+<audio>
 <source src="audio/01/008.mp3">
 </audio><hr>
 
 ええ  ゴロゴロするのに忙しいから  後にするよ
 
-<audio controls>
+<audio>
 <source src="audio/01/009.mp3">
 </audio><hr>
 
 ああー  吸わないで
 
-<audio controls>
+<audio>
 <source src="audio/01/010.mp3">
 </audio><hr>
 
@@ -70,19 +70,19 @@ title: "シロクマ　カフェー へようこそ"
 
 どうしてお母さんはゴロゴロする忙しさが分かんないんだろな
 
-<audio controls>
+<audio>
 <source src="audio/01/011.mp3">
 </audio><hr>
 
 えーと  働かないでお金がもらえる仕事が載っているのはどれですか
 
-<audio controls>
+<audio>
 <source src="audio/01/012.mp3">
 </audio><hr>
 
 ないと思います
 
-<audio controls>
+<audio>
 <source src="audio/01/013.mp3">
 </audio><hr>
 
@@ -92,7 +92,7 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  これいいな
 
-<audio controls>
+<audio>
 <source src="audio/01/014.mp3">
 </audio><hr>
 
@@ -100,37 +100,37 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  もしもし  パンダと申しますが
 
-<audio controls>
+<audio>
 <source src="audio/01/015.mp3">
 </audio><hr>
 
 そちらでデザインなー  デザイナーのアルバイト募集してますよね
 
-<audio controls>
+<audio>
 <source src="audio/01/016.mp3">
 </audio><hr>
 
 ええ  そうですよ  経験は？
 
-<audio controls>
+<audio>
 <source src="audio/01/017.mp3">
 </audio><hr>
 
 ありません
 
-<audio controls>
+<audio>
 <source src="audio/01/018.mp3">
 </audio><hr>
 
 パソコンのマウスは使えますか
 
-<audio controls>
+<audio>
 <source src="audio/01/019.mp3">
 </audio><hr>
 
 使えないです  あんまり細かい作業はできません
 
-<audio controls>
+<audio>
 <source src="audio/01/020.mp3">
 </audio><hr>
 
@@ -138,7 +138,7 @@ title: "シロクマ　カフェー へようこそ"
 
 得意なことはありますか
 
-<audio controls>
+<audio>
 <source src="audio/01/021.mp3">
 </audio><hr>
 
@@ -146,7 +146,7 @@ title: "シロクマ　カフェー へようこそ"
 
 笹を食べたり  寝ながらぼんやりするのが得意です
 
-<audio controls>
+<audio>
 <source src="audio/01/022.mp3">
 </audio><hr>
 
@@ -156,13 +156,13 @@ title: "シロクマ　カフェー へようこそ"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/01/023.mp3">
 </audio><hr>
 
 インテリアコーディネーターって  なんですか
 
-<audio controls>
+<audio>
 <source src="audio/01/024.mp3">
 </audio><hr>
 
@@ -170,19 +170,19 @@ title: "シロクマ　カフェー へようこそ"
 
 アルバイト見つかったの
 
-<audio controls>
+<audio>
 <source src="audio/01/025.mp3">
 </audio><hr>
 
 全然ないよ
 
-<audio controls>
+<audio>
 <source src="audio/01/026.mp3">
 </audio><hr>
 
 確かコンビニで募集してたでしょう
 
-<audio controls>
+<audio>
 <source src="audio/01/027.mp3">
 </audio><hr>
 
@@ -190,19 +190,19 @@ title: "シロクマ　カフェー へようこそ"
 
 品数多過ぎるよ  覚えられないよ
 
-<audio controls>
+<audio>
 <source src="audio/01/028.mp3">
 </audio><hr>
 
 あー  吸わないで
 
-<audio controls>
+<audio>
 <source src="audio/01/029.mp3">
 </audio><hr>
 
 もう  外でだらだらしようっと
 
-<audio controls>
+<audio>
 <source src="audio/01/030.mp3">
 </audio><hr>
 
@@ -214,7 +214,7 @@ title: "シロクマ　カフェー へようこそ"
 
 ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/01/031.mp3">
 </audio><hr>
 
@@ -222,14 +222,14 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  待って
 
-<audio controls>
+<audio>
 <source src="audio/01/032.mp3">
 </audio><hr>
 
 
 へぇー  こんな所にカフェがあったんだ
 
-<audio controls>
+<audio>
 <source src="audio/01/033.mp3">
 </audio><hr>
 
@@ -237,25 +237,25 @@ title: "シロクマ　カフェー へようこそ"
 
 ようこそ  しろくまカフェへ
 
-<audio controls>
+<audio>
 <source src="audio/01/034.mp3">
 </audio><hr>
 
 お客様  お一人様ですか
 
-<audio controls>
+<audio>
 <source src="audio/01/035.mp3">
 </audio><hr>
 
 あ  別に僕は
 
-<audio controls>
+<audio>
 <source src="audio/01/036.mp3">
 </audio><hr>
 
 お好きな席へどうぞ
 
-<audio controls>
+<audio>
 <source src="audio/01/037.mp3">
 </audio><hr>
 
@@ -264,13 +264,13 @@ title: "シロクマ　カフェー へようこそ"
 
 えーと  竹はありますか
 
-<audio controls>
+<audio>
 <source src="audio/01/038.mp3">
 </audio><hr>
 
 竹はないです
 
-<audio controls>
+<audio>
 <source src="audio/01/039.mp3">
 </audio><hr>
 
@@ -282,7 +282,7 @@ title: "シロクマ　カフェー へようこそ"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/01/040.mp3">
 </audio><hr>
 
@@ -291,7 +291,7 @@ title: "シロクマ　カフェー へようこそ"
 
 財布のポイントカードって増えすぎちゃわな
 
-<audio controls>
+<audio>
 <source src="audio/01/041.mp3">
 </audio><hr>
 
@@ -301,25 +301,25 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  カフェモカお願い  おかわり
 
-<audio controls>
+<audio>
 <source src="audio/01/042.mp3">
 </audio><hr>
 
 それはひまわり
 
-<audio controls>
+<audio>
 <source src="audio/01/043.mp3">
 </audio><hr>
 
 それは日替わり
 
-<audio controls>
+<audio>
 <source src="audio/01/044.mp3">
 </audio><hr>
 
 それは薪割り
 
-<audio controls>
+<audio>
 <source src="audio/01/045.mp3">
 </audio><hr>
 
@@ -327,7 +327,7 @@ title: "シロクマ　カフェー へようこそ"
 
 「おかわり」ね
 
-<audio controls>
+<audio>
 <source src="audio/01/046.mp3">
 </audio><hr>
 
@@ -335,13 +335,13 @@ title: "シロクマ　カフェー へようこそ"
 
 このカフェ  ダジャレがなければなぁ
 
-<audio controls>
+<audio>
 <source src="audio/01/047.mp3">
 </audio><hr>
 
 そういえば  アルバイト募集してるんだって
 
-<audio controls>
+<audio>
 <source src="audio/01/048.mp3">
 </audio><hr>
 
@@ -349,26 +349,26 @@ title: "シロクマ　カフェー へようこそ"
 
 ペンギンさん  どう
 
-<audio controls>
+<audio>
 <source src="audio/01/049.mp3">
 </audio><hr>
 
 え？僕お客とバイトの両立  できるかな
 
-<audio controls>
+<audio>
 <source src="audio/01/050.mp3">
 </audio><hr>
 
 ウーソ  これから四名ほど  面接に来るんだよ
 
-<audio controls>
+<audio>
 <source src="audio/01/051.mp3">
 </audio><hr>
 
 
 なんだ  ちょっと考えちゃったよ
 
-<audio controls>
+<audio>
 <source src="audio/01/052.mp3">
 </audio><hr>
 
@@ -376,7 +376,7 @@ title: "シロクマ　カフェー へようこそ"
 
 僕もアルバイトしたいと思って
 
-<audio controls>
+<audio>
 <source src="audio/01/053.mp3">
 </audio><hr>
 
@@ -384,13 +384,13 @@ title: "シロクマ　カフェー へようこそ"
 
 あ
 
-<audio controls>
+<audio>
 <source src="audio/01/054.mp3">
 </audio><hr>
 
 では  最初の方  どうぞ
 
-<audio controls>
+<audio>
 <source src="audio/01/055.mp3">
 </audio><hr>
 
@@ -400,7 +400,7 @@ title: "シロクマ　カフェー へようこそ"
 
 えーと  ホール係やれますか
 
-<audio controls>
+<audio>
 <source src="audio/01/056.mp3">
 </audio><hr>
 
@@ -408,13 +408,13 @@ title: "シロクマ　カフェー へようこそ"
 
 穴を掘るの  得意なんです
 
-<audio controls>
+<audio>
 <source src="audio/01/057.mp3">
 </audio><hr>
 
 いや  そのホールは違うし
 
-<audio controls>
+<audio>
 <source src="audio/01/058.mp3">
 </audio><hr>
 
@@ -424,7 +424,7 @@ title: "シロクマ　カフェー へようこそ"
 
 ゾ～ウ～ガ～メ～で～す
 
-<audio controls>
+<audio>
 <source src="audio/01/059.mp3">
 </audio><hr>
 
@@ -432,7 +432,7 @@ title: "シロクマ　カフェー へようこそ"
 
 は～い～
 
-<audio controls>
+<audio>
 <source src="audio/01/060.mp3">
 </audio><hr>
 
@@ -444,31 +444,31 @@ title: "シロクマ　カフェー へようこそ"
 
 百年くらい働かせて～
 
-<audio controls>
+<audio>
 <source src="audio/01/061.mp3">
 </audio><hr>
 
 いえ  そんなには
 
-<audio controls>
+<audio>
 <source src="audio/01/062.mp3">
 </audio><hr>
 
 マンドリルです
 
-<audio controls>
+<audio>
 <source src="audio/01/063.mp3">
 </audio><hr>
 
 食べるのが得意です
 
-<audio controls>
+<audio>
 <source src="audio/01/064.mp3">
 </audio><hr>
 
 ちょっと  それは
 
-<audio controls>
+<audio>
 <source src="audio/01/065.mp3">
 </audio><hr>
 
@@ -476,7 +476,7 @@ title: "シロクマ　カフェー へようこそ"
 
 い  威嚇ができます
 
-<audio controls>
+<audio>
 <source src="audio/01/066.mp3">
 </audio><hr>
 
@@ -484,7 +484,7 @@ title: "シロクマ　カフェー へようこそ"
 
 みたいだね
 
-<audio controls>
+<audio>
 <source src="audio/01/067.mp3">
 </audio><hr>
 
@@ -496,13 +496,13 @@ title: "シロクマ　カフェー へようこそ"
 
 よろしくです
 
-<audio controls>
+<audio>
 <source src="audio/01/068.mp3">
 </audio><hr>
 
 やっとまともな人が来たね
 
-<audio controls>
+<audio>
 <source src="audio/01/069.mp3">
 </audio><hr>
 
@@ -510,7 +510,7 @@ title: "シロクマ　カフェー へようこそ"
 
 はい  ゴロゴロしながら笹を食べることです
 
-<audio controls>
+<audio>
 <source src="audio/01/070.mp3">
 </audio><hr>
 
@@ -518,7 +518,7 @@ title: "シロクマ　カフェー へようこそ"
 
 えーと  条件に希望はありますか
 
-<audio controls>
+<audio>
 <source src="audio/01/071.mp3">
 </audio><hr>
 
@@ -526,7 +526,7 @@ title: "シロクマ　カフェー へようこそ"
 
 うん  週二日ですか
 
-<audio controls>
+<audio>
 <source src="audio/01/072.mp3">
 </audio><hr>
 
@@ -534,13 +534,13 @@ title: "シロクマ　カフェー へようこそ"
 
 いや  せめて週四日くらい
 
-<audio controls>
+<audio>
 <source src="audio/01/073.mp3">
 </audio><hr>
 
 そんなの無理です
 
-<audio controls>
+<audio>
 <source src="audio/01/074.mp3">
 </audio><hr>
 
@@ -548,7 +548,7 @@ title: "シロクマ　カフェー へようこそ"
 
 呼びに来てくれたら  すぐ行きます
 
-<audio controls>
+<audio>
 <source src="audio/01/075.mp3">
 </audio><hr>
 
@@ -558,14 +558,14 @@ title: "シロクマ　カフェー へようこそ"
 
 遅刻した場合だけですよ
 
-<audio controls>
+<audio>
 <source src="audio/01/076.mp3">
 </audio><hr>
 
 
 遅刻する気満々だね
 
-<audio controls>
+<audio>
 <source src="audio/01/077.mp3">
 </audio><hr>
 
@@ -574,7 +574,7 @@ title: "シロクマ　カフェー へようこそ"
 
 そんなにありません
 
-<audio controls>
+<audio>
 <source src="audio/01/078.mp3">
 </audio><hr>
 
@@ -583,7 +583,7 @@ title: "シロクマ　カフェー へようこそ"
 
 全員不合格
 
-<audio controls>
+<audio>
 <source src="audio/01/079.mp3">
 </audio><hr>
 
@@ -592,7 +592,7 @@ title: "シロクマ　カフェー へようこそ"
 
 そこ驚くとこ
 
-<audio controls>
+<audio>
 <source src="audio/01/080.mp3">
 </audio><hr>
 
@@ -601,7 +601,7 @@ title: "シロクマ　カフェー へようこそ"
 
 見つからなかったね
 
-<audio controls>
+<audio>
 <source src="audio/01/081.mp3">
 </audio><hr>
 
@@ -613,7 +613,7 @@ title: "シロクマ　カフェー へようこそ"
 
 す  吸われる
 
-<audio controls>
+<audio>
 <source src="audio/01/082.mp3">
 </audio><hr>
 
@@ -622,7 +622,7 @@ title: "シロクマ　カフェー へようこそ"
 
 あのう　面接中すみません
 
-<audio controls>
+<audio>
 <source src="audio/01/083.mp3">
 </audio><hr>
 
@@ -631,7 +631,7 @@ title: "シロクマ　カフェー へようこそ"
 
 不合格
 
-<audio controls>
+<audio>
 <source src="audio/01/084.mp3">
 </audio><hr>
 
@@ -639,14 +639,14 @@ title: "シロクマ　カフェー へようこそ"
 
 庭に住み込みたいんですー
 
-<audio controls>
+<audio>
 <source src="audio/01/085.mp3">
 </audio><hr>
 
 
 ここまで運んで欲しいって　頼まれちゃいまして
 
-<audio controls>
+<audio>
 <source src="audio/01/086.mp3">
 </audio><hr>
 
@@ -660,7 +660,7 @@ title: "シロクマ　カフェー へようこそ"
 
 え
 
-<audio controls>
+<audio>
 <source src="audio/01/087.mp3">
 </audio><hr>
 
@@ -668,7 +668,7 @@ title: "シロクマ　カフェー へようこそ"
 
 僕今日、すごくいい感じのカフェ見つけちゃったよ
 
-<audio controls>
+<audio>
 <source src="audio/01/088.mp3">
 </audio><hr>
 
@@ -676,7 +676,7 @@ title: "シロクマ　カフェー へようこそ"
 
 なんに言ってるの？知ってるわよ
 
-<audio controls>
+<audio>
 <source src="audio/01/089.mp3">
 </audio><hr>
 
@@ -684,7 +684,7 @@ title: "シロクマ　カフェー へようこそ"
 
 ずっと前からあるじゃない？
 
-<audio controls>
+<audio>
 <source src="audio/01/090.mp3">
 </audio><hr>
 
@@ -694,6 +694,6 @@ title: "シロクマ　カフェー へようこそ"
 
 へーーーーーーーー！！！！
 
-<audio controls>
+<audio>
 <source src="audio/01/091.mp3">
 </audio><hr>

@@ -4,7 +4,7 @@ title: "パンダくん　張り切る"
 
 パンダくん　張り切る
 
-<audio controls>
+<audio>
 <source src="audio/09/001.mp3">
 </audio><hr>
 
@@ -16,7 +16,7 @@ title: "パンダくん　張り切る"
 
 親戚の結婚式で　しばらく 実家の中国に帰るんだって
 
-<audio controls>
+<audio>
 <source src="audio/09/002.mp3">
 </audio><hr>
 
@@ -28,7 +28,7 @@ title: "パンダくん　張り切る"
 
 代わりにバイト　フルに 入ることになっちゃったんだよ
 
-<audio controls>
+<audio>
 <source src="audio/09/003.mp3">
 </audio><hr>
 
@@ -40,7 +40,7 @@ title: "パンダくん　張り切る"
 
 １週間も　だよ～
 
-<audio controls>
+<audio>
 <source src="audio/09/004.mp3">
 </audio><hr>
 
@@ -50,7 +50,7 @@ title: "パンダくん　張り切る"
 
 大変なのは早起きじゃなくて 満員電車じゃない？
 
-<audio controls>
+<audio>
 <source src="audio/09/006.mp3">
 </audio><hr>
 
@@ -60,7 +60,7 @@ title: "パンダくん　張り切る"
 
 満員電車だよ
 
-<audio controls>
+<audio>
 <source src="audio/09/007.mp3">
 </audio><hr>
 
@@ -68,7 +68,7 @@ title: "パンダくん　張り切る"
 
 え？　ペンギンさんも電車　乗るの？
 
-<audio controls>
+<audio>
 <source src="audio/09/008.mp3">
 </audio><hr>
 
@@ -78,7 +78,7 @@ title: "パンダくん　張り切る"
 
 もう　満員電車並みの混雑だよ
 
-<audio controls>
+<audio>
 <source src="audio/09/009.mp3">
 </audio><hr>
 
@@ -86,7 +86,7 @@ title: "パンダくん　張り切る"
 
 おしくらまんじゅう？
 
-<audio controls>
+<audio>
 <source src="audio/09/010.mp3">
 </audio><hr>
 
@@ -98,13 +98,13 @@ title: "パンダくん　張り切る"
 
 じゃあ…　ごちそうさま
 
-<audio controls>
+<audio>
 <source src="audio/09/011.mp3">
 </audio><hr>
 
 大丈夫かな…
 
-<audio controls>
+<audio>
 <source src="audio/09/012.mp3">
 </audio><hr>
 
@@ -112,7 +112,7 @@ title: "パンダくん　張り切る"
 
 急がないと 満員電車に乗れないよ
 
-<audio controls>
+<audio>
 <source src="audio/09/013.mp3">
 </audio><hr>
 
@@ -122,7 +122,7 @@ title: "パンダくん　張り切る"
 
 バイト？　頑張ってね～
 
-<audio controls>
+<audio>
 <source src="audio/09/014.mp3">
 </audio><hr>
 
@@ -134,19 +134,19 @@ title: "パンダくん　張り切る"
 
 お花　選んでいただけますか？
 
-<audio controls>
+<audio>
 <source src="audio/09/015.mp3">
 </audio><hr>
 
 おしくらまんじゅうだね～
 
-<audio controls>
+<audio>
 <source src="audio/09/016.mp3">
 </audio><hr>
 
 ドアが閉まります ご注意ください　ドアが閉まります
 
-<audio controls>
+<audio>
 <source src="audio/09/017.mp3">
 </audio><hr>
 
@@ -154,13 +154,13 @@ title: "パンダくん　張り切る"
 
 ないと思います…
 
-<audio controls>
+<audio>
 <source src="audio/09/018.mp3">
 </audio><hr>
 
 ど…　どこか… 空いてるところは…
 
-<audio controls>
+<audio>
 <source src="audio/09/019.mp3">
 </audio><hr>
 
@@ -168,7 +168,7 @@ title: "パンダくん　張り切る"
 
 この先　揺れますので ご注意ください
 
-<audio controls>
+<audio>
 <source src="audio/09/020.mp3">
 </audio><hr>
 
@@ -178,7 +178,7 @@ title: "パンダくん　張り切る"
 
 そこ　置いといて
 
-<audio controls>
+<audio>
 <source src="audio/09/021.mp3">
 </audio><hr>
 
@@ -189,7 +189,7 @@ title: "パンダくん　張り切る"
 
 もう少し　お客さんにサービスしてよ
 
-<audio controls>
+<audio>
 <source src="audio/09/022.mp3">
 </audio><hr>
 
@@ -200,14 +200,14 @@ title: "パンダくん　張り切る"
 
 やだって言ったって 仕方ないでしょう？
 
-<audio controls>
+<audio>
 <source src="audio/09/023.mp3">
 </audio><hr>
 
 
 僕　もう少し遅く来るから 朝だけパンダ代わって
 
-<audio controls>
+<audio>
 <source src="audio/09/024.mp3">
 </audio><hr>
 
@@ -215,7 +215,7 @@ title: "パンダくん　張り切る"
 
 大丈夫　体型似てるから
 
-<audio controls>
+<audio>
 <source src="audio/09/025.mp3">
 </audio><hr>
 
@@ -225,7 +225,7 @@ title: "パンダくん　張り切る"
 
 ごはん　ここ置いとくからね
 
-<audio controls>
+<audio>
 <source src="audio/09/026.mp3">
 </audio><hr>
 
@@ -235,7 +235,7 @@ title: "パンダくん　張り切る"
 
 食欲が出ないよ
 
-<audio controls>
+<audio>
 <source src="audio/09/027.mp3">
 </audio><hr>
 
@@ -245,7 +245,7 @@ title: "パンダくん　張り切る"
 
 花？
 
-<audio controls>
+<audio>
 <source src="audio/09/028.mp3">
 </audio><hr>
 
@@ -255,7 +255,7 @@ title: "パンダくん　張り切る"
 
 僕のファン！？
 
-<audio controls>
+<audio>
 <source src="audio/09/029.mp3">
 </audio><hr>
 
@@ -267,7 +267,7 @@ title: "パンダくん　張り切る"
 
 すごいわね
 
-<audio controls>
+<audio>
 <source src="audio/09/030.mp3">
 </audio><hr>
 
@@ -275,7 +275,7 @@ title: "パンダくん　張り切る"
 
 いってきます！
 
-<audio controls>
+<audio>
 <source src="audio/09/031.mp3">
 </audio><hr>
 
@@ -283,19 +283,19 @@ title: "パンダくん　張り切る"
 
 もしもし
 
-<audio controls>
+<audio>
 <source src="audio/09/032.mp3">
 </audio><hr>
 
 リンリンちゃん　僕　頑張るからね！
 
-<audio controls>
+<audio>
 <source src="audio/09/033.mp3">
 </audio><hr>
 
 リンリンちゃんが 見ててくれるんだから
 
-<audio controls>
+<audio>
 <source src="audio/09/034.mp3">
 </audio><hr>
 
@@ -305,7 +305,7 @@ title: "パンダくん　張り切る"
 
 でも　どうして？
 
-<audio controls>
+<audio>
 <source src="audio/09/035.mp3">
 </audio><hr>
 
@@ -315,7 +315,7 @@ title: "パンダくん　張り切る"
 
 うん
 
-<audio controls>
+<audio>
 <source src="audio/09/036.mp3">
 </audio><hr>
 
@@ -325,7 +325,7 @@ title: "パンダくん　張り切る"
 
 すごいじゃない
 
-<audio controls>
+<audio>
 <source src="audio/09/037.mp3">
 </audio><hr>
 
@@ -333,7 +333,7 @@ title: "パンダくん　張り切る"
 
 それにしても なんかすごく疲れてない？
 
-<audio controls>
+<audio>
 <source src="audio/09/038.mp3">
 </audio><hr>
 
@@ -343,7 +343,7 @@ title: "パンダくん　張り切る"
 
 ゆっくり 休んだほうがいいと思うよ
 
-<audio controls>
+<audio>
 <source src="audio/09/039.mp3">
 </audio><hr>
 
@@ -355,7 +355,7 @@ title: "パンダくん　張り切る"
 
 あ　忘れてるよ　天津甘栗チョコレート！
 
-<audio controls>
+<audio>
 <source src="audio/09/040.mp3">
 </audio><hr>
 
@@ -363,7 +363,7 @@ title: "パンダくん　張り切る"
 
 リンリンちゃん　１週間　僕頑張ったよ
 
-<audio controls>
+<audio>
 <source src="audio/09/041.mp3">
 </audio><hr>
 
@@ -373,7 +373,7 @@ title: "パンダくん　張り切る"
 
 すれ違いになったら大変
 
-<audio controls>
+<audio>
 <source src="audio/09/042.mp3">
 </audio><hr>
 
@@ -383,7 +383,7 @@ title: "パンダくん　張り切る"
 
 今日から　通常勤務じゃないの？
 
-<audio controls>
+<audio>
 <source src="audio/09/043.mp3">
 </audio><hr>
 
@@ -395,7 +395,7 @@ title: "パンダくん　張り切る"
 
 えっ？　ああ　リンリンちゃんのお花？ 
 
-<audio controls>
+<audio>
 <source src="audio/09/044.mp3">
 </audio><hr>
 
@@ -407,7 +407,7 @@ title: "パンダくん　張り切る"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/09/045.mp3">
 </audio><hr>
 
@@ -417,7 +417,7 @@ title: "パンダくん　張り切る"
 
 林厘太郎
 
-<audio controls>
+<audio>
 <source src="audio/09/046.mp3">
 </audio><hr>
 
@@ -425,13 +425,13 @@ title: "パンダくん　張り切る"
 
 あっ　パンダくんは その中でも別格だよ
 
-<audio controls>
+<audio>
 <source src="audio/09/047.mp3">
 </audio><hr>
 
 リンリンズ　ベストショットは　これ
 
-<audio controls>
+<audio>
 <source src="audio/09/048.mp3">
 </audio><hr>
 
@@ -439,7 +439,7 @@ title: "パンダくん　張り切る"
 
 パンダくんにもあげるね
 
-<audio controls>
+<audio>
 <source src="audio/09/049.mp3">
 </audio><hr>
 
@@ -453,6 +453,6 @@ title: "パンダくん　張り切る"
 
 あっ　パンダくん！
 
-<audio controls>
+<audio>
 <source src="audio/09/050.mp3">
 </audio><hr>

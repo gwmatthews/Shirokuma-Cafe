@@ -8,20 +8,19 @@ p {
   padding-top: 20px;
 }
 
-.audiobox {
-  transform: scale(0.75,1);
-}
-
-audio, button {
-  outline: none;
-}
-
-
 .section ul{
   list-style-type: none;
 }
 
 .section ul li {
   font-size: large;
-  
+}
+
+.sound {
+  margin-left: 3rem;
+  display: inline-block;
+  padding: 10px;
+  font-size: x-large;
+  cursor: pointer;
+  opacity: 1;
 }

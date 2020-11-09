@@ -4,7 +4,7 @@ title: "ペンギンさんの失恋"
 
 ペンギンさんの失恋
 
-<audio controls>
+<audio>
 <source src="audio/21/001.mp3">
 </audio><hr>
 
@@ -14,7 +14,7 @@ title: "ペンギンさんの失恋"
 
 新メニューのホットケーキ　味見してみて
 
-<audio controls>
+<audio>
 <source src="audio/21/002.mp3">
 </audio><hr>
 
@@ -22,7 +22,7 @@ title: "ペンギンさんの失恋"
 
 普通入れないから
 
-<audio controls>
+<audio>
 <source src="audio/21/003.mp3">
 </audio><hr>
 
@@ -30,7 +30,7 @@ title: "ペンギンさんの失恋"
 
 シャケ入れてみた
 
-<audio controls>
+<audio>
 <source src="audio/21/004.mp3">
 </audio><hr>
 
@@ -40,7 +40,7 @@ title: "ペンギンさんの失恋"
 
 やっぱり　しょっぱいです
 
-<audio controls>
+<audio>
 <source src="audio/21/005.mp3">
 </audio><hr>
 
@@ -48,7 +48,7 @@ title: "ペンギンさんの失恋"
 
 ずっといるでしょ！
 
-<audio controls>
+<audio>
 <source src="audio/21/006.mp3">
 </audio><hr>
 
@@ -58,13 +58,13 @@ title: "ペンギンさんの失恋"
 
 話しかけてよ！
 
-<audio controls>
+<audio>
 <source src="audio/21/007.mp3">
 </audio><hr>
 
 シャケ入りホットケーキ　食べる？
 
-<audio controls>
+<audio>
 <source src="audio/21/008.mp3">
 </audio><hr>
 
@@ -74,7 +74,7 @@ title: "ペンギンさんの失恋"
 
 見てわからない？
 
-<audio controls>
+<audio>
 <source src="audio/21/009.mp3">
 </audio><hr>
 
@@ -82,7 +82,7 @@ title: "ペンギンさんの失恋"
 
 僕はね…　僕はね…
 
-<audio controls>
+<audio>
 <source src="audio/21/010.mp3">
 </audio><hr>
 
@@ -90,7 +90,7 @@ title: "ペンギンさんの失恋"
 
 失恋？
 
-<audio controls>
+<audio>
 <source src="audio/21/011.mp3">
 </audio><hr>
 
@@ -100,13 +100,13 @@ title: "ペンギンさんの失恋"
 
 それは　三輪車！
 
-<audio controls>
+<audio>
 <source src="audio/21/012.mp3">
 </audio><hr>
 
 だから　僕は　失恋して ツッコむ気力もないの！
 
-<audio controls>
+<audio>
 <source src="audio/21/013.mp3">
 </audio><hr>
 
@@ -116,7 +116,7 @@ title: "ペンギンさんの失恋"
 
 決まってるじゃない！
 
-<audio controls>
+<audio>
 <source src="audio/21/014.mp3">
 </audio><hr>
 
@@ -124,7 +124,7 @@ title: "ペンギンさんの失恋"
 
 何も言わないで　ほっておいてよ
 
-<audio controls>
+<audio>
 <source src="audio/21/015.mp3">
 </audio><hr>
 
@@ -132,7 +132,7 @@ title: "ペンギンさんの失恋"
 
 聞いてよ！
 
-<audio controls>
+<audio>
 <source src="audio/21/016.mp3">
 </audio><hr>
 
@@ -142,7 +142,7 @@ title: "ペンギンさんの失恋"
 
 話せば楽になるぞ
 
-<audio controls>
+<audio>
 <source src="audio/21/017.mp3">
 </audio><hr>
 
@@ -152,7 +152,7 @@ title: "ペンギンさんの失恋"
 
 で…　どうしたの？
 
-<audio controls>
+<audio>
 <source src="audio/21/018.mp3">
 </audio><hr>
 
@@ -162,7 +162,7 @@ title: "ペンギンさんの失恋"
 
 ペン子さんがデートしてるところ…
 
-<audio controls>
+<audio>
 <source src="audio/21/019.mp3">
 </audio><hr>
 
@@ -170,7 +170,7 @@ title: "ペンギンさんの失恋"
 
 それがなんと驚いたことに…
 
-<audio controls>
+<audio>
 <source src="audio/21/020.mp3">
 </audio><hr>
 
@@ -182,7 +182,7 @@ title: "ペンギンさんの失恋"
 
 まさかと思うくらいの…
 
-<audio controls>
+<audio>
 <source src="audio/21/021.mp3">
 </audio><hr>
 
@@ -192,7 +192,7 @@ title: "ペンギンさんの失恋"
 
 さっき　公園で 目撃しちゃったんだ
 
-<audio controls>
+<audio>
 <source src="audio/21/022.mp3">
 </audio><hr>
 
@@ -202,7 +202,7 @@ title: "ペンギンさんの失恋"
 
 運命　感じちゃうな！
 
-<audio controls>
+<audio>
 <source src="audio/21/023.mp3">
 </audio><hr>
 
@@ -212,7 +212,7 @@ title: "ペンギンさんの失恋"
 
 じゃあ　行きましょう
 
-<audio controls>
+<audio>
 <source src="audio/21/024.mp3">
 </audio><hr>
 
@@ -224,13 +224,13 @@ title: "ペンギンさんの失恋"
 
 そう…　
 
-<audio controls>
+<audio>
 <source src="audio/21/025.mp3">
 </audio><hr>
 
 ペン子さんと待ち合わせて デートしてたんだ
 
-<audio controls>
+<audio>
 <source src="audio/21/026.mp3">
 </audio><hr>
 
@@ -238,7 +238,7 @@ title: "ペンギンさんの失恋"
 
 僕…　ここに 甲羅干しに来るんです～
 
-<audio controls>
+<audio>
 <source src="audio/21/027.mp3">
 </audio><hr>
 
@@ -248,7 +248,7 @@ title: "ペンギンさんの失恋"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/21/028.mp3">
 </audio><hr>
 
@@ -260,7 +260,7 @@ title: "ペンギンさんの失恋"
 
 あ～んってしたり ボートに乗ってたんだよ！
 
-<audio controls>
+<audio>
 <source src="audio/21/029.mp3">
 </audio><hr>
 
@@ -268,13 +268,13 @@ title: "ペンギンさんの失恋"
 
 そりゃ…
 
-<audio controls>
+<audio>
 <source src="audio/21/030.mp3">
 </audio><hr>
 
 なんだか涙ぐましいね
 
-<audio controls>
+<audio>
 <source src="audio/21/031.mp3">
 </audio><hr>
 
@@ -284,7 +284,7 @@ title: "ペンギンさんの失恋"
 
 それが　決定的なことに…
 
-<audio controls>
+<audio>
 <source src="audio/21/032.mp3">
 </audio><hr>
 
@@ -292,7 +292,7 @@ title: "ペンギンさんの失恋"
 
 カ　メ…
 
-<audio controls>
+<audio>
 <source src="audio/21/033.mp3">
 </audio><hr>
 
@@ -302,7 +302,7 @@ title: "ペンギンさんの失恋"
 
 カメのどこがいいんだろう？
 
-<audio controls>
+<audio>
 <source src="audio/21/034.mp3">
 </audio><hr>
 
@@ -312,7 +312,7 @@ title: "ペンギンさんの失恋"
 
 こ…　
 
-<audio controls>
+<audio>
 <source src="audio/21/035.mp3">
 </audio><hr>
 
@@ -320,7 +320,7 @@ title: "ペンギンさんの失恋"
 
 首とか手足が引っ込むところも キュートかも
 
-<audio controls>
+<audio>
 <source src="audio/21/036.mp3">
 </audio><hr>
 
@@ -328,7 +328,7 @@ title: "ペンギンさんの失恋"
 
 ペ…　ペンギンにだって いいとこあるでしょ？
 
-<audio controls>
+<audio>
 <source src="audio/21/037.mp3">
 </audio><hr>
 
@@ -338,13 +338,13 @@ title: "ペンギンさんの失恋"
 
 僕はどうして ペンギンに生まれたんだろう
 
-<audio controls>
+<audio>
 <source src="audio/21/038.mp3">
 </audio><hr>
 
 お母さん！　どうして　僕を カメに生んでくれなかったの！？
 
-<audio controls>
+<audio>
 <source src="audio/21/039.mp3">
 </audio><hr>
 
@@ -360,13 +360,13 @@ title: "ペンギンさんの失恋"
 
 い…　
 
-<audio controls>
+<audio>
 <source src="audio/21/040.mp3">
 </audio><hr>
 
 今からでも遅くないですよ
 
-<audio controls>
+<audio>
 <source src="audio/21/041.mp3">
 </audio><hr>
 
@@ -378,7 +378,7 @@ title: "ペンギンさんの失恋"
 
 速い乗り物は 好きじゃないかもね
 
-<audio controls>
+<audio>
 <source src="audio/21/042.mp3">
 </audio><hr>
 
@@ -388,7 +388,7 @@ title: "ペンギンさんの失恋"
 
 もう　きっぱり ペン子さんのことは諦めよう
 
-<audio controls>
+<audio>
 <source src="audio/21/043.mp3">
 </audio><hr>
 
@@ -398,7 +398,7 @@ title: "ペンギンさんの失恋"
 
 そうだよね　いつまでも 引きずってちゃダメだよね
 
-<audio controls>
+<audio>
 <source src="audio/21/044.mp3">
 </audio><hr>
 
@@ -408,7 +408,7 @@ title: "ペンギンさんの失恋"
 
 どっちなの？
 
-<audio controls>
+<audio>
 <source src="audio/21/045.mp3">
 </audio><hr>
 
@@ -416,7 +416,7 @@ title: "ペンギンさんの失恋"
 
 ペンギンがゾウガメなんかに 負けてたまるか～っ！
 
-<audio controls>
+<audio>
 <source src="audio/21/046.mp3">
 </audio><hr>
 
@@ -426,7 +426,7 @@ title: "ペンギンさんの失恋"
 
 ライバル登場だよ
 
-<audio controls>
+<audio>
 <source src="audio/21/047.mp3">
 </audio><hr>
 
@@ -436,7 +436,7 @@ title: "ペンギンさんの失恋"
 
 これから決闘するの？
 
-<audio controls>
+<audio>
 <source src="audio/21/048.mp3">
 </audio><hr>
 
@@ -450,7 +450,7 @@ title: "ペンギンさんの失恋"
 
 ちょっと黙っててよ！
 
-<audio controls>
+<audio>
 <source src="audio/21/049.mp3">
 </audio><hr>
 
@@ -458,7 +458,7 @@ title: "ペンギンさんの失恋"
 
 はっきりさせないと
 
-<audio controls>
+<audio>
 <source src="audio/21/050.mp3">
 </audio><hr>
 
@@ -470,7 +470,7 @@ title: "ペンギンさんの失恋"
 
 いい天気だね
 
-<audio controls>
+<audio>
 <source src="audio/21/051.mp3">
 </audio><hr>
 
@@ -478,7 +478,7 @@ title: "ペンギンさんの失恋"
 
 わかってるよ！
 
-<audio controls>
+<audio>
 <source src="audio/21/052.mp3">
 </audio><hr>
 
@@ -486,7 +486,7 @@ title: "ペンギンさんの失恋"
 
 あ…　いや…　あのさ！ この間さ　公園で…
 
-<audio controls>
+<audio>
 <source src="audio/21/053.mp3">
 </audio><hr>
 
@@ -494,7 +494,7 @@ title: "ペンギンさんの失恋"
 
 おいしかった～
 
-<audio controls>
+<audio>
 <source src="audio/21/054.mp3">
 </audio><hr>
 
@@ -504,13 +504,13 @@ title: "ペンギンさんの失恋"
 
 話には順序ってものが…
 
-<audio controls>
+<audio>
 <source src="audio/21/055.mp3">
 </audio><hr>
 
 そういえば　あの公園でさ
 
-<audio controls>
+<audio>
 <source src="audio/21/056.mp3">
 </audio><hr>
 
@@ -518,7 +518,7 @@ title: "ペンギンさんの失恋"
 
 あの公園　気持いいよね
 
-<audio controls>
+<audio>
 <source src="audio/21/057.mp3">
 </audio><hr>
 
@@ -528,7 +528,7 @@ title: "ペンギンさんの失恋"
 
 それで　
 
-<audio controls>
+<audio>
 <source src="audio/21/058.mp3">
 </audio><hr>
 
@@ -540,7 +540,7 @@ title: "ペンギンさんの失恋"
 
 誘われて～
 
-<audio controls>
+<audio>
 <source src="audio/21/059.mp3">
 </audio><hr>
 
@@ -550,13 +550,13 @@ title: "ペンギンさんの失恋"
 
 カ…　メ…
 
-<audio controls>
+<audio>
 <source src="audio/21/060.mp3">
 </audio><hr>
 
 ゾウガメさん　ペン子さんとお幸せに！ うわ～ん！
 
-<audio controls>
+<audio>
 <source src="audio/21/061.mp3">
 </audio><hr>
 
@@ -564,7 +564,7 @@ title: "ペンギンさんの失恋"
 
 ラ？
 
-<audio controls>
+<audio>
 <source src="audio/21/062.mp3">
 </audio><hr>
 
@@ -572,19 +572,19 @@ title: "ペンギンさんの失恋"
 
 ペン子さんが そんなにカメ好きなら…
 
-<audio controls>
+<audio>
 <source src="audio/21/063.mp3">
 </audio><hr>
 
 いらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/21/064.mp3">
 </audio><hr>
 
 こんにちは
 
-<audio controls>
+<audio>
 <source src="audio/21/065.mp3">
 </audio><hr>
 
@@ -592,7 +592,7 @@ title: "ペンギンさんの失恋"
 
 どこから持ってきたんですか？ その甲羅
 
-<audio controls>
+<audio>
 <source src="audio/21/066.mp3">
 </audio><hr>
 
@@ -602,7 +602,7 @@ title: "ペンギンさんの失恋"
 
 ああ　
 
-<audio controls>
+<audio>
 <source src="audio/21/067.mp3">
 </audio><hr>
 
@@ -612,7 +612,7 @@ title: "ペンギンさんの失恋"
 
 大好きなのは　カメラ
 
-<audio controls>
+<audio>
 <source src="audio/21/068.mp3">
 </audio><hr>
 
@@ -620,19 +620,19 @@ title: "ペンギンさんの失恋"
 
 ゾウガメさんも同じ趣味みたいで
 
-<audio controls>
+<audio>
 <source src="audio/21/069.mp3">
 </audio><hr>
 
 大好きなのはね　カメじゃなくてカメラだよ
 
-<audio controls>
+<audio>
 <source src="audio/21/070.mp3">
 </audio><hr>
 
 出直してきます
 
-<audio controls>
+<audio>
 <source src="audio/21/071.mp3">
 </audio><hr>
 

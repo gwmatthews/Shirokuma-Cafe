@@ -5,7 +5,7 @@ title: "リンリン感激　パンダくんち！"
 
 リンリン感激　パンダくんち！
 
-<audio controls>
+<audio>
 <source src="audio/17/001.mp3">
 </audio><hr>
 
@@ -15,7 +15,7 @@ title: "リンリン感激　パンダくんち！"
 
 またいらしてくださいね
 
-<audio controls>
+<audio>
 <source src="audio/17/002.mp3">
 </audio><hr>
 
@@ -23,7 +23,7 @@ title: "リンリン感激　パンダくんち！"
 
 かっこいいよね
 
-<audio controls>
+<audio>
 <source src="audio/17/003.mp3">
 </audio><hr>
 
@@ -35,7 +35,7 @@ title: "リンリン感激　パンダくんち！"
 
 そんじゃ　お疲れ
 
-<audio controls>
+<audio>
 <source src="audio/17/004.mp3">
 </audio><hr>
 
@@ -43,7 +43,7 @@ title: "リンリン感激　パンダくんち！"
 
 あ～　パンダくん 仲よくなりたいのに
 
-<audio controls>
+<audio>
 <source src="audio/17/005.mp3">
 </audio><hr>
 
@@ -55,7 +55,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダ最高！
 
-<audio controls>
+<audio>
 <source src="audio/17/006.mp3">
 </audio><hr>
 
@@ -67,7 +67,7 @@ title: "リンリン感激　パンダくんち！"
 
 で　お届けはどちらまで
 
-<audio controls>
+<audio>
 <source src="audio/17/007.mp3">
 </audio><hr>
 
@@ -79,7 +79,7 @@ title: "リンリン感激　パンダくんち！"
 
 そう　僕が通りかかるたびにさ
 
-<audio controls>
+<audio>
 <source src="audio/17/008.mp3">
 </audio><hr>
 
@@ -93,7 +93,7 @@ title: "リンリン感激　パンダくんち！"
 
 あれ？
 
-<audio controls>
+<audio>
 <source src="audio/17/009.mp3">
 </audio><hr>
 
@@ -109,7 +109,7 @@ title: "リンリン感激　パンダくんち！"
 
 じゃあ　笹子さんにあげれば
 
-<audio controls>
+<audio>
 <source src="audio/17/010.mp3">
 </audio><hr>
 
@@ -123,7 +123,7 @@ title: "リンリン感激　パンダくんち！"
 
 やめてよ
 
-<audio controls>
+<audio>
 <source src="audio/17/011.mp3">
 </audio><hr>
 
@@ -131,7 +131,7 @@ title: "リンリン感激　パンダくんち！"
 
 お花をお届けにあがりました
 
-<audio controls>
+<audio>
 <source src="audio/17/012.mp3">
 </audio><hr>
 
@@ -141,7 +141,7 @@ title: "リンリン感激　パンダくんち！"
 
 どうも　ご苦労様です
 
-<audio controls>
+<audio>
 <source src="audio/17/013.mp3">
 </audio><hr>
 
@@ -157,7 +157,7 @@ title: "リンリン感激　パンダくんち！"
 
 お家に 上がっていいんですか！
 
-<audio controls>
+<audio>
 <source src="audio/17/014.mp3">
 </audio><hr>
 
@@ -169,7 +169,7 @@ title: "リンリン感激　パンダくんち！"
 
 事情があるんだよ
 
-<audio controls>
+<audio>
 <source src="audio/17/015.mp3">
 </audio><hr>
 
@@ -179,7 +179,7 @@ title: "リンリン感激　パンダくんち！"
 
 とある事件に巻き込まれ…
 
-<audio controls>
+<audio>
 <source src="audio/17/016.mp3">
 </audio><hr>
 
@@ -195,7 +195,7 @@ title: "リンリン感激　パンダくんち！"
 
 もう　リンリンの話はいいよ
 
-<audio controls>
+<audio>
 <source src="audio/17/017.mp3">
 </audio><hr>
 
@@ -209,7 +209,7 @@ title: "リンリン感激　パンダくんち！"
 
 ここでパンダくんが 暮らしているんだな
 
-<audio controls>
+<audio>
 <source src="audio/17/018.mp3">
 </audio><hr>
 
@@ -221,7 +221,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダだ　パンダ妹だ
 
-<audio controls>
+<audio>
 <source src="audio/17/019.mp3">
 </audio><hr>
 
@@ -235,7 +235,7 @@ title: "リンリン感激　パンダくんち！"
 
 僕のこと　知ってるんだ？
 
-<audio controls>
+<audio>
 <source src="audio/17/020.mp3">
 </audio><hr>
 
@@ -247,7 +247,7 @@ title: "リンリン感激　パンダくんち！"
 
 でも…　私の好みじゃないわね
 
-<audio controls>
+<audio>
 <source src="audio/17/021.mp3">
 </audio><hr>
 
@@ -259,7 +259,7 @@ title: "リンリン感激　パンダくんち！"
 
 ああ　ごめん お店があるから　帰らないと
 
-<audio controls>
+<audio>
 <source src="audio/17/022.mp3">
 </audio><hr>
 
@@ -267,7 +267,7 @@ title: "リンリン感激　パンダくんち！"
 
 あら？
 
-<audio controls>
+<audio>
 <source src="audio/17/023.mp3">
 </audio><hr>
 
@@ -277,7 +277,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダと回る…
 
-<audio controls>
+<audio>
 <source src="audio/17/024.mp3">
 </audio><hr>
 
@@ -287,7 +287,7 @@ title: "リンリン感激　パンダくんち！"
 
 次は　かくれんぼね
 
-<audio controls>
+<audio>
 <source src="audio/17/025.mp3">
 </audio><hr>
 
@@ -297,7 +297,7 @@ title: "リンリン感激　パンダくんち！"
 
 リンリンさん案外タフね
 
-<audio controls>
+<audio>
 <source src="audio/17/026.mp3">
 </audio><hr>
 
@@ -305,7 +305,7 @@ title: "リンリン感激　パンダくんち！"
 
 店に戻らないで 遊んでていいのか？
 
-<audio controls>
+<audio>
 <source src="audio/17/027.mp3">
 </audio><hr>
 
@@ -317,7 +317,7 @@ title: "リンリン感激　パンダくんち！"
 
 何奴？
 
-<audio controls>
+<audio>
 <source src="audio/17/028.mp3">
 </audio><hr>
 
@@ -331,7 +331,7 @@ title: "リンリン感激　パンダくんち！"
 
 違うわよ　リンリンは　お花屋さんよ
 
-<audio controls>
+<audio>
 <source src="audio/17/029.mp3">
 </audio><hr>
 
@@ -345,13 +345,13 @@ title: "リンリン感激　パンダくんち！"
 
 パンダ…　だ…
 
-<audio controls>
+<audio>
 <source src="audio/17/030.mp3">
 </audio><hr>
 
 パンダお爺ちゃんの太極拳…　だ…
 
-<audio controls>
+<audio>
 <source src="audio/17/031.mp3">
 </audio><hr>
 
@@ -365,7 +365,7 @@ title: "リンリン感激　パンダくんち！"
 
 ホラ話と わかってても　涙が止まらない…
 
-<audio controls>
+<audio>
 <source src="audio/17/032.mp3">
 </audio><hr>
 
@@ -377,7 +377,7 @@ title: "リンリン感激　パンダくんち！"
 
 いや　さすがに　もういい
 
-<audio controls>
+<audio>
 <source src="audio/17/033.mp3">
 </audio><hr>
 
@@ -389,7 +389,7 @@ title: "リンリン感激　パンダくんち！"
 
 まいったな… 早く店に帰らなきゃ
 
-<audio controls>
+<audio>
 <source src="audio/17/034.mp3">
 </audio><hr>
 
@@ -399,7 +399,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダくんの部屋？
 
-<audio controls>
+<audio>
 <source src="audio/17/035.mp3">
 </audio><hr>
 
@@ -407,7 +407,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダくんのパンダスリッパ！ パンダくんのシール…
 
-<audio controls>
+<audio>
 <source src="audio/17/036.mp3">
 </audio><hr>
 
@@ -415,7 +415,7 @@ title: "リンリン感激　パンダくんち！"
 
 なんだよ… 大事にしてくれてるじゃん
 
-<audio controls>
+<audio>
 <source src="audio/17/037.mp3">
 </audio><hr>
 
@@ -427,7 +427,7 @@ title: "リンリン感激　パンダくんち！"
 
 さ…　触りたい
 
-<audio controls>
+<audio>
 <source src="audio/17/038.mp3">
 </audio><hr>
 
@@ -437,7 +437,7 @@ title: "リンリン感激　パンダくんち！"
 
 かわいい！
 
-<audio controls>
+<audio>
 <source src="audio/17/039.mp3">
 </audio><hr>
 
@@ -447,7 +447,7 @@ title: "リンリン感激　パンダくんち！"
 
 ありがとう！　おいしいな
 
-<audio controls>
+<audio>
 <source src="audio/17/040.mp3">
 </audio><hr>
 
@@ -455,7 +455,7 @@ title: "リンリン感激　パンダくんち！"
 
 っていうか　笹　食べるの？
 
-<audio controls>
+<audio>
 <source src="audio/17/041.mp3">
 </audio><hr>
 
@@ -465,7 +465,7 @@ title: "リンリン感激　パンダくんち！"
 
 あの…　お花代　まだ お支払いしてなかったでしょ？
 
-<audio controls>
+<audio>
 <source src="audio/17/042.mp3">
 </audio><hr>
 
@@ -475,7 +475,7 @@ title: "リンリン感激　パンダくんち！"
 
 ちゃんと払うわよ
 
-<audio controls>
+<audio>
 <source src="audio/17/043.mp3">
 </audio><hr>
 
@@ -485,7 +485,7 @@ title: "リンリン感激　パンダくんち！"
 
 幸せです！
 
-<audio controls>
+<audio>
 <source src="audio/17/044.mp3">
 </audio><hr>
 
@@ -497,7 +497,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダママさんや　妹ちゃんとは 仲よくなれたんだ
 
-<audio controls>
+<audio>
 <source src="audio/17/045.mp3">
 </audio><hr>
 
@@ -507,7 +507,7 @@ title: "リンリン感激　パンダくんち！"
 
 ねぇ　ねぇ　半田さん
 
-<audio controls>
+<audio>
 <source src="audio/17/046.mp3">
 </audio><hr>
 
@@ -519,7 +519,7 @@ title: "リンリン感激　パンダくんち！"
 
 彼女もいないし　暇でしょ？
 
-<audio controls>
+<audio>
 <source src="audio/17/047.mp3">
 </audio><hr>
 
@@ -529,7 +529,7 @@ title: "リンリン感激　パンダくんち！"
 
 パンダくんより　だと！？
 
-<audio controls>
+<audio>
 <source src="audio/17/048.mp3">
 </audio><hr>
 
@@ -539,7 +539,7 @@ title: "リンリン感激　パンダくんち！"
 
 そう？
 
-<audio controls>
+<audio>
 <source src="audio/17/049.mp3">
 </audio><hr>
 

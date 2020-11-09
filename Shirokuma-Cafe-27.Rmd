@@ -4,13 +4,13 @@ title: "白熊君張切る"
 
 白熊君張切る
 
-<audio controls>
+<audio>
 <source src="audio/27/001.mp3">
 </audio><hr>
 
 どうしたの　パンダ君　溜息なんかついて
 
-<audio controls>
+<audio>
 <source src="audio/27/002.mp3">
 </audio><hr>
 
@@ -20,13 +20,13 @@ title: "白熊君張切る"
 
 本当に何もすることなくて　超退屈なんだもん
 
-<audio controls>
+<audio>
 <source src="audio/27/003.mp3">
 </audio><hr>
 
 常勤パンダさんとあっち向いてほいとかしても
 
-<audio controls>
+<audio>
 <source src="audio/27/004.mp3">
 </audio><hr>
 
@@ -36,19 +36,19 @@ title: "白熊君張切る"
 
 十五秒で厭きるよ
 
-<audio controls>
+<audio>
 <source src="audio/27/005.mp3">
 </audio><hr>
 
 ペンギンさん　時間潰すのって大変だよ
 
-<audio controls>
+<audio>
 <source src="audio/27/006.mp3">
 </audio><hr>
 
 仕方ないから　いっぱいお昼寝してたら
 
-<audio controls>
+<audio>
 <source src="audio/27/007.mp3">
 </audio><hr>
 
@@ -56,7 +56,7 @@ title: "白熊君張切る"
 
 ぶーくりおやつ食べても　ちょっびとの時間しか経たないし
 
-<audio controls>
+<audio>
 <source src="audio/27/008.mp3">
 </audio><hr>
 
@@ -64,7 +64,7 @@ title: "白熊君張切る"
 
 また
 
-<audio controls>
+<audio>
 <source src="audio/27/009.mp3">
 </audio><hr>
 
@@ -74,7 +74,7 @@ title: "白熊君張切る"
 
 そうだよ
 
-<audio controls>
+<audio>
 <source src="audio/27/010.mp3">
 </audio><hr>
 
@@ -84,7 +84,7 @@ title: "白熊君張切る"
 
 週二日で文句言わないでよ
 
-<audio controls>
+<audio>
 <source src="audio/27/011.mp3">
 </audio><hr>
 
@@ -96,7 +96,7 @@ title: "白熊君張切る"
 
 週一日にしようかな
 
-<audio controls>
+<audio>
 <source src="audio/27/012.mp3">
 </audio><hr>
 
@@ -106,7 +106,7 @@ title: "白熊君張切る"
 
 そうなの
 
-<audio controls>
+<audio>
 <source src="audio/27/013.mp3">
 </audio><hr>
 
@@ -114,7 +114,7 @@ title: "白熊君張切る"
 
 お店忙しいですもんね
 
-<audio controls>
+<audio>
 <source src="audio/27/014.mp3">
 </audio><hr>
 
@@ -124,7 +124,7 @@ title: "白熊君張切る"
 
 もう　二人とも ないもの強請りなんだから
 
-<audio controls>
+<audio>
 <source src="audio/27/015.mp3">
 </audio><hr>
 
@@ -132,7 +132,7 @@ title: "白熊君張切る"
 
 そう言われても…
 
-<audio controls>
+<audio>
 <source src="audio/27/016.mp3">
 </audio><hr>
 
@@ -142,7 +142,7 @@ title: "白熊君張切る"
 
 パンダ君　一日だけ入れ替わってみない？
 
-<audio controls>
+<audio>
 <source src="audio/27/017.mp3">
 </audio><hr>
 
@@ -150,7 +150,7 @@ title: "白熊君張切る"
 
 パンダ君は白熊カフェでマスターするの
 
-<audio controls>
+<audio>
 <source src="audio/27/018.mp3">
 </audio><hr>
 
@@ -160,7 +160,7 @@ title: "白熊君張切る"
 
 白熊君ってかっこいいから　一回やってみたっかたんだ
 
-<audio controls>
+<audio>
 <source src="audio/27/019.mp3">
 </audio><hr>
 
@@ -170,7 +170,7 @@ title: "白熊君張切る"
 
 白熊君　変なこと言わないでよ
 
-<audio controls>
+<audio>
 <source src="audio/27/020.mp3">
 </audio><hr>
 
@@ -178,13 +178,13 @@ title: "白熊君張切る"
 
 …じゃないですよね
 
-<audio controls>
+<audio>
 <source src="audio/27/021.mp3">
 </audio><hr>
 
 パンダで~す
 
-<audio controls>
+<audio>
 <source src="audio/27/022.mp3">
 </audio><hr>
 
@@ -194,7 +194,7 @@ title: "白熊君張切る"
 
 あれ　
 
-<audio controls>
+<audio>
 <source src="audio/27/023.mp3">
 </audio><hr>
 
@@ -204,7 +204,7 @@ title: "白熊君張切る"
 
 お客さんには熊の区別なんてつかないから
 
-<audio controls>
+<audio>
 <source src="audio/27/024.mp3">
 </audio><hr>
 
@@ -214,7 +214,7 @@ title: "白熊君張切る"
 
 帰って帰って
 
-<audio controls>
+<audio>
 <source src="audio/27/025.mp3">
 </audio><hr>
 
@@ -226,7 +226,7 @@ title: "白熊君張切る"
 
 そうなると…
 
-<audio controls>
+<audio>
 <source src="audio/27/026.mp3">
 </audio><hr>
 
@@ -234,7 +234,7 @@ title: "白熊君張切る"
 
 白熊君　パンダ君は？
 
-<audio controls>
+<audio>
 <source src="audio/27/027.mp3">
 </audio><hr>
 
@@ -244,13 +244,13 @@ title: "白熊君張切る"
 
 今から呼んでも間に合わないよ
 
-<audio controls>
+<audio>
 <source src="audio/27/028.mp3">
 </audio><hr>
 
 大丈夫　任せて
 
-<audio controls>
+<audio>
 <source src="audio/27/029.mp3">
 </audio><hr>
 
@@ -258,7 +258,7 @@ title: "白熊君張切る"
 
 は～い～　頑張ります
 
-<audio controls>
+<audio>
 <source src="audio/27/030.mp3">
 </audio><hr>
 
@@ -266,13 +266,13 @@ title: "白熊君張切る"
 
 差し入れだ…よっ
 
-<audio controls>
+<audio>
 <source src="audio/27/031.mp3">
 </audio><hr>
 
 パンダで～す
 
-<audio controls>
+<audio>
 <source src="audio/27/032.mp3">
 </audio><hr>
 
@@ -280,13 +280,13 @@ title: "白熊君張切る"
 
 パンダだよ
 
-<audio controls>
+<audio>
 <source src="audio/27/033.mp3">
 </audio><hr>
 
 何だか熱があるみたいだ
 
-<audio controls>
+<audio>
 <source src="audio/27/034.mp3">
 </audio><hr>
 
@@ -298,7 +298,7 @@ title: "白熊君張切る"
 
 あれがパンダ？
 
-<audio controls>
+<audio>
 <source src="audio/27/035.mp3">
 </audio><hr>
 
@@ -308,7 +308,7 @@ title: "白熊君張切る"
 
 ああいうのかも
 
-<audio controls>
+<audio>
 <source src="audio/27/036.mp3">
 </audio><hr>
 
@@ -320,13 +320,13 @@ title: "白熊君張切る"
 
 アイテム装備　
 
-<audio controls>
+<audio>
 <source src="audio/27/037.mp3">
 </audio><hr>
 
 そうして技を使う
 
-<audio controls>
+<audio>
 <source src="audio/27/038.mp3">
 </audio><hr>
 
@@ -340,7 +340,7 @@ title: "白熊君張切る"
 
 白熊君　グッドジョブ
 
-<audio controls>
+<audio>
 <source src="audio/27/039.mp3">
 </audio><hr>
 
@@ -350,13 +350,13 @@ title: "白熊君張切る"
 
 はい　ただいま
 
-<audio controls>
+<audio>
 <source src="audio/27/040.mp3">
 </audio><hr>
 
 確かに暇な仕事だ
 
-<audio controls>
+<audio>
 <source src="audio/27/041.mp3">
 </audio><hr>
 
@@ -366,13 +366,13 @@ title: "白熊君張切る"
 
 おっと　サービス　サービス
 
-<audio controls>
+<audio>
 <source src="audio/27/042.mp3">
 </audio><hr>
 
 あれ　タイヤでどうやって遊べばいいんだっけ
 
-<audio controls>
+<audio>
 <source src="audio/27/043.mp3">
 </audio><hr>
 
@@ -382,13 +382,13 @@ title: "白熊君張切る"
 
 どうしよう　皆怪しんでるよ
 
-<audio controls>
+<audio>
 <source src="audio/27/044.mp3">
 </audio><hr>
 
 おほ　遊んでる　遊んでる
 
-<audio controls>
+<audio>
 <source src="audio/27/045.mp3">
 </audio><hr>
 
@@ -396,7 +396,7 @@ title: "白熊君張切る"
 
 もう　白熊君がありえない動きするから
 
-<audio controls>
+<audio>
 <source src="audio/27/046.mp3">
 </audio><hr>
 
@@ -404,19 +404,19 @@ title: "白熊君張切る"
 
 セーフ
 
-<audio controls>
+<audio>
 <source src="audio/27/047.mp3">
 </audio><hr>
 
 よし　もっとサービスしよう
 
-<audio controls>
+<audio>
 <source src="audio/27/048.mp3">
 </audio><hr>
 
 うわっ　白熊だ
 
-<audio controls>
+<audio>
 <source src="audio/27/049.mp3">
 </audio><hr>
 
@@ -424,7 +424,7 @@ title: "白熊君張切る"
 
 うわっ　白熊だ
 
-<audio controls>
+<audio>
 <source src="audio/27/050.mp3">
 </audio><hr>
 
@@ -438,7 +438,7 @@ title: "白熊君張切る"
 
 （パンダ　白熊　パンダ　白熊……）
 
-<audio controls>
+<audio>
 <source src="audio/27/051.mp3">
 </audio><hr>
 
@@ -446,7 +446,7 @@ title: "白熊君張切る"
 
 白熊パンダがばれてもやばすぎる
 
-<audio controls>
+<audio>
 <source src="audio/27/052.mp3">
 </audio><hr>
 
@@ -454,7 +454,7 @@ title: "白熊君張切る"
 
 半田さん　大変です
 
-<audio controls>
+<audio>
 <source src="audio/27/053.mp3">
 </audio><hr>
 
@@ -464,7 +464,7 @@ title: "白熊君張切る"
 
 どうしよう！　え？
 
-<audio controls>
+<audio>
 <source src="audio/27/054.mp3">
 </audio><hr>
 
@@ -476,7 +476,7 @@ title: "白熊君張切る"
 
 どうも　どうも
 
-<audio controls>
+<audio>
 <source src="audio/27/055.mp3">
 </audio><hr>
 
@@ -484,7 +484,7 @@ title: "白熊君張切る"
 
 パンダグッズも飛ぶように売れてます
 
-<audio controls>
+<audio>
 <source src="audio/27/056.mp3">
 </audio><hr>
 
@@ -494,19 +494,19 @@ title: "白熊君張切る"
 
 半田さん　
 
-<audio controls>
+<audio>
 <source src="audio/27/057.mp3">
 </audio><hr>
 
 大成功でしょ
 
-<audio controls>
+<audio>
 <source src="audio/27/058.mp3">
 </audio><hr>
 
 そういえば　あっちはどうなったかな
 
-<audio controls>
+<audio>
 <source src="audio/27/059.mp3">
 </audio><hr>
 
@@ -514,7 +514,7 @@ title: "白熊君張切る"
 
 いらっしゃいませ
 
-<audio controls>
+<audio>
 <source src="audio/27/060.mp3">
 </audio><hr>
 
@@ -522,7 +522,7 @@ title: "白熊君張切る"
 
 いや　その　白熊にしてはちょっと小さい
 
-<audio controls>
+<audio>
 <source src="audio/27/061.mp3">
 </audio><hr>
 
@@ -532,7 +532,7 @@ title: "白熊君張切る"
 
 いいえ　白熊ですよ
 
-<audio controls>
+<audio>
 <source src="audio/27/062.mp3">
 </audio><hr>
 
@@ -540,7 +540,7 @@ title: "白熊君張切る"
 
 ここにいますよ
 
-<audio controls>
+<audio>
 <source src="audio/27/063.mp3">
 </audio><hr>
 
@@ -548,6 +548,6 @@ title: "白熊君張切る"
 
 ですね
 
-<audio controls>
+<audio>
 <source src="audio/27/064.mp3">
 </audio><hr>

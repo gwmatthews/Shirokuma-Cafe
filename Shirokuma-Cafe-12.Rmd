@@ -4,13 +4,13 @@ title: "目指せ！　ワイルドパンダ"
 
 目指せ！　ワイルドパンダ
 
-<audio controls>
+<audio>
 <source src="audio/12/001.mp3">
 </audio><hr>
 
 いらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/12/002.mp3">
 </audio><hr>
 
@@ -18,7 +18,7 @@ title: "目指せ！　ワイルドパンダ"
 
 何してるの　パンダくん
 
-<audio controls>
+<audio>
 <source src="audio/12/003.mp3">
 </audio><hr>
 
@@ -28,7 +28,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ワルな人って憧れちゃうな
 
-<audio controls>
+<audio>
 <source src="audio/12/004.mp3">
 </audio><hr>
 
@@ -38,7 +38,7 @@ title: "目指せ！　ワイルドパンダ"
 
 えっ　ストロング？　結構　苦いよ
 
-<audio controls>
+<audio>
 <source src="audio/12/005.mp3">
 </audio><hr>
 
@@ -50,7 +50,7 @@ title: "目指せ！　ワイルドパンダ"
 
 外せば
 
-<audio controls>
+<audio>
 <source src="audio/12/006.mp3">
 </audio><hr>
 
@@ -60,7 +60,7 @@ title: "目指せ！　ワイルドパンダ"
 
 強気な人が羨ましくって
 
-<audio controls>
+<audio>
 <source src="audio/12/007.mp3">
 </audio><hr>
 
@@ -70,7 +70,7 @@ title: "目指せ！　ワイルドパンダ"
 
 僕に足りないのは ワイルドさだと思うんだ
 
-<audio controls>
+<audio>
 <source src="audio/12/008.mp3">
 </audio><hr>
 
@@ -82,7 +82,7 @@ title: "目指せ！　ワイルドパンダ"
 
 マイルドなコーヒーね
 
-<audio controls>
+<audio>
 <source src="audio/12/009.mp3">
 </audio><hr>
 
@@ -92,14 +92,14 @@ title: "目指せ！　ワイルドパンダ"
 
 うんとね…
 
-<audio controls>
+<audio>
 <source src="audio/12/010.mp3">
 </audio><hr>
 
 
 山吹色の お菓子でございます
 
-<audio controls>
+<audio>
 <source src="audio/12/011.mp3">
 </audio><hr>
 
@@ -107,7 +107,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ノー　ノー！
 
-<audio controls>
+<audio>
 <source src="audio/12/012.mp3">
 </audio><hr>
 
@@ -115,7 +115,7 @@ title: "目指せ！　ワイルドパンダ"
 
 イマイチ強気で ワイルドなイメージがつかめなくて
 
-<audio controls>
+<audio>
 <source src="audio/12/013.mp3">
 </audio><hr>
 
@@ -127,7 +127,7 @@ title: "目指せ！　ワイルドパンダ"
 
 お店やってるから 夜　行ってみる？
 
-<audio controls>
+<audio>
 <source src="audio/12/014.mp3">
 </audio><hr>
 
@@ -135,25 +135,25 @@ title: "目指せ！　ワイルドパンダ"
 
 いや　もっと先
 
-<audio controls>
+<audio>
 <source src="audio/12/015.mp3">
 </audio><hr>
 
 ここを抜けると　すぐそこ
 
-<audio controls>
+<audio>
 <source src="audio/12/016.mp3">
 </audio><hr>
 
 着いたよ　ここね
 
-<audio controls>
+<audio>
 <source src="audio/12/017.mp3">
 </audio><hr>
 
 パンダくん　こっち　こっち
 
-<audio controls>
+<audio>
 <source src="audio/12/018.mp3">
 </audio><hr>
 
@@ -161,7 +161,7 @@ title: "目指せ！　ワイルドパンダ"
 
 猛獣館って感じ？
 
-<audio controls>
+<audio>
 <source src="audio/12/019.mp3">
 </audio><hr>
 
@@ -169,7 +169,7 @@ title: "目指せ！　ワイルドパンダ"
 
 よお　シロクマ 久しぶりじゃねえか
 
-<audio controls>
+<audio>
 <source src="audio/12/020.mp3">
 </audio><hr>
 
@@ -177,7 +177,7 @@ title: "目指せ！　ワイルドパンダ"
 
 相変わらず なまっちろい野郎だぜ　この　シロクマ野郎
 
-<audio controls>
+<audio>
 <source src="audio/12/021.mp3">
 </audio><hr>
 
@@ -187,7 +187,7 @@ title: "目指せ！　ワイルドパンダ"
 
 今日は　友達を連れてきた
 
-<audio controls>
+<audio>
 <source src="audio/12/022.mp3">
 </audio><hr>
 
@@ -195,7 +195,7 @@ title: "目指せ！　ワイルドパンダ"
 
 白いのか　黒いのか はっきりしねえ野郎だな
 
-<audio controls>
+<audio>
 <source src="audio/12/023.mp3">
 </audio><hr>
 
@@ -203,7 +203,7 @@ title: "目指せ！　ワイルドパンダ"
 
 まあ　いいか　座れ
 
-<audio controls>
+<audio>
 <source src="audio/12/024.mp3">
 </audio><hr>
 
@@ -211,7 +211,7 @@ title: "目指せ！　ワイルドパンダ"
 
 シングルモルト
 
-<audio controls>
+<audio>
 <source src="audio/12/025.mp3">
 </audio><hr>
 
@@ -225,7 +225,7 @@ title: "目指せ！　ワイルドパンダ"
 
 悪いな　ヘルシーなものは 置いてないんだ
 
-<audio controls>
+<audio>
 <source src="audio/12/026.mp3">
 </audio><hr>
 
@@ -233,7 +233,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ソフトドリンクもないね
 
-<audio controls>
+<audio>
 <source src="audio/12/027.mp3">
 </audio><hr>
 
@@ -241,7 +241,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ヘルシーなものは ないっつってんだろ！！
 
-<audio controls>
+<audio>
 <source src="audio/12/028.mp3">
 </audio><hr>
 
@@ -251,7 +251,7 @@ title: "目指せ！　ワイルドパンダ"
 
 シロクマの友人だ 特別に　コーヒー　いれてやるよ
 
-<audio controls>
+<audio>
 <source src="audio/12/029.mp3">
 </audio><hr>
 
@@ -265,7 +265,7 @@ title: "目指せ！　ワイルドパンダ"
 
 白黒　はっきりしろ！！
 
-<audio controls>
+<audio>
 <source src="audio/12/030.mp3">
 </audio><hr>
 
@@ -275,7 +275,7 @@ title: "目指せ！　ワイルドパンダ"
 
 シロクマか ただのクマになっちまうよな
 
-<audio controls>
+<audio>
 <source src="audio/12/031.mp3">
 </audio><hr>
 
@@ -283,7 +283,7 @@ title: "目指せ！　ワイルドパンダ"
 
 そう？
 
-<audio controls>
+<audio>
 <source src="audio/12/032.mp3">
 </audio><hr>
 
@@ -291,7 +291,7 @@ title: "目指せ！　ワイルドパンダ"
 
 アンタ　丸々と太ってて うまそうだな
 
-<audio controls>
+<audio>
 <source src="audio/12/033.mp3">
 </audio><hr>
 
@@ -299,7 +299,7 @@ title: "目指せ！　ワイルドパンダ"
 
 丸飲みとか
 
-<audio controls>
+<audio>
 <source src="audio/12/034.mp3">
 </audio><hr>
 
@@ -307,7 +307,7 @@ title: "目指せ！　ワイルドパンダ"
 
 バーベキューとか
 
-<audio controls>
+<audio>
 <source src="audio/12/035.mp3">
 </audio><hr>
 
@@ -317,7 +317,7 @@ title: "目指せ！　ワイルドパンダ"
 
 若作りとか
 
-<audio controls>
+<audio>
 <source src="audio/12/036.mp3">
 </audio><hr>
 
@@ -327,7 +327,7 @@ title: "目指せ！　ワイルドパンダ"
 
 か…　帰ります！
 
-<audio controls>
+<audio>
 <source src="audio/12/037.mp3">
 </audio><hr>
 
@@ -335,7 +335,7 @@ title: "目指せ！　ワイルドパンダ"
 
 悪かったな ほらよ　コーヒーだ
 
-<audio controls>
+<audio>
 <source src="audio/12/038.mp3">
 </audio><hr>
 
@@ -345,7 +345,7 @@ title: "目指せ！　ワイルドパンダ"
 
 何だ？
 
-<audio controls>
+<audio>
 <source src="audio/12/039.mp3">
 </audio><hr>
 
@@ -357,7 +357,7 @@ title: "目指せ！　ワイルドパンダ"
 
 かっこいい！
 
-<audio controls>
+<audio>
 <source src="audio/12/040.mp3">
 </audio><hr>
 
@@ -365,13 +365,13 @@ title: "目指せ！　ワイルドパンダ"
 
 わぁ～　憧れちゃうな
 
-<audio controls>
+<audio>
 <source src="audio/12/041.mp3">
 </audio><hr>
 
 どうせ　お前らはスローライフとかいって ダラダラ暮らしてやがんだろ？
 
-<audio controls>
+<audio>
 <source src="audio/12/042.mp3">
 </audio><hr>
 
@@ -383,7 +383,7 @@ title: "目指せ！　ワイルドパンダ"
 
 昔からマイペースだよな　お前は
 
-<audio controls>
+<audio>
 <source src="audio/12/043.mp3">
 </audio><hr>
 
@@ -391,7 +391,7 @@ title: "目指せ！　ワイルドパンダ"
 
 熱く　ぶっ飛ばさなきゃな
 
-<audio controls>
+<audio>
 <source src="audio/12/044.mp3">
 </audio><hr>
 
@@ -407,7 +407,7 @@ title: "目指せ！　ワイルドパンダ"
 
 うん！
 
-<audio controls>
+<audio>
 <source src="audio/12/045.mp3">
 </audio><hr>
 
@@ -417,7 +417,7 @@ title: "目指せ！　ワイルドパンダ"
 
 えっ？　それは…
 
-<audio controls>
+<audio>
 <source src="audio/12/046.mp3">
 </audio><hr>
 
@@ -427,7 +427,7 @@ title: "目指せ！　ワイルドパンダ"
 
 うん　マイルドで　よろしくね
 
-<audio controls>
+<audio>
 <source src="audio/12/047.mp3">
 </audio><hr>
 
@@ -441,7 +441,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/12/048.mp3">
 </audio><hr>
 
@@ -449,7 +449,7 @@ title: "目指せ！　ワイルドパンダ"
 
 それと　もうひとつ　ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/12/049.mp3">
 </audio><hr>
 
@@ -459,7 +459,7 @@ title: "目指せ！　ワイルドパンダ"
 
 そう　それならよかった
 
-<audio controls>
+<audio>
 <source src="audio/12/050.mp3">
 </audio><hr>
 
@@ -471,7 +471,7 @@ title: "目指せ！　ワイルドパンダ"
 
 じゃあ！
 
-<audio controls>
+<audio>
 <source src="audio/12/051.mp3">
 </audio><hr>
 
@@ -481,7 +481,7 @@ title: "目指せ！　ワイルドパンダ"
 
 あっ　そう…
 
-<audio controls>
+<audio>
 <source src="audio/12/052.mp3">
 </audio><hr>
 
@@ -491,7 +491,7 @@ title: "目指せ！　ワイルドパンダ"
 
 ペンギンさんって　どうしてみんなに嫌われてるんだっけ
 
-<audio controls>
+<audio>
 <source src="audio/12/053.mp3">
 </audio><hr>
 
@@ -503,7 +503,7 @@ title: "目指せ！　ワイルドパンダ"
 
 次回のしろくまカフェは
 
-<audio controls>
+<audio>
 <source src="audio/12/054.mp3">
 </audio><hr>
 
@@ -513,7 +513,7 @@ title: "目指せ！　ワイルドパンダ"
 
 お楽しみに
 
-<audio controls>
+<audio>
 <source src="audio/12/055.mp3">
 </audio><hr>
 

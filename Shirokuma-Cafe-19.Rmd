@@ -4,7 +4,7 @@ title: "半田さんの合コン？"
 
 半田さんの合コン？
 
-<audio controls>
+<audio>
 <source src="audio/19/001.mp3">
 </audio><hr>
 
@@ -12,7 +12,7 @@ title: "半田さんの合コン？"
 
 どうしたの？
 
-<audio controls>
+<audio>
 <source src="audio/19/002.mp3">
 </audio><hr>
 
@@ -22,7 +22,7 @@ title: "半田さんの合コン？"
 
 僕　カフェで餃子頼んだことあった？
 
-<audio controls>
+<audio>
 <source src="audio/19/003.mp3">
 </audio><hr>
 
@@ -34,7 +34,7 @@ title: "半田さんの合コン？"
 
 はい…
 
-<audio controls>
+<audio>
 <source src="audio/19/004.mp3">
 </audio><hr>
 
@@ -44,7 +44,7 @@ title: "半田さんの合コン？"
 
 笹子さん　偉い！
 
-<audio controls>
+<audio>
 <source src="audio/19/005.mp3">
 </audio><hr>
 
@@ -56,7 +56,7 @@ title: "半田さんの合コン？"
 
 喜ぶところかな！？
 
-<audio controls>
+<audio>
 <source src="audio/19/006.mp3">
 </audio><hr>
 
@@ -64,7 +64,7 @@ title: "半田さんの合コン？"
 
 うん
 
-<audio controls>
+<audio>
 <source src="audio/19/007.mp3">
 </audio><hr>
 
@@ -76,7 +76,7 @@ title: "半田さんの合コン？"
 
 ないね
 
-<audio controls>
+<audio>
 <source src="audio/19/008.mp3">
 </audio><hr>
 
@@ -88,7 +88,7 @@ title: "半田さんの合コン？"
 
 バイト　お疲れ
 
-<audio controls>
+<audio>
 <source src="audio/19/009.mp3">
 </audio><hr>
 
@@ -100,7 +100,7 @@ title: "半田さんの合コン？"
 
 はい　
 
-<audio controls>
+<audio>
 <source src="audio/19/010.mp3">
 </audio><hr>
 
@@ -108,7 +108,7 @@ title: "半田さんの合コン？"
 
 ねぇねぇ　聞いてよ　今日ね…
 
-<audio controls>
+<audio>
 <source src="audio/19/011.mp3">
 </audio><hr>
 
@@ -116,7 +116,7 @@ title: "半田さんの合コン？"
 
 まだ眠いよ もうちょっと寝よう
 
-<audio controls>
+<audio>
 <source src="audio/19/012.mp3">
 </audio><hr>
 
@@ -124,7 +124,7 @@ title: "半田さんの合コン？"
 
 二度寝の話がしたいの？
 
-<audio controls>
+<audio>
 <source src="audio/19/013.mp3">
 </audio><hr>
 
@@ -132,7 +132,7 @@ title: "半田さんの合コン？"
 
 もうちょっと　まとめてから 話してくれる？
 
-<audio controls>
+<audio>
 <source src="audio/19/014.mp3">
 </audio><hr>
 
@@ -140,7 +140,7 @@ title: "半田さんの合コン？"
 
 うん　わかった
 
-<audio controls>
+<audio>
 <source src="audio/19/015.mp3">
 </audio><hr>
 
@@ -150,7 +150,7 @@ title: "半田さんの合コン？"
 
 って…　早くないよ　遅刻だよ？
 
-<audio controls>
+<audio>
 <source src="audio/19/016.mp3">
 </audio><hr>
 
@@ -158,7 +158,7 @@ title: "半田さんの合コン？"
 
 ダメだよ　パンダ君
 
-<audio controls>
+<audio>
 <source src="audio/19/017.mp3">
 </audio><hr>
 
@@ -166,19 +166,19 @@ title: "半田さんの合コン？"
 
 ダーメ！
 
-<audio controls>
+<audio>
 <source src="audio/19/018.mp3">
 </audio><hr>
 
 ダメだからね
 
-<audio controls>
+<audio>
 <source src="audio/19/019.mp3">
 </audio><hr>
 
 開けるだけだよ
 
-<audio controls>
+<audio>
 <source src="audio/19/020.mp3">
 </audio><hr>
 
@@ -186,7 +186,7 @@ title: "半田さんの合コン？"
 
 おばあちゃんのお弁当みたいだ
 
-<audio controls>
+<audio>
 <source src="audio/19/021.mp3">
 </audio><hr>
 
@@ -196,7 +196,7 @@ title: "半田さんの合コン？"
 
 もう まだ　話してる途中なんだから
 
-<audio controls>
+<audio>
 <source src="audio/19/022.mp3">
 </audio><hr>
 
@@ -204,7 +204,7 @@ title: "半田さんの合コン？"
 
 ヒマでしょ？
 
-<audio controls>
+<audio>
 <source src="audio/19/023.mp3">
 </audio><hr>
 
@@ -212,7 +212,7 @@ title: "半田さんの合コン？"
 
 ペンギンさんって ふだん　何してんの？
 
-<audio controls>
+<audio>
 <source src="audio/19/024.mp3">
 </audio><hr>
 
@@ -220,7 +220,7 @@ title: "半田さんの合コン？"
 
 わかったよ
 
-<audio controls>
+<audio>
 <source src="audio/19/025.mp3">
 </audio><hr>
 
@@ -228,13 +228,13 @@ title: "半田さんの合コン？"
 
 サービスしようね
 
-<audio controls>
+<audio>
 <source src="audio/19/026.mp3">
 </audio><hr>
 
 はい　いつもより多めに　ゴロゴロしま～す
 
-<audio controls>
+<audio>
 <source src="audio/19/027.mp3">
 </audio><hr>
 
@@ -244,7 +244,7 @@ title: "半田さんの合コン？"
 
 今日　半田さんの お弁当見ちゃったんだけどね
 
-<audio controls>
+<audio>
 <source src="audio/19/028.mp3">
 </audio><hr>
 
@@ -252,7 +252,7 @@ title: "半田さんの合コン？"
 
 おいしかったけど
 
-<audio controls>
+<audio>
 <source src="audio/19/029.mp3">
 </audio><hr>
 
@@ -264,13 +264,13 @@ title: "半田さんの合コン？"
 
 うん！
 
-<audio controls>
+<audio>
 <source src="audio/19/030.mp3">
 </audio><hr>
 
 お弁当おいしかったけど 何ていうのかな…
 
-<audio controls>
+<audio>
 <source src="audio/19/031.mp3">
 </audio><hr>
 
@@ -278,13 +278,13 @@ title: "半田さんの合コン？"
 
 まぁ　半田さんが 自分のために作った弁当だからね
 
-<audio controls>
+<audio>
 <source src="audio/19/032.mp3">
 </audio><hr>
 
 というより　おばあちゃんが おばあちゃんのために作ったお弁当というか
 
-<audio controls>
+<audio>
 <source src="audio/19/033.mp3">
 </audio><hr>
 
@@ -292,7 +292,7 @@ title: "半田さんの合コン？"
 
 モテなさそうなお弁当なんだよね
 
-<audio controls>
+<audio>
 <source src="audio/19/034.mp3">
 </audio><hr>
 
@@ -302,13 +302,13 @@ title: "半田さんの合コン？"
 
 聞こえるように言ったんだよ
 
-<audio controls>
+<audio>
 <source src="audio/19/035.mp3">
 </audio><hr>
 
 半田さん　今度そのモテなさそうな弁当私にも見せてよ
 
-<audio controls>
+<audio>
 <source src="audio/19/036.mp3">
 </audio><hr>
 
@@ -316,7 +316,7 @@ title: "半田さんの合コン？"
 
 じゃあ　モテるの？
 
-<audio controls>
+<audio>
 <source src="audio/19/037.mp3">
 </audio><hr>
 
@@ -326,7 +326,7 @@ title: "半田さんの合コン？"
 
 だから
 
-<audio controls>
+<audio>
 <source src="audio/19/038.mp3">
 </audio><hr>
 
@@ -334,13 +334,13 @@ title: "半田さんの合コン？"
 
 お母さん以外だよ
 
-<audio controls>
+<audio>
 <source src="audio/19/039.mp3">
 </audio><hr>
 
 動物以外だよ
 
-<audio controls>
+<audio>
 <source src="audio/19/040.mp3">
 </audio><hr>
 
@@ -352,7 +352,7 @@ title: "半田さんの合コン？"
 
 僕が桐野くんに頼んでおいたから
 
-<audio controls>
+<audio>
 <source src="audio/19/041.mp3">
 </audio><hr>
 
@@ -364,7 +364,7 @@ title: "半田さんの合コン？"
 
 何だ？
 
-<audio controls>
+<audio>
 <source src="audio/19/042.mp3">
 </audio><hr>
 
@@ -372,7 +372,7 @@ title: "半田さんの合コン？"
 
 俺言ってないよ
 
-<audio controls>
+<audio>
 <source src="audio/19/043.mp3">
 </audio><hr>
 
@@ -382,7 +382,7 @@ title: "半田さんの合コン？"
 
 半田さんのために セッティングしたんですから
 
-<audio controls>
+<audio>
 <source src="audio/19/044.mp3">
 </audio><hr>
 
@@ -394,7 +394,7 @@ title: "半田さんの合コン？"
 
 帰って風呂の掃除しないと
 
-<audio controls>
+<audio>
 <source src="audio/19/045.mp3">
 </audio><hr>
 
@@ -402,7 +402,7 @@ title: "半田さんの合コン？"
 
 行くよね　半田さん
 
-<audio controls>
+<audio>
 <source src="audio/19/046.mp3">
 </audio><hr>
 
@@ -410,7 +410,7 @@ title: "半田さんの合コン？"
 
 もう　勝手に決めないで
 
-<audio controls>
+<audio>
 <source src="audio/19/047.mp3">
 </audio><hr>
 
@@ -420,7 +420,7 @@ title: "半田さんの合コン？"
 
 かわいくてもダメ！
 
-<audio controls>
+<audio>
 <source src="audio/19/048.mp3">
 </audio><hr>
 
@@ -428,13 +428,13 @@ title: "半田さんの合コン？"
 
 半田さんのために やったこともない合コンをセッティングしたんだよ
 
-<audio controls>
+<audio>
 <source src="audio/19/049.mp3">
 </audio><hr>
 
 ちょっとくらいは やったことありますけど
 
-<audio controls>
+<audio>
 <source src="audio/19/050.mp3">
 </audio><hr>
 
@@ -442,7 +442,7 @@ title: "半田さんの合コン？"
 
 もういいよ　２人とも
 
-<audio controls>
+<audio>
 <source src="audio/19/051.mp3">
 </audio><hr>
 
@@ -450,7 +450,7 @@ title: "半田さんの合コン？"
 
 半田さんが どうしても嫌なら　断ります
 
-<audio controls>
+<audio>
 <source src="audio/19/052.mp3">
 </audio><hr>
 
@@ -460,7 +460,7 @@ title: "半田さんの合コン？"
 
 よかった
 
-<audio controls>
+<audio>
 <source src="audio/19/053.mp3">
 </audio><hr>
 
@@ -468,7 +468,7 @@ title: "半田さんの合コン？"
 
 じゃあ　今晩７時ですから
 
-<audio controls>
+<audio>
 <source src="audio/19/054.mp3">
 </audio><hr>
 
@@ -476,7 +476,7 @@ title: "半田さんの合コン？"
 
 見せないよ
 
-<audio controls>
+<audio>
 <source src="audio/19/055.mp3">
 </audio><hr>
 
@@ -486,7 +486,7 @@ title: "半田さんの合コン？"
 
 シーッ！
 
-<audio controls>
+<audio>
 <source src="audio/19/056.mp3">
 </audio><hr>
 
@@ -496,7 +496,7 @@ title: "半田さんの合コン？"
 
 じゃあ　また明日
 
-<audio controls>
+<audio>
 <source src="audio/19/057.mp3">
 </audio><hr>
 
@@ -504,7 +504,7 @@ title: "半田さんの合コン？"
 
 えっ　ウソ　ホントに？
 
-<audio controls>
+<audio>
 <source src="audio/19/058.mp3">
 </audio><hr>
 
@@ -514,13 +514,13 @@ title: "半田さんの合コン？"
 
 どうしたの？
 
-<audio controls>
+<audio>
 <source src="audio/19/059.mp3">
 </audio><hr>
 
 今日の合コンなんだけど 友達が来られなくなっちゃって
 
-<audio controls>
+<audio>
 <source src="audio/19/060.mp3">
 </audio><hr>
 
@@ -528,7 +528,7 @@ title: "半田さんの合コン？"
 
 桐野くん
 
-<audio controls>
+<audio>
 <source src="audio/19/061.mp3">
 </audio><hr>
 
@@ -540,13 +540,13 @@ title: "半田さんの合コン？"
 
 うん　任せておいて
 
-<audio controls>
+<audio>
 <source src="audio/19/062.mp3">
 </audio><hr>
 
 ありがとう パンダくん　ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/19/063.mp3">
 </audio><hr>
 
@@ -556,7 +556,7 @@ title: "半田さんの合コン？"
 
 要するに 合コンのメンバーが必要なんだね
 
-<audio controls>
+<audio>
 <source src="audio/19/064.mp3">
 </audio><hr>
 
@@ -566,7 +566,7 @@ title: "半田さんの合コン？"
 
 シロクマくん　今日　ヒマ？
 
-<audio controls>
+<audio>
 <source src="audio/19/065.mp3">
 </audio><hr>
 
@@ -576,13 +576,13 @@ title: "半田さんの合コン？"
 
 僕　結構　話　聞いてたのに
 
-<audio controls>
+<audio>
 <source src="audio/19/066.mp3">
 </audio><hr>
 
 ペンギンさん　さっきから ヒマじゃない　ヒマじゃないって…
 
-<audio controls>
+<audio>
 <source src="audio/19/067.mp3">
 </audio><hr>
 
@@ -590,7 +590,7 @@ title: "半田さんの合コン？"
 
 やりくりすれば　合コンに行けないことも ないんじゃないかな
 
-<audio controls>
+<audio>
 <source src="audio/19/068.mp3">
 </audio><hr>
 
@@ -600,7 +600,7 @@ title: "半田さんの合コン？"
 
 じゃ　楽しんでくれば？
 
-<audio controls>
+<audio>
 <source src="audio/19/069.mp3">
 </audio><hr>
 
@@ -610,13 +610,13 @@ title: "半田さんの合コン？"
 
 今日の男性チームです
 
-<audio controls>
+<audio>
 <source src="audio/19/070.mp3">
 </audio><hr>
 
 半田さん　頑張ろうね
 
-<audio controls>
+<audio>
 <source src="audio/19/071.mp3">
 </audio><hr>
 
@@ -626,7 +626,7 @@ title: "半田さんの合コン？"
 
 後半へつづく
 
-<audio controls>
+<audio>
 <source src="audio/19/072.mp3">
 </audio><hr>
 

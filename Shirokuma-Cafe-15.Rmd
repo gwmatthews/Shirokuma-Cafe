@@ -4,7 +4,7 @@ title: '雑誌取材がやってきた'
 
 雑誌取材がやってきた
 
-<audio controls>
+<audio>
 <source src="audio/15/001.mp3">
 </audio><hr>
 
@@ -14,7 +14,7 @@ title: '雑誌取材がやってきた'
 
 あっ　あれ？ 縦列駐車？
 
-<audio controls>
+<audio>
 <source src="audio/15/002.mp3">
 </audio><hr>
 
@@ -24,7 +24,7 @@ title: '雑誌取材がやってきた'
 
 まだ　ちゃんと　できてないけど… 違うってば！
 
-<audio controls>
+<audio>
 <source src="audio/15/003.mp3">
 </audio><hr>
 
@@ -33,7 +33,7 @@ title: '雑誌取材がやってきた'
 
 デートのお誘いだよ
 
-<audio controls>
+<audio>
 <source src="audio/15/004.mp3">
 </audio><hr>
 
@@ -43,7 +43,7 @@ title: '雑誌取材がやってきた'
 
 なんで？
 
-<audio controls>
+<audio>
 <source src="audio/15/005.mp3">
 </audio><hr>
 
@@ -51,7 +51,7 @@ title: '雑誌取材がやってきた'
 
 シロクマさん！
 
-<audio controls>
+<audio>
 <source src="audio/15/006.mp3">
 </audio><hr>
 
@@ -59,7 +59,7 @@ title: '雑誌取材がやってきた'
 
 どなたですか？
 
-<audio controls>
+<audio>
 <source src="audio/15/007.mp3">
 </audio><hr>
 
@@ -71,7 +71,7 @@ title: '雑誌取材がやってきた'
 
 うん　知ってる
 
-<audio controls>
+<audio>
 <source src="audio/15/008.mp3">
 </audio><hr>
 
@@ -83,7 +83,7 @@ title: '雑誌取材がやってきた'
 
 あの…　編集長が 先に来ているはずなんですが
 
-<audio controls>
+<audio>
 <source src="audio/15/009.mp3">
 </audio><hr>
 
@@ -91,7 +91,7 @@ title: '雑誌取材がやってきた'
 
 そうですか… どうしたんだろう？
 
-<audio controls>
+<audio>
 <source src="audio/15/010.mp3">
 </audio><hr>
 
@@ -99,7 +99,7 @@ title: '雑誌取材がやってきた'
 
 うちの編集長なんですよ
 
-<audio controls>
+<audio>
 <source src="audio/15/011.mp3">
 </audio><hr>
 
@@ -111,7 +111,7 @@ title: '雑誌取材がやってきた'
 
 聞いた？　
 
-<audio controls>
+<audio>
 <source src="audio/15/012.mp3">
 </audio><hr>
 
@@ -123,7 +123,7 @@ title: '雑誌取材がやってきた'
 
 インタビュー？ 写真？
 
-<audio controls>
+<audio>
 <source src="audio/15/013.mp3">
 </audio><hr>
 
@@ -133,7 +133,7 @@ title: '雑誌取材がやってきた'
 
 お客さんに　インタビューしたら雑誌に写真載るよ
 
-<audio controls>
+<audio>
 <source src="audio/15/014.mp3">
 </audio><hr>
 
@@ -141,7 +141,7 @@ title: '雑誌取材がやってきた'
 
 僕写真写り自信ないんだよ　
 
-<audio controls>
+<audio>
 <source src="audio/15/015.mp3">
 </audio><hr>
 
@@ -153,7 +153,7 @@ title: '雑誌取材がやってきた'
 
 カフェを始めたいきさつなんかをお聞きしたいんですが
 
-<audio controls>
+<audio>
 <source src="audio/15/016.mp3">
 </audio><hr>
 
@@ -167,7 +167,7 @@ title: '雑誌取材がやってきた'
 
 それは　改札
 
-<audio controls>
+<audio>
 <source src="audio/15/017.mp3">
 </audio><hr>
 
@@ -177,7 +177,7 @@ title: '雑誌取材がやってきた'
 
 かぶせてきましたね編集長
 
-<audio controls>
+<audio>
 <source src="audio/15/018.mp3">
 </audio><hr>
 
@@ -187,7 +187,7 @@ title: '雑誌取材がやってきた'
 
 はい　うちの編集長 ハシビロコウさんです
 
-<audio controls>
+<audio>
 <source src="audio/15/019.mp3">
 </audio><hr>
 
@@ -195,7 +195,7 @@ title: '雑誌取材がやってきた'
 
 編集長が　本当に ここは　すばらしいカフェだと
 
-<audio controls>
+<audio>
 <source src="audio/15/020.mp3">
 </audio><hr>
 
@@ -211,7 +211,7 @@ title: '雑誌取材がやってきた'
 
 話せば長くなるんだけど
 
-<audio controls>
+<audio>
 <source src="audio/15/021.mp3">
 </audio><hr>
 
@@ -223,7 +223,7 @@ title: '雑誌取材がやってきた'
 
 いつも僕だけ遅れてしまった
 
-<audio controls>
+<audio>
 <source src="audio/15/022.mp3">
 </audio><hr>
 
@@ -231,7 +231,7 @@ title: '雑誌取材がやってきた'
 
 僕はとうとう お母さんたちと はぐれてしまった
 
-<audio controls>
+<audio>
 <source src="audio/15/023.mp3">
 </audio><hr>
 
@@ -241,7 +241,7 @@ title: '雑誌取材がやってきた'
 
 一生懸命呼んだけど 応えはない
 
-<audio controls>
+<audio>
 <source src="audio/15/024.mp3">
 </audio><hr>
 
@@ -251,7 +251,7 @@ title: '雑誌取材がやってきた'
 
 僕はひとりぼっちで海の上を漂流していった
 
-<audio controls>
+<audio>
 <source src="audio/15/025.mp3">
 </audio><hr>
 
@@ -261,13 +261,13 @@ title: '雑誌取材がやってきた'
 
 お腹が減って ついに動けなくなったとき
 
-<audio controls>
+<audio>
 <source src="audio/15/026.mp3">
 </audio><hr>
 
 僕は通りがかった猟師の人に助けられたんだ
 
-<audio controls>
+<audio>
 <source src="audio/15/027.mp3">
 </audio><hr>
 
@@ -279,7 +279,7 @@ title: '雑誌取材がやってきた'
 
 僕は料理が好きになった
 
-<audio controls>
+<audio>
 <source src="audio/15/028.mp3">
 </audio><hr>
 
@@ -289,7 +289,7 @@ title: '雑誌取材がやってきた'
 
 おじいさんと　おばあさんの家にいられなくなってしまったんだ
 
-<audio controls>
+<audio>
 <source src="audio/15/029.mp3">
 </audio><hr>
 
@@ -301,7 +301,7 @@ title: '雑誌取材がやってきた'
 
 お母さんたちに会えるかもしれないから
 
-<audio controls>
+<audio>
 <source src="audio/15/030.mp3">
 </audio><hr>
 
@@ -313,7 +313,7 @@ title: '雑誌取材がやってきた'
 
 シロクマくん
 
-<audio controls>
+<audio>
 <source src="audio/15/031.mp3">
 </audio><hr>
 
@@ -323,7 +323,7 @@ title: '雑誌取材がやってきた'
 
 うん
 
-<audio controls>
+<audio>
 <source src="audio/15/032.mp3">
 </audio><hr>
 
@@ -333,7 +333,7 @@ title: '雑誌取材がやってきた'
 
 カフェを始めたって 聞いたんですけど…
 
-<audio controls>
+<audio>
 <source src="audio/15/033.mp3">
 </audio><hr>
 
@@ -343,7 +343,7 @@ title: '雑誌取材がやってきた'
 
 だから言ったのに
 
-<audio controls>
+<audio>
 <source src="audio/15/034.mp3">
 </audio><hr>
 
@@ -353,7 +353,7 @@ title: '雑誌取材がやってきた'
 
 じゃあ　次の質問ですが…
 
-<audio controls>
+<audio>
 <source src="audio/15/035.mp3">
 </audio><hr>
 
@@ -363,7 +363,7 @@ title: '雑誌取材がやってきた'
 
 このステキなアレンジメントはどなたが？
 
-<audio controls>
+<audio>
 <source src="audio/15/036.mp3">
 </audio><hr>
 
@@ -375,7 +375,7 @@ title: '雑誌取材がやってきた'
 
 編集長！
 
-<audio controls>
+<audio>
 <source src="audio/15/037.mp3">
 </audio><hr>
 
@@ -389,7 +389,7 @@ title: '雑誌取材がやってきた'
 
 さすが編集長！ どんなことも見逃しませんね
 
-<audio controls>
+<audio>
 <source src="audio/15/038.mp3">
 </audio><hr>
 
@@ -401,7 +401,7 @@ title: '雑誌取材がやってきた'
 
 洗練された外観
 
-<audio controls>
+<audio>
 <source src="audio/15/039.mp3">
 </audio><hr>
 
@@ -411,7 +411,7 @@ title: '雑誌取材がやってきた'
 
 笹大盛りがオススメだよ！
 
-<audio controls>
+<audio>
 <source src="audio/15/040.mp3">
 </audio><hr>
 
@@ -425,7 +425,7 @@ title: '雑誌取材がやってきた'
 
 その他は？
 
-<audio controls>
+<audio>
 <source src="audio/15/041.mp3">
 </audio><hr>
 
@@ -437,7 +437,7 @@ title: '雑誌取材がやってきた'
 
 せっかくだから 食べてもらったら　どうでしょう？
 
-<audio controls>
+<audio>
 <source src="audio/15/042.mp3">
 </audio><hr>
 
@@ -445,7 +445,7 @@ title: '雑誌取材がやってきた'
 
 パスタ　嫌いなのかな？
 
-<audio controls>
+<audio>
 <source src="audio/15/043.mp3">
 </audio><hr>
 
@@ -455,7 +455,7 @@ title: '雑誌取材がやってきた'
 
 あぁ　そう
 
-<audio controls>
+<audio>
 <source src="audio/15/044.mp3">
 </audio><hr>
 
@@ -467,7 +467,7 @@ title: '雑誌取材がやってきた'
 
 あっ！　これだね
 
-<audio controls>
+<audio>
 <source src="audio/15/045.mp3">
 </audio><hr>
 
@@ -477,7 +477,7 @@ title: '雑誌取材がやってきた'
 
 ですね
 
-<audio controls>
+<audio>
 <source src="audio/15/046.mp3">
 </audio><hr>
 

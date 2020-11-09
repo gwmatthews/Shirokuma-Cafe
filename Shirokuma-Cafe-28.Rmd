@@ -4,9 +4,14 @@ title: "海に行こう"
 
 海に行こう
 
-<audio controls>
+<audio>
 <source src="audio/28/001.mp3">
-</audio><hr>
+</audio>
+
+
+
+
+<hr>
 
 いらっしゃいませ
 
@@ -14,9 +19,13 @@ title: "海に行こう"
 
 お出かけなんですよ
 
-<audio controls>
+<audio>
 <source src="audio/28/002.mp3">
-</audio><hr>
+</audio>
+
+
+
+<hr>
 
 やってきました　海
 
@@ -24,9 +33,13 @@ title: "海に行こう"
 
 夏は海だよね
 
-<audio controls>
+<audio>
 <source src="audio/28/003.mp3">
-</audio><hr>
+</audio>
+
+
+
+<hr>
 
 ペンギンさん　どう　このシャツおニュウなんだ
 
@@ -36,17 +49,22 @@ title: "海に行こう"
 
 何のシーンなんだか
 
-<audio controls>
+<audio>
 <source src="audio/28/004.mp3">
-</audio><hr>
+</audio>
+<div>
+
+<hr>
 
 早く着替えて泳ごう
 
 ええ　もっとゆっくりしようよ　白熊君
 
-<audio controls>
+<audio>
 <source src="audio/28/005.mp3">
-</audio><hr>
+</audio>
+
+<hr>
 
 あれ　パンダや
 
@@ -60,9 +78,11 @@ title: "海に行こう"
 
 ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/28/006.mp3">
-</audio><hr>
+</audio>
+
+<hr>
 
 ほなな　気ィつけてな
 
@@ -72,7 +92,7 @@ title: "海に行こう"
 
 あっち
 
-<audio controls>
+<audio>
 <source src="audio/28/007.mp3">
 </audio><hr>
 
@@ -82,7 +102,7 @@ title: "海に行こう"
 
 モテモテだね
 
-<audio controls>
+<audio>
 <source src="audio/28/008.mp3">
 </audio><hr>
 
@@ -90,7 +110,7 @@ title: "海に行こう"
 
 さっきまでゆっくりしようって言ってたのに
 
-<audio controls>
+<audio>
 <source src="audio/28/009.mp3">
 </audio><hr>
 
@@ -100,7 +120,7 @@ title: "海に行こう"
 
 パンダ君だっていつもは大体同じじゃない
 
-<audio controls>
+<audio>
 <source src="audio/28/010.mp3">
 </audio><hr>
 
@@ -110,7 +130,7 @@ title: "海に行こう"
 
 僕はお昼寝
 
-<audio controls>
+<audio>
 <source src="audio/28/011.mp3">
 </audio><hr>
 
@@ -118,7 +138,7 @@ title: "海に行こう"
 
 皆　ばらばらだな
 
-<audio controls>
+<audio>
 <source src="audio/28/012.mp3">
 </audio><hr>
 
@@ -126,7 +146,7 @@ title: "海に行こう"
 
 一緒になんかやろうよ
 
-<audio controls>
+<audio>
 <source src="audio/28/013.mp3">
 </audio><hr>
 
@@ -136,7 +156,7 @@ title: "海に行こう"
 
 知らないけど　やりたい
 
-<audio controls>
+<audio>
 <source src="audio/28/014.mp3">
 </audio><hr>
 
@@ -144,7 +164,7 @@ title: "海に行こう"
 
 難しいよ白熊君　どうやるの
 
-<audio controls>
+<audio>
 <source src="audio/28/015.mp3">
 </audio><hr>
 
@@ -152,7 +172,7 @@ title: "海に行こう"
 
 利き手側のブレード引き押せたら 同時に反対側を押し出す
 
-<audio controls>
+<audio>
 <source src="audio/28/016.mp3">
 </audio><hr>
 
@@ -162,7 +182,7 @@ title: "海に行こう"
 
 もっと簡単に言ってくれる
 
-<audio controls>
+<audio>
 <source src="audio/28/017.mp3">
 </audio><hr>
 
@@ -170,7 +190,7 @@ title: "海に行こう"
 
 よーし
 
-<audio controls>
+<audio>
 <source src="audio/28/018.mp3">
 </audio><hr>
 
@@ -180,7 +200,7 @@ title: "海に行こう"
 
 はやっ
 
-<audio controls>
+<audio>
 <source src="audio/28/019.mp3">
 </audio><hr>
 
@@ -190,7 +210,7 @@ title: "海に行こう"
 
 こがなくていいやつ　乗る
 
-<audio controls>
+<audio>
 <source src="audio/28/020.mp3">
 </audio><hr>
 
@@ -202,7 +222,7 @@ title: "海に行こう"
 
 ウクレレ弾こうっと
 
-<audio controls>
+<audio>
 <source src="audio/28/021.mp3">
 </audio><hr>
 
@@ -212,7 +232,7 @@ title: "海に行こう"
 
 マッチョでね　セクシーな感じがいいな
 
-<audio controls>
+<audio>
 <source src="audio/28/022.mp3">
 </audio><hr>
 
@@ -220,7 +240,7 @@ title: "海に行こう"
 
 呼ばれて飛び出た　ドリームパンダ
 
-<audio controls>
+<audio>
 <source src="audio/28/023.mp3">
 </audio><hr>
 
@@ -232,7 +252,7 @@ title: "海に行こう"
 
 任せて
 
-<audio controls>
+<audio>
 <source src="audio/28/024.mp3">
 </audio><hr>
 
@@ -244,7 +264,7 @@ title: "海に行こう"
 
 やだ
 
-<audio controls>
+<audio>
 <source src="audio/28/025.mp3">
 </audio><hr>
 
@@ -252,7 +272,7 @@ title: "海に行こう"
 
 ごつ過ぎるよ
 
-<audio controls>
+<audio>
 <source src="audio/28/026.mp3">
 </audio><hr>
 
@@ -260,7 +280,7 @@ title: "海に行こう"
 
 任せて
 
-<audio controls>
+<audio>
 <source src="audio/28/027.mp3">
 </audio><hr>
 
@@ -270,7 +290,7 @@ title: "海に行こう"
 
 任せて
 
-<audio controls>
+<audio>
 <source src="audio/28/028.mp3">
 </audio><hr>
 
@@ -282,7 +302,7 @@ title: "海に行こう"
 
 次は何しようか
 
-<audio controls>
+<audio>
 <source src="audio/28/029.mp3">
 </audio><hr>
 
@@ -292,7 +312,7 @@ title: "海に行こう"
 
 いいの
 
-<audio controls>
+<audio>
 <source src="audio/28/030.mp3">
 </audio><hr>
 
@@ -300,7 +320,7 @@ title: "海に行こう"
 
 そうじゃなくて
 
-<audio controls>
+<audio>
 <source src="audio/28/031.mp3">
 </audio><hr>
 
@@ -308,7 +328,7 @@ title: "海に行こう"
 
 鼻がいいから
 
-<audio controls>
+<audio>
 <source src="audio/28/032.mp3">
 </audio><hr>
 
@@ -320,7 +340,7 @@ title: "海に行こう"
 
 パンダ君に目隠しはダメだね
 
-<audio controls>
+<audio>
 <source src="audio/28/033.mp3">
 </audio><hr>
 
@@ -330,7 +350,7 @@ title: "海に行こう"
 
 上半身を30度右にねじって　僅かに前傾姿勢をとる
 
-<audio controls>
+<audio>
 <source src="audio/28/034.mp3">
 </audio><hr>
 
@@ -338,7 +358,7 @@ title: "海に行こう"
 
 もっと簡単に言ってくれる
 
-<audio controls>
+<audio>
 <source src="audio/28/035.mp3">
 </audio><hr>
 
@@ -348,13 +368,13 @@ title: "海に行こう"
 
 ホント
 
-<audio controls>
+<audio>
 <source src="audio/28/036.mp3">
 </audio><hr>
 
 ペン子さんにアタックするつもりで
 
-<audio controls>
+<audio>
 <source src="audio/28/037.mp3">
 </audio><hr>
 
@@ -370,7 +390,7 @@ title: "海に行こう"
 
 ぺぺぺぺぺ　ペン子さん
 
-<audio controls>
+<audio>
 <source src="audio/28/038.mp3">
 </audio><hr>
 
@@ -380,7 +400,7 @@ title: "海に行こう"
 
 お幸せに
 
-<audio controls>
+<audio>
 <source src="audio/28/039.mp3">
 </audio><hr>
 
@@ -394,7 +414,7 @@ title: "海に行こう"
 
 すみません　どっちもありません
 
-<audio controls>
+<audio>
 <source src="audio/28/040.mp3">
 </audio><hr>
 
@@ -404,13 +424,13 @@ title: "海に行こう"
 
 パンダ君にだけでしょ
 
-<audio controls>
+<audio>
 <source src="audio/28/041.mp3">
 </audio><hr>
 
 僕　このサーモンの軽いスモーク ミキュイ　ソース　クレソニエール
 
-<audio controls>
+<audio>
 <source src="audio/28/042.mp3">
 </audio><hr>
 
@@ -420,7 +440,7 @@ title: "海に行こう"
 
 ないから　そのトッピング
 
-<audio controls>
+<audio>
 <source src="audio/28/043.mp3">
 </audio><hr>
 
@@ -428,7 +448,7 @@ title: "海に行こう"
 
 僕はシーフードラーメン
 
-<audio controls>
+<audio>
 <source src="audio/28/044.mp3">
 </audio><hr>
 
@@ -438,7 +458,7 @@ title: "海に行こう"
 
 ペンギン舌だね
 
-<audio controls>
+<audio>
 <source src="audio/28/045.mp3">
 </audio><hr>
 
@@ -448,7 +468,7 @@ title: "海に行こう"
 
 普通に猫舌でいいよ
 
-<audio controls>
+<audio>
 <source src="audio/28/046.mp3">
 </audio><hr>
 
@@ -456,13 +476,13 @@ title: "海に行こう"
 
 あつあつ
 
-<audio controls>
+<audio>
 <source src="audio/28/047.mp3">
 </audio><hr>
 
 シーフードなら海で食べればいいのに
 
-<audio controls>
+<audio>
 <source src="audio/28/048.mp3">
 </audio><hr>
 
@@ -472,7 +492,7 @@ title: "海に行こう"
 
 女の子に嫌われちゃうよ
 
-<audio controls>
+<audio>
 <source src="audio/28/049.mp3">
 </audio><hr>
 
@@ -482,7 +502,7 @@ title: "海に行こう"
 
 可愛い
 
-<audio controls>
+<audio>
 <source src="audio/28/050.mp3">
 </audio><hr>
 
@@ -494,7 +514,7 @@ title: "海に行こう"
 
 僕だってラーメン食べてるのに
 
-<audio controls>
+<audio>
 <source src="audio/28/051.mp3">
 </audio><hr>
 
@@ -506,7 +526,7 @@ title: "海に行こう"
 
 何で
 
-<audio controls>
+<audio>
 <source src="audio/28/052.mp3">
 </audio><hr>
 
@@ -514,7 +534,7 @@ title: "海に行こう"
 
 やっぱりおいしく感じるシーンっていうのがあるのかもね
 
-<audio controls>
+<audio>
 <source src="audio/28/053.mp3">
 </audio><hr>
 
@@ -522,7 +542,7 @@ title: "海に行こう"
 
 次はかき氷食べよう
 
-<audio controls>
+<audio>
 <source src="audio/28/054.mp3">
 </audio><hr>
 
@@ -530,7 +550,7 @@ title: "海に行こう"
 
 せっかくいいこと言ったのに
 
-<audio controls>
+<audio>
 <source src="audio/28/055.mp3">
 </audio><hr>
 
@@ -540,7 +560,7 @@ title: "海に行こう"
 
 ばらばらだよ
 
-<audio controls>
+<audio>
 <source src="audio/28/056.mp3">
 </audio><hr>
 
@@ -550,7 +570,7 @@ title: "海に行こう"
 
 海って　いいよね
 
-<audio controls>
+<audio>
 <source src="audio/28/057.mp3">
 </audio><hr>
 
@@ -560,7 +580,7 @@ title: "海に行こう"
 
 山も　いいよね
 
-<audio controls>
+<audio>
 <source src="audio/28/058.mp3">
 </audio><hr>
 
@@ -568,6 +588,8 @@ title: "海に行こう"
 
 干物食べる
 
-<audio controls>
+<audio>
 <source src="audio/28/059.mp3">
 </audio><hr>
+
+

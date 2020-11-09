@@ -4,7 +4,7 @@ title: "パンダの悩み相談室"
 
 パンダの悩み相談室
 
-<audio controls>
+<audio>
 <source src="audio/24/001.mp3">
 </audio><hr>
 
@@ -16,7 +16,7 @@ title: "パンダの悩み相談室"
 
 読めるけど書けない漢字
 
-<audio controls>
+<audio>
 <source src="audio/24/002.mp3">
 </audio><hr>
 
@@ -28,7 +28,7 @@ title: "パンダの悩み相談室"
 
 ホント...雨続きで憂鬱ですよね
 
-<audio controls>
+<audio>
 <source src="audio/24/003.mp3">
 </audio><hr>
 
@@ -36,7 +36,7 @@ title: "パンダの悩み相談室"
 
 遅刻しないように せっかくケータイ渡してあげたのに
 
-<audio controls>
+<audio>
 <source src="audio/24/004.mp3">
 </audio><hr>
 
@@ -48,7 +48,7 @@ title: "パンダの悩み相談室"
 
 先輩 あいかわらずモテますね
 
-<audio controls>
+<audio>
 <source src="audio/24/005.mp3">
 </audio><hr>
 
@@ -56,7 +56,7 @@ title: "パンダの悩み相談室"
 
 女性にはさっぱりだけどな
 
-<audio controls>
+<audio>
 <source src="audio/24/006.mp3">
 </audio><hr>
 
@@ -68,7 +68,7 @@ title: "パンダの悩み相談室"
 
 流行りの弁当男子です
 
-<audio controls>
+<audio>
 <source src="audio/24/007.mp3">
 </audio><hr>
 
@@ -76,7 +76,7 @@ title: "パンダの悩み相談室"
 
 聞こえてるよ
 
-<audio controls>
+<audio>
 <source src="audio/24/008.mp3">
 </audio><hr>
 
@@ -84,7 +84,7 @@ title: "パンダの悩み相談室"
 
 もう!ちゃんと お仕事してください!
 
-<audio controls>
+<audio>
 <source src="audio/24/009.mp3">
 </audio><hr>
 
@@ -92,13 +92,13 @@ title: "パンダの悩み相談室"
 
 何度もモーニングコールしたのに
 
-<audio controls>
+<audio>
 <source src="audio/24/010.mp3">
 </audio><hr>
 
 半田さんていい人だよね
 
-<audio controls>
+<audio>
 <source src="audio/24/011.mp3">
 </audio><hr>
 
@@ -106,13 +106,13 @@ title: "パンダの悩み相談室"
 
 まぁパンダくんはパンダ好きだしね
 
-<audio controls>
+<audio>
 <source src="audio/24/012.mp3">
 </audio><hr>
 
 じゃなくて ちゃんとお仕事しなさい
 
-<audio controls>
+<audio>
 <source src="audio/24/013.mp3">
 </audio><hr>
 
@@ -120,7 +120,7 @@ title: "パンダの悩み相談室"
 
 心配で心配で 仕事にならないんだよ
 
-<audio controls>
+<audio>
 <source src="audio/24/014.mp3">
 </audio><hr>
 
@@ -128,7 +128,7 @@ title: "パンダの悩み相談室"
 
 だって見てよあれ
 
-<audio controls>
+<audio>
 <source src="audio/24/015.mp3">
 </audio><hr>
 
@@ -136,7 +136,7 @@ title: "パンダの悩み相談室"
 
 そうだね
 
-<audio controls>
+<audio>
 <source src="audio/24/016.mp3">
 </audio><hr>
 
@@ -144,7 +144,7 @@ title: "パンダの悩み相談室"
 
 雨の日の動物園は穴場のデートスポットだからね
 
-<audio controls>
+<audio>
 <source src="audio/24/017.mp3">
 </audio><hr>
 
@@ -154,7 +154,7 @@ title: "パンダの悩み相談室"
 
 大きなお世話です!
 
-<audio controls>
+<audio>
 <source src="audio/24/018.mp3">
 </audio><hr>
 
@@ -162,7 +162,7 @@ title: "パンダの悩み相談室"
 
 ちゃんと仕事しなきゃダメだよ
 
-<audio controls>
+<audio>
 <source src="audio/24/019.mp3">
 </audio><hr>
 
@@ -174,7 +174,7 @@ title: "パンダの悩み相談室"
 
 仕事に張り合いが出るのに
 
-<audio controls>
+<audio>
 <source src="audio/24/020.mp3">
 </audio><hr>
 
@@ -182,7 +182,7 @@ title: "パンダの悩み相談室"
 
 動物園のみんなが恋人みたいなもんさ
 
-<audio controls>
+<audio>
 <source src="audio/24/021.mp3">
 </audio><hr>
 
@@ -192,7 +192,7 @@ title: "パンダの悩み相談室"
 
 そうだよ 
 
-<audio controls>
+<audio>
 <source src="audio/24/022.mp3">
 </audio><hr>
 
@@ -200,7 +200,7 @@ title: "パンダの悩み相談室"
 
 なんて  アイドルみたいなセリフは聞きたくないよ
 
-<audio controls>
+<audio>
 <source src="audio/24/023.mp3">
 </audio><hr>
 
@@ -208,7 +208,7 @@ title: "パンダの悩み相談室"
 
 ウンチがレモンの香りなんだよ
 
-<audio controls>
+<audio>
 <source src="audio/24/024.mp3">
 </audio><hr>
 
@@ -216,7 +216,7 @@ title: "パンダの悩み相談室"
 
 それに半田さんがいくら動物好きでも
 
-<audio controls>
+<audio>
 <source src="audio/24/025.mp3">
 </audio><hr>
 
@@ -224,7 +224,7 @@ title: "パンダの悩み相談室"
 
 何言ってるの?
 
-<audio controls>
+<audio>
 <source src="audio/24/026.mp3">
 </audio><hr>
 
@@ -234,7 +234,7 @@ title: "パンダの悩み相談室"
 
 恋愛相談してくれるから
 
-<audio controls>
+<audio>
 <source src="audio/24/027.mp3">
 </audio><hr>
 
@@ -242,7 +242,7 @@ title: "パンダの悩み相談室"
 
 私バツ２じゃないんだけど
 
-<audio controls>
+<audio>
 <source src="audio/24/028.mp3">
 </audio><hr>
 
@@ -250,7 +250,7 @@ title: "パンダの悩み相談室"
 
 先生じゃなくて愛の狩人
 
-<audio controls>
+<audio>
 <source src="audio/24/029.mp3">
 </audio><hr>
 
@@ -258,7 +258,7 @@ title: "パンダの悩み相談室"
 
 っていうか 変なキャラづけしないで
 
-<audio controls>
+<audio>
 <source src="audio/24/030.mp3">
 </audio><hr>
 
@@ -266,7 +266,7 @@ title: "パンダの悩み相談室"
 
 あんなこと言ってますよ 恋愛番長
 
-<audio controls>
+<audio>
 <source src="audio/24/031.mp3">
 </audio><hr>
 
@@ -276,7 +276,7 @@ title: "パンダの悩み相談室"
 
 一生彼女できなくてもいいの?
 
-<audio controls>
+<audio>
 <source src="audio/24/032.mp3">
 </audio><hr>
 
@@ -284,7 +284,7 @@ title: "パンダの悩み相談室"
 
 そうなんだよね
 
-<audio controls>
+<audio>
 <source src="audio/24/033.mp3">
 </audio><hr>
 
@@ -292,7 +292,7 @@ title: "パンダの悩み相談室"
 
 もう彼女というか お嫁さんがほしい年頃なんだよね
 
-<audio controls>
+<audio>
 <source src="audio/24/034.mp3">
 </audio><hr>
 
@@ -302,7 +302,7 @@ title: "パンダの悩み相談室"
 
 パンダくん!
 
-<audio controls>
+<audio>
 <source src="audio/24/035.mp3">
 </audio><hr>
 
@@ -310,7 +310,7 @@ title: "パンダの悩み相談室"
 
 ああどうでもいい人
 
-<audio controls>
+<audio>
 <source src="audio/24/036.mp3">
 </audio><hr>
 
@@ -320,7 +320,7 @@ title: "パンダの悩み相談室"
 
 半田さんのよさをわかってくれる 女の子がきっといるよ
 
-<audio controls>
+<audio>
 <source src="audio/24/037.mp3">
 </audio><hr>
 
@@ -330,7 +330,7 @@ title: "パンダの悩み相談室"
 
 宇宙に１人くらいは
 
-<audio controls>
+<audio>
 <source src="audio/24/038.mp3">
 </audio><hr>
 
@@ -338,7 +338,7 @@ title: "パンダの悩み相談室"
 
 １人いれば十分じゃない
 
-<audio controls>
+<audio>
 <source src="audio/24/039.mp3">
 </audio><hr>
 
@@ -350,7 +350,7 @@ title: "パンダの悩み相談室"
 
 常勤パンダさん
 
-<audio controls>
+<audio>
 <source src="audio/24/040.mp3">
 </audio><hr>
 
@@ -362,7 +362,7 @@ title: "パンダの悩み相談室"
 
 パンダに なぐさめられてていいんすか
 
-<audio controls>
+<audio>
 <source src="audio/24/041.mp3">
 </audio><hr>
 
@@ -374,7 +374,7 @@ title: "パンダの悩み相談室"
 
 僕も
 
-<audio controls>
+<audio>
 <source src="audio/24/042.mp3">
 </audio><hr>
 
@@ -386,7 +386,7 @@ title: "パンダの悩み相談室"
 
 また太っちゃったよ
 
-<audio controls>
+<audio>
 <source src="audio/24/043.mp3">
 </audio><hr>
 
@@ -400,7 +400,7 @@ title: "パンダの悩み相談室"
 
 またペン子さんにサービス券をサービスしてもらっちゃったんだ!
 
-<audio controls>
+<audio>
 <source src="audio/24/044.mp3">
 </audio><hr>
 
@@ -410,7 +410,7 @@ title: "パンダの悩み相談室"
 
 ウヒヒって...
 
-<audio controls>
+<audio>
 <source src="audio/24/045.mp3">
 </audio><hr>
 
@@ -418,7 +418,7 @@ title: "パンダの悩み相談室"
 
 失礼な!!僕ウヒヒ... なんて笑い方してないよ!
 
-<audio controls>
+<audio>
 <source src="audio/24/046.mp3">
 </audio><hr>
 
@@ -430,7 +430,7 @@ title: "パンダの悩み相談室"
 
 言ってないから...
 
-<audio controls>
+<audio>
 <source src="audio/24/047.mp3">
 </audio><hr>
 
@@ -438,7 +438,7 @@ title: "パンダの悩み相談室"
 
 また半田さんと 飲みたいって言ってましたよ
 
-<audio controls>
+<audio>
 <source src="audio/24/048.mp3">
 </audio><hr>
 
@@ -448,7 +448,7 @@ title: "パンダの悩み相談室"
 
 まあそのうちな
 
-<audio controls>
+<audio>
 <source src="audio/24/049.mp3">
 </audio><hr>
 
@@ -458,7 +458,7 @@ title: "パンダの悩み相談室"
 
 ああお疲れさま
 
-<audio controls>
+<audio>
 <source src="audio/24/050.mp3">
 </audio><hr>
 
@@ -468,7 +468,7 @@ title: "パンダの悩み相談室"
 
 わかってるよ
 
-<audio controls>
+<audio>
 <source src="audio/24/051.mp3">
 </audio><hr>
 
@@ -478,13 +478,13 @@ title: "パンダの悩み相談室"
 
 帰りに届けてくれない?
 
-<audio controls>
+<audio>
 <source src="audio/24/052.mp3">
 </audio><hr>
 
 もう...パンダくんってば...
 
-<audio controls>
+<audio>
 <source src="audio/24/053.mp3">
 </audio><hr>
 
@@ -496,7 +496,7 @@ title: "パンダの悩み相談室"
 
 ああ...どうも
 
-<audio controls>
+<audio>
 <source src="audio/24/054.mp3">
 </audio><hr>
 
@@ -508,7 +508,7 @@ title: "パンダの悩み相談室"
 
 半田さんって ホントいい人だよね
 
-<audio controls>
+<audio>
 <source src="audio/24/055.mp3">
 </audio><hr>
 
@@ -518,7 +518,7 @@ title: "パンダの悩み相談室"
 
 どうぞ
 
-<audio controls>
+<audio>
 <source src="audio/24/056.mp3">
 </audio><hr>
 
@@ -528,13 +528,13 @@ title: "パンダの悩み相談室"
 
 恋は動物の目を曇らせるんですかね
 
-<audio controls>
+<audio>
 <source src="audio/24/057.mp3">
 </audio><hr>
 
 いいじゃない聞いてよ
 
-<audio controls>
+<audio>
 <source src="audio/24/058.mp3">
 </audio><hr>
 
@@ -542,7 +542,7 @@ title: "パンダの悩み相談室"
 
 すみません ついウトウトしちゃって
 
-<audio controls>
+<audio>
 <source src="audio/24/059.mp3">
 </audio><hr>
 
@@ -550,13 +550,13 @@ title: "パンダの悩み相談室"
 
 これ店長からのサービスです
 
-<audio controls>
+<audio>
 <source src="audio/24/060.mp3">
 </audio><hr>
 
 あったかい
 
-<audio controls>
+<audio>
 <source src="audio/24/061.mp3">
 </audio><hr>
 
@@ -566,7 +566,7 @@ title: "パンダの悩み相談室"
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/24/062.mp3">
 </audio><hr>
 

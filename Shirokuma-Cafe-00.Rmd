@@ -4,9 +4,9 @@ title: "title"
 
 title
 
-<audio controls>
+<audio>
 <source src="audio/00/001.mp3">
 </audio><hr>
 
-前半からつづく
+
 

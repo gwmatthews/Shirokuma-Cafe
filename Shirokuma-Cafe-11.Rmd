@@ -4,7 +4,7 @@ title: "パンダくんのダイエット"
 
 パンダくんのダイエット
 
-<audio controls>
+<audio>
 <source src="audio/11/001.mp3">
 </audio><hr>
 
@@ -12,7 +12,7 @@ title: "パンダくんのダイエット"
 
 どうしたの？　元気ないね
 
-<audio controls>
+<audio>
 <source src="audio/11/002.mp3">
 </audio><hr>
 
@@ -22,7 +22,7 @@ title: "パンダくんのダイエット"
 
 あぁ　いや…　普通盛りで
 
-<audio controls>
+<audio>
 <source src="audio/11/003.mp3">
 </audio><hr>
 
@@ -30,7 +30,7 @@ title: "パンダくんのダイエット"
 
 今日から　ダイエットするの
 
-<audio controls>
+<audio>
 <source src="audio/11/004.mp3">
 </audio><hr>
 
@@ -42,7 +42,7 @@ title: "パンダくんのダイエット"
 
 それは　カルテット
 
-<audio controls>
+<audio>
 <source src="audio/11/005.mp3">
 </audio><hr>
 
@@ -50,7 +50,7 @@ title: "パンダくんのダイエット"
 
 実は　今日　動物園でさ…
 
-<audio controls>
+<audio>
 <source src="audio/11/006.mp3">
 </audio><hr>
 
@@ -58,7 +58,7 @@ title: "パンダくんのダイエット"
 
 サービス　サービス
 
-<audio controls>
+<audio>
 <source src="audio/11/007.mp3">
 </audio><hr>
 
@@ -66,7 +66,7 @@ title: "パンダくんのダイエット"
 
 それで　ダイエット？
 
-<audio controls>
+<audio>
 <source src="audio/11/008.mp3">
 </audio><hr>
 
@@ -74,7 +74,7 @@ title: "パンダくんのダイエット"
 
 スマートな動物に 生まれたかったなって　思ってたんだよ
 
-<audio controls>
+<audio>
 <source src="audio/11/009.mp3">
 </audio><hr>
 
@@ -84,7 +84,7 @@ title: "パンダくんのダイエット"
 
 生まれたときから おっさん体型なんだもん
 
-<audio controls>
+<audio>
 <source src="audio/11/010.mp3">
 </audio><hr>
 
@@ -92,7 +92,7 @@ title: "パンダくんのダイエット"
 
 僕の理想はね…
 
-<audio controls>
+<audio>
 <source src="audio/11/011.mp3">
 </audio><hr>
 
@@ -102,7 +102,7 @@ title: "パンダくんのダイエット"
 
 顔も逆三角形なの
 
-<audio controls>
+<audio>
 <source src="audio/11/012.mp3">
 </audio><hr>
 
@@ -112,7 +112,7 @@ title: "パンダくんのダイエット"
 
 パンダくん 悪いヤツみたいになっちゃうね
 
-<audio controls>
+<audio>
 <source src="audio/11/013.mp3">
 </audio><hr>
 
@@ -122,7 +122,7 @@ title: "パンダくんのダイエット"
 
 はい　普通盛りね
 
-<audio controls>
+<audio>
 <source src="audio/11/014.mp3">
 </audio><hr>
 
@@ -134,7 +134,7 @@ title: "パンダくんのダイエット"
 
 明日からにするよ
 
-<audio controls>
+<audio>
 <source src="audio/11/015.mp3">
 </audio><hr>
 
@@ -146,7 +146,7 @@ title: "パンダくんのダイエット"
 
 はい　パンダだんご
 
-<audio controls>
+<audio>
 <source src="audio/11/016.mp3">
 </audio><hr>
 
@@ -162,7 +162,7 @@ title: "パンダくんのダイエット"
 
 なんにもしてないな
 
-<audio controls>
+<audio>
 <source src="audio/11/017.mp3">
 </audio><hr>
 
@@ -174,7 +174,7 @@ title: "パンダくんのダイエット"
 
 パンダくんのせいじゃないから
 
-<audio controls>
+<audio>
 <source src="audio/11/018.mp3">
 </audio><hr>
 
@@ -184,7 +184,7 @@ title: "パンダくんのダイエット"
 
 そもそも パンダの名前の由来を知らないの？
 
-<audio controls>
+<audio>
 <source src="audio/11/019.mp3">
 </audio><hr>
 
@@ -192,7 +192,7 @@ title: "パンダくんのダイエット"
 
 まぁ　いろんな説があるんだけどさ 
 
-<audio controls>
+<audio>
 <source src="audio/11/020.mp3">
 </audio><hr>
 
@@ -202,7 +202,7 @@ title: "パンダくんのダイエット"
 
 外国人が　中国を 探検していたときのこと…
 
-<audio controls>
+<audio>
 <source src="audio/11/021.mp3">
 </audio><hr>
 
@@ -212,7 +212,7 @@ what's the name of that animal?
 
 ah~ they're called pandas
 
-<audio controls>
+<audio>
 <source src="audio/11/022.mp3">
 </audio><hr>
 
@@ -220,7 +220,7 @@ ah~ they're called pandas
 
 名前として 広まったという説があるんだ
 
-<audio controls>
+<audio>
 <source src="audio/11/023.mp3">
 </audio><hr>
 
@@ -232,7 +232,7 @@ ah~ they're called pandas
 
 なんか　
 
-<audio controls>
+<audio>
 <source src="audio/11/024.mp3">
 </audio><hr>
 
@@ -240,7 +240,7 @@ ah~ they're called pandas
 
 世の中には　知らないほうが 幸せなこともあるよね
 
-<audio controls>
+<audio>
 <source src="audio/11/025.mp3">
 </audio><hr>
 
@@ -250,7 +250,7 @@ ah~ they're called pandas
 
 おやつを食べて　お昼寝するしかないから 太っちゃったんだ
 
-<audio controls>
+<audio>
 <source src="audio/11/026.mp3">
 </audio><hr>
 
@@ -266,7 +266,7 @@ ah~ they're called pandas
 
 ねぇ　フィットネスゲーム持ってきていい？
 
-<audio controls>
+<audio>
 <source src="audio/11/027.mp3">
 </audio><hr>
 
@@ -280,7 +280,7 @@ ah~ they're called pandas
 
 ダメだってば！
 
-<audio controls>
+<audio>
 <source src="audio/11/028.mp3">
 </audio><hr>
 
@@ -296,7 +296,7 @@ ah~ they're called pandas
 
 じゃあ　ちゃんと頼むよ
 
-<audio controls>
+<audio>
 <source src="audio/11/029.mp3">
 </audio><hr>
 
@@ -304,7 +304,7 @@ ah~ they're called pandas
 
 パンダさん　かわいい！
 
-<audio controls>
+<audio>
 <source src="audio/11/030.mp3">
 </audio><hr>
 
@@ -320,7 +320,7 @@ ah~ they're called pandas
 
 メタボパンダさんだね
 
-<audio controls>
+<audio>
 <source src="audio/11/031.mp3">
 </audio><hr>
 
@@ -330,7 +330,7 @@ ah~ they're called pandas
 
 パパンダー　パンパンパン　パパンダー
 
-<audio controls>
+<audio>
 <source src="audio/11/032.mp3">
 </audio><hr>
 
@@ -340,7 +340,7 @@ ah~ they're called pandas
 
 ダイエット…
 
-<audio controls>
+<audio>
 <source src="audio/11/033.mp3">
 </audio><hr>
 
@@ -352,7 +352,7 @@ ah~ they're called pandas
 
 ダイエット　ダイエット！
 
-<audio controls>
+<audio>
 <source src="audio/11/034.mp3">
 </audio><hr>
 
@@ -362,13 +362,13 @@ ah~ they're called pandas
 
 ここんとこ ずっと頑張ってたんだから
 
-<audio controls>
+<audio>
 <source src="audio/11/035.mp3">
 </audio><hr>
 
 目標　とりあえず　１３０キロ
 
-<audio controls>
+<audio>
 <source src="audio/11/036.mp3">
 </audio><hr>
 
@@ -384,7 +384,7 @@ ah~ they're called pandas
 
 えっ　何？
 
-<audio controls>
+<audio>
 <source src="audio/11/037.mp3">
 </audio><hr>
 
@@ -394,7 +394,7 @@ ah~ they're called pandas
 
 半田さん　ありがとう
 
-<audio controls>
+<audio>
 <source src="audio/11/038.mp3">
 </audio><hr>
 
@@ -402,7 +402,7 @@ ah~ they're called pandas
 
 うん！
 
-<audio controls>
+<audio>
 <source src="audio/11/039.mp3">
 </audio><hr>
 
@@ -416,6 +416,6 @@ ah~ they're called pandas
 
 ハァー　作り直しかな…
 
-<audio controls>
+<audio>
 <source src="audio/11/040.mp3">
 </audio><hr>

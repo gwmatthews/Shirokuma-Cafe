@@ -4,55 +4,55 @@ title: "みんなのカフェ"
 
 みんなのカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/001.mp3">
 </audio><hr>
 
 僕の家の朝は早いです
 
-<audio controls>
+<audio>
 <source src="audio/03/002.mp3">
 </audio><hr>
 
 朝起きて一番に　中庭に集まって家族みんなで太極拳をします
 
-<audio controls>
+<audio>
 <source src="audio/03/003.mp3">
 </audio><hr>
 
 お爺ちゃんが中国拳法の達人だからです
 
-<audio controls>
+<audio>
 <source src="audio/03/004.mp3">
 </audio><hr>
 
 太極拳が終わったら　朝ごはんを食べます
 
-<audio controls>
+<audio>
 <source src="audio/03/005.mp3">
 </audio><hr>
 
 いつまで寝てるの
 
-<audio controls>
+<audio>
 <source src="audio/03/006.mp3">
 </audio><hr>
 
 今日動物園休みなんだから　寝かせて
 
-<audio controls>
+<audio>
 <source src="audio/03/007.mp3">
 </audio><hr>
 
 みんなとっくに起きて太極拳やって　朝ごはん食べてるわよ
 
-<audio controls>
+<audio>
 <source src="audio/03/008.mp3">
 </audio><hr>
 
 太極拳でしょう　ベッドの上でやる
 
-<audio controls>
+<audio>
 <source src="audio/03/009.mp3">
 </audio><hr>
 
@@ -60,7 +60,7 @@ title: "みんなのカフェ"
 
 あ～　す　吸わないで
 
-<audio controls>
+<audio>
 <source src="audio/03/010.mp3">
 </audio><hr>
 
@@ -68,13 +68,13 @@ title: "みんなのカフェ"
 
 最近運動不足だから　肩こちゃって
 
-<audio controls>
+<audio>
 <source src="audio/03/011.mp3">
 </audio><hr>
 
 笹子さん　ちょっと　肩もんでくれない
 
-<audio controls>
+<audio>
 <source src="audio/03/012.mp3">
 </audio><hr>
 
@@ -82,7 +82,7 @@ title: "みんなのカフェ"
 
 ちょっと肩が見つからなくて
 
-<audio controls>
+<audio>
 <source src="audio/03/013.mp3">
 </audio><hr>
 
@@ -90,7 +90,7 @@ title: "みんなのカフェ"
 
 え　ここだよ　わかるでしょう
 
-<audio controls>
+<audio>
 <source src="audio/03/014.mp3">
 </audio><hr>
 
@@ -100,13 +100,13 @@ title: "みんなのカフェ"
 
 いいよ
 
-<audio controls>
+<audio>
 <source src="audio/03/015.mp3">
 </audio><hr>
 
 刺さってる　刺さってる
 
-<audio controls>
+<audio>
 <source src="audio/03/016.mp3">
 </audio><hr>
 
@@ -114,7 +114,7 @@ title: "みんなのカフェ"
 
 いらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/03/017.mp3">
 </audio><hr>
 
@@ -122,13 +122,13 @@ title: "みんなのカフェ"
 
 ペンギンさん　来てたの
 
-<audio controls>
+<audio>
 <source src="audio/03/018.mp3">
 </audio><hr>
 
 動物園のバイト　今日は休み
 
-<audio controls>
+<audio>
 <source src="audio/03/019.mp3">
 </audio><hr>
 
@@ -136,7 +136,7 @@ title: "みんなのカフェ"
 
 はい　竹大盛りね
 
-<audio controls>
+<audio>
 <source src="audio/03/020.mp3">
 </audio><hr>
 
@@ -144,7 +144,7 @@ title: "みんなのカフェ"
 
 コーヒーも食べ物も美味しいよね
 
-<audio controls>
+<audio>
 <source src="audio/03/021.mp3">
 </audio><hr>
 
@@ -156,7 +156,7 @@ title: "みんなのカフェ"
 
 そうだね
 
-<audio controls>
+<audio>
 <source src="audio/03/022.mp3">
 </audio><hr>
 
@@ -166,7 +166,7 @@ title: "みんなのカフェ"
 
 カフェやってる白熊君って格好よくない
 
-<audio controls>
+<audio>
 <source src="audio/03/023.mp3">
 </audio><hr>
 
@@ -176,7 +176,7 @@ title: "みんなのカフェ"
 
 とくには格好よくないね
 
-<audio controls>
+<audio>
 <source src="audio/03/024.mp3">
 </audio><hr>
 
@@ -184,7 +184,7 @@ title: "みんなのカフェ"
 
 あ　白熊君　カフェモカ頂戴
 
-<audio controls>
+<audio>
 <source src="audio/03/025.mp3">
 </audio><hr>
 
@@ -198,7 +198,7 @@ title: "みんなのカフェ"
 
 はい　カフェモカ
 
-<audio controls>
+<audio>
 <source src="audio/03/026.mp3">
 </audio><hr>
 
@@ -206,7 +206,7 @@ title: "みんなのカフェ"
 
 どうぞごゆっくり
 
-<audio controls>
+<audio>
 <source src="audio/03/027.mp3">
 </audio><hr>
 
@@ -214,7 +214,7 @@ title: "みんなのカフェ"
 
 うん　はい　白熊さん　いってらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/03/028.mp3">
 </audio><hr>
 
@@ -224,7 +224,7 @@ title: "みんなのカフェ"
 
 パンダカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/029.mp3">
 </audio><hr>
 
@@ -232,7 +232,7 @@ title: "みんなのカフェ"
 
 どんなカフェにしようかなぁ
 
-<audio controls>
+<audio>
 <source src="audio/03/030.mp3">
 </audio><hr>
 
@@ -240,7 +240,7 @@ title: "みんなのカフェ"
 
 うん　コンセプトは悪くないね
 
-<audio controls>
+<audio>
 <source src="audio/03/031.mp3">
 </audio><hr>
 
@@ -250,7 +250,7 @@ title: "みんなのカフェ"
 
 自分で言わないで
 
-<audio controls>
+<audio>
 <source src="audio/03/032.mp3">
 </audio><hr>
 
@@ -262,7 +262,7 @@ title: "みんなのカフェ"
 
 そうだよ　可愛いよ
 
-<audio controls>
+<audio>
 <source src="audio/03/033.mp3">
 </audio><hr>
 
@@ -274,7 +274,7 @@ title: "みんなのカフェ"
 
 いや　いいけど　それから
 
-<audio controls>
+<audio>
 <source src="audio/03/034.mp3">
 </audio><hr>
 
@@ -282,7 +282,7 @@ title: "みんなのカフェ"
 
 お品書きはこちらです
 
-<audio controls>
+<audio>
 <source src="audio/03/035.mp3">
 </audio><hr>
 
@@ -300,7 +300,7 @@ title: "みんなのカフェ"
 
 ……竹定食　松　竹　梅
 
-<audio controls>
+<audio>
 <source src="audio/03/036.mp3">
 </audio><hr>
 
@@ -308,7 +308,7 @@ title: "みんなのカフェ"
 
 パンダ君の好物しかおいてないじゃない　そのカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/037.mp3">
 </audio><hr>
 
@@ -316,13 +316,13 @@ title: "みんなのカフェ"
 
 美味しいよ　竹
 
-<audio controls>
+<audio>
 <source src="audio/03/038.mp3">
 </audio><hr>
 
 生魚はおいてないの
 
-<audio controls>
+<audio>
 <source src="audio/03/039.mp3">
 </audio><hr>
 
@@ -330,7 +330,7 @@ title: "みんなのカフェ"
 
 カフェに竹なんておいてないでしょう
 
-<audio controls>
+<audio>
 <source src="audio/03/040.mp3">
 </audio><hr>
 
@@ -338,7 +338,7 @@ title: "みんなのカフェ"
 
 頼むのパンダ君だけでしょう
 
-<audio controls>
+<audio>
 <source src="audio/03/041.mp3">
 </audio><hr>
 
@@ -348,7 +348,7 @@ title: "みんなのカフェ"
 
 全然違うジャンルですね
 
-<audio controls>
+<audio>
 <source src="audio/03/042.mp3">
 </audio><hr>
 
@@ -356,7 +356,7 @@ title: "みんなのカフェ"
 
 だいたいその竹定食の松　竹　梅って紛らわしいよ
 
-<audio controls>
+<audio>
 <source src="audio/03/043.mp3">
 </audio><hr>
 
@@ -364,7 +364,7 @@ title: "みんなのカフェ"
 
 まあ　竹中心のメニューだと　お客さんはあんまりこないよ
 
-<audio controls>
+<audio>
 <source src="audio/03/044.mp3">
 </audio><hr>
 
@@ -372,7 +372,7 @@ title: "みんなのカフェ"
 
 なんでそう思えるの
 
-<audio controls>
+<audio>
 <source src="audio/03/045.mp3">
 </audio><hr>
 
@@ -380,7 +380,7 @@ title: "みんなのカフェ"
 
 僕竹食べるとお腹痛くなっちゃうんです
 
-<audio controls>
+<audio>
 <source src="audio/03/046.mp3">
 </audio><hr>
 
@@ -388,7 +388,7 @@ title: "みんなのカフェ"
 
 普通の料理も出したら
 
-<audio controls>
+<audio>
 <source src="audio/03/047.mp3">
 </audio><hr>
 
@@ -398,13 +398,13 @@ title: "みんなのカフェ"
 
 いや　竹忘れよう
 
-<audio controls>
+<audio>
 <source src="audio/03/048.mp3">
 </audio><hr>
 
 やってみたいなあ　パンダカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/049.mp3">
 </audio><hr>
 
@@ -412,7 +412,7 @@ title: "みんなのカフェ"
 
 いらっしゃい
 
-<audio controls>
+<audio>
 <source src="audio/03/050.mp3">
 </audio><hr>
 
@@ -424,7 +424,7 @@ title: "みんなのカフェ"
 
 戻してね
 
-<audio controls>
+<audio>
 <source src="audio/03/051.mp3">
 </audio><hr>
 
@@ -434,7 +434,7 @@ title: "みんなのカフェ"
 
 そうだね　ペンギンカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/052.mp3">
 </audio><hr>
 
@@ -442,7 +442,7 @@ title: "みんなのカフェ"
 
 いやいや　和風のカフェなんだよ
 
-<audio controls>
+<audio>
 <source src="audio/03/053.mp3">
 </audio><hr>
 
@@ -452,7 +452,7 @@ title: "みんなのカフェ"
 
 和風カフェっていうより　お寿司屋さんみたいなメニューだね
 
-<audio controls>
+<audio>
 <source src="audio/03/054.mp3">
 </audio><hr>
 
@@ -460,7 +460,7 @@ title: "みんなのカフェ"
 
 店主が選んだ　こだわりのお酒でいただけるカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/055.mp3">
 </audio><hr>
 
@@ -468,7 +468,7 @@ title: "みんなのカフェ"
 
 違うよ　でね
 
-<audio controls>
+<audio>
 <source src="audio/03/056.mp3">
 </audio><hr>
 
@@ -478,7 +478,7 @@ title: "みんなのカフェ"
 
 お客さんは自分の選んだ魚を食られるの
 
-<audio controls>
+<audio>
 <source src="audio/03/057.mp3">
 </audio><hr>
 
@@ -486,7 +486,7 @@ title: "みんなのカフェ"
 
 カフェっぽさも入れてよ
 
-<audio controls>
+<audio>
 <source src="audio/03/058.mp3">
 </audio><hr>
 
@@ -494,7 +494,7 @@ title: "みんなのカフェ"
 
 ペンギンカフェだよ
 
-<audio controls>
+<audio>
 <source src="audio/03/059.mp3">
 </audio><hr>
 
@@ -502,7 +502,7 @@ title: "みんなのカフェ"
 
 だったら　コーヒー出したりしたらどうですか
 
-<audio controls>
+<audio>
 <source src="audio/03/060.mp3">
 </audio><hr>
 
@@ -510,7 +510,7 @@ title: "みんなのカフェ"
 
 そこまで手が回るかな
 
-<audio controls>
+<audio>
 <source src="audio/03/061.mp3">
 </audio><hr>
 
@@ -518,7 +518,7 @@ title: "みんなのカフェ"
 
 何言ってるの　やるよ　僕は
 
-<audio controls>
+<audio>
 <source src="audio/03/062.mp3">
 </audio><hr>
 
@@ -528,7 +528,7 @@ title: "みんなのカフェ"
 
 戻してね
 
-<audio controls>
+<audio>
 <source src="audio/03/063.mp3">
 </audio><hr>
 
@@ -540,7 +540,7 @@ title: "みんなのカフェ"
 
 そのまんまだね
 
-<audio controls>
+<audio>
 <source src="audio/03/064.mp3">
 </audio><hr>
 
@@ -548,7 +548,7 @@ title: "みんなのカフェ"
 
 バランス次第です
 
-<audio controls>
+<audio>
 <source src="audio/03/065.mp3">
 </audio><hr>
 
@@ -556,7 +556,7 @@ title: "みんなのカフェ"
 
 毛繕いしたり　自由にかわいがって　いいカフェなんです
 
-<audio controls>
+<audio>
 <source src="audio/03/066.mp3">
 </audio><hr>
 
@@ -564,7 +564,7 @@ title: "みんなのカフェ"
 
 なんだって　毛繕いできるんですよ　すごくないですか
 
-<audio controls>
+<audio>
 <source src="audio/03/067.mp3">
 </audio><hr>
 
@@ -574,7 +574,7 @@ title: "みんなのカフェ"
 
 好きなラマを選んで一緒に外でお散歩できたりするんです
 
-<audio controls>
+<audio>
 <source src="audio/03/068.mp3">
 </audio><hr>
 
@@ -582,7 +582,7 @@ title: "みんなのカフェ"
 
 ありがとうございま～～す
 
-<audio controls>
+<audio>
 <source src="audio/03/069.mp3">
 </audio><hr>
 
@@ -590,7 +590,7 @@ title: "みんなのカフェ"
 
 少し塩気が足りないね
 
-<audio controls>
+<audio>
 <source src="audio/03/070.mp3">
 </audio><hr>
 
@@ -600,7 +600,7 @@ title: "みんなのカフェ"
 
 やっぱりパンダカフェが一番だよ
 
-<audio controls>
+<audio>
 <source src="audio/03/071.mp3">
 </audio><hr>
 
@@ -610,7 +610,7 @@ title: "みんなのカフェ"
 
 うん　ラマカフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/072.mp3">
 </audio><hr>
 
@@ -626,7 +626,7 @@ title: "みんなのカフェ"
 
 笹子カフェ
 
-<audio controls>
+<audio>
 <source src="audio/03/073.mp3">
 </audio><hr>
 
@@ -636,7 +636,7 @@ title: "みんなのカフェ"
 
 いえいえ　ラマカフェですよ
 
-<audio controls>
+<audio>
 <source src="audio/03/074.mp3">
 </audio><hr>
 
@@ -646,7 +646,7 @@ title: "みんなのカフェ"
 
 えーと　そうですね
 
-<audio controls>
+<audio>
 <source src="audio/03/075.mp3">
 </audio><hr>
 
@@ -656,7 +656,7 @@ title: "みんなのカフェ"
 
 いえいえ　ラマっぽい笹子さんが
 
-<audio controls>
+<audio>
 <source src="audio/03/076.mp3">
 </audio><hr>
 

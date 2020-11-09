@@ -4,13 +4,13 @@ title: "パンダくんの願い"
 
 パンダくんの願い
 
-<audio controls>
+<audio>
 <source src="audio/26/001.mp3">
 </audio><hr>
 
 ほほう…　半田さんがね
 
-<audio controls>
+<audio>
 <source src="audio/26/002.mp3">
 </audio><hr>
 
@@ -20,7 +20,7 @@ title: "パンダくんの願い"
 
 そうなの？
 
-<audio controls>
+<audio>
 <source src="audio/26/003.mp3">
 </audio><hr>
 
@@ -28,7 +28,7 @@ title: "パンダくんの願い"
 
 いざとなるとてんで勇気が出ないタイプだね
 
-<audio controls>
+<audio>
 <source src="audio/26/004.mp3">
 </audio><hr>
 
@@ -38,7 +38,7 @@ title: "パンダくんの願い"
 
 ツッコみづらい間違え方しないでよ
 
-<audio controls>
+<audio>
 <source src="audio/26/005.mp3">
 </audio><hr>
 
@@ -46,7 +46,7 @@ title: "パンダくんの願い"
 
 こっちに振るの？
 
-<audio controls>
+<audio>
 <source src="audio/26/006.mp3">
 </audio><hr>
 
@@ -56,7 +56,7 @@ title: "パンダくんの願い"
 
 勝手に　バツ２にしないでって 言ったでしょ
 
-<audio controls>
+<audio>
 <source src="audio/26/007.mp3">
 </audio><hr>
 
@@ -66,7 +66,7 @@ title: "パンダくんの願い"
 
 あぁ　それは確かにね
 
-<audio controls>
+<audio>
 <source src="audio/26/008.mp3">
 </audio><hr>
 
@@ -76,7 +76,7 @@ title: "パンダくんの願い"
 
 初デートのカップルなんてういういしいよね
 
-<audio controls>
+<audio>
 <source src="audio/26/009.mp3">
 </audio><hr>
 
@@ -88,7 +88,7 @@ title: "パンダくんの願い"
 
 こっちから見てても わかるっていうか
 
-<audio controls>
+<audio>
 <source src="audio/26/010.mp3">
 </audio><hr>
 
@@ -98,7 +98,7 @@ title: "パンダくんの願い"
 
 今ちょっと気まずい感じだね
 
-<audio controls>
+<audio>
 <source src="audio/26/011.mp3">
 </audio><hr>
 
@@ -108,7 +108,7 @@ title: "パンダくんの願い"
 
 そこで　僕らを見つけると…
 
-<audio controls>
+<audio>
 <source src="audio/26/012.mp3">
 </audio><hr>
 
@@ -122,7 +122,7 @@ title: "パンダくんの願い"
 
 うん
 
-<audio controls>
+<audio>
 <source src="audio/26/013.mp3">
 </audio><hr>
 
@@ -132,7 +132,7 @@ title: "パンダくんの願い"
 
 常勤パンダさん　すご～い
 
-<audio controls>
+<audio>
 <source src="audio/26/014.mp3">
 </audio><hr>
 
@@ -142,7 +142,7 @@ title: "パンダくんの願い"
 
 また　そんなキャラ付けする…
 
-<audio controls>
+<audio>
 <source src="audio/26/015.mp3">
 </audio><hr>
 
@@ -150,13 +150,13 @@ title: "パンダくんの願い"
 
 ガテン系の常勤パンダさん
 
-<audio controls>
+<audio>
 <source src="audio/26/016.mp3">
 </audio><hr>
 
 だから　ツッコミづらいって…
 
-<audio controls>
+<audio>
 <source src="audio/26/017.mp3">
 </audio><hr>
 
@@ -164,7 +164,7 @@ title: "パンダくんの願い"
 
 一歩前へ出るのが大事だね
 
-<audio controls>
+<audio>
 <source src="audio/26/018.mp3">
 </audio><hr>
 
@@ -172,7 +172,7 @@ title: "パンダくんの願い"
 
 全然　恋の予感がしないよ？
 
-<audio controls>
+<audio>
 <source src="audio/26/019.mp3">
 </audio><hr>
 
@@ -184,7 +184,7 @@ title: "パンダくんの願い"
 
 なんにしても 恋は積極性が大事だね
 
-<audio controls>
+<audio>
 <source src="audio/26/020.mp3">
 </audio><hr>
 
@@ -194,7 +194,7 @@ title: "パンダくんの願い"
 
 積極性だよ？
 
-<audio controls>
+<audio>
 <source src="audio/26/021.mp3">
 </audio><hr>
 
@@ -204,7 +204,7 @@ title: "パンダくんの願い"
 
 お疲れさま
 
-<audio controls>
+<audio>
 <source src="audio/26/022.mp3">
 </audio><hr>
 
@@ -216,7 +216,7 @@ title: "パンダくんの願い"
 
 えっ　
 
-<audio controls>
+<audio>
 <source src="audio/26/023.mp3">
 </audio><hr>
 
@@ -226,7 +226,7 @@ title: "パンダくんの願い"
 
 い…　いや…　別に
 
-<audio controls>
+<audio>
 <source src="audio/26/024.mp3">
 </audio><hr>
 
@@ -234,13 +234,13 @@ title: "パンダくんの願い"
 
 えっ！　せ…　せっかくだから 一応聞くよ
 
-<audio controls>
+<audio>
 <source src="audio/26/025.mp3">
 </audio><hr>
 
 どうしたの？
 
-<audio controls>
+<audio>
 <source src="audio/26/026.mp3">
 </audio><hr>
 
@@ -250,7 +250,7 @@ title: "パンダくんの願い"
 
 もう…　何悩んでるの？
 
-<audio controls>
+<audio>
 <source src="audio/26/027.mp3">
 </audio><hr>
 
@@ -260,7 +260,7 @@ title: "パンダくんの願い"
 
 パンダくん！
 
-<audio controls>
+<audio>
 <source src="audio/26/028.mp3">
 </audio><hr>
 
@@ -274,7 +274,7 @@ title: "パンダくんの願い"
 
 おじゃまします
 
-<audio controls>
+<audio>
 <source src="audio/26/029.mp3">
 </audio><hr>
 
@@ -286,7 +286,7 @@ title: "パンダくんの願い"
 
 これが　最後ね
 
-<audio controls>
+<audio>
 <source src="audio/26/030.mp3">
 </audio><hr>
 
@@ -294,7 +294,7 @@ title: "パンダくんの願い"
 
 じゃあ　一番上に
 
-<audio controls>
+<audio>
 <source src="audio/26/031.mp3">
 </audio><hr>
 
@@ -302,7 +302,7 @@ title: "パンダくんの願い"
 
 皆さ～ん　どうぞ
 
-<audio controls>
+<audio>
 <source src="audio/26/032.mp3">
 </audio><hr>
 
@@ -312,7 +312,7 @@ title: "パンダくんの願い"
 
 Stop 地球温暖化
 
-<audio controls>
+<audio>
 <source src="audio/26/033.mp3">
 </audio><hr>
 
@@ -322,7 +322,7 @@ Stop 地球温暖化
 
 ペンこさんから告白されますように
 
-<audio controls>
+<audio>
 <source src="audio/26/034.mp3">
 </audio><hr>
 
@@ -335,7 +335,7 @@ Stop 地球温暖化
 どっちなの？
 
 
-<audio controls>
+<audio>
 <source src="audio/26/035.mp3">
 </audio><hr>
 
@@ -347,7 +347,7 @@ Stop 地球温暖化
 
 いや　
 
-<audio controls>
+<audio>
 <source src="audio/26/036.mp3">
 </audio><hr>
 
@@ -355,7 +355,7 @@ Stop 地球温暖化
 
 恋は　積極性が大事
 
-<audio controls>
+<audio>
 <source src="audio/26/037.mp3">
 </audio><hr>
 
@@ -365,7 +365,7 @@ Stop 地球温暖化
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/26/038.mp3">
 </audio><hr>
 
@@ -377,7 +377,7 @@ Stop 地球温暖化
 
 早くできるといいですね
 
-<audio controls>
+<audio>
 <source src="audio/26/039.mp3">
 </audio><hr>
 
@@ -385,13 +385,13 @@ Stop 地球温暖化
 
 そろそろ締め切り
 
-<audio controls>
+<audio>
 <source src="audio/26/040.mp3">
 </audio><hr>
 
 パンダくん　願いごとつるした？
 
-<audio controls>
+<audio>
 <source src="audio/26/041.mp3">
 </audio><hr>
 
@@ -399,7 +399,7 @@ Stop 地球温暖化
 
 う～ん　どうしよう
 
-<audio controls>
+<audio>
 <source src="audio/26/042.mp3">
 </audio><hr>
 
@@ -407,7 +407,7 @@ Stop 地球温暖化
 
 おこづかいアップ
 
-<audio controls>
+<audio>
 <source src="audio/26/043.mp3">
 </audio><hr>
 
@@ -417,25 +417,25 @@ Stop 地球温暖化
 
 まだ？
 
-<audio controls>
+<audio>
 <source src="audio/26/044.mp3">
 </audio><hr>
 
 飾るよ
 
-<audio controls>
+<audio>
 <source src="audio/26/045.mp3">
 </audio><hr>
 
 きれい
 
-<audio controls>
+<audio>
 <source src="audio/26/046.mp3">
 </audio><hr>
 
 涼しいですね
 
-<audio controls>
+<audio>
 <source src="audio/26/047.mp3">
 </audio><hr>
 
@@ -443,7 +443,7 @@ Stop 地球温暖化
 
 はい
 
-<audio controls>
+<audio>
 <source src="audio/26/048.mp3">
 </audio><hr>
 

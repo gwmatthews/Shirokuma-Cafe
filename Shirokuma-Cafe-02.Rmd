@@ -4,7 +4,7 @@ title: "パンダ君の就職 "
 
 パンダ君の就職
 
-<audio controls>
+<audio>
 <source src="audio/02/001.mp3">
 </audio><hr>
 
@@ -12,7 +12,7 @@ title: "パンダ君の就職 "
 
 あ　こんにちは　
 
-<audio controls>
+<audio>
 <source src="audio/02/002.mp3">
 </audio><hr>
 
@@ -20,7 +20,7 @@ title: "パンダ君の就職 "
 
 ああ　不合格の～
 
-<audio controls>
+<audio>
 <source src="audio/02/003.mp3">
 </audio><hr>
 
@@ -32,14 +32,14 @@ title: "パンダ君の就職 "
 
 今忙しいし
 
-<audio controls>
+<audio>
 <source src="audio/02/004.mp3">
 </audio><hr>
 
 
 どうすれば出前してくれるの？
 
-<audio controls>
+<audio>
 <source src="audio/02/005.mp3">
 </audio><hr>
 
@@ -49,13 +49,13 @@ title: "パンダ君の就職 "
 
 またゴロゴロして
 
-<audio controls>
+<audio>
 <source src="audio/02/006.mp3">
 </audio><hr>
 
 今仕事探してたの
 
-<audio controls>
+<audio>
 <source src="audio/02/007.mp3">
 </audio><hr>
 
@@ -65,7 +65,7 @@ title: "パンダ君の就職 "
 
 あああ～～～～　吸わないで～～～
 
-<audio controls>
+<audio>
 <source src="audio/02/008.mp3">
 </audio><hr>
 
@@ -73,7 +73,7 @@ title: "パンダ君の就職 "
 
 こんにちは
 
-<audio controls>
+<audio>
 <source src="audio/02/009.mp3">
 </audio><hr>
 
@@ -81,7 +81,7 @@ title: "パンダ君の就職 "
 
 ペンギンさん、何にする？
 
-<audio controls>
+<audio>
 <source src="audio/02/010.mp3">
 </audio><hr>
 
@@ -95,13 +95,13 @@ title: "パンダ君の就職 "
 
 えっ？！
 
-<audio controls>
+<audio>
 <source src="audio/02/011.mp3">
 </audio><hr>
 
 いつものやつって  言われたんですけど
 
-<audio controls>
+<audio>
 <source src="audio/02/012.mp3">
 </audio><hr>
 
@@ -109,7 +109,7 @@ title: "パンダ君の就職 "
 
 カレーライスです。。。。
 
-<audio controls>
+<audio>
 <source src="audio/02/013.mp3">
 </audio><hr>
 
@@ -119,7 +119,7 @@ title: "パンダ君の就職 "
 
 ちょっと
 
-<audio controls>
+<audio>
 <source src="audio/02/014.mp3">
 </audio><hr>
 
@@ -129,13 +129,13 @@ title: "パンダ君の就職 "
 
 じゃ～アイスコーヒー
 
-<audio controls>
+<audio>
 <source src="audio/02/015.mp3">
 </audio><hr>
 
 あ、君バイト探してたよね
 
-<audio controls>
+<audio>
 <source src="audio/02/016.mp3">
 </audio><hr>
 
@@ -147,13 +147,13 @@ title: "パンダ君の就職 "
 
 どう？
 
-<audio controls>
+<audio>
 <source src="audio/02/017.mp3">
 </audio><hr>
 
 嫌だよ、僕泳げないし
 
-<audio controls>
+<audio>
 <source src="audio/02/018.mp3">
 </audio><hr>
 
@@ -163,7 +163,7 @@ title: "パンダ君の就職 "
 
 呼び相談におします
 
-<audio controls>
+<audio>
 <source src="audio/02/019.mp3">
 </audio><hr>
 
@@ -173,13 +173,13 @@ title: "パンダ君の就職 "
 
 しろくまさん
 
-<audio controls>
+<audio>
 <source src="audio/02/020.mp3">
 </audio><hr>
 
 動物園か　面白そう
 
-<audio controls>
+<audio>
 <source src="audio/02/021.mp3">
 </audio><hr>
 
@@ -190,7 +190,7 @@ title: "パンダ君の就職 "
 
 では、パンダの仕事はどうでしょう？
 
-<audio controls>
+<audio>
 <source src="audio/02/022.mp3">
 </audio><hr>
 
@@ -198,7 +198,7 @@ title: "パンダ君の就職 "
 
 非常勤でもう一頭募集してるんです
 
-<audio controls>
+<audio>
 <source src="audio/02/023.mp3">
 </audio><hr>
 
@@ -209,7 +209,7 @@ title: "パンダ君の就職 "
 
 でしたら　月の輪熊とゴリラも募集していますよ
 
-<audio controls>
+<audio>
 <source src="audio/02/024.mp3">
 </audio><hr>
 
@@ -218,7 +218,7 @@ title: "パンダ君の就職 "
 
 そうですか、では、来週から来てください
 
-<audio controls>
+<audio>
 <source src="audio/02/025.mp3">
 </audio><hr>
 
@@ -231,7 +231,7 @@ title: "パンダ君の就職 "
 
 違うよ　動物園～
 
-<audio controls>
+<audio>
 <source src="audio/02/026.mp3">
 </audio><hr>
 
@@ -242,14 +242,14 @@ title: "パンダ君の就職 "
 
 なんで照れてんの
 
-<audio controls>
+<audio>
 <source src="audio/02/027.mp3">
 </audio><hr>
 
 
 いよいよ今日からバイトか　ドキドキしちゃうなぁ
 
-<audio controls>
+<audio>
 <source src="audio/02/028.mp3">
 </audio><hr>
 
@@ -258,7 +258,7 @@ title: "パンダ君の就職 "
 
 今日は幼稚園から園児たちが来ます
 
-<audio controls>
+<audio>
 <source src="audio/02/029.mp3">
 </audio><hr>
 
@@ -269,7 +269,7 @@ title: "パンダ君の就職 "
 
 サービスですね　分かりました
 
-<audio controls>
+<audio>
 <source src="audio/02/030.mp3">
 </audio><hr>
 
@@ -278,7 +278,7 @@ title: "パンダ君の就職 "
 
 自然態でいいです
 
-<audio controls>
+<audio>
 <source src="audio/02/031.mp3">
 </audio><hr>
 
@@ -290,7 +290,7 @@ title: "パンダ君の就職 "
 
 引っ張るねぇ～
 
-<audio controls>
+<audio>
 <source src="audio/02/032.mp3">
 </audio><hr>
 
@@ -298,7 +298,7 @@ title: "パンダ君の就職 "
 
 って、それは  影武者、いいから、そういうの
 
-<audio controls>
+<audio>
 <source src="audio/02/033.mp3">
 </audio><hr>
 
@@ -308,7 +308,7 @@ title: "パンダ君の就職 "
 
 あたしは常勤パンダですからね
 
-<audio controls>
+<audio>
 <source src="audio/02/034.mp3">
 </audio><hr>
 
@@ -318,7 +318,7 @@ title: "パンダ君の就職 "
 
 ハハハハ　まぁ　今日からよろしくお願いします
 
-<audio controls>
+<audio>
 <source src="audio/02/035.mp3">
 </audio><hr>
 
@@ -332,13 +332,13 @@ title: "パンダ君の就職 "
 
 自然態でって言われたんです
 
-<audio controls>
+<audio>
 <source src="audio/02/036.mp3">
 </audio><hr>
 
 こんな感じでしょうか？自然と一体的な？
 
-<audio controls>
+<audio>
 <source src="audio/02/037.mp3">
 </audio><hr>
 
@@ -348,7 +348,7 @@ title: "パンダ君の就職 "
 
 あ～～
 
-<audio controls>
+<audio>
 <source src="audio/02/038.mp3">
 </audio><hr>
 
@@ -362,7 +362,7 @@ title: "パンダ君の就職 "
 
 はい！
 
-<audio controls>
+<audio>
 <source src="audio/02/039.mp3">
 </audio><hr>
 
@@ -380,7 +380,7 @@ title: "パンダ君の就職 "
 
 そうね～
 
-<audio controls>
+<audio>
 <source src="audio/02/040.mp3">
 </audio><hr>
 
@@ -392,7 +392,7 @@ title: "パンダ君の就職 "
 
 は、はい！
 
-<audio controls>
+<audio>
 <source src="audio/02/041.mp3">
 </audio><hr>
 
@@ -412,7 +412,7 @@ title: "パンダ君の就職 "
 
 サービス～サー～ビス～
 
-<audio controls>
+<audio>
 <source src="audio/02/042.mp3">
 </audio><hr>
 
@@ -420,13 +420,13 @@ title: "パンダ君の就職 "
 
 なんで起こしてくれないんですか、常勤パンダさん、え！
 
-<audio controls>
+<audio>
 <source src="audio/02/043.mp3">
 </audio><hr>
 
 閉園の時間になりました　またのご来園をお待ちしております
 
-<audio controls>
+<audio>
 <source src="audio/02/044.mp3">
 </audio><hr>
 
@@ -434,7 +434,7 @@ title: "パンダ君の就職 "
 
 お先です
 
-<audio controls>
+<audio>
 <source src="audio/02/045.mp3">
 </audio><hr>
 
@@ -446,7 +446,7 @@ title: "パンダ君の就職 "
 
 僕たちも動物園でバイトしてるんですよ
 
-<audio controls>
+<audio>
 <source src="audio/02/046.mp3">
 </audio><hr>
 
@@ -454,7 +454,7 @@ title: "パンダ君の就職 "
 
 今日は園児が可愛かったね
 
-<audio controls>
+<audio>
 <source src="audio/02/047.mp3">
 </audio><hr>
 
@@ -462,7 +462,7 @@ title: "パンダ君の就職 "
 
 わかります　わかります
 
-<audio controls>
+<audio>
 <source src="audio/02/048.mp3">
 </audio><hr>
 
@@ -470,7 +470,7 @@ title: "パンダ君の就職 "
 
 そうですね
 
-<audio controls>
+<audio>
 <source src="audio/02/049.mp3">
 </audio><hr>
 
@@ -480,7 +480,7 @@ title: "パンダ君の就職 "
 
 パンダ君って　割りと図々しいよね
 
-<audio controls>
+<audio>
 <source src="audio/02/050.mp3">
 </audio><hr>
 
@@ -492,7 +492,7 @@ title: "パンダ君の就職 "
 
 竹！大盛りで
 
-<audio controls>
+<audio>
 <source src="audio/02/051.mp3">
 </audio><hr>
 
@@ -504,7 +504,7 @@ title: "パンダ君の就職 "
 
 笹子さんが突っ込みを！
 
-<audio controls>
+<audio>
 <source src="audio/02/052.mp3">
 </audio><hr>
 
@@ -513,7 +513,7 @@ title: "パンダ君の就職 "
 ね～　早く頂戴～
 
 
-<audio controls>
+<audio>
 <source src="audio/02/053.mp3">
 </audio><hr>
 

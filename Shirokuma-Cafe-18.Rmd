@@ -5,7 +5,7 @@ title: "ペンギンさんの告白"
 
 ペンギンさんの告白
 
-<audio controls>
+<audio>
 <source src="audio/18/001.mp3">
 </audio><hr>
 
@@ -13,7 +13,7 @@ title: "ペンギンさんの告白"
 
 これに竹の葉を練りこんだら もっと　おいしくなるんじゃない？
 
-<audio controls>
+<audio>
 <source src="audio/18/002.mp3">
 </audio><hr>
 
@@ -21,7 +21,7 @@ title: "ペンギンさんの告白"
 
 それより　パンダあんぱん っていうのが　あるみたいだよ
 
-<audio controls>
+<audio>
 <source src="audio/18/003.mp3">
 </audio><hr>
 
@@ -35,7 +35,7 @@ title: "ペンギンさんの告白"
 
 ペン子さんを…　その…
 
-<audio controls>
+<audio>
 <source src="audio/18/004.mp3">
 </audio><hr>
 
@@ -47,7 +47,7 @@ title: "ペンギンさんの告白"
 
 だって…
 
-<audio controls>
+<audio>
 <source src="audio/18/005.mp3">
 </audio><hr>
 
@@ -59,7 +59,7 @@ title: "ペンギンさんの告白"
 
 大きな１歩を踏み出すときである
 
-<audio controls>
+<audio>
 <source src="audio/18/006.mp3">
 </audio><hr>
 
@@ -71,7 +71,7 @@ title: "ペンギンさんの告白"
 
 小さな１歩　
 
-<audio controls>
+<audio>
 <source src="audio/18/007.mp3">
 </audio><hr>
 
@@ -83,7 +83,7 @@ title: "ペンギンさんの告白"
 
 ペン子さんに告白する！
 
-<audio controls>
+<audio>
 <source src="audio/18/008.mp3">
 </audio><hr>
 
@@ -93,7 +93,7 @@ title: "ペンギンさんの告白"
 
 早速　行ってくるよ！
 
-<audio controls>
+<audio>
 <source src="audio/18/009.mp3">
 </audio><hr>
 
@@ -103,7 +103,7 @@ title: "ペンギンさんの告白"
 
 それは　極悪？
 
-<audio controls>
+<audio>
 <source src="audio/18/010.mp3">
 </audio><hr>
 
@@ -117,7 +117,7 @@ title: "ペンギンさんの告白"
 
 どうしたらいいかな？
 
-<audio controls>
+<audio>
 <source src="audio/18/011.mp3">
 </audio><hr>
 
@@ -127,7 +127,7 @@ title: "ペンギンさんの告白"
 
 こんな感じ？
 
-<audio controls>
+<audio>
 <source src="audio/18/012.mp3">
 </audio><hr>
 
@@ -137,7 +137,7 @@ title: "ペンギンさんの告白"
 
 グンカンドリは赤いノド袋を膨らますらしいよ
 
-<audio controls>
+<audio>
 <source src="audio/18/013.mp3">
 </audio><hr>
 
@@ -147,7 +147,7 @@ title: "ペンギンさんの告白"
 
 リクガメは甲羅アタック
 
-<audio controls>
+<audio>
 <source src="audio/18/014.mp3">
 </audio><hr>
 
@@ -161,7 +161,7 @@ title: "ペンギンさんの告白"
 
 あれ？ でも　ペンギンさん　甲羅ないよ
 
-<audio controls>
+<audio>
 <source src="audio/18/015.mp3">
 </audio><hr>
 
@@ -171,7 +171,7 @@ title: "ペンギンさんの告白"
 
 カッパって　なんて言って 告白するの？
 
-<audio controls>
+<audio>
 <source src="audio/18/016.mp3">
 </audio><hr>
 
@@ -181,7 +181,7 @@ title: "ペンギンさんの告白"
 
 最悪だ　世界の終わりだ
 
-<audio controls>
+<audio>
 <source src="audio/18/017.mp3">
 </audio><hr>
 
@@ -195,7 +195,7 @@ title: "ペンギンさんの告白"
 
 はっ…　そうだった
 
-<audio controls>
+<audio>
 <source src="audio/18/018.mp3">
 </audio><hr>
 
@@ -205,7 +205,7 @@ title: "ペンギンさんの告白"
 
 ついてくる気！？
 
-<audio controls>
+<audio>
 <source src="audio/18/019.mp3">
 </audio><hr>
 
@@ -213,7 +213,7 @@ title: "ペンギンさんの告白"
 
 １本の矢なら折れるが ３本の矢なら折れない　と
 
-<audio controls>
+<audio>
 <source src="audio/18/020.mp3">
 </audio><hr>
 
@@ -223,7 +223,7 @@ title: "ペンギンさんの告白"
 
 それじゃあ 猿知恵になっちゃうよ
 
-<audio controls>
+<audio>
 <source src="audio/18/021.mp3">
 </audio><hr>
 
@@ -233,7 +233,7 @@ title: "ペンギンさんの告白"
 
 あ…　あれ？
 
-<audio controls>
+<audio>
 <source src="audio/18/022.mp3">
 </audio><hr>
 
@@ -245,7 +245,7 @@ title: "ペンギンさんの告白"
 
 行くぞ…　よし　行くぞ！
 
-<audio controls>
+<audio>
 <source src="audio/18/023.mp3">
 </audio><hr>
 
@@ -259,7 +259,7 @@ title: "ペンギンさんの告白"
 
 す…　好きです！
 
-<audio controls>
+<audio>
 <source src="audio/18/024.mp3">
 </audio><hr>
 
@@ -271,7 +271,7 @@ title: "ペンギンさんの告白"
 
 それが 意味のない行為だとしても
 
-<audio controls>
+<audio>
 <source src="audio/18/025.mp3">
 </audio><hr>
 
@@ -281,13 +281,13 @@ title: "ペンギンさんの告白"
 
 ううん　いずれペンギンさんが作る未来の格言
 
-<audio controls>
+<audio>
 <source src="audio/18/026.mp3">
 </audio><hr>
 
 やっぱり　僕に告白なんてムリなのかなぁ…
 
-<audio controls>
+<audio>
 <source src="audio/18/027.mp3">
 </audio><hr>
 
@@ -295,7 +295,7 @@ title: "ペンギンさんの告白"
 
 嬉しいよ　ペン子さん
 
-<audio controls>
+<audio>
 <source src="audio/18/028.mp3">
 </audio><hr>
 
@@ -307,7 +307,7 @@ title: "ペンギンさんの告白"
 
 あ…　しまった！
 
-<audio controls>
+<audio>
 <source src="audio/18/029.mp3">
 </audio><hr>
 
@@ -317,7 +317,7 @@ title: "ペンギンさんの告白"
 
 そのためにも頑張らなくっちゃ！
 
-<audio controls>
+<audio>
 <source src="audio/18/030.mp3">
 </audio><hr>
 
@@ -325,7 +325,7 @@ title: "ペンギンさんの告白"
 
 うん　よかった
 
-<audio controls>
+<audio>
 <source src="audio/18/031.mp3">
 </audio><hr>
 
@@ -333,7 +333,7 @@ title: "ペンギンさんの告白"
 
 ペン子さ…
 
-<audio controls>
+<audio>
 <source src="audio/18/032.mp3">
 </audio><hr>
 
@@ -341,7 +341,7 @@ title: "ペンギンさんの告白"
 
 もう帰ろうかな
 
-<audio controls>
+<audio>
 <source src="audio/18/033.mp3">
 </audio><hr>
 
@@ -355,7 +355,7 @@ title: "ペンギンさんの告白"
 
 いや！　
 
-<audio controls>
+<audio>
 <source src="audio/18/034.mp3">
 </audio><hr>
 
@@ -367,7 +367,7 @@ title: "ペンギンさんの告白"
 
 でもなぁ…
 
-<audio controls>
+<audio>
 <source src="audio/18/035.mp3">
 </audio><hr>
 
@@ -379,7 +379,7 @@ title: "ペンギンさんの告白"
 
 来ないでって言ったのに！
 
-<audio controls>
+<audio>
 <source src="audio/18/036.mp3">
 </audio><hr>
 
@@ -389,7 +389,7 @@ title: "ペンギンさんの告白"
 
 しないの？　告白
 
-<audio controls>
+<audio>
 <source src="audio/18/037.mp3">
 </audio><hr>
 
@@ -401,7 +401,7 @@ title: "ペンギンさんの告白"
 
 勇者とともに？
 
-<audio controls>
+<audio>
 <source src="audio/18/038.mp3">
 </audio><hr>
 
@@ -411,7 +411,7 @@ title: "ペンギンさんの告白"
 
 行くのは　ペン子さんのところ！
 
-<audio controls>
+<audio>
 <source src="audio/18/039.mp3">
 </audio><hr>
 
@@ -423,7 +423,7 @@ title: "ペンギンさんの告白"
 
 言うぞ　言うぞ！
 
-<audio controls>
+<audio>
 <source src="audio/18/040.mp3">
 </audio><hr>
 
@@ -435,7 +435,7 @@ title: "ペンギンさんの告白"
 
 だから帰ってよ！ ほら　帰って帰って！
 
-<audio controls>
+<audio>
 <source src="audio/18/041.mp3">
 </audio><hr>
 
@@ -445,7 +445,7 @@ title: "ペンギンさんの告白"
 
 大丈夫かな？　ペンギンさん
 
-<audio controls>
+<audio>
 <source src="audio/18/042.mp3">
 </audio><hr>
 
@@ -455,7 +455,7 @@ title: "ペンギンさんの告白"
 
 おめでとう　ペンギンさん
 
-<audio controls>
+<audio>
 <source src="audio/18/043.mp3">
 </audio><hr>
 
@@ -465,7 +465,7 @@ title: "ペンギンさんの告白"
 
 それで　ペン子さんは何て？
 
-<audio controls>
+<audio>
 <source src="audio/18/044.mp3">
 </audio><hr>
 
@@ -475,7 +475,7 @@ title: "ペンギンさんの告白"
 
 実はね　ペン子さん僕の顔を 覚えててくれたみたいでね
 
-<audio controls>
+<audio>
 <source src="audio/18/045.mp3">
 </audio><hr>
 
@@ -483,7 +483,7 @@ title: "ペンギンさんの告白"
 
 なんと　サービス券もらったの！
 
-<audio controls>
+<audio>
 <source src="audio/18/046.mp3">
 </audio><hr>
 
@@ -493,7 +493,7 @@ title: "ペンギンさんの告白"
 
 あの…　告白は？
 
-<audio controls>
+<audio>
 <source src="audio/18/047.mp3">
 </audio><hr>
 
@@ -505,7 +505,7 @@ title: "ペンギンさんの告白"
 
 洗えないよ！　洗いたくないよ！
 
-<audio controls>
+<audio>
 <source src="audio/18/048.mp3">
 </audio><hr>
 
@@ -523,6 +523,6 @@ title: "ペンギンさんの告白"
 
 もう　幸せ！
 
-<audio controls>
+<audio>
 <source src="audio/18/049.mp3">
 </audio><hr>
