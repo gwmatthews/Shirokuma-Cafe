@@ -13,7 +13,8 @@ p {
 }
 
 .section ul li {
-  font-size: large;
+  font-size: x-large;
+  padding-bottom: 5px;
 }
 
 .sound {
@@ -23,4 +24,17 @@ p {
   font-size: x-large;
   cursor: pointer;
   opacity: 1;
+}
+
+@media(max-width: 700px){
+p {
+  font-size: 150%;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.sound {
+font-size: large;
+}
+
 }

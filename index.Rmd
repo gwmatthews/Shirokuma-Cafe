@@ -2,10 +2,7 @@
 pagetitle: "Shirokuma Cafe"
 author: "George Matthews"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: 
- html_document:
-   css: style.css
-   
+
 ---
 
 ## シロクマ　カフェー
