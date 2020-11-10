@@ -2,10 +2,11 @@
 title: "title"
 ---
 
-title
+<span id="episode-title" data-episode="00">title</span>  <!-- enables auto src attribute writing -->
+
+text
 
 <audio>
-<source src="audio/00/001.mp3">
 </audio><hr>
 
 

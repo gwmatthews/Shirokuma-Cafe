@@ -2,10 +2,9 @@
 title: "シロクマくん　動物園へ"
 ---
 
-シロクマくん　動物園へ
+<span id="episode-title" data-episode="05">シロクマくん　動物園へ</span>
 
 <audio>
-<source src="audio/05/001.mp3">
 </audio><hr>
 
 シロクマくん　暇だから　何か問題出してよ
@@ -13,7 +12,6 @@ title: "シロクマくん　動物園へ"
 いいよ
 
 <audio>
-<source src="audio/05/002.mp3">
 </audio><hr>
 
 第１問
@@ -21,7 +19,6 @@ title: "シロクマくん　動物園へ"
 Ｔ字路と呼ばれる交差点
 
 <audio>
-<source src="audio/05/003.mp3">
 </audio><hr>
 
 法令上の正式名称は　Ｔ字路ではありません
@@ -29,19 +26,16 @@ title: "シロクマくん　動物園へ"
 さて　何と言うでしょう
 
 <audio>
-<source src="audio/05/004.mp3">
 </audio><hr>
 
 もっと　フランクな問題がいいな
 
 <audio>
-<source src="audio/05/005.mp3">
 </audio><hr>
 
 無洗米の製法には　いくつかありますが
 
 <audio>
-<source src="audio/05/006.mp3">
 </audio><hr>
 
 NTWP 加工法という方法では　よく…　
@@ -49,7 +43,6 @@ NTWP 加工法という方法では　よく…　
 ごめん、もういいや
 
 <audio>
-<source src="audio/05/007.mp3">
 </audio><hr>
 
 おぉ　パンダくん
@@ -57,19 +50,16 @@ NTWP 加工法という方法では　よく…　
 いらっしゃい
 
 <audio>
-<source src="audio/05/008.mp3">
 </audio><hr>
 
 パンダくん　いつもの？
 
 <audio>
-<source src="audio/05/009.mp3">
 </audio><hr>
 
 どうしたの？　クイズ出す？
 
 <audio>
-<source src="audio/05/010.mp3">
 </audio><hr>
 
 クイズより
@@ -77,7 +67,6 @@ NTWP 加工法という方法では　よく…　
 どうして　シロクマくんは　動物園に来てくれないの？
 
 <audio>
-<source src="audio/05/011.mp3">
 </audio><hr>
 
 何？　急に
@@ -85,13 +74,11 @@ NTWP 加工法という方法では　よく…　
 僕は　いつもシロクマくんの仕事場に　遊びに来てるのに　ずるいよ
 
 <audio>
-<source src="audio/05/012.mp3">
 </audio><hr>
 
 カフェに　お茶しに来てるだけでしょ
 
 <audio>
-<source src="audio/05/013.mp3">
 </audio><hr>
 
 僕　人には　モテるんだからね
@@ -99,13 +86,11 @@ NTWP 加工法という方法では　よく…　
 聞いてないなぁ…
 
 <audio>
-<source src="audio/05/014.mp3">
 </audio><hr>
 
 一度　動物園に遊びに来てよ
 
 <audio>
-<source src="audio/05/015.mp3">
 </audio><hr>
 
 大人気で　びっくりするよ
@@ -113,13 +98,11 @@ NTWP 加工法という方法では　よく…　
 大人気で　びっくりするよ
 
 <audio>
-<source src="audio/05/016.mp3">
 </audio><hr>
 
 なんで　２回言うの？
 
 <audio>
-<source src="audio/05/017.mp3">
 </audio><hr>
 
 もしもし　シロクマくん？
@@ -127,13 +110,11 @@ NTWP 加工法という方法では　よく…　
 明日　動物園に来る件だけど　忘れないでよ
 
 <audio>
-<source src="audio/05/018.mp3">
 </audio><hr>
 
 じゃあ　ペンギンさんにも　伝えておいてね
 
 <audio>
-<source src="audio/05/019.mp3">
 </audio><hr>
 
 おはようございま～す
@@ -143,7 +124,6 @@ NTWP 加工法という方法では　よく…　
 なんだか　元気だね
 
 <audio>
-<source src="audio/05/020.mp3">
 </audio><hr>
 
 今日　友達が僕のこと見に来るの
@@ -151,7 +131,6 @@ NTWP 加工法という方法では　よく…　
 そうなんだ
 
 <audio>
-<source src="audio/05/021.mp3">
 </audio><hr>
 
 あっ　そうだ　今日は　常勤パンダさんが　娘さんの参観日だから　休むって
@@ -159,13 +138,11 @@ NTWP 加工法という方法では　よく…　
 そうなの？
 
 <audio>
-<source src="audio/05/022.mp3">
 </audio><hr>
 
 あれ？　ということは…
 
 <audio>
-<source src="audio/05/023.mp3">
 </audio><hr>
 
 パンダは　僕ひとり…
@@ -175,13 +152,11 @@ NTWP 加工法という方法では　よく…　
 パンダく～ん！　かわいい！
 
 <audio>
-<source src="audio/05/024.mp3">
 </audio><hr>
 
 ようし！　頑張るぞ～！
 
 <audio>
-<source src="audio/05/025.mp3">
 </audio><hr>
 
 
@@ -192,7 +167,6 @@ NTWP 加工法という方法では　よく…　
 ２名です
 
 <audio>
-<source src="audio/05/026.mp3">
 </audio><hr>
 
 ここが　動物園か
@@ -202,7 +176,6 @@ NTWP 加工法という方法では　よく…　
 まずは　パンダくんを見に行こう
 
 <audio>
-<source src="audio/05/027.mp3">
 </audio><hr>
 
 ただ今から　シロクマの　おやつタイムを行います
@@ -210,7 +183,6 @@ NTWP 加工法という方法では　よく…　
 シロクマが　プールへダイビングする姿を　どうぞお楽しみください
 
 <audio>
-<source src="audio/05/028.mp3">
 </audio><hr>
 
 見たい！　すごそう！
@@ -218,7 +190,6 @@ NTWP 加工法という方法では　よく…　
 えっ！？　見たい！？
 
 <audio>
-<source src="audio/05/029.mp3">
 </audio><hr>
 
 シロクマくんって　シロクマだよね？
@@ -226,7 +197,6 @@ NTWP 加工法という方法では　よく…　
 シロクマが　シロクマのダイビングする姿が見たいの？
 
 <audio>
-<source src="audio/05/030.mp3">
 </audio><hr>
 
 行こう　行こう！
@@ -234,7 +204,6 @@ NTWP 加工法という方法では　よく…　
 パンダく～ん
 
 <audio>
-<source src="audio/05/031.mp3">
 </audio><hr>
 
 そんなに飛ばして大丈夫？
@@ -242,7 +211,6 @@ NTWP 加工法という方法では　よく…　
 半田さん　友達が来たら　ちゃんと写真撮ってね
 
 <audio>
-<source src="audio/05/032.mp3">
 </audio><hr>
 
 でも　おかしいなぁ
@@ -250,7 +218,6 @@ NTWP 加工法という方法では　よく…　
 シロクマくんたち　１時って言ったのに　来ないね
 
 <audio>
-<source src="audio/05/033.mp3">
 </audio><hr>
 
 シロクマくん　駄目だよ　ほら
@@ -258,7 +225,6 @@ NTWP 加工法という方法では　よく…　
 なに？　
 
 <audio>
-<source src="audio/05/034.mp3">
 </audio><hr>
 
 入館不可だって
@@ -266,7 +232,6 @@ NTWP 加工法という方法では　よく…　
 シロクマ館へのシロクマの入館は　ご遠慮ください
 
 <audio>
-<source src="audio/05/035.mp3">
 </audio><hr>
 
 まぎらわしいので
@@ -274,13 +239,11 @@ NTWP 加工法という方法では　よく…　
 こっそり入れば　バレない　バレない
 
 <audio>
-<source src="audio/05/036.mp3">
 </audio><hr>
 
 いや　すごく目立ってるから
 
 <audio>
-<source src="audio/05/037.mp3">
 </audio><hr>
 
 お～！　すごい迫力
@@ -288,7 +251,6 @@ NTWP 加工法という方法では　よく…　
 シロクマ！
 
 <audio>
-<source src="audio/05/038.mp3">
 </audio><hr>
 
 ちょっと　ちょっと　シロクマは　入れないって書いてあったでしょう
@@ -296,19 +258,16 @@ NTWP 加工法という方法では　よく…　
 困りますよ
 
 <audio>
-<source src="audio/05/039.mp3">
 </audio><hr>
 
 え？　これ　剥製ですけど
 
 <audio>
-<source src="audio/05/040.mp3">
 </audio><hr>
 
 今　動いてましたよ　剥製なわけないでしょう
 
 <audio>
-<source src="audio/05/041.mp3">
 </audio><hr>
 
 なんで来ないの？　
@@ -316,7 +275,6 @@ NTWP 加工法という方法では　よく…　
 もう行っていいかな？来たら呼んで
 
 <audio>
-<source src="audio/05/042.mp3">
 </audio><hr>
 
 もう　叱られたじゃない
@@ -328,7 +286,6 @@ NTWP 加工法という方法では　よく…　
 うん
 
 <audio>
-<source src="audio/05/043.mp3">
 </audio><hr>
 
 パンダくん　かわいい　キャ～ッ　かわいい
@@ -340,7 +297,6 @@ NTWP 加工法という方法では　よく…　
 あれ？　
 
 <audio>
-<source src="audio/05/044.mp3">
 </audio><hr>
 
 お～い　パンダくん
@@ -350,7 +306,6 @@ NTWP 加工法という方法では　よく…　
 パンダくん　起きて
 
 <audio>
-<source src="audio/05/045.mp3">
 </audio><hr>
 
 笑ってる
@@ -360,7 +315,6 @@ NTWP 加工法という方法では　よく…　
 駄目だ
 
 <audio>
-<source src="audio/05/046.mp3">
 </audio><hr>
 
 他のとこ回ってこようか
@@ -368,7 +322,6 @@ NTWP 加工法という方法では　よく…　
 寝ててもいいなんて　うらやましい仕事だね
 
 <audio>
-<source src="audio/05/047.mp3">
 </audio><hr>
 
 ハッ　今　ペンギンさんの声が
@@ -376,7 +329,6 @@ NTWP 加工法という方法では　よく…　
 いない
 
 <audio>
-<source src="audio/05/048.mp3">
 </audio><hr>
 
 あっ　半田さん　
@@ -392,19 +344,16 @@ NTWP 加工法という方法では　よく…　
 はいはい
 
 <audio>
-<source src="audio/05/049.mp3">
 </audio><hr>
 
 おっ　あざらし館　行こう　行こう
 
 <audio>
-<source src="audio/05/050.mp3">
 </audio><hr>
 
 シロクマの入館は　ご遠慮ください
 
 <audio>
-<source src="audio/05/051.mp3">
 </audio><hr>
 
 あざらしが怖がるので…
@@ -412,7 +361,6 @@ NTWP 加工法という方法では　よく…　
 だってさ
 
 <audio>
-<source src="audio/05/052.mp3">
 </audio><hr>
 
 バレない　バレない　
@@ -420,7 +368,6 @@ NTWP 加工法という方法では　よく…　
 いや　目立ってるし
 
 <audio>
-<source src="audio/05/053.mp3">
 </audio><hr>
 
 食べない　食べない
@@ -430,13 +377,11 @@ NTWP 加工法という方法では　よく…　
 食べないとわかっていても　実際　本物見るとテンション上がるなあ
 
 <audio>
-<source src="audio/05/054.mp3">
 </audio><hr>
 
 シロクマくんの野性が　呼び覚まされないうちに　早く行こうよ
 
 <audio>
-<source src="audio/05/055.mp3">
 </audio><hr>
 
 ちょっと　ちょっと
@@ -444,7 +389,6 @@ NTWP 加工法という方法では　よく…　
 シロクマは　入らないで　って書いてあったでしょう
 
 <audio>
-<source src="audio/05/056.mp3">
 </audio><hr>
 
 え？　これ絨毯ですよ
@@ -452,7 +396,6 @@ NTWP 加工法という方法では　よく…　
 ほ～ら　見てみて　こんなに　ふっかふかo
 
 <audio>
-<source src="audio/05/057.mp3">
 </audio><hr>
 
 いや～　騙せないもんだね
@@ -462,7 +405,6 @@ NTWP 加工法という方法では　よく…　
 パンダくん　そろそろ起きてるんじゃない？
 
 <audio>
-<source src="audio/05/058.mp3">
 </audio><hr>
 
 お～い　パンダくん　
@@ -470,7 +412,6 @@ NTWP 加工法という方法では　よく…　
 また　笑ってる
 
 <audio>
-<source src="audio/05/059.mp3">
 </audio><hr>
 
 よくあんな状態で寝られるね
@@ -478,7 +419,6 @@ NTWP 加工法という方法では　よく…　
 あれは逆に尊敬するね
 
 <audio>
-<source src="audio/05/060.mp3">
 </audio><hr>
 
 あの　もしかして　パンダくんのお友達ですか？
@@ -490,7 +430,6 @@ NTWP 加工法という方法では　よく…　
 撮ってくれって頼まれてるんで
 
 <audio>
-<source src="audio/05/061.mp3">
 </audio><hr>
 
 キリンさん　シロクマカフェに　来てくれないかな？
@@ -498,7 +437,6 @@ NTWP 加工法という方法では　よく…　
 いや　カフェに入れないでしょ
 
 <audio>
-<source src="audio/05/062.mp3">
 </audio><hr>
 
 別のところも回ってみよう
@@ -508,7 +446,6 @@ NTWP 加工法という方法では　よく…　
 で　どこ行こうか？
 
 <audio>
-<source src="audio/05/063.mp3">
 </audio><hr>
 
 う～ん　あっ！　ペンギンコーナー
@@ -518,7 +455,6 @@ NTWP 加工法という方法では　よく…　
 ペンギンさん　曲芸に飛び入りしてよ
 
 <audio>
-<source src="audio/05/064.mp3">
 </audio><hr>
 
 僕　運動神経　悪いから
@@ -526,7 +462,6 @@ NTWP 加工法という方法では　よく…　
 ちょっと　ちょっと　
 
 <audio>
-<source src="audio/05/065.mp3">
 </audio><hr>
 
 あ　ラマさん
@@ -534,7 +469,6 @@ NTWP 加工法という方法では　よく…　
 今日は　どうしたんですか？
 
 <audio>
-<source src="audio/05/066.mp3">
 </audio><hr>
 
 パンダくんに会いにきたのに　寝てるんだよね
@@ -544,7 +478,6 @@ NTWP 加工法という方法では　よく…　
 そっか
 
 <audio>
-<source src="audio/05/067.mp3">
 </audio><hr>
 
 いいかげん　パンダくん　起きてるよね？
@@ -552,7 +485,6 @@ NTWP 加工法という方法では　よく…　
 戻ろう
 
 <audio>
-<source src="audio/05/068.mp3">
 </audio><hr>
 
 また寝てる
@@ -562,7 +494,6 @@ NTWP 加工法という方法では　よく…　
 パンダくん　僕たちに　いったい何を　見てもらいたかったんだろうね
 
 <audio>
-<source src="audio/05/069.mp3">
 </audio><hr>
 
 あのパンダさん　寝てばっかりで　つまんない
@@ -570,7 +501,6 @@ NTWP 加工法という方法では　よく…　
 うん　行こう
 
 <audio>
-<source src="audio/05/070.mp3">
 </audio><hr>
 
 大人気ねぇ…
@@ -578,7 +508,6 @@ NTWP 加工法という方法では　よく…　
 あ　また　笑った
 
 <audio>
-<source src="audio/05/071.mp3">
 </audio><hr>
 
 ず～っと待ってたのに　なんで来てくれなかったの？
@@ -586,7 +515,6 @@ NTWP 加工法という方法では　よく…　
 いや　何度も行ったよ
 
 <audio>
-<source src="audio/05/072.mp3">
 </audio><hr>
 
 ほんと？　
@@ -600,7 +528,6 @@ NTWP 加工法という方法では　よく…　
 ほら　ちゃんと行ったでしょ？
 
 <audio>
-<source src="audio/05/073.mp3">
 </audio><hr>
 
 どうして僕のとこには　来てくれないの？
@@ -610,7 +537,6 @@ NTWP 加工法という方法では　よく…　
 そんなに　ずっと　ラマさんを見てたの？
 
 <audio>
-<source src="audio/05/074.mp3">
 </audio><hr>
 
 だから　パンダくんとこに行ったってば！
@@ -620,7 +546,6 @@ NTWP 加工法という方法では　よく…　
 パンダくんが　寝てばっかりだったからでしょ
 
 <audio>
-<source src="audio/05/075.mp3">
 </audio><hr>
 
 起こしてよ　
@@ -630,7 +555,6 @@ NTWP 加工法という方法では　よく…　
 せっかく半田さんが　写真　撮ってくれるって言ってたのに
 
 <audio>
-<source src="audio/05/076.mp3">
 </audio><hr>
 
 撮ったよ
@@ -638,7 +562,6 @@ NTWP 加工法という方法では　よく…　
 ほんとだ　来てたんだね
 
 <audio>
-<source src="audio/05/077.mp3">
 </audio><hr>
 
 だから　言ったのに
@@ -646,7 +569,6 @@ NTWP 加工法という方法では　よく…　
 へぇ～　僕って　寝てても　かわいいなぁ
 
 <audio>
-<source src="audio/05/078.mp3">
 </audio><hr>
 
 ねえねえ　どの寝顔が　いちばん好き？
@@ -654,6 +576,5 @@ NTWP 加工法という方法では　よく…　
 シロクマくん　おかわりくれる？
 
 <audio>
-<source src="audio/05/079.mp3">
 </audio><hr>
 

@@ -3,10 +3,9 @@ title: "ペンギンさんの告白"
 
 ---
 
-ペンギンさんの告白
+<span id="episode-title" data-episode="18">ペンギンさんの告白</span>
 
 <audio>
-<source src="audio/18/001.mp3">
 </audio><hr>
 
 クロワッサンもいけるね
@@ -14,7 +13,6 @@ title: "ペンギンさんの告白"
 これに竹の葉を練りこんだら もっと　おいしくなるんじゃない？
 
 <audio>
-<source src="audio/18/002.mp3">
 </audio><hr>
 
 それはどうかな？
@@ -22,7 +20,6 @@ title: "ペンギンさんの告白"
 それより　パンダあんぱん っていうのが　あるみたいだよ
 
 <audio>
-<source src="audio/18/003.mp3">
 </audio><hr>
 
 本当？　
@@ -36,7 +33,6 @@ title: "ペンギンさんの告白"
 ペン子さんを…　その…
 
 <audio>
-<source src="audio/18/004.mp3">
 </audio><hr>
 
 デートに誘いたいんだよ…
@@ -48,7 +44,6 @@ title: "ペンギンさんの告白"
 だって…
 
 <audio>
-<source src="audio/18/005.mp3">
 </audio><hr>
 
 いっそ　告白しちゃったら どうです？
@@ -60,7 +55,6 @@ title: "ペンギンさんの告白"
 大きな１歩を踏み出すときである
 
 <audio>
-<source src="audio/18/006.mp3">
 </audio><hr>
 
 フランスの古い格言だよ
@@ -72,7 +66,6 @@ title: "ペンギンさんの告白"
 小さな１歩　
 
 <audio>
-<source src="audio/18/007.mp3">
 </audio><hr>
 
 大きな１歩…
@@ -84,7 +77,6 @@ title: "ペンギンさんの告白"
 ペン子さんに告白する！
 
 <audio>
-<source src="audio/18/008.mp3">
 </audio><hr>
 
 告白？
@@ -94,7 +86,6 @@ title: "ペンギンさんの告白"
 早速　行ってくるよ！
 
 <audio>
-<source src="audio/18/009.mp3">
 </audio><hr>
 
 行っちゃった…
@@ -104,7 +95,6 @@ title: "ペンギンさんの告白"
 それは　極悪？
 
 <audio>
-<source src="audio/18/010.mp3">
 </audio><hr>
 
 でも　どうやって言おう？
@@ -118,7 +108,6 @@ title: "ペンギンさんの告白"
 どうしたらいいかな？
 
 <audio>
-<source src="audio/18/011.mp3">
 </audio><hr>
 
 例えばクジャクは羽を広げて愛の告白をするよね
@@ -128,7 +117,6 @@ title: "ペンギンさんの告白"
 こんな感じ？
 
 <audio>
-<source src="audio/18/012.mp3">
 </audio><hr>
 
 地味だね
@@ -138,7 +126,6 @@ title: "ペンギンさんの告白"
 グンカンドリは赤いノド袋を膨らますらしいよ
 
 <audio>
-<source src="audio/18/013.mp3">
 </audio><hr>
 
 あんまり変わりませんね
@@ -148,7 +135,6 @@ title: "ペンギンさんの告白"
 リクガメは甲羅アタック
 
 <audio>
-<source src="audio/18/014.mp3">
 </audio><hr>
 
 噛みつき マウントだよ
@@ -162,7 +148,6 @@ title: "ペンギンさんの告白"
 あれ？ でも　ペンギンさん　甲羅ないよ
 
 <audio>
-<source src="audio/18/015.mp3">
 </audio><hr>
 
 お皿　付けたら？
@@ -172,7 +157,6 @@ title: "ペンギンさんの告白"
 カッパって　なんて言って 告白するの？
 
 <audio>
-<source src="audio/18/016.mp3">
 </audio><hr>
 
 ちょっと！　まじめに考えてよ！
@@ -182,7 +166,6 @@ title: "ペンギンさんの告白"
 最悪だ　世界の終わりだ
 
 <audio>
-<source src="audio/18/017.mp3">
 </audio><hr>
 
 や…　やっぱり　好きです　って シンプルなのがいちばんですよ
@@ -196,7 +179,6 @@ title: "ペンギンさんの告白"
 はっ…　そうだった
 
 <audio>
-<source src="audio/18/018.mp3">
 </audio><hr>
 
 わかった　シンプルに頑張るよ
@@ -206,7 +188,6 @@ title: "ペンギンさんの告白"
 ついてくる気！？
 
 <audio>
-<source src="audio/18/019.mp3">
 </audio><hr>
 
 昔の武将は　こう言った
@@ -214,7 +195,6 @@ title: "ペンギンさんの告白"
 １本の矢なら折れるが ３本の矢なら折れない　と
 
 <audio>
-<source src="audio/18/020.mp3">
 </audio><hr>
 
 え～っと… 三人寄れば　文殊の知恵
@@ -224,7 +204,6 @@ title: "ペンギンさんの告白"
 それじゃあ 猿知恵になっちゃうよ
 
 <audio>
-<source src="audio/18/021.mp3">
 </audio><hr>
 
 一人で大丈夫だから 来ないでね！
@@ -234,7 +213,6 @@ title: "ペンギンさんの告白"
 あ…　あれ？
 
 <audio>
-<source src="audio/18/022.mp3">
 </audio><hr>
 
 す…　好きです！
@@ -246,7 +224,6 @@ title: "ペンギンさんの告白"
 行くぞ…　よし　行くぞ！
 
 <audio>
-<source src="audio/18/023.mp3">
 </audio><hr>
 
 す…　好きです！ これ　受け取ってください！
@@ -260,7 +237,6 @@ title: "ペンギンさんの告白"
 す…　好きです！
 
 <audio>
-<source src="audio/18/024.mp3">
 </audio><hr>
 
 好きです これ　受け取ってください！
@@ -272,7 +248,6 @@ title: "ペンギンさんの告白"
 それが 意味のない行為だとしても
 
 <audio>
-<source src="audio/18/025.mp3">
 </audio><hr>
 
 幾度となく繰り返してしまう
@@ -282,13 +257,11 @@ title: "ペンギンさんの告白"
 ううん　いずれペンギンさんが作る未来の格言
 
 <audio>
-<source src="audio/18/026.mp3">
 </audio><hr>
 
 やっぱり　僕に告白なんてムリなのかなぁ…
 
 <audio>
-<source src="audio/18/027.mp3">
 </audio><hr>
 
 もし　彼女が僕の愛を受け入れてくれたら…
@@ -296,7 +269,6 @@ title: "ペンギンさんの告白"
 嬉しいよ　ペン子さん
 
 <audio>
-<source src="audio/18/028.mp3">
 </audio><hr>
 
 嬉しいよ　ペン子さん！
@@ -308,7 +280,6 @@ title: "ペンギンさんの告白"
 あ…　しまった！
 
 <audio>
-<source src="audio/18/029.mp3">
 </audio><hr>
 
 いけない　いけない 夢の世界に浸ってしまった
@@ -318,7 +289,6 @@ title: "ペンギンさんの告白"
 そのためにも頑張らなくっちゃ！
 
 <audio>
-<source src="audio/18/030.mp3">
 </audio><hr>
 
 あ～　よかった　行ったよ
@@ -326,7 +296,6 @@ title: "ペンギンさんの告白"
 うん　よかった
 
 <audio>
-<source src="audio/18/031.mp3">
 </audio><hr>
 
 僕は言う　言うよ！
@@ -334,7 +303,6 @@ title: "ペンギンさんの告白"
 ペン子さ…
 
 <audio>
-<source src="audio/18/032.mp3">
 </audio><hr>
 
 ペンギンさん　なかなか起きないね
@@ -342,7 +310,6 @@ title: "ペンギンさんの告白"
 もう帰ろうかな
 
 <audio>
-<source src="audio/18/033.mp3">
 </audio><hr>
 
 あれ？　僕…　
@@ -356,7 +323,6 @@ title: "ペンギンさんの告白"
 いや！　
 
 <audio>
-<source src="audio/18/034.mp3">
 </audio><hr>
 
 思い立ったが吉日！
@@ -368,7 +334,6 @@ title: "ペンギンさんの告白"
 でもなぁ…
 
 <audio>
-<source src="audio/18/035.mp3">
 </audio><hr>
 
 ねぇ　まだ？
@@ -380,7 +345,6 @@ title: "ペンギンさんの告白"
 来ないでって言ったのに！
 
 <audio>
-<source src="audio/18/036.mp3">
 </audio><hr>
 
 早くしてよ 僕　もう　お腹すいたよ
@@ -390,7 +354,6 @@ title: "ペンギンさんの告白"
 しないの？　告白
 
 <audio>
-<source src="audio/18/037.mp3">
 </audio><hr>
 
 そ…　それは…
@@ -402,7 +365,6 @@ title: "ペンギンさんの告白"
 勇者とともに？
 
 <audio>
-<source src="audio/18/038.mp3">
 </audio><hr>
 
 幸運も愛も　その勇者って人の ところにあるってことだね
@@ -412,7 +374,6 @@ title: "ペンギンさんの告白"
 行くのは　ペン子さんのところ！
 
 <audio>
-<source src="audio/18/039.mp3">
 </audio><hr>
 
 そうなの？
@@ -424,7 +385,6 @@ title: "ペンギンさんの告白"
 言うぞ　言うぞ！
 
 <audio>
-<source src="audio/18/040.mp3">
 </audio><hr>
 
 なんで いざっていうとき邪魔するの！？
@@ -436,7 +396,6 @@ title: "ペンギンさんの告白"
 だから帰ってよ！ ほら　帰って帰って！
 
 <audio>
-<source src="audio/18/041.mp3">
 </audio><hr>
 
 あの…
@@ -446,7 +405,6 @@ title: "ペンギンさんの告白"
 大丈夫かな？　ペンギンさん
 
 <audio>
-<source src="audio/18/042.mp3">
 </audio><hr>
 
 お～い！
@@ -456,7 +414,6 @@ title: "ペンギンさんの告白"
 おめでとう　ペンギンさん
 
 <audio>
-<source src="audio/18/043.mp3">
 </audio><hr>
 
 へぇ～　じゃあ うまくいったんですね
@@ -466,7 +423,6 @@ title: "ペンギンさんの告白"
 それで　ペン子さんは何て？
 
 <audio>
-<source src="audio/18/044.mp3">
 </audio><hr>
 
 うん？　知りたい？
@@ -476,7 +432,6 @@ title: "ペンギンさんの告白"
 実はね　ペン子さん僕の顔を 覚えててくれたみたいでね
 
 <audio>
-<source src="audio/18/045.mp3">
 </audio><hr>
 
 「よかったら　どうぞ」って　これ！
@@ -484,7 +439,6 @@ title: "ペンギンさんの告白"
 なんと　サービス券もらったの！
 
 <audio>
-<source src="audio/18/046.mp3">
 </audio><hr>
 
 ちょっと多めにって３枚も
@@ -494,7 +448,6 @@ title: "ペンギンさんの告白"
 あの…　告白は？
 
 <audio>
-<source src="audio/18/047.mp3">
 </audio><hr>
 
 それどころじゃないよ！
@@ -506,7 +459,6 @@ title: "ペンギンさんの告白"
 洗えないよ！　洗いたくないよ！
 
 <audio>
-<source src="audio/18/048.mp3">
 </audio><hr>
 
 １枚のサービス券は　サービス券だが
@@ -524,5 +476,4 @@ title: "ペンギンさんの告白"
 もう　幸せ！
 
 <audio>
-<source src="audio/18/049.mp3">
 </audio><hr>

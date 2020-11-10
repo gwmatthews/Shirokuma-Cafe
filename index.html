@@ -364,9 +364,17 @@ $(document).ready(function () {
 <li><a href="Shirokuma-Cafe-27.html">白熊君張切る</a></li>
 <li><a href="Shirokuma-Cafe-28.html">海に行こう</a></li>
 </ul>
+<p>episode 15</p>
+<ul>
+<li><a href="Shirokuma-Cafe-29.html">真夏の雑草取り</a></li>
+<li><a href="Shirokuma-Cafe-30.html">ペンギンさんのロマンス</a></li>
+</ul>
 </div>
 
 <script>
+// get episode number
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
 
 // get audio clips
 const clips = document.getElementsByTagName('audio');
@@ -376,10 +384,11 @@ function insertAfter(referenceNode, newNode) {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
-// assign ID's to all audio elements and add sound symbol
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
 function setup(){
   for (let i = 0; i < clips.length; i++){
   clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
   let el = document.createElement("div");
   el.setAttribute('class', 'sound');
   el.innerHTML = "&#128265";

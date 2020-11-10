@@ -2,34 +2,29 @@
 title: "半田さんの合コン！"
 ---
 
-半田さんの合コン！
+<span id="episode-title" data-episode="20">半田さんの合コン！</span>
 
 <audio>
-<source src="audio/20/001.mp3">
 </audio><hr>
 
 前半からつづく
 
 <audio>
-<source src="audio/20/002.mp3">
 </audio><hr>
 
 ご注文　お決まりですか？
 
 <audio>
-<source src="audio/20/003.mp3">
 </audio><hr>
 
 シロクマ！？
 
 <audio>
-<source src="audio/20/004.mp3">
 </audio><hr>
 
 そ…　それじゃ 自己紹介から始めましょうか
 
 <audio>
-<source src="audio/20/005.mp3">
 </audio><hr>
 
 僕からいきますね
@@ -39,7 +34,6 @@ title: "半田さんの合コン！"
 動物園の飼育員をやっています
 
 <audio>
-<source src="audio/20/006.mp3">
 </audio><hr>
 
 じゃ　次は先輩
@@ -49,7 +43,6 @@ title: "半田さんの合コン！"
 本日は　このように 晴れがましい合コンに　お…　お招きいただき
 
 <audio>
-<source src="audio/20/007.mp3">
 </audio><hr>
 
 誠にありがとうございます
@@ -59,7 +52,6 @@ title: "半田さんの合コン！"
 以後　よろしく お見知りおきください
 
 <audio>
-<source src="audio/20/008.mp3">
 </audio><hr>
 
 先輩　かたい…
@@ -69,7 +61,6 @@ title: "半田さんの合コン！"
 けど　初対面だから
 
 <audio>
-<source src="audio/20/009.mp3">
 </audio><hr>
 
 大丈夫です
@@ -77,13 +68,11 @@ title: "半田さんの合コン！"
 合コンって　そういう感じのものじゃないんで
 
 <audio>
-<source src="audio/20/010.mp3">
 </audio><hr>
 
 続きまして 私と同じ職場に勤める
 
 <audio>
-<source src="audio/20/011.mp3">
 </audio><hr>
 
 パンダくんを紹介します！
@@ -93,7 +82,6 @@ title: "半田さんの合コン！"
 すみません パンダ　連れてきちゃって
 
 <audio>
-<source src="audio/20/012.mp3">
 </audio><hr>
 
 パンダで～す
@@ -105,7 +93,6 @@ title: "半田さんの合コン！"
 では　続いて…
 
 <audio>
-<source src="audio/20/013.mp3">
 </audio><hr>
 
 シロクマです ふだんは　カフェやってます
@@ -115,7 +102,6 @@ title: "半田さんの合コン！"
 カフェですか？
 
 <audio>
-<source src="audio/20/014.mp3">
 </audio><hr>
 
 行ってみたい！
@@ -125,7 +111,6 @@ title: "半田さんの合コン！"
 しろくまカフェ
 
 <audio>
-<source src="audio/20/015.mp3">
 </audio><hr>
 
 そのまんまなんですね
@@ -133,7 +118,6 @@ title: "半田さんの合コン！"
 あの　もしかして 雑誌とかに載ってないですか？
 
 <audio>
-<source src="audio/20/016.mp3">
 </audio><hr>
 
 時々
@@ -145,7 +129,6 @@ title: "半田さんの合コン！"
 もちろん
 
 <audio>
-<source src="audio/20/017.mp3">
 </audio><hr>
 
 こっちも大好評だな…
@@ -153,7 +136,6 @@ title: "半田さんの合コン！"
 趣味は　アザラシの捕獲
 
 <audio>
-<source src="audio/20/018.mp3">
 </audio><hr>
 
 何ですか？それ
@@ -163,7 +145,6 @@ title: "半田さんの合コン！"
 やめたほうがいいよ…
 
 <audio>
-<source src="audio/20/019.mp3">
 </audio><hr>
 
 じゃあ　女子 いきますね　
@@ -173,7 +154,6 @@ title: "半田さんの合コン！"
 先輩　ヒロミちゃん
 
 <audio>
-<source src="audio/20/020.mp3">
 </audio><hr>
 
 リカです
@@ -185,7 +165,6 @@ title: "半田さんの合コン！"
 ミズキちゃん
 
 <audio>
-<source src="audio/20/021.mp3">
 </audio><hr>
 
 わかってるよ　大丈夫 聞こえるから
@@ -193,7 +172,6 @@ title: "半田さんの合コン！"
 ご注文　どうぞ
 
 <audio>
-<source src="audio/20/022.mp3">
 </audio><hr>
 
 とりあえず　生
@@ -205,7 +183,6 @@ title: "半田さんの合コン！"
 竹？
 
 <audio>
-<source src="audio/20/023.mp3">
 </audio><hr>
 
 ちょっと 置いてないんですが…
@@ -215,7 +192,6 @@ title: "半田さんの合コン！"
 笹も　ないんですが…
 
 <audio>
-<source src="audio/20/024.mp3">
 </audio><hr>
 
 じゃあ　みんな　どうしてるの？
@@ -223,7 +199,6 @@ title: "半田さんの合コン！"
 ビール　飲んだり…
 
 <audio>
-<source src="audio/20/025.mp3">
 </audio><hr>
 
 枝豆　食べたり…
@@ -233,7 +208,6 @@ title: "半田さんの合コン！"
 とりあえず　アザラシ
 
 <audio>
-<source src="audio/20/026.mp3">
 </audio><hr>
 
 ないです
@@ -245,7 +219,6 @@ title: "半田さんの合コン！"
 とりあえず　生６つと ジュース１つでいいです
 
 <audio>
-<source src="audio/20/027.mp3">
 </audio><hr>
 
 僕　竹がいいよ
@@ -253,7 +226,6 @@ title: "半田さんの合コン！"
 そうよね　パンダっていったら やっぱり竹よね
 
 <audio>
-<source src="audio/20/028.mp3">
 </audio><hr>
 
 食べてるとこ　見てみたい
@@ -261,7 +233,6 @@ title: "半田さんの合コン！"
 かわいいかも！
 
 <audio>
-<source src="audio/20/029.mp3">
 </audio><hr>
 
 いや～ん！ 竹　食べて！
@@ -269,7 +240,6 @@ title: "半田さんの合コン！"
 何なんだ？　この合コン…
 
 <audio>
-<source src="audio/20/030.mp3">
 </audio><hr>
 
 いや　僕はね　合コンに行きたいって言ってるわけじゃないんだよ
@@ -279,7 +249,6 @@ title: "半田さんの合コン！"
 ただね　
 
 <audio>
-<source src="audio/20/031.mp3">
 </audio><hr>
 
 僕がずっとパンダくんの話を聞いていたわけだからさ
@@ -287,7 +256,6 @@ title: "半田さんの合コン！"
 誘うなら　僕を誘うでしょ？
 
 <audio>
-<source src="audio/20/032.mp3">
 </audio><hr>
 
 僕にはペン子さんとい ペンギンがいるわけだから
@@ -295,7 +263,6 @@ title: "半田さんの合コン！"
 別に行きたくはないんだけど 社会勉強というか…
 
 <audio>
-<source src="audio/20/033.mp3">
 </audio><hr>
 
 行きたいんですか？
@@ -305,7 +272,6 @@ title: "半田さんの合コン！"
 笹子さんも　笹子さんでしょ
 
 <audio>
-<source src="audio/20/034.mp3">
 </audio><hr>
 
 誘うなら　シロクマさんじゃなくてペンギンさんですよってひと言…
@@ -315,7 +281,6 @@ title: "半田さんの合コン！"
 行きたいんですか？
 
 <audio>
-<source src="audio/20/035.mp3">
 </audio><hr>
 
 行きたいよ
@@ -325,7 +290,6 @@ title: "半田さんの合コン！"
 笹子さん カフェモカおかわり
 
 <audio>
-<source src="audio/20/036.mp3">
 </audio><hr>
 
 はい
@@ -335,7 +299,6 @@ title: "半田さんの合コン！"
 そうなんです
 
 <audio>
-<source src="audio/20/037.mp3">
 </audio><hr>
 
 そうそう　動物園にカピバラいますか？
@@ -343,7 +306,6 @@ title: "半田さんの合コン！"
 今　流行ってますよね
 
 <audio>
-<source src="audio/20/038.mp3">
 </audio><hr>
 
 カピバラはネズミだってホントですか？
@@ -351,7 +313,6 @@ title: "半田さんの合コン！"
 じゃあ　動物園にはカピバラの温泉とか あるんですか？
 
 <audio>
-<source src="audio/20/039.mp3">
 </audio><hr>
 
 先輩　声に出して しゃべってください
@@ -359,7 +320,6 @@ title: "半田さんの合コン！"
 っていうか　さっきから何も　しゃべって ないじゃないですか
 
 <audio>
-<source src="audio/20/040.mp3">
 </audio><hr>
 
 俺そろそろ…
@@ -367,7 +327,6 @@ title: "半田さんの合コン！"
 何か用事あるんですか？
 
 <audio>
-<source src="audio/20/041.mp3">
 </audio><hr>
 
 いや　風呂の掃除があるから
@@ -381,7 +340,6 @@ title: "半田さんの合コン！"
 どうかしたの？
 
 <audio>
-<source src="audio/20/042.mp3">
 </audio><hr>
 
 い…　いや大丈夫
@@ -389,7 +347,6 @@ title: "半田さんの合コン！"
 先輩　ちょっと酔っちゃって
 
 <audio>
-<source src="audio/20/043.mp3">
 </audio><hr>
 
 掃除がどうかしたんですか？
@@ -397,7 +354,6 @@ title: "半田さんの合コン！"
 ソ…　ソーセージ注文しようかって 先輩が
 
 <audio>
-<source src="audio/20/044.mp3">
 </audio><hr>
 
 ねっ　先輩　僕注文しますね
@@ -405,7 +361,6 @@ title: "半田さんの合コン！"
 ソーセージ盛り合わせ２つ
 
 <audio>
-<source src="audio/20/045.mp3">
 </audio><hr>
 
 お刺身　盛り合わせも
@@ -413,7 +368,6 @@ title: "半田さんの合コン！"
 シロクマさん　すみません
 
 <audio>
-<source src="audio/20/046.mp3">
 </audio><hr>
 
 あれ？　パンダくんは？
@@ -421,7 +375,6 @@ title: "半田さんの合コン！"
 お待ちどおさま！
 
 <audio>
-<source src="audio/20/047.mp3">
 </audio><hr>
 
 待ってないよ！
@@ -431,7 +384,6 @@ title: "半田さんの合コン！"
 だって　ここ　何もないんだもん
 
 <audio>
-<source src="audio/20/048.mp3">
 </audio><hr>
 
 あるでしょ　いろいろ！
@@ -441,7 +393,6 @@ title: "半田さんの合コン！"
 いただきま～す
 
 <audio>
-<source src="audio/20/049.mp3">
 </audio><hr>
 
 かわいい！
@@ -453,7 +404,6 @@ title: "半田さんの合コン！"
 写メ　撮っていいですか？
 
 <audio>
-<source src="audio/20/050.mp3">
 </audio><hr>
 
 持ち込みはダメだって書いてあるよ
@@ -463,13 +413,11 @@ title: "半田さんの合コン！"
 お待ちどおさまで…
 
 <audio>
-<source src="audio/20/051.mp3">
 </audio><hr>
 
 すみません　持ち込みはダメだって 言ったんですけど
 
 <audio>
-<source src="audio/20/052.mp3">
 </audio><hr>
 
 か…かわいい！
@@ -481,13 +429,11 @@ title: "半田さんの合コン！"
 いいです　いいです！
 
 <audio>
-<source src="audio/20/053.mp3">
 </audio><hr>
 
 半田さんは何の動物の飼育を しているんですか？
 
 <audio>
-<source src="audio/20/054.mp3">
 </audio><hr>
 
 パ…　パンダとか
@@ -497,7 +443,6 @@ title: "半田さんの合コン！"
 え…　えぇ
 
 <audio>
-<source src="audio/20/055.mp3">
 </audio><hr>
 
 かわいい！
@@ -507,13 +452,11 @@ title: "半田さんの合コン！"
 パンダの話 
 
 <audio>
-<source src="audio/20/056.mp3">
 </audio><hr>
 
 いろいろ　聞かせてください！
 
 <audio>
-<source src="audio/20/057.mp3">
 </audio><hr>
 
 昼寝しているところ
@@ -521,7 +464,6 @@ title: "半田さんの合コン！"
 キャーッ！　かわいい！！
 
 <audio>
-<source src="audio/20/058.mp3">
 </audio><hr>
 
 遊んでいるところ
@@ -535,7 +477,6 @@ title: "半田さんの合コン！"
 よく　見分けがつきますね
 
 <audio>
-<source src="audio/20/059.mp3">
 </audio><hr>
 
 一応　プロだから
@@ -545,7 +486,6 @@ title: "半田さんの合コン！"
 もっと聞かせてください！
 
 <audio>
-<source src="audio/20/060.mp3">
 </audio><hr>
 
 パンダは腸が短くて　竹からだと あまり栄養がとれないんです
@@ -553,13 +493,11 @@ title: "半田さんの合コン！"
 だから量で補うために１日中竹を食べているんです
 
 <audio>
-<source src="audio/20/061.mp3">
 </audio><hr>
 
 腸が短いんだ
 
 <audio>
-<source src="audio/20/062.mp3">
 </audio><hr>
 
 かわいい！
@@ -569,7 +507,6 @@ title: "半田さんの合コン！"
 半田さん　もっと教えてあげて 僕のかわいいとこ
 
 <audio>
-<source src="audio/20/063.mp3">
 </audio><hr>
 
 竹しか食べてないから
@@ -579,7 +516,6 @@ title: "半田さんの合コン！"
 ちょっと レモンのにおいに似ているんです
 
 <audio>
-<source src="audio/20/064.mp3">
 </audio><hr>
 
 あぁ…　これ　これ
@@ -589,7 +525,6 @@ title: "半田さんの合コン！"
 どうぞ
 
 <audio>
-<source src="audio/20/065.mp3">
 </audio><hr>
 
 先輩！　その情報は いらないんじゃないですか？
@@ -597,7 +532,6 @@ title: "半田さんの合コン！"
 もう！　もっと かわいいエピソードにしてよ
 
 <audio>
-<source src="audio/20/066.mp3">
 </audio><hr>
 
 えっ！？　そう？
@@ -605,7 +539,6 @@ title: "半田さんの合コン！"
 あっ！　パンダって 垂れ目でかわいい感じでしょ？
 
 <audio>
-<source src="audio/20/067.mp3">
 </audio><hr>
 
 あれって　実際の目は 小さくて　鋭いんですよ
@@ -613,7 +546,6 @@ title: "半田さんの合コン！"
 それも　いらないよ
 
 <audio>
-<source src="audio/20/068.mp3">
 </audio><hr>
 
 そうなの？
@@ -623,7 +555,6 @@ title: "半田さんの合コン！"
 もう！　半田さん！！
 
 <audio>
-<source src="audio/20/069.mp3">
 </audio><hr>
 
 ペンギンさん　カフェモカ　おかわり お待たせしました
@@ -631,7 +562,6 @@ title: "半田さんの合コン！"
 あれ？　いない…
 
 <audio>
-<source src="audio/20/070.mp3">
 </audio><hr>
 
 今度　パンダコーナー 遊びにいってもいいですか？
@@ -639,7 +569,6 @@ title: "半田さんの合コン！"
 もちろんです　見にきてください
 
 <audio>
-<source src="audio/20/071.mp3">
 </audio><hr>
 
 常勤パンダさんも紹介しますよ
@@ -649,7 +578,6 @@ title: "半田さんの合コン！"
 週２のバイトなんです
 
 <audio>
-<source src="audio/20/072.mp3">
 </audio><hr>
 
 へぇ～　アルバイトなんだ？
@@ -663,7 +591,6 @@ title: "半田さんの合コン！"
 ねっ？
 
 <audio>
-<source src="audio/20/073.mp3">
 </audio><hr>
 
 あっ！
@@ -671,7 +598,6 @@ title: "半田さんの合コン！"
 どうしたの？
 
 <audio>
-<source src="audio/20/074.mp3">
 </audio><hr>
 
 な…　何？
@@ -683,7 +609,6 @@ title: "半田さんの合コン！"
 何しにきたの？
 
 <audio>
-<source src="audio/20/075.mp3">
 </audio><hr>
 
 忙しいんじゃなかったの？ ペンギンさん
@@ -691,7 +616,6 @@ title: "半田さんの合コン！"
 いや　
 
 <audio>
-<source src="audio/20/076.mp3">
 </audio><hr>
 
 それは…
@@ -701,7 +625,6 @@ title: "半田さんの合コン！"
 えっ！？　そこも？
 
 <audio>
-<source src="audio/20/077.mp3">
 </audio><hr>
 
 マ·マ·マハロ
@@ -713,7 +636,6 @@ title: "半田さんの合コン！"
 しようがないな
 
 <audio>
-<source src="audio/20/078.mp3">
 </audio><hr>
 
 「ぐぅ」？
@@ -723,7 +645,6 @@ title: "半田さんの合コン！"
 パンダくん　起きて！　パンダくん！！
 
 <audio>
-<source src="audio/20/079.mp3">
 </audio><hr>
 
 って…　先輩まで！
@@ -733,13 +654,11 @@ title: "半田さんの合コン！"
 ねぇ　なんか似てない？
 
 <audio>
-<source src="audio/20/080.mp3">
 </audio><hr>
 
 このカフェにたどり着いた ラッキーボーイズ　アンド　ガールズ
 
 <audio>
-<source src="audio/20/081.mp3">
 </audio><hr>
 
 今日は　ありがとうございました
@@ -749,7 +668,6 @@ title: "半田さんの合コン！"
 また　パンダの話聞かせてください
 
 <audio>
-<source src="audio/20/082.mp3">
 </audio><hr>
 
 えぇ　動物園に遊びにきてください
@@ -757,7 +675,6 @@ title: "半田さんの合コン！"
 はい じゃあ　おやすみなさい
 
 <audio>
-<source src="audio/20/083.mp3">
 </audio><hr>
 
 それじゃ　俺も 風呂の掃除あるから　帰るわ
@@ -767,7 +684,6 @@ title: "半田さんの合コン！"
 はい
 
 <audio>
-<source src="audio/20/084.mp3">
 </audio><hr>
 
 半田さんらしいや
@@ -775,7 +691,6 @@ title: "半田さんの合コン！"
 うちで　コーヒーでも飲んでく？
 
 <audio>
-<source src="audio/20/085.mp3">
 </audio><hr>
 
 はい　シロクマさん
@@ -789,7 +704,6 @@ title: "半田さんの合コン！"
 おしまい
 
 <audio>
-<source src="audio/20/086.mp3">
 </audio><hr>
 
 

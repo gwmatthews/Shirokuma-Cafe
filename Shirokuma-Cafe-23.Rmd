@@ -2,10 +2,9 @@
 title: "パンダくんヒマに困る"
 ---
 
-パンダくんヒマに困る
+<span id="episode-title" data-episode="23">パンダくんヒマに困る</span>
 
 <audio>
-<source src="audio/23/001.mp3">
 </audio><hr>
 
 どうしたの?パンダくん
@@ -13,7 +12,6 @@ title: "パンダくんヒマに困る"
 バイト行きたくないよ
 
 <audio>
-<source src="audio/23/002.mp3">
 </audio><hr>
 
 梅雨に入ってから お客さんが少なくてさ
@@ -21,7 +19,6 @@ title: "パンダくんヒマに困る"
 ヒマでヒマで超退屈なんだ
 
 <audio>
-<source src="audio/23/003.mp3">
 </audio><hr>
 
 贅沢だな
@@ -31,7 +28,6 @@ title: "パンダくんヒマに困る"
 ヒマすぎるってつらいんだよ
 
 <audio>
-<source src="audio/23/004.mp3">
 </audio><hr>
 
 それに僕は仕事でゴロゴロしてるの
@@ -39,7 +35,6 @@ title: "パンダくんヒマに困る"
 ただのゴロゴロとは違うんだから
 
 <audio>
-<source src="audio/23/005.mp3">
 </audio><hr>
 
 意味がわからないよ
@@ -47,7 +42,6 @@ title: "パンダくんヒマに困る"
 僕もヒマになってゴロゴロしてみたいね
 
 <audio>
-<source src="audio/23/006.mp3">
 </audio><hr>
 
 ゆっくりオヤツ食べても
@@ -55,13 +49,11 @@ title: "パンダくんヒマに困る"
 １時間しか経ってなかったりするんだよ
 
 <audio>
-<source src="audio/23/007.mp3">
 </audio><hr>
 
 オヤツに１時間ってまるでセレブなマダムだね
 
 <audio>
-<source src="audio/23/008.mp3">
 </audio><hr>
 
 コラ!何してるんですか
@@ -69,7 +61,6 @@ title: "パンダくんヒマに困る"
 だってお客さんいなくて ヒマなんだもん
 
 <audio>
-<source src="audio/23/009.mp3">
 </audio><hr>
 
 もう...ちゃぶ台なんか持ち込んで
@@ -79,7 +70,6 @@ title: "パンダくんヒマに困る"
 持ち込んじゃいけません!
 
 <audio>
-<source src="audio/23/010.mp3">
 </audio><hr>
 
 まぁまぁ落ち着いて
@@ -87,7 +77,6 @@ title: "パンダくんヒマに困る"
 健康にいい熊笹茶でも一杯どう?
 
 <audio>
-<source src="audio/23/011.mp3">
 </audio><hr>
 
 えっ?熊笹茶?
@@ -99,19 +88,16 @@ title: "パンダくんヒマに困る"
 ホント?
 
 <audio>
-<source src="audio/23/012.mp3">
 </audio><hr>
 
 いや最近メタボ気味でさ
 
 <audio>
-<source src="audio/23/013.mp3">
 </audio><hr>
 
 さっさと片付けなさ～い!
 
 <audio>
-<source src="audio/23/014.mp3">
 </audio><hr>
 
 今何時?
@@ -119,7 +105,6 @@ title: "パンダくんヒマに困る"
 寝てたの?う～んとね
 
 <audio>
-<source src="audio/23/015.mp3">
 </audio><hr>
 
 まだ１０時だね
@@ -127,7 +112,6 @@ title: "パンダくんヒマに困る"
 まだ たったの３０分しか経ってないの?
 
 <audio>
-<source src="audio/23/016.mp3">
 </audio><hr>
 
 夢の中では アイドル歌手としてＣＤデビューして
@@ -135,13 +119,11 @@ title: "パンダくんヒマに困る"
 年末にはヤマアラシさんと年越しカウントダウンライブまでしたのに
 
 <audio>
-<source src="audio/23/017.mp3">
 </audio><hr>
 
 よくそんな都合のいい夢が見られるもんだね
 
 <audio>
-<source src="audio/23/018.mp3">
 </audio><hr>
 
 でヤマアラシって誰?
@@ -149,7 +131,6 @@ title: "パンダくんヒマに困る"
 えっ!?あの国民的アイドルグループを 知らないの?
 
 <audio>
-<source src="audio/23/019.mp3">
 </audio><hr>
 
 一般常識だよ
@@ -157,7 +138,6 @@ title: "パンダくんヒマに困る"
 グサっときた
 
 <audio>
-<source src="audio/23/020.mp3">
 </audio><hr>
 
 パンダくんに一般常識って言われて
@@ -165,7 +145,6 @@ title: "パンダくんヒマに困る"
 今なんかグサっときた
 
 <audio>
-<source src="audio/23/021.mp3">
 </audio><hr>
 
 娘さんが２人もいるんでしょ?
@@ -175,7 +154,6 @@ title: "パンダくんヒマに困る"
 最近あんまり会話がないしね
 
 <audio>
-<source src="audio/23/022.mp3">
 </audio><hr>
 
 なんか切なくなってきたから
@@ -185,7 +163,6 @@ title: "パンダくんヒマに困る"
 いいよ
 
 <audio>
-<source src="audio/23/023.mp3">
 </audio><hr>
 
 ジャンケンポン!
@@ -197,7 +174,6 @@ title: "パンダくんヒマに困る"
 あっち向いてホイ!
 
 <audio>
-<source src="audio/23/024.mp3">
 </audio><hr>
 
 ジャンケンポン!
@@ -211,7 +187,6 @@ title: "パンダくんヒマに困る"
 ホイ!
 
 <audio>
-<source src="audio/23/025.mp3">
 </audio><hr>
 
 もしかして私をバカにしてる?
@@ -221,7 +196,6 @@ title: "パンダくんヒマに困る"
 右にしか首が回らなくなっちゃったみたい
 
 <audio>
-<source src="audio/23/026.mp3">
 </audio><hr>
 
 ねぇ何作ってるの?
@@ -229,7 +203,6 @@ title: "パンダくんヒマに困る"
 星銃士ビスマルＡの復刻版だよ
 
 <audio>
-<source src="audio/23/027.mp3">
 </audio><hr>
 
 ふ～ん
@@ -237,7 +210,6 @@ title: "パンダくんヒマに困る"
 ふ～んってうちの奥さんみたいな リアクションしないでよ
 
 <audio>
-<source src="audio/23/028.mp3">
 </audio><hr>
 
 これはね プレミアもので
@@ -245,7 +217,6 @@ title: "パンダくんヒマに困る"
 ネットオークションで落札するのが大変だったんだから
 
 <audio>
-<source src="audio/23/029.mp3">
 </audio><hr>
 
 ふ～ん
@@ -253,7 +224,6 @@ title: "パンダくんヒマに困る"
 だからふ～んはやめて
 
 <audio>
-<source src="audio/23/030.mp3">
 </audio><hr>
 
 常勤パンダさんが モデラーなんて知らなかったよ
@@ -261,7 +231,6 @@ title: "パンダくんヒマに困る"
 プラモは男のロマンだからね
 
 <audio>
-<source src="audio/23/031.mp3">
 </audio><hr>
 
 ねぇ私のコレクション見たい?
@@ -269,7 +238,6 @@ title: "パンダくんヒマに困る"
 えっ!どこにあるの?
 
 <audio>
-<source src="audio/23/032.mp3">
 </audio><hr>
 
 家にもたくさんあるんだけど
@@ -277,7 +245,6 @@ title: "パンダくんヒマに困る"
 狭くなるからって家族に迷惑がられててさ
 
 <audio>
-<source src="audio/23/033.mp3">
 </audio><hr>
 
 娘さんが２人もいるしね
@@ -285,7 +252,6 @@ title: "パンダくんヒマに困る"
 実は...
 
 <audio>
-<source src="audio/23/034.mp3">
 </audio><hr>
 
 えっ!?何?
@@ -293,7 +259,6 @@ title: "パンダくんヒマに困る"
 奥さんのお腹に３人目が...
 
 <audio>
-<source src="audio/23/035.mp3">
 </audio><hr>
 
 ４人目も入ってるかもね
@@ -301,13 +266,11 @@ title: "パンダくんヒマに困る"
 やめてよ～
 
 <audio>
-<source src="audio/23/036.mp3">
 </audio><hr>
 
 ヒマだね
 
 <audio>
-<source src="audio/23/037.mp3">
 </audio><hr>
 
 はいしろくまカフェです
@@ -319,7 +282,6 @@ title: "パンダくんヒマに困る"
 しりとりやろうよ
 
 <audio>
-<source src="audio/23/038.mp3">
 </audio><hr>
 
 僕はヒマじゃないんだけど
@@ -329,7 +291,6 @@ title: "パンダくんヒマに困る"
 合コン
 
 <audio>
-<source src="audio/23/039.mp3">
 </audio><hr>
 
 はいふれあい動物園です
@@ -337,7 +298,6 @@ title: "パンダくんヒマに困る"
 えっ?パンダがいない?
 
 <audio>
-<source src="audio/23/040.mp3">
 </audio><hr>
 
 そう言われましてもね...
@@ -345,19 +305,16 @@ title: "パンダくんヒマに困る"
 パンダだって 休みたいときがありますよ
 
 <audio>
-<source src="audio/23/041.mp3">
 </audio><hr>
 
 すみません! すぐ行かせますので...
 
 <audio>
-<source src="audio/23/042.mp3">
 </audio><hr>
 
 ちゃんと仕事しなさい!
 
 <audio>
-<source src="audio/23/043.mp3">
 </audio><hr>
 
 かわいい!
@@ -369,7 +326,6 @@ title: "パンダくんヒマに困る"
 サービスサービス!
 
 <audio>
-<source src="audio/23/044.mp3">
 </audio><hr>
 
 サービスサービス!
@@ -379,7 +335,6 @@ title: "パンダくんヒマに困る"
 早く飼育員さんに知らせなきゃ!!
 
 <audio>
-<source src="audio/23/045.mp3">
 </audio><hr>
 
 せつないね...
@@ -389,7 +344,6 @@ title: "パンダくんヒマに困る"
 あれ?
 
 <audio>
-<source src="audio/23/046.mp3">
 </audio><hr>
 
 半田さん 急いでパンダコーナーに来てください
@@ -397,7 +351,6 @@ title: "パンダくんヒマに困る"
 なんだ?これ...
 
 <audio>
-<source src="audio/23/047.mp3">
 </audio><hr>
 
 今度は何やってるんですか?
@@ -405,7 +358,6 @@ title: "パンダくんヒマに困る"
 半田さんマージャンできる?
 
 <audio>
-<source src="audio/23/048.mp3">
 </audio><hr>
 
 できません
@@ -413,7 +365,6 @@ title: "パンダくんヒマに困る"
 大丈夫だよ 僕もルール知らないから
 
 <audio>
-<source src="audio/23/049.mp3">
 </audio><hr>
 
 雨も降ってて お客さんも少ないし
@@ -421,25 +372,21 @@ title: "パンダくんヒマに困る"
 半田さんもどうせヒマでしょ?
 
 <audio>
-<source src="audio/23/050.mp3">
 </audio><hr>
 
 さっさと片づけなさい!
 
 <audio>
-<source src="audio/23/051.mp3">
 </audio><hr>
 
 ありがとうございました
 
 <audio>
-<source src="audio/23/052.mp3">
 </audio><hr>
 
 それでさヒマでヒマですごくつらかったんだ
 
 <audio>
-<source src="audio/23/053.mp3">
 </audio><hr>
 
 まったく共感できないんだけど
@@ -447,7 +394,6 @@ title: "パンダくんヒマに困る"
 今日なんか同じ漫画を３０回も読み返したんだよ
 
 <audio>
-<source src="audio/23/054.mp3">
 </audio><hr>
 
 カフェモカおかわり
@@ -455,7 +401,6 @@ title: "パンダくんヒマに困る"
 シロクマくんいいヒマつぶしの方法ってないかな?
 
 <audio>
-<source src="audio/23/055.mp3">
 </audio><hr>
 
 ヒマつぶし
@@ -469,7 +414,6 @@ title: "パンダくんヒマに困る"
 それは炭坑節
 
 <audio>
-<source src="audio/23/056.mp3">
 </audio><hr>
 
 シロクマくんって ヒマつぶしに困らなそうだよね
@@ -477,19 +421,16 @@ title: "パンダくんヒマに困る"
 笹子さんは?
 
 <audio>
-<source src="audio/23/057.mp3">
 </audio><hr>
 
 私は目的を決めずに自転車で遠出するとかかな
 
 <audio>
-<source src="audio/23/058.mp3">
 </audio><hr>
 
 あとは地図を眺めて風景を想像しながらの街歩き
 
 <audio>
-<source src="audio/23/059.mp3">
 </audio><hr>
 
 みんなは?
@@ -499,13 +440,11 @@ title: "パンダくんヒマに困る"
 長い...歴史...小説
 
 <audio>
-<source src="audio/23/060.mp3">
 </audio><hr>
 
 黒ベタのジグソーパズルが難しすぎて時間を忘れられますよ
 
 <audio>
-<source src="audio/23/061.mp3">
 </audio><hr>
 
 みんなうらやましいな
@@ -515,7 +454,6 @@ title: "パンダくんヒマに困る"
 起きてる時間が足りなくて 困って困って...
 
 <audio>
-<source src="audio/23/062.mp3">
 </audio><hr>
 
 僕だって予定表がいっぱいで足りないよ。
@@ -525,7 +463,6 @@ title: "パンダくんヒマに困る"
 何?
 
 <audio>
-<source src="audio/23/063.mp3">
 </audio><hr>
 
 ペン子さんって すごい働き者でね
@@ -535,7 +472,6 @@ title: "パンダくんヒマに困る"
 それにね...
 
 <audio>
-<source src="audio/23/064.mp3">
 </audio><hr>
 
 シロクマくん笹をちょうだい
@@ -543,7 +479,6 @@ title: "パンダくんヒマに困る"
 聞いてよ!
 
 <audio>
-<source src="audio/23/065.mp3">
 </audio><hr>
 
 それでさ ペン子さんがサービス券をね...
@@ -551,7 +486,6 @@ title: "パンダくんヒマに困る"
 その話はもう何度も聞いたよ
 
 <audio>
-<source src="audio/23/066.mp3">
 </audio><hr>
 
 まもなく当店は閉店いたします
@@ -561,7 +495,6 @@ title: "パンダくんヒマに困る"
 一度やってみたくて
 
 <audio>
-<source src="audio/23/067.mp3">
 </audio><hr>
 
 もう閉店か...
@@ -569,7 +502,6 @@ title: "パンダくんヒマに困る"
 しろくまカフェにいると 時間があっという間に過ぎるな
 
 <audio>
-<source src="audio/23/068.mp3">
 </audio><hr>
 
 あっそうだ!
@@ -577,13 +509,11 @@ title: "パンダくんヒマに困る"
 何?
 
 <audio>
-<source src="audio/23/069.mp3">
 </audio><hr>
 
 半田さん 至急パンダコーナーに来てください
 
 <audio>
-<source src="audio/23/070.mp3">
 </audio><hr>
 
 なんですかこれは!
@@ -593,7 +523,6 @@ title: "パンダくんヒマに困る"
 半田さんモーニングセット
 
 <audio>
-<source src="audio/23/071.mp3">
 </audio><hr>
 
 チョコパフェください
@@ -603,7 +532,6 @@ title: "パンダくんヒマに困る"
 半田さんココア!
 
 <audio>
-<source src="audio/23/072.mp3">
 </audio><hr>
 
 さっさと片づけなさい!
@@ -613,5 +541,4 @@ title: "パンダくんヒマに困る"
 は～ん～だ...
 
 <audio>
-<source src="audio/23/073.mp3">
 </audio><hr>

@@ -292,7 +292,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>カフェのお花見</p>
+<p><span id="episode-title" data-episode="04">カフェのお花見</span></p>
 <audio>
 <source src="audio/04/001.mp3">
 </audio>
@@ -672,6 +672,9 @@ $(document).ready(function () {
 <hr>
 
 <script>
+// get episode number
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
 
 // get audio clips
 const clips = document.getElementsByTagName('audio');
@@ -681,10 +684,11 @@ function insertAfter(referenceNode, newNode) {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
-// assign ID's to all audio elements and add sound symbol
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
 function setup(){
   for (let i = 0; i < clips.length; i++){
   clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
   let el = document.createElement("div");
   el.setAttribute('class', 'sound');
   el.innerHTML = "&#128265";

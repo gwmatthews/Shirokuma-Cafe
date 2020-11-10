@@ -3,7 +3,7 @@ title: "カフェのお花見"
 
 ---
 
-カフェのお花見
+<span id="episode-title" data-episode="04">カフェのお花見</span>
 
 <audio>
 <source src="audio/04/001.mp3">

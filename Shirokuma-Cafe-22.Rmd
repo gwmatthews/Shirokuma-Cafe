@@ -2,10 +2,9 @@
 title: "パンダくんの夜遊び"
 ---
 
-パンダくんの夜遊び
+<span id="episode-title" data-episode="22">パンダくんの夜遊び</span>
 
 <audio>
-<source src="audio/22/001.mp3">
 </audio><hr>
 
 お疲れさまでした
@@ -13,13 +12,11 @@ title: "パンダくんの夜遊び"
 お疲れさま
 
 <audio>
-<source src="audio/22/002.mp3">
 </audio><hr>
 
 パンダくん　閉店なんだけど
 
 <audio>
-<source src="audio/22/003.mp3">
 </audio><hr>
 
 パンダくん？
@@ -29,7 +26,6 @@ title: "パンダくんの夜遊び"
 もう　夜だよ
 
 <audio>
-<source src="audio/22/004.mp3">
 </audio><hr>
 
 グリズリーくん
@@ -39,7 +35,6 @@ title: "パンダくんの夜遊び"
 いいよ
 
 <audio>
-<source src="audio/22/005.mp3">
 </audio><hr>
 
 遊びに行くの？
@@ -49,7 +44,6 @@ title: "パンダくんの夜遊び"
 ガキの行くところじゃねぇんだよ
 
 <audio>
-<source src="audio/22/006.mp3">
 </audio><hr>
 
 大人の夜遊びだ
@@ -59,7 +53,6 @@ title: "パンダくんの夜遊び"
 なんか　すごくおもしろそう
 
 <audio>
-<source src="audio/22/007.mp3">
 </audio><hr>
 
 何でついてくるんだよ
@@ -69,7 +62,6 @@ title: "パンダくんの夜遊び"
 お前じゃねぇよ
 
 <audio>
-<source src="audio/22/008.mp3">
 </audio><hr>
 
 コイツだよ
@@ -77,7 +69,6 @@ title: "パンダくんの夜遊び"
 どこ行くの？
 
 <audio>
-<source src="audio/22/009.mp3">
 </audio><hr>
 
 というわけで　パンダくん
@@ -87,7 +78,6 @@ title: "パンダくんの夜遊び"
 残念
 
 <audio>
-<source src="audio/22/010.mp3">
 </audio><hr>
 
 何でそうなるんだ！
@@ -99,7 +89,6 @@ title: "パンダくんの夜遊び"
 行くに決まってんだろ！
 
 <audio>
-<source src="audio/22/011.mp3">
 </audio><hr>
 
 すごい　ここ何？
@@ -107,7 +96,6 @@ title: "パンダくんの夜遊び"
 バッティングセンター
 
 <audio>
-<source src="audio/22/012.mp3">
 </audio><hr>
 
 
@@ -118,7 +106,6 @@ title: "パンダくんの夜遊び"
 ぶら下がって遊ぶとこじゃねぇんだよ！
 
 <audio>
-<source src="audio/22/013.mp3">
 </audio><hr>
 
 
@@ -127,7 +114,6 @@ title: "パンダくんの夜遊び"
 ったく…
 
 <audio>
-<source src="audio/22/014.mp3">
 </audio><hr>
 
 これ気持いいね
@@ -135,7 +121,6 @@ title: "パンダくんの夜遊び"
 だから　そうじゃねぇんだよ
 
 <audio>
-<source src="audio/22/015.mp3">
 </audio><hr>
 
 結構　凝りがほぐれるね
@@ -143,7 +128,6 @@ title: "パンダくんの夜遊び"
 お前までやってんじゃねぇ！
 
 <audio>
-<source src="audio/22/016.mp3">
 </audio><hr>
 
 じゃあ　ここで何して遊ぶの？
@@ -153,7 +137,6 @@ title: "パンダくんの夜遊び"
 こうやるんだ
 
 <audio>
-<source src="audio/22/017.mp3">
 </audio><hr>
 
 ナイスキャッチ
@@ -163,7 +146,6 @@ title: "パンダくんの夜遊び"
 ピッチャーライナーだね
 
 <audio>
-<source src="audio/22/018.mp3">
 </audio><hr>
 
 何やってんだよ！！
@@ -173,7 +155,6 @@ title: "パンダくんの夜遊び"
 やらなくていいんだよ！
 
 <audio>
-<source src="audio/22/019.mp3">
 </audio><hr>
 
 大当たり！
@@ -181,7 +162,6 @@ title: "パンダくんの夜遊び"
 グリズリーさんやったね！
 
 <audio>
-<source src="audio/22/020.mp3">
 </audio><hr>
 
 なんかもうやる気なくなったぜ
@@ -191,7 +171,6 @@ title: "パンダくんの夜遊び"
 さあ　来い！
 
 <audio>
-<source src="audio/22/021.mp3">
 </audio><hr>
 
 バット　持ちすぎだろう！
@@ -199,7 +178,6 @@ title: "パンダくんの夜遊び"
 じゃあ　改めてお手本を
 
 <audio>
-<source src="audio/22/022.mp3">
 </audio><hr>
 
 バット　使えよ！
@@ -207,13 +185,11 @@ title: "パンダくんの夜遊び"
 もう　いい… パンダ　とにかく　やってみろ
 
 <audio>
-<source src="audio/22/023.mp3">
 </audio><hr>
 
 パンダくん　バットを構えて よ～く球を見るんだよ
 
 <audio>
-<source src="audio/22/024.mp3">
 </audio><hr>
 
 いや　そうじゃなくてな…
@@ -227,7 +203,6 @@ title: "パンダくんの夜遊び"
 打てよ
 
 <audio>
-<source src="audio/22/025.mp3">
 </audio><hr>
 
 やっぱり？
@@ -235,7 +210,6 @@ title: "パンダくんの夜遊び"
 やっぱりじゃねぇ！ バットで当てろ！！
 
 <audio>
-<source src="audio/22/026.mp3">
 </audio><hr>
 
 ナイスショット
@@ -245,7 +219,6 @@ title: "パンダくんの夜遊び"
 ゴルフじゃねぇ！！
 
 <audio>
-<source src="audio/22/027.mp3">
 </audio><hr>
 
 積み木じゃねぇ！
@@ -253,7 +226,6 @@ title: "パンダくんの夜遊び"
 ビリヤードじゃねぇ！
 
 <audio>
-<source src="audio/22/028.mp3">
 </audio><hr>
 
 ああ　おもしろかった
@@ -265,7 +237,6 @@ title: "パンダくんの夜遊び"
 また　どこか行くの？
 
 <audio>
-<source src="audio/22/029.mp3">
 </audio><hr>
 
 夜はこれからだからな
@@ -275,7 +246,6 @@ title: "パンダくんの夜遊び"
 次は　どこかな？
 
 <audio>
-<source src="audio/22/030.mp3">
 </audio><hr>
 
 風呂だ！
@@ -287,13 +257,11 @@ title: "パンダくんの夜遊び"
 すげぇだろう？
 
 <audio>
-<source src="audio/22/031.mp3">
 </audio><hr>
 
 本当だ！
 
 <audio>
-<source src="audio/22/032.mp3">
 </audio><hr>
 
 すごいよ！！
@@ -305,7 +273,6 @@ title: "パンダくんの夜遊び"
 まずはちゃんと体洗えよ
 
 <audio>
-<source src="audio/22/033.mp3">
 </audio><hr>
 
 背中　流してあげようか？
@@ -313,7 +280,6 @@ title: "パンダくんの夜遊び"
 うん　頼むよ
 
 <audio>
-<source src="audio/22/034.mp3">
 </audio><hr>
 
 背中　流してあげようか？
@@ -321,7 +287,6 @@ title: "パンダくんの夜遊び"
 おう　お前も ちったぁ気が利くじゃねぇか
 
 <audio>
-<source src="audio/22/035.mp3">
 </audio><hr>
 
 やめろ 何か　こそばゆいぞ
@@ -329,7 +294,6 @@ title: "パンダくんの夜遊び"
 パンダくん もっと強くこするんだよ
 
 <audio>
-<source src="audio/22/036.mp3">
 </audio><hr>
 
 イテーッ！！　ツメ　立てんな　ツメ！
@@ -337,7 +301,6 @@ title: "パンダくんの夜遊び"
 あっ　ごめん
 
 <audio>
-<source src="audio/22/037.mp3">
 </audio><hr>
 
 目に染みるよ
@@ -349,7 +312,6 @@ title: "パンダくんの夜遊び"
 誰？
 
 <audio>
-<source src="audio/22/038.mp3">
 </audio><hr>
 
 ハア…　
@@ -365,7 +327,6 @@ title: "パンダくんの夜遊び"
 ごめんなさい…
 
 <audio>
-<source src="audio/22/039.mp3">
 </audio><hr>
 
 赤いほうを回すとお湯で
@@ -373,7 +334,6 @@ title: "パンダくんの夜遊び"
 青いほうが水だからな
 
 <audio>
-<source src="audio/22/040.mp3">
 </audio><hr>
 
 わかった
@@ -383,7 +343,6 @@ title: "パンダくんの夜遊び"
 ごめんなさい…
 
 <audio>
-<source src="audio/22/041.mp3">
 </audio><hr>
 
 アチーッ！！
@@ -395,7 +354,6 @@ title: "パンダくんの夜遊び"
 冷てぇ！！
 
 <audio>
-<source src="audio/22/042.mp3">
 </audio><hr>
 
 えっと…　えっと…
@@ -403,7 +361,6 @@ title: "パンダくんの夜遊び"
 パンダ…　もういい　気持だけ　もらっとく
 
 <audio>
-<source src="audio/22/043.mp3">
 </audio><hr>
 
 いいニオイになったね
@@ -413,7 +370,6 @@ title: "パンダくんの夜遊び"
 うん　すごく　おいしそうなニオイ
 
 <audio>
-<source src="audio/22/044.mp3">
 </audio><hr>
 
 これ
@@ -425,7 +381,6 @@ title: "パンダくんの夜遊び"
 飲むんじゃねぇぞ
 
 <audio>
-<source src="audio/22/045.mp3">
 </audio><hr>
 
 というわけで　パンダくん お風呂に入れてみよう
@@ -435,7 +390,6 @@ title: "パンダくんの夜遊び"
 よくねぇ　やめろ
 
 <audio>
-<source src="audio/22/046.mp3">
 </audio><hr>
 
 
@@ -448,7 +402,6 @@ title: "パンダくんの夜遊び"
 こうだよ
 
 <audio>
-<source src="audio/22/047.mp3">
 </audio><hr>
 
 やめろ！
@@ -460,7 +413,6 @@ title: "パンダくんの夜遊び"
 俺は　サウナが好きなんだ
 
 <audio>
-<source src="audio/22/048.mp3">
 </audio><hr>
 
 それは　魚！
@@ -472,7 +424,6 @@ title: "パンダくんの夜遊び"
 サウナって何？
 
 <audio>
-<source src="audio/22/049.mp3">
 </audio><hr>
 
 ふぅ～　なんかすごい汗出るよ
@@ -482,7 +433,6 @@ title: "パンダくんの夜遊び"
 蒸されてる感じ
 
 <audio>
-<source src="audio/22/050.mp3">
 </audio><hr>
 
 これが体にいいんだよ！
@@ -490,7 +440,6 @@ title: "パンダくんの夜遊び"
 もう限界…
 
 <audio>
-<source src="audio/22/051.mp3">
 </audio><hr>
 
 情けねぇな
@@ -500,13 +449,11 @@ title: "パンダくんの夜遊び"
 辛抱が足りねぇな
 
 <audio>
-<source src="audio/22/052.mp3">
 </audio><hr>
 
 今日は　やけに 時間が長く感じるぜ
 
 <audio>
-<source src="audio/22/053.mp3">
 </audio><hr>
 
 俺も　もう限界…
@@ -514,13 +461,11 @@ title: "パンダくんの夜遊び"
 出よう
 
 <audio>
-<source src="audio/22/054.mp3">
 </audio><hr>
 
 テメエらの仕業か！
 
 <audio>
-<source src="audio/22/055.mp3">
 </audio><hr>
 
 おもしろかった！
@@ -530,7 +475,6 @@ title: "パンダくんの夜遊び"
 小腹も空いたし 
 
 <audio>
-<source src="audio/22/056.mp3">
 </audio><hr>
 
 ちょっと一杯やってくか
@@ -540,7 +484,6 @@ title: "パンダくんの夜遊び"
 えっ？　なになに？
 
 <audio>
-<source src="audio/22/057.mp3">
 </audio><hr>
 
 へい　らっしゃい！
@@ -550,7 +493,6 @@ title: "パンダくんの夜遊び"
 親父　とりあえず　生２つ
 
 <audio>
-<source src="audio/22/058.mp3">
 </audio><hr>
 
 あとアイスコーヒーください
@@ -558,7 +500,6 @@ title: "パンダくんの夜遊び"
 カフェじゃねぇんだぞ
 
 <audio>
-<source src="audio/22/059.mp3">
 </audio><hr>
 
 ああ　おいしそう！
@@ -566,7 +507,6 @@ title: "パンダくんの夜遊び"
 串ごと食うなよ
 
 <audio>
-<source src="audio/22/060.mp3">
 </audio><hr>
 
 おいしい！
@@ -582,7 +522,6 @@ title: "パンダくんの夜遊び"
 人生はな 
 
 <audio>
-<source src="audio/22/061.mp3">
 </audio><hr>
 
 昼もあれば夜もある
@@ -592,7 +531,6 @@ title: "パンダくんの夜遊び"
 暗いときにも楽しいことはたくさんあるんだよ
 
 <audio>
-<source src="audio/22/062.mp3">
 </audio><hr>
 
 どっちもあるから いいんだよね
@@ -604,7 +542,6 @@ title: "パンダくんの夜遊び"
 パンダも白いとこと黒いとこ　両方あるからいいんだもんね
 
 <audio>
-<source src="audio/22/063.mp3">
 </audio><hr>
 
 おお　そうだな！ そのとおりだ！
@@ -612,7 +549,6 @@ title: "パンダくんの夜遊び"
 だね
 
 <audio>
-<source src="audio/22/064.mp3">
 </audio><hr>
 
 グリズリーくん
@@ -620,27 +556,23 @@ title: "パンダくんの夜遊び"
 すっかり寝ちゃったね　パンダくん
 
 <audio>
-<source src="audio/22/065.mp3">
 </audio><hr>
 
 なんで俺がコイツをおぶって 帰んなきゃなんねぇんだよ
 
 
 <audio>
-<source src="audio/22/066.mp3">
 </audio><hr>
 楽しかった…
 
 楽しかったって
 
 <audio>
-<source src="audio/22/067.mp3">
 </audio><hr>
 
 まっ　また連れてきてやっても いいかな
 
 <audio>
-<source src="audio/22/068.mp3">
 </audio><hr>
 
 

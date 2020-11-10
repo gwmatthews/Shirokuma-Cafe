@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>真夏の雑草取り</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">真夏の雑草取り</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="29">真夏の雑草取り</span></p>
+<audio>
+</audio>
+<hr>
+<p>やっと着いた</p>
+<p>近道しようとしたら　雑草がすごくて迷ちゃったよ</p>
+<audio>
+</audio>
+<hr>
+<p>そうなの　迷ちゃうお客さんもいるみたい</p>
+<p>隣なのに家から20分かかちゃったよ</p>
+<audio>
+</audio>
+<hr>
+<p>雑草すごいね</p>
+<p>中の席にしようか</p>
+<p>よし　やろう</p>
+<audio>
+</audio>
+<hr>
+<p>よいしょ(」・ω・)」</p>
+<p>何してるの　白熊君</p>
+<audio>
+</audio>
+<hr>
+<p>テラスで風を感じながら キンキンに冷したミントティーを飲んでる</p>
+<audio>
+</audio>
+<hr>
+<p>そうじゃなくて</p>
+<p>なんで僕に君の店の雑草取りさせて</p>
+<p>君がテラスをすすんでるの</p>
+<audio>
+</audio>
+<hr>
+<p>僕は普通寒いところにいるでしょう</p>
+<p>僕もだよ</p>
+<p>真夏に雑草取りをするペンギンなんて どこの世界にいるの</p>
+<audio>
+</audio>
+<hr>
+<p>ごちそうさまでした</p>
+<p>では</p>
+<p>らまさん　どこ行くの</p>
+<audio>
+</audio>
+<hr>
+<p>もう食べられないんで　失礼しようかなって</p>
+<p>ちょっと待って　なんで帰ちゃうの</p>
+<p>僕たちの雑草取り始まったばかりでしょう</p>
+<audio>
+</audio>
+<hr>
+<p>けど　もうお腹いっぱいですよ</p>
+<p>雑草取りって　そういうことじゃないでしょう</p>
+<p>もうちょっと頑張ろうよ</p>
+<audio>
+</audio>
+<hr>
+<p>僕　もうお腹はじけちゃいますよ</p>
+<p>そうじゃなくて</p>
+<audio>
+</audio>
+<hr>
+<p>食べる以外の方法で雑草を取れないのかな</p>
+<p>そうでしたか　ちょっと考えてみます</p>
+<audio>
+</audio>
+<hr>
+<p>寝てる</p>
+<p>起きてますよ</p>
+<p>寝てたでしょう</p>
+<p>ミントティー　どう？</p>
+<audio>
+</audio>
+<hr>
+<p>あ　いただきます</p>
+<p>もう　皆　頑張ろうよ</p>
+<p>頑張りたいんだけど　僕ユーカリしか食べられなっくて</p>
+<audio>
+</audio>
+<hr>
+<p>だから　食べない方法もあるんじゃないかな</p>
+<p>ペンギンさん</p>
+<audio>
+</audio>
+<hr>
+<p>変な形の石拾った</p>
+<p>要らないの　その報告は　雑草取ろう</p>
+<p>ペンギンさん</p>
+<audio>
+</audio>
+<hr>
+<p>笹子さん　それは？</p>
+<p>土偶です</p>
+<p>拾いました</p>
+<p>要らない報告でした</p>
+<audio>
+</audio>
+<hr>
+<p>何　この庭</p>
+<p>よく落ちてるんだ</p>
+<p>遮光器土偶ですね</p>
+<p>うん</p>
+<p>面白い顔だね</p>
+<audio>
+</audio>
+<hr>
+<p>僕だけかな　雑草取り真面目にやってるの</p>
+<p>僕も～</p>
+<p>あ　</p>
+<p>いるよ～～</p>
+<p>怠け者くん</p>
+<audio>
+</audio>
+<hr>
+<p>が～ん～ば～る～ぞ～</p>
+<p>やる気はあるんだけどな</p>
+<audio>
+</audio>
+<hr>
+<p>クーラーは涼しいな</p>
+<p>ねぇ　笹持ってきて　お母さん</p>
+<p>涼しいでしょう</p>
+<audio>
+</audio>
+<hr>
+<p>あ　ペンギンさん何してるの</p>
+<p>何してるのじゃないよパンダ君　雑草取りは？</p>
+<p>ペンギンさんはなんでそんなに雑草取りがすきなの</p>
+<audio>
+</audio>
+<hr>
+<p>好きじゃないよ</p>
+<p>けど　このままじゃ一日じゃ終わらないよ</p>
+<p>分かったよ</p>
+<audio>
+</audio>
+<hr>
+<p>もう</p>
+<p>じゃ　行こうか</p>
+<p>うん　昼寝してからすぐ行くよ</p>
+<audio>
+</audio>
+<hr>
+<p>あ～～～吸わないで～～～</p>
+<p>暑いな</p>
+<p>僕だって暑いよ</p>
+<audio>
+</audio>
+<hr>
+<p>何！　え！　火事？</p>
+<p>ええ？</p>
+<p>パンダ君　急ごう</p>
+<audio>
+</audio>
+<hr>
+<p>ちょっと　何してるの</p>
+<p>バーベキュー</p>
+<p>らまさん　お腹いっぱいだって言ってたでしょう</p>
+<audio>
+</audio>
+<hr>
+<p>バーベキューは別腹ですよ</p>
+<p>聞いたことないよ　そんな言葉</p>
+<p>ペンギンさん　そこで拾った土偶です</p>
+<audio>
+</audio>
+<hr>
+<p>また？</p>
+<p>だから　すごいんだけれど　要らないよ　その報告は</p>
+<audio>
+</audio>
+<hr>
+<p>見せて　見せて</p>
+<p>らまさん</p>
+<p>はい　どうぞ</p>
+<p>焼けたよ</p>
+<p>ありがとうございます</p>
+<p>僕ちょっと倒れるよ</p>
+<p>ペンギンさん</p>
+<audio>
+</audio>
+<hr>
+<p>ナイス　ショット</p>
+<p>打てるもんですね</p>
+<p>何してるの</p>
+<audio>
+</audio>
+<hr>
+<p>ゴルフ</p>
+<p>誰も僕を見習って頑張ろうとしないなんて</p>
+<audio>
+</audio>
+<hr>
+<p>ごめん</p>
+<p>ペンギンさん</p>
+<p>何　笹子さん　また土偶？</p>
+<p>いいえ　皆でここだけはやったんですよ</p>
+<p>え？</p>
+<audio>
+</audio>
+<hr>
+<p>この木陰なら涼しいし</p>
+<p>ペンギンさんを休ませてあげられるって　らまさんが</p>
+<p>テラスが日が射してきちゃって</p>
+<audio>
+</audio>
+<hr>
+<p>ごめんね</p>
+<p>友達と一緒に賑やかにできたほうがいいなぁって</p>
+<audio>
+</audio>
+<hr>
+<p>だって　みんなでこうしてるだけで　楽しいよ</p>
+<audio>
+</audio>
+<hr>
+<p>そうだね</p>
+<p>僕大事なこと忘れてたみたい</p>
+<p>ミントティー　飲む？</p>
+<p>うん</p>
+<audio>
+</audio>
+<hr>
+<p>私たちは　雑草取りに戻りましょうか</p>
+<p>うん</p>
+<p>ペンギンさんは休んでてください</p>
+<p>じゃあ</p>
+<p>もう一頑張りしますか</p>
+<audio>
+</audio>
+<hr>
+<p>もう食べられません</p>
+<p>ペンギンさん　出番が来たよ</p>
+<audio>
+</audio>
+<hr>
+<p>大～丈～夫～　</p>
+<p>後は　僕が～</p>
+<p>終わらないね</p>
+<p>どうしましょうか</p>
+<p>バービキュ食べ過ぎて　僕もう草は食べられません</p>
+<audio>
+</audio>
+<hr>
+<p>もしもし</p>
+<p>何だよ　このクソ暑い中に呼び出しやがって</p>
+<p>庭の雑草が伸びちゃってさ</p>
+<p>庭の雑草？　</p>
+<audio>
+</audio>
+<hr>
+<p>白熊　</p>
+<p>おめぇまさか　俺に雑草取らせようってじゃねんだろうな</p>
+<p>いい？</p>
+<p>いい？</p>
+<p>じゃねぇー</p>
+<audio>
+</audio>
+<hr>
+<p>これでいいのか</p>
+<p>なんて　暴力的で　なんて　丁寧な仕事だ</p>
+<p>飯食わせろ！</p>
+<p>はい</p>
+<audio>
+</audio>
+<hr>
+<p>うめぇー！</p>
+<p>またな</p>
+<p>暴風のように去っていた</p>
+<p>今日はおごるよ</p>
+<audio>
+</audio>
+<hr>
+<p>ぺんぎんさんにも迷惑かけちゃったし</p>
+<p>飲もうか</p>
+<audio>
+</audio>
+<hr>
+<p>やぁ　今日は働いたね</p>
+<p>白熊さんもこっちに来て飲みましょう</p>
+<audio>
+</audio>
+<hr>
+<p>楽しにゃ</p>
+<p>でしょう</p>
+<audio>
+</audio>
+<hr>
+<p>白熊君相談って何</p>
+<p>それが</p>
+<audio>
+</audio>
+<hr>
+<p>どうしたの　僕でよかったら相談に乗るよ</p>
+<audio>
+</audio>
+<hr>
+<p>え</p>
+<p>たった数日でこんなに伸びたの</p>
+<p>夏の雑草は　伸びるの早いんだよ</p>
+<audio>
+</audio>
+<hr>
+<p>僕が手伝う理由が見えないんだけど</p>
+<p>ほら　僕は寒いところの生き物だから</p>
+<audio>
+</audio>
+<hr>
+<p>だから　僕もだよ</p>
+<p>さっき見つけた土偶です</p>
+<p>笹子さん　その報告はもういいから</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+// get episode number
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+insertSound();
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

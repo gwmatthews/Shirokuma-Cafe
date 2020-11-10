@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ペンギンさんのロマンス</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">ペンギンさんのロマンス</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="30">ペンギンさんのロマンス</span></p>
+<audio>
+</audio>
+<hr>
+<p>夏ですね</p>
+<p>夏だね</p>
+<p>今年は蝉がよく泣きますね</p>
+<audio>
+</audio>
+<hr>
+<p>雄は腹腔内の発音筋と発音膜で音を</p>
+<p>出して共鳴室で音を大きく出して雌を呼んでるね</p>
+<audio>
+</audio>
+<hr>
+<p>情緒のない言い方やめてくれますか</p>
+<audio>
+</audio>
+<hr>
+<p>どうしたのパンダ君</p>
+<p>食べないの　パンダあんぱん</p>
+<p>体調悪いの</p>
+<audio>
+</audio>
+<hr>
+<p>毎日パンじゃなくて　たまには高級フルーツでも買ってきてよ</p>
+<audio>
+</audio>
+<hr>
+<p>果物屋にはペン子さんがいないじゃない</p>
+<p>ペンギンさん</p>
+<p>何？　パン食べる</p>
+<audio>
+</audio>
+<hr>
+<p>いいえ　そうじゃなくて</p>
+<p>ペンギンさん　夏にはペン子さんに告白して ドライブって言ってませんでしたっけ</p>
+<audio>
+</audio>
+<hr>
+<p>もう夏だね</p>
+<p>夏とは言ったけど今年のとはいってないでしょう</p>
+<audio>
+</audio>
+<hr>
+<p>来年かもしれないし　再来年かもしれないし　</p>
+<p>十年後の夏かもしれないよ</p>
+<audio>
+</audio>
+<hr>
+<p>そんな長いスパンの話なんですか</p>
+<p>もう　今からチョロっと告白してきなよ</p>
+<p>チョロっとって　ちょっと待ってよ</p>
+<audio>
+</audio>
+<hr>
+<p>いいんじゃないですか　告白してきたら</p>
+<p>告白に当たっての心の準備をしないとだね</p>
+<p>いやいや　その前に心の準備の用意の前振りをだね</p>
+<audio>
+</audio>
+<hr>
+<p>でも早く告白しないと　</p>
+<p>ペン子さん取られちゃうかもしれないですよ</p>
+<audio>
+</audio>
+<hr>
+<p>けど　ふられたらどうしよう</p>
+<p>大丈夫だよ　まだふられたわけじゃないんだから</p>
+<audio>
+</audio>
+<hr>
+<p>そうですよ</p>
+<p>ちゃんと告白して　ふられようよ</p>
+<p>白熊さん</p>
+<audio>
+</audio>
+<hr>
+<p>そうだね</p>
+<p>いつかの夏にと思ってたけど</p>
+<p>もう告白してしまおうかな</p>
+<audio>
+</audio>
+<hr>
+<p>そうですよ</p>
+<p>そうだよ　ふられるなら　早いほうがいいよ</p>
+<audio>
+</audio>
+<hr>
+<p>パンダ君</p>
+<p>よし　行くよ</p>
+<p>これで　ようやく彼女の名前も分かるしね</p>
+<audio>
+</audio>
+<hr>
+<p>何？</p>
+<p>ペン子さんじゃないの</p>
+<p>え？言ってなかった</p>
+<p>ペン子さんっていうのは　</p>
+<p>僕が彼女に付けた名前だよ</p>
+<audio>
+</audio>
+<hr>
+<p>まさか　名前知らないんですか</p>
+<p>知らないよ</p>
+<p>悪い？</p>
+<audio>
+</audio>
+<hr>
+<p>だって</p>
+<p>じゃ　笹子さんは名前も知らない花をきれいだなって思ったことはないですか</p>
+<audio>
+</audio>
+<hr>
+<p>名前も知らない美味しい魚を食べたことはないですか</p>
+<p>名前も知らない曲に心揺さぶれたことはないですか</p>
+<audio>
+</audio>
+<hr>
+<p>名前も知らない未知の風景に美しいと思ったことはないですか</p>
+<p>分かりましたから　もう行ってください</p>
+<p>じゃ</p>
+<audio>
+</audio>
+<hr>
+<p>名前も知らないんですね</p>
+<p>大丈夫ですかね</p>
+<audio>
+</audio>
+<hr>
+<p>ありがとうございました</p>
+<p>いらっしゃいませ</p>
+<p>あのう</p>
+<p>今日はサービス券もらいに来たんじゃないです</p>
+<audio>
+</audio>
+<hr>
+<p>言わなくていい言葉だった</p>
+<audio>
+</audio>
+<hr>
+<p>待とう　人がいなくなるのを</p>
+<p>またくるわ</p>
+<p>ありがとうございました</p>
+<audio>
+</audio>
+<hr>
+<p>いまだ　今しかない　でも緊張してきた</p>
+<p>こういう時どうするんだっけ</p>
+<audio>
+</audio>
+<hr>
+<p>人という字3回書いて呑むんだ</p>
+<p>いや　待ってよ</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンの場合は　ペンギンって3回書いて呑む方がいいのかな</p>
+<p>ペ－ン－ギ－ン</p>
+<p>ペ－ン－ギ－ン</p>
+<p>ペ－ン－ギ－ン</p>
+<audio>
+</audio>
+<hr>
+<p>そんなたくさんの文字呑めるか</p>
+<p>あのう</p>
+<audio>
+</audio>
+<hr>
+<p>すみません　大きいな声出して</p>
+<p>いいえ　いつもありがとうございます</p>
+<audio>
+</audio>
+<hr>
+<p>いえ　そんな大したこと</p>
+<p>分かります　すごく好きなんだなって</p>
+<audio>
+</audio>
+<hr>
+<p>パンが</p>
+<p>ありがとうございました</p>
+<audio>
+</audio>
+<hr>
+<p>あのう</p>
+<p>はい</p>
+<p>前からあなたの事が好きでした</p>
+<p>僕とデートしてください</p>
+<p>日曜日駅前で一時にまってます</p>
+<p>それじゃ</p>
+<audio>
+</audio>
+<hr>
+<p>あれからペンギンさん　毎日パン屋さんに行ってデートに誘ってるらしいですよ</p>
+<p>今日で四日目ですって</p>
+<p>ＯＫもらうまで通うって</p>
+<audio>
+</audio>
+<hr>
+<p>しつこくない</p>
+<p>そんなことないよ</p>
+<p>ペンギンさん頑張ってるよね</p>
+<audio>
+</audio>
+<hr>
+<p>笹子さんは毎日毎日しつこく誘われたらどうなの</p>
+<p>え　</p>
+<audio>
+</audio>
+<hr>
+<p>それは嫌ですけど</p>
+<audio>
+</audio>
+<hr>
+<p>今日で一週間ですよ</p>
+<p>幸せなんじゃないですかね</p>
+<p>こんなふうに一途に思われたら</p>
+<audio>
+</audio>
+<hr>
+<p>そう</p>
+<p>そうですよ</p>
+<p>笹子さんは一週間　毎日毎日しつこくされるのはどうなの</p>
+<audio>
+</audio>
+<hr>
+<p>それは嫌ですけど</p>
+<audio>
+</audio>
+<hr>
+<p>前からあなたの事が好きでした</p>
+<p>僕とデートしてください</p>
+<p>日曜日駅前で一時にまってます</p>
+<audio>
+</audio>
+<hr>
+<p>日曜日って明日ですよね</p>
+<p>うん　はい　急ですね　すみません</p>
+<audio>
+</audio>
+<hr>
+<p>分かりました　</p>
+<p>え？</p>
+<audio>
+</audio>
+<hr>
+<p>僕らはね　最初から愛し合っていたんじゃないかな</p>
+<p>一週間毎日パン屋さんに行って　告白をしたわけだよ</p>
+<audio>
+</audio>
+<hr>
+<p>でね　とうとう一週間目のことだよ</p>
+<p>それでさ　ペン美ちゃんがね</p>
+<audio>
+</audio>
+<hr>
+<p>あ　彼女ペン子ちゃんじゃなくて　ペン美ちゃんって名前だったんだけど</p>
+<p>ペン美ちゃんがどうしたって聞いてみて</p>
+<audio>
+</audio>
+<hr>
+<p>もう5回目だよ</p>
+<p>聞いたほうがいいんですか</p>
+<audio>
+</audio>
+<hr>
+<p>だから　ペン美ちゃんがどうしたか聞いてみて</p>
+<p>ペン美ちゃんがどうしたんですか？</p>
+<audio>
+</audio>
+<hr>
+<p>日曜日って明日ですかって聞いてきたの</p>
+<p>もう分かったよ</p>
+<audio>
+</audio>
+<hr>
+<p>きっと僕たちは　愛し合う運命だったんだよ</p>
+<p>あ　パン食べて　いいから　遠慮なく食べて</p>
+<p>じゃ　</p>
+<audio>
+</audio>
+<hr>
+<p>また明日～</p>
+<p>明日は何回聞けばいいのかな</p>
+<audio>
+</audio>
+<hr>
+<p>20回くらい</p>
+<audio>
+</audio>
+<hr>
+<p>ペン美ちゃんまだかな</p>
+<p>まだちょっと早かったかな</p>
+<p>ペン美ちゃん</p>
+<audio>
+</audio>
+<hr>
+<p>おい　ペン美ちゃん</p>
+<p>え　あたしペン子だけど</p>
+<audio>
+</audio>
+<hr>
+<p>え</p>
+<p>ちょっと　どういうこと？</p>
+<p>え！ペン美ちゃんがもう一人</p>
+<p>何言ってるの　</p>
+<audio>
+</audio>
+<hr>
+<p>わたし　ペン花よ</p>
+<p>え！</p>
+<p>ちょっとあんた　あたしのこと好きだったんじゃないの</p>
+<audio>
+</audio>
+<hr>
+<p>あれ　君がペン美ちゃん？</p>
+<p>ペン奈よ</p>
+<p>ペン乃よ</p>
+<p>どういうこと？</p>
+<audio>
+</audio>
+<hr>
+<p>違うんだペン美ちゃん　</p>
+<p>ペンジョリナよ</p>
+<p>ペンジョリナ</p>
+<audio>
+</audio>
+<hr>
+<p>ちょっと　ペンギンさん</p>
+<p>ごめんペン美ちゃん</p>
+<p>これはその</p>
+<p>ペンニュエルよ</p>
+<p>ペンニュエル！</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさん</p>
+<p>はい</p>
+<p>あたしがペン美よ</p>
+<p>どういうこと？</p>
+<audio>
+</audio>
+<hr>
+<p>いや　どういう事なんだろ</p>
+<audio>
+</audio>
+<hr>
+<p>どういうこと？</p>
+<p>ペ　ペン美ちゃん</p>
+<p>ペ　ペン乃ちゃん</p>
+<p>やめて　あ　いたい</p>
+<p>ペン美ちゃん　ペン美ちゃん　助けて</p>
+<audio>
+</audio>
+<hr>
+<p>まさか七人いるなんて思わなかった</p>
+<p>毎日違う子に告白してたなんて</p>
+<audio>
+</audio>
+<hr>
+<p>パン屋さんのシフトのせいだ</p>
+<audio>
+</audio>
+<hr>
+<p>シフト目</p>
+<p>行くよ</p>
+<p>もう</p>
+<p>気配がするんだよ</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさん　告白できてよかったね</p>
+<p>これで　良かったんですかね</p>
+<p>笹子さんは　</p>
+<audio>
+</audio>
+<hr>
+<p>毎日毎日しつこくノロケ話を聞かされるのってどうなの</p>
+<p>さあー</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+// get episode number
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+insertSound();
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
