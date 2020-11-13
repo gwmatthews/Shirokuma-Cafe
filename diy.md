@@ -23,7 +23,7 @@ In addition to this software you'll also need the Japanese subtitle files rather
 
 #### Step 1: Create a new Rstudio project.
 
-From the Rstudio main menu select "File" > "New Project" then choose "simple R Markdown website", give it a name and put it in whatever location you want. (NOTE: if you do not see this option in RStudio, you will have to first install the package called "rmarkdown" in the packages tab wihch should appear in the lower left pane of Rstudio. I forget whether this is installed by default.)  This creates a directory with the name you gave it as well as four files:
+From the Rstudio main menu select "File" > "New Project" then choose "simple R Markdown website", give it a name and put it in whatever location you want. (NOTE: if you do not see this option in RStudio, you will have to first install the package called "rmarkdown" in the packages tab wihch should appear in the lower right pane of Rstudio. I forget whether this is installed by default.)  This creates a directory with the name you gave it as well as four files:
 
 `_site.yml` which has basic configuration instructions for the site.
 
