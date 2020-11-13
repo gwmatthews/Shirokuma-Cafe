@@ -128,7 +128,7 @@ some more subtitle text
 
 The first line is the first line of the audio which I use as a title for the episode. The `id="episode-title"` tells the javascript where to look for the episode number which is in the `data-episode=` attribute. This corresponds the name of the directory the audio files are.
 
-The `<audio>` tags don't need anything else since they get loaded with the correct file numbers as sources by the javascript. So you just need to copy that snippet just below each bit of text and the corresponding audio file will get attached to a button that plays it. Check out the javascript in the orginal [footer.html file](https://github.com/gwmatthews/Shirokuma-Cafe/blob/master/includes/footer.html). It's pretty minimal -- it just saves me having to do a of extra editing of file locations and names and ads a nicer looking play button than the default html audio player.
+The `<audio>` tags don't need anything else since they get loaded with the correct file numbers as sources by the javascript. So you just need to copy that snippet just below each bit of text and the corresponding audio file will get attached to a button that plays it. Check out the javascript in the orginal [footer.html file](https://github.com/gwmatthews/Shirokuma-Cafe/blob/master/includes/footer.html). It's pretty minimal -- it just saves me having to do a lot of extra editing of file locations and names and adds a nicer looking play button than the default html audio player.
 
 
 #### Step 5: Add links to home page
