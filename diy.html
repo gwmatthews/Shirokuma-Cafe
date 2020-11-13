@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>diy.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="how-to-roll-your-own" class="section level3">
+<h3>How to roll your own</h3>
+<p>This project was built with the following open source tools:</p>
+<p><strong>Rstudio</strong>: an IDE developed for the programming language R, but which is also a great front end for pandoc which is another open source program that converts one document type to another. The basic idea here is that Rstudio allows you to write plain text files, add bits of html as you need to, format things with the simple syntax of markdown and have it automatically generate a static website. There is no need to write tons of html code since pandoc does it for you.</p>
+<p><strong>ffmpeg</strong>: a program for manipulating multimedia files. It is what I use for extracting the audio from the orginal video files. There are lots of ways to do this, but ffmpeg enables you to type one line on the command line and it automagically extracts the audio to an .mp3 file.</p>
+<p><strong>Audacity</strong>: an easy to use but powerful audio editing tool. I use this to extract audio clips with dialogue.</p>
+<div id="step-0-prequisites" class="section level4">
+<h4>Step 0: Prequisites</h4>
+<p>First you’ll need to install <a href="https://rstudio.com/products/rstudio/">Rstudio</a>, <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://www.audacityteam.org/">Audacity</a>. Depending on your machine those might require additional software as dependencies but it’s all free and open source. I use linux Mint on my computer, but this all should work on machines running other operating systems.</p>
+<p>In addition to this software you’ll also need the Japanese subtitle files rather than substitles that are hard coded into the video. Many are available at <a href="https://kitsunekko.net/">kitsuneko</a>. Typically these are in the form of .ass or .srt files which are just plain text files with lots of additional code with timestamps that tell your video player when to insert each line. I clean these of extra code in a text editor (knowledge of regular expressions helps make this much easier) and use the resulting plain text files.</p>
+</div>
+<div id="step-1-create-a-new-rstudio-project." class="section level4">
+<h4>Step 1: Create a new Rstudio project.</h4>
+<p>From the Rstudio main menu select “File” &gt; “New Project” then choose “simple R Markdown website”, give it a name and put it in whatever location you want. (NOTE: if you do not see this option in RStudio, you will have to first install the package called “rmarkdown” in the packages tab wihch should appear in the lower left pane of Rstudio. I forget whether this is installed by default.) This creates a directory with the name you gave it as well as four files:</p>
+<p><code>_site.yml</code> which has basic configuration instructions for the site.</p>
+<p><code>your-folder-name.Rproj</code> which just stores information about your project for Rstudio’s use.</p>
+<p>And two .Rmd files. <code>about.Rmd</code> and <code>index.rmd</code> which will be used to create two html pages <code>about.html</code> and <code>index.html</code>. This is the default setup and you can add as many additional pages as you want and remove the <code>about.Rmd</code> file if you dont want it.</p>
+</div>
+<div id="step-1.5-configure-site" class="section level4">
+<h4>Step 1.5: Configure site</h4>
+<p>By default your site will have an <code>index.html</code> page and an <code>about.html</code> page, will use a default theme and will have a simple top menu with links to these pages. All of that can be changed by editing the <code>_site.yml</code> page. By default it looks like this:</p>
+<pre><code>
+name: &quot;my-website&quot;
+navbar:
+  title: &quot;My Website&quot;
+  left:
+    - text: &quot;Home&quot;
+      href: index.html
+    - text: &quot;About&quot;
+      href: about.html
+
+</code></pre>
+<p>If you edit this be careful with indentation, since pandoc is pretty picky about consistent indentation. Change the title to your own title and if you don’t want the “About” page remove those two lines. You can also add more menu items if you like. Other <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html">configuration options can be found here</a> that enable you to pick other themes and so on.</p>
+<p>If you are using my orginal github repo as the starting point for your project, you’ll need to add the following to the `_site.yml’ file.</p>
+<pre><code>output:
+  html_document:
+    theme: simplex
+    includes:
+      after_body: &quot;includes/footer.html&quot;
+    css: &quot;includes/style.css&quot;
+</code></pre>
+<p>Indenting should look just like that. There are <a href="https://www.datadreaming.org/post/r-markdown-theme-gallery/">other themes available</a> if you like. The “includes” are for modifying the orginal stylesheet and for adding javascript that will automatically add audio play buttons and references to the individual audio files. These are in a subdirectory called “includes” in this example and on the <a href="https://github.com/gwmatthews/Shirokuma-Cafe">github repo</a> where all of this stuff lives.</p>
+</div>
+<div id="step-2-extract-audio" class="section level4">
+<h4>Step 2: Extract audio</h4>
+<p>All of this assumes that you have a copy of the relevant video files. I start with .mkv files, but other formats will work as well as long as you adjust the command below accordingly.</p>
+<p><code>ffmpeg -i file.mkv -f mp3 -ab 192000 -vn file.mp3</code></p>
+<p>I keep all of the original files in a media folder which is then NOT uploaded to github because that would violate copyrights. I believe that uploading the extacted clips is fine from a legal and ethical standpoint since it strikes me as “Fair Use” – it is not for profit, and involves changes to the originals for a use which is for educational purposes and is substantially different than that of the orginal. This is not a legal opinion, but my sense of things at this point. Should this use of the audio be a violation of copyright, I’ll quit sharing things, but for now it seems legit to me.</p>
+</div>
+<div id="step-3-extract-audio-clips" class="section level4">
+<h4>Step 3: Extract audio clips</h4>
+<p>I use Audacity for this as it has a simple workflow but you can use other audio editing tools if you like.</p>
+<p>Useful keyboard shortcuts:</p>
+<ul>
+<li><code>[spacebar]</code> starts and stops play.</li>
+<li><code>[</code> While audio is playing, pressing the left square bracket key marks the beginning of a selection.</li>
+<li><code>]</code> and the right square bracket key marks the end.</li>
+<li><code>[ctrl + b]</code> adds a “label” to the actively selected part of the audio file. This will be useful for exporting multiple audio clips all at once later. The first time you do this a new track will be created to hold the labels. Note that adding a label also makes the label track the active one so you will have to use the up arrow to move back to the audio track before continuing. Once you get the basic idea down you can pretty quickly add labels to segments of audio while the file is playing. Labels are what Audacity will use to extract indivudal segments of the orginal audio file as a series of individual sound clip files. Each label has a box for a title, but those can remain blank.</li>
+</ul>
+<p>You can adjust the beginning and ending points of each label by clicking and dragging on the arrow shaped handles on either side of each.</p>
+<p>When you are done adding labels to the whole audio file “File” &gt; “Export” &gt; “Export Multiple” opens up a dialogue box that enables you to save all labelled bits as individual files. By default it will save them all as a sequence of numbered files starting with “Untitled-1.mp3” if you save them as .mp3 files. I use a medium quality to make the files smaller.</p>
+<div id="side-note-file-organization-and-naming-conventions" class="section level5">
+<h5>Side note: file organization and naming conventions</h5>
+<p>I export all audio files to an <code>audio/x/</code> subdirectory where <code>x</code> is the number of the episode. I rename them all starting with <code>0.mp3</code> in numbered sequence. The numbering is used by the javascript code that gets stuck in the end of each page to find the right file later. Each episode is titled <code>project-name-x.html</code>. This keeps things consistent for doing the next step.</p>
+</div>
+</div>
+<div id="step-4-create-a-page-for-each-set-of-audio-files." class="section level4">
+<h4>Step 4: Create a page for each set of audio files.</h4>
+<ul>
+<li>Copy the extracted subtitle text to a new Rmd file. It should have this at the very top:</li>
+</ul>
+<pre><code>---
+title: &quot;your title&quot;
+
+---</code></pre>
+<p>The two sets of three dashes are a yaml header that contains the minimum meta-data for generating an html page with this system.</p>
+<p>Assuming you are using my orginal repo on gihub for your project with the rest of the file looks like this:</p>
+<pre><code>
+&lt;span id=&quot;episode-title&quot; data-episode=&quot;01&quot;&gt;シロクマ　カフェー へようこそ&lt;/span&gt;
+
+&lt;audio&gt;&lt;/audio&gt;&lt;hr&gt;
+
+笹を食べながらのんびりするのは最高だなぁ
+</code></pre>
+<p>The first line is the first line of the audio which I use as a title for the episode. The <code>id="episode-title"</code> tells the javascript where to look for the episode number which is in the <code>data-episode=</code> attribute. This corresponds the name of the directory the audio files are.</p>
+<p>The <code>&lt;audio&gt;</code> tags don’t need anything else since they get loaded with the correct file numbers as sources by the javascript. So you just need to copy that snippet just below each bit of text and the corresponding audio file will get attached to a button that plays it. Check out the javascript in the orginal <a href="https://github.com/gwmatthews/Shirokuma-Cafe/blob/master/includes/footer.html">footer.html file</a>. It’s pretty minimal – it just saves me having to do a of extra editing of file locations and names and ads a nicer looking play button than the default html audio player.</p>
+</div>
+<div id="step-5-add-links-to-home-page" class="section level4">
+<h4>Step 5: Add links to home page</h4>
+<p>That’s pretty much it. You can add links to each episode file like so:</p>
+<p><code>(title)[filename-01.html]</code></p>
+<p>You do this for each Rmd file you create for an episode or part of your project. When you build the site after a change it <strong>should</strong> all work just like this site. 🤞</p>
+</div>
+</div>
+
+<script>
+// get episode number
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+insertSound();
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

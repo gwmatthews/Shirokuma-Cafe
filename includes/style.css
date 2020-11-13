@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Sawarabi+Mincho);
 @import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 
-p {
+body {
   font-family: 'Sawarabi Mincho';
+  
+}
+
+p {
   font-size: 200%;
   margin: 20px;
   padding-top: 20px;
@@ -37,4 +41,34 @@ p {
 font-size: large;
 }
 
+}
+
+.level3 p {
+  
+  font-size: 125%;
+  
+}
+
+.level3 li p {
+  
+  font-size: 125%;
+  
+}
+
+.level3 {
+  
+  margin-top: 50px;
+}
+
+
+.level4 ul li {
+ 
+  font-size: 125%; 
+  
+}
+
+.level4 ul {
+ 
+ list-style-type: circle; 
+  
 }

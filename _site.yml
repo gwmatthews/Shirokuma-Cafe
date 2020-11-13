@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "シロクマ　カフェー"
       href: index.html
+    - text: "about"
+      href: about.html
 
 output:
   html_document:
