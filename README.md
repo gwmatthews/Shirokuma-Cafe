@@ -4,7 +4,7 @@
 
 Built with [R-Studio](https://rstudio.com/) and [Audacity](https://www.audacityteam.org/).
 
-The idea of this project was to aid in Japanese language immersion and reading practice. While one could just watch the videos with Japanese subtitles, I find that just focusing on the text and audio alone is much better for reading and listening practice at the same time. I think of it as kind of like "training wheels" for Japanese literacy and helping to associate symbols with sounds directly. In addition since the html files are viewed in a browser, you can use an extension like Yomichan for easily looking up the meanings of words and kanji. There is no translation included since I find that relying on translation serves as a crutch that might make it easier to understand in the short term, but does get in the way of learning how to read in Japanese.
+The idea of this project was to aid in Japanese language immersion and reading practice. While one could just watch the videos with Japanese subtitles, I find that just focusing on the text and audio alone is much better for reading and listening practice at the same time. I think of it as kind of like "training wheels" for Japanese literacy and helping to associate symbols with sounds directly. In addition since the html files are viewed in a browser, you can use an extension like [Yomichan](https://foosoft.net/projects/yomichan/) for easily looking up the meanings of words and kanji. There is no translation included since I find that relying on translation serves as a crutch that might make it easier to understand in the short term, but does get in the way of learning how to read in Japanese.
 
 ### Recent changes
 
