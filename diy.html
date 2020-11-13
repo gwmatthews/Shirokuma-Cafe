@@ -340,7 +340,7 @@ navbar:
 </div>
 <div id="step-2-extract-audio" class="section level4">
 <h4>Step 2: Extract audio</h4>
-<p>All of this assumes that you have a copy of the relevant video files. I start with .mkv files, but other formats will work as well as long as you adjust the command below accordingly.</p>
+<p>Assuming that you have a copy of the relevant video files the following command in a terminal opened to the folder where your video file is extract the audio track as an .mp3 file. I start with .mkv files, but other formats will work as well as long as you adjust the command accordingly.</p>
 <p><code>ffmpeg -i file.mkv -f mp3 -ab 192000 -vn file.mp3</code></p>
 <p>I keep all of the original files in a media folder which is then NOT uploaded to github because that would violate copyrights. I believe that uploading the extacted clips is fine from a legal and ethical standpoint since it strikes me as “Fair Use” – it is not for profit, and involves changes to the originals for a use which is for educational purposes and is substantially different than that of the orginal. This is not a legal opinion, but my sense of things at this point. Should this use of the audio be a violation of copyright, I’ll quit sharing things, but for now it seems legit to me.</p>
 </div>
@@ -378,6 +378,14 @@ title: &quot;your title&quot;
 &lt;audio&gt;&lt;/audio&gt;&lt;hr&gt;
 
 笹を食べながらのんびりするのは最高だなぁ
+
+&lt;audio&gt;&lt;/audio&gt;&lt;hr&gt;
+
+some more subtitle text
+
+&lt;audio&gt;&lt;/audio&gt;&lt;hr&gt;
+
+...
 </code></pre>
 <p>The first line is the first line of the audio which I use as a title for the episode. The <code>id="episode-title"</code> tells the javascript where to look for the episode number which is in the <code>data-episode=</code> attribute. This corresponds the name of the directory the audio files are.</p>
 <p>The <code>&lt;audio&gt;</code> tags don’t need anything else since they get loaded with the correct file numbers as sources by the javascript. So you just need to copy that snippet just below each bit of text and the corresponding audio file will get attached to a button that plays it. Check out the javascript in the orginal <a href="https://github.com/gwmatthews/Shirokuma-Cafe/blob/master/includes/footer.html">footer.html file</a>. It’s pretty minimal – it just saves me having to do a of extra editing of file locations and names and ads a nicer looking play button than the default html audio player.</p>
@@ -387,6 +395,7 @@ title: &quot;your title&quot;
 <p>That’s pretty much it. You can add links to each episode file like so:</p>
 <p><code>(title)[filename-01.html]</code></p>
 <p>You do this for each Rmd file you create for an episode or part of your project. When you build the site after a change it <strong>should</strong> all work just like this site. 🤞</p>
+<p>Finally, if you made it this far and did roll your own, let me know on github or post something about it on the WaniKani community forums. If you are here you probably know what that is…</p>
 </div>
 </div>
 

@@ -67,7 +67,7 @@ Indenting should look just like that. There are [other themes available](https:/
 
 #### Step 2: Extract audio
 
-All of this assumes that you have a copy of the relevant video files. I start with .mkv files, but other formats will work as well as long as you adjust the command below accordingly.
+Assuming that you have a copy of the relevant video files the following command in a terminal opened to the folder where your video file is extract the audio track as an .mp3 file. I start with .mkv files, but other formats will work as well as long as you adjust the command accordingly.
 
 `ffmpeg -i file.mkv -f mp3 -ab 192000 -vn file.mp3 `
 
@@ -116,6 +116,14 @@ Assuming you are using my orginal repo on gihub for your project with the rest o
 
 笹を食べながらのんびりするのは最高だなぁ
 
+<audio></audio><hr>
+
+some more subtitle text
+
+<audio></audio><hr>
+
+...
+
 ```
 
 The first line is the first line of the audio which I use as a title for the episode. The `id="episode-title"` tells the javascript where to look for the episode number which is in the `data-episode=` attribute. This corresponds the name of the directory the audio files are.
@@ -130,6 +138,8 @@ That's pretty much it. You can add links to each episode file like so:
 `(title)[filename-01.html]`
  
  You do this for each Rmd file you create for an episode or part of your project. When you build the site after a change it **should** all work just like this site. 🤞 
+ 
+ Finally, if you made it this far and did roll your own, let me know on github or post something about it on the WaniKani community forums. If you are here you probably know what that is...
 
 
 
