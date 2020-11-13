@@ -1,3 +1,8 @@
+---
+title: "about"
+
+---
+
 ### What is this anyway?
 
 This project grew out of the combination of intensive study of Japanese by the immersion method championed by [Cure Dolly](https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ) my android sensei and my continuing education as a web developer. 
