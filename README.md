@@ -8,4 +8,4 @@ The idea of this project was to aid in Japanese language immersion and reading p
 
 ### Recent changes
 
-I automated the process of adding file names to the `<audio>` tags by using javascript to add the src attribute to them which makes it much easier to produce a new episode. It's all written in markdown and then Rstudio uses pandoc behind the scenes to generate the html files and javascript fills out the appropriate details both adding a play button and pointing it to each audio file.
+I automated the process of adding file names to the `<audio>` tags by using javascript to add the src attribute to them which makes it much easier to produce a new episode. It's all written in markdown with a tiny bit of html thrown in and then Rstudio uses pandoc behind the scenes to generate the html files and javascript fills out the appropriate details both adding a play button and pointing it to each audio file. 
