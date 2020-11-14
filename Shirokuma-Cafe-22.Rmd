@@ -4,20 +4,20 @@ title: "パンダくんの夜遊び"
 
 <span id="episode-title" data-episode="22">パンダくんの夜遊び</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お疲れさまでした
 
 お疲れさま
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　閉店なんだけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん？
 
@@ -25,8 +25,8 @@ title: "パンダくんの夜遊び"
 
 もう　夜だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グリズリーくん
 
@@ -34,8 +34,8 @@ title: "パンダくんの夜遊び"
 
 いいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 遊びに行くの？
 
@@ -43,8 +43,8 @@ title: "パンダくんの夜遊び"
 
 ガキの行くところじゃねぇんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大人の夜遊びだ
 
@@ -52,8 +52,8 @@ title: "パンダくんの夜遊び"
 
 なんか　すごくおもしろそう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何でついてくるんだよ
 
@@ -61,15 +61,15 @@ title: "パンダくんの夜遊び"
 
 お前じゃねぇよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 コイツだよ
 
 どこ行くの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 というわけで　パンダくん
 
@@ -77,8 +77,8 @@ title: "パンダくんの夜遊び"
 
 残念
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何でそうなるんだ！
 
@@ -88,15 +88,15 @@ title: "パンダくんの夜遊び"
 
 行くに決まってんだろ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごい　ここ何？
 
 バッティングセンター
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 来たことねぇのか
@@ -105,30 +105,30 @@ title: "パンダくんの夜遊び"
 
 ぶら下がって遊ぶとこじゃねぇんだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 そうなの？
 
 ったく…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これ気持いいね
 
 だから　そうじゃねぇんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 結構　凝りがほぐれるね
 
 お前までやってんじゃねぇ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　ここで何して遊ぶの？
 
@@ -136,8 +136,8 @@ title: "パンダくんの夜遊び"
 
 こうやるんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ナイスキャッチ
 
@@ -145,8 +145,8 @@ title: "パンダくんの夜遊び"
 
 ピッチャーライナーだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何やってんだよ！！
 
@@ -154,15 +154,15 @@ title: "パンダくんの夜遊び"
 
 やらなくていいんだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大当たり！
 
 グリズリーさんやったね！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんかもうやる気なくなったぜ
 
@@ -170,27 +170,27 @@ title: "パンダくんの夜遊び"
 
 さあ　来い！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 バット　持ちすぎだろう！
 
 じゃあ　改めてお手本を
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 バット　使えよ！
 
 もう　いい… パンダ　とにかく　やってみろ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　バットを構えて よ～く球を見るんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　そうじゃなくてな…
 
@@ -202,15 +202,15 @@ title: "パンダくんの夜遊び"
 
 打てよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やっぱり？
 
 やっぱりじゃねぇ！ バットで当てろ！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ナイスショット
 
@@ -218,15 +218,15 @@ title: "パンダくんの夜遊び"
 
 ゴルフじゃねぇ！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 積み木じゃねぇ！
 
 ビリヤードじゃねぇ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああ　おもしろかった
 
@@ -236,8 +236,8 @@ title: "パンダくんの夜遊び"
 
 また　どこか行くの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 夜はこれからだからな
 
@@ -245,8 +245,8 @@ title: "パンダくんの夜遊び"
 
 次は　どこかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 風呂だ！
 
@@ -256,13 +256,13 @@ title: "パンダくんの夜遊び"
 
 すげぇだろう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 本当だ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごいよ！！
 
@@ -272,36 +272,36 @@ title: "パンダくんの夜遊び"
 
 まずはちゃんと体洗えよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 背中　流してあげようか？
 
 うん　頼むよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 背中　流してあげようか？
 
 おう　お前も ちったぁ気が利くじゃねぇか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やめろ 何か　こそばゆいぞ
 
 パンダくん もっと強くこするんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 イテーッ！！　ツメ　立てんな　ツメ！
 
 あっ　ごめん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 目に染みるよ
 
@@ -311,8 +311,8 @@ title: "パンダくんの夜遊び"
 
 誰？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ハア…　
 
@@ -326,15 +326,15 @@ title: "パンダくんの夜遊び"
 
 ごめんなさい…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 赤いほうを回すとお湯で
 
 青いほうが水だからな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかった
 
@@ -342,8 +342,8 @@ title: "パンダくんの夜遊び"
 
 ごめんなさい…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 アチーッ！！
 
@@ -353,15 +353,15 @@ title: "パンダくんの夜遊び"
 
 冷てぇ！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっと…　えっと…
 
 パンダ…　もういい　気持だけ　もらっとく
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいニオイになったね
 
@@ -369,8 +369,8 @@ title: "パンダくんの夜遊び"
 
 うん　すごく　おいしそうなニオイ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これ
 
@@ -380,8 +380,8 @@ title: "パンダくんの夜遊び"
 
 飲むんじゃねぇぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 というわけで　パンダくん お風呂に入れてみよう
 
@@ -389,8 +389,8 @@ title: "パンダくんの夜遊び"
 
 よくねぇ　やめろ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 わ～い！ わ～い　飛んだ飛んだ！
@@ -401,8 +401,8 @@ title: "パンダくんの夜遊び"
 
 こうだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やめろ！
 
@@ -412,8 +412,8 @@ title: "パンダくんの夜遊び"
 
 俺は　サウナが好きなんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　魚！
 
@@ -423,8 +423,8 @@ title: "パンダくんの夜遊び"
 
 サウナって何？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ふぅ～　なんかすごい汗出るよ
 
@@ -432,15 +432,15 @@ title: "パンダくんの夜遊び"
 
 蒸されてる感じ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これが体にいいんだよ！
 
 もう限界…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 情けねぇな
 
@@ -448,25 +448,25 @@ title: "パンダくんの夜遊び"
 
 辛抱が足りねぇな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日は　やけに 時間が長く感じるぜ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 俺も　もう限界…
 
 出よう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 テメエらの仕業か！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おもしろかった！
 
@@ -474,8 +474,8 @@ title: "パンダくんの夜遊び"
 
 小腹も空いたし 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと一杯やってくか
 
@@ -483,8 +483,8 @@ title: "パンダくんの夜遊び"
 
 えっ？　なになに？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 へい　らっしゃい！
 
@@ -492,22 +492,22 @@ title: "パンダくんの夜遊び"
 
 親父　とりあえず　生２つ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あとアイスコーヒーください
 
 カフェじゃねぇんだぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああ　おいしそう！
 
 串ごと食うなよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おいしい！
 
@@ -521,8 +521,8 @@ title: "パンダくんの夜遊び"
 
 人生はな 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 昼もあれば夜もある
 
@@ -530,8 +530,8 @@ title: "パンダくんの夜遊び"
 
 暗いときにも楽しいことはたくさんあるんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どっちもあるから いいんだよね
 
@@ -541,38 +541,38 @@ title: "パンダくんの夜遊び"
 
 パンダも白いとこと黒いとこ　両方あるからいいんだもんね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おお　そうだな！ そのとおりだ！
 
 だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グリズリーくん
 
 すっかり寝ちゃったね　パンダくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで俺がコイツをおぶって 帰んなきゃなんねぇんだよ
 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 楽しかった…
 
 楽しかったって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まっ　また連れてきてやっても いいかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 

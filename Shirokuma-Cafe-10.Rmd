@@ -4,15 +4,15 @@ title: "みんなのパフェ"
 
 <span id="episode-title" data-episode="10">みんなのパフェ</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
 シロクマくん？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの？　何か考え事？
 
@@ -20,15 +20,15 @@ title: "みんなのパフェ"
 
 おだんご？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで　信号って 赤　青　黄色の３色なのか考えてた
 
 そうなんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うよ　パンダくん
 
@@ -36,8 +36,8 @@ title: "みんなのパフェ"
 
 スペシャルメニュー？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 また　実技　落とされちゃったよ…
 
@@ -45,15 +45,15 @@ title: "みんなのパフェ"
 
 ああ　自動車教習所ね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大体　あの教官 細かすぎなんだよ！
 
 どう細かいんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いやね　キョロキョロしないで まっすぐ前を見ろ！　とか
 
@@ -61,8 +61,8 @@ title: "みんなのパフェ"
 
 ハンドルを握るときには 手を　パタパタさせるな！　とか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　ダメなんじゃないですか？
 
@@ -70,8 +70,8 @@ title: "みんなのパフェ"
 
 いつまでたってもペン子さんを　ドライブデートに誘えないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 デート？
 
@@ -85,8 +85,8 @@ title: "みんなのパフェ"
 
 デートだってば！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうやったら　彼女のハートを 射止めることができるんだろう？
 
@@ -94,8 +94,8 @@ title: "みんなのパフェ"
 
 シロクマくんなら　どうする？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 待つ
 
@@ -105,8 +105,8 @@ title: "みんなのパフェ"
 
 へえ～っ　なんか大人だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そう　これができないと 大人になれない
 
@@ -114,8 +114,8 @@ title: "みんなのパフェ"
 
 ひたすら　待って　待って　待って
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 出てきたところを…
 
@@ -123,8 +123,8 @@ title: "みんなのパフェ"
 
 シロクマくん　ちゃんと考えてよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん見てて思ったんだけど…
 
@@ -134,8 +134,8 @@ title: "みんなのパフェ"
 
 パフェですか　いいですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何それ？　デートと全然関係ないよね
 
@@ -145,15 +145,15 @@ title: "みんなのパフェ"
 
 なかなか決まらなくて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 スペシャルメニューでパフェ？
 
 僕　パフェ好き
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パフェはいいですけど
 
@@ -163,22 +163,22 @@ title: "みんなのパフェ"
 
 よし　決まり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パヘヘアーにしよう
 
 言えてないよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 イチゴパフェ　バナナパフェ　チョコパフェ
 
 間違いはないけど　フェアなのに 定番だけじゃつまらない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん　スペシャルなパフェか
 
@@ -189,8 +189,8 @@ title: "みんなのパフェ"
 
 をするんですよね？ 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 メニューは決まりましたか？
 
@@ -198,8 +198,8 @@ title: "みんなのパフェ"
 
 だったらマンドリルパフェは　どうですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それ　何？
 
@@ -207,13 +207,13 @@ title: "みんなのパフェ"
 
 それはもう　すごい迫力なんです！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パフェに迫力はいらないかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん　スペシャルなパフェね
 
@@ -221,8 +221,8 @@ title: "みんなのパフェ"
 
 ああ　ラマさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
@@ -234,8 +234,8 @@ title: "みんなのパフェ"
 
 ステキなパフェを思いついたんですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パフェなのに　とってもヘルシーなんです
 
@@ -245,8 +245,8 @@ title: "みんなのパフェ"
 
 草　大盛りパフェです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どんなパフェかというとですね
 
@@ -256,32 +256,32 @@ title: "みんなのパフェ"
 
 その上に水煮の草が のっていていてですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 更に　その上に覆いかぶさるように 産地直送の草がのるんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　それすでにパフェじゃないし どっちかっていうとサラダかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん　スペシャルなパフェ…
 
 シロクマさ～ん　ここです！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 待って～！
 
 は…　話があるから…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの？　ゾウガメさん
 
@@ -291,22 +291,22 @@ title: "みんなのパフェ"
 
 甲羅パフェは？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 甲羅パフェ？
 
 食べづらいかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん　スペシャルなパフェ…
 
 何が　いいかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シロクマさん！
 
@@ -316,8 +316,8 @@ title: "みんなのパフェ"
 
 すごいパフェを考えました
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どんなパフェ？
 
@@ -327,36 +327,36 @@ title: "みんなのパフェ"
 
 すごく　うごめいている！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　それは　いいかな
 
 だから　めちゃくちゃ　生き生きと うごめいている　黒ゴマ的トッピングの…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん　和のテイストもいいけど…
 
 どうしたの？　シロクマくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 早く　パフェフェアーのメニュー　考えないと みんなが暴走してるから
 
 暴走？(;ﾟДﾟ)!
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 スペシャルメニューだけに　みんな 結構　楽しみにしてるんだね
 
 はい　は～い！　僕に　いいアイディア
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
@@ -366,15 +366,15 @@ title: "みんなのパフェ"
 
 すごいでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 竹ゼリーに笹クリームをのせて 新鮮な笹とタケノコをトッピングした上に
 
 刻んだ竹が いっぱい　のっかってるの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごく緑色なパフェだね(-_-;)
 
@@ -382,8 +382,8 @@ title: "みんなのパフェ"
 
 そう？ こんなに　おいしそうなのに？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 刻んだ竹が口に刺さりそうだよ
 
@@ -391,13 +391,13 @@ title: "みんなのパフェ"
 
 任せておけないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 よし　ここは　僕のアイディアを…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 イワシパフェ
 
@@ -405,8 +405,8 @@ title: "みんなのパフェ"
 
 ダメ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　今からだと 旬なアジとかでも　いいと思うよ
 
@@ -416,25 +416,25 @@ title: "みんなのパフェ"
 
 オシャレなお刺身？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ！ こういうのは　どうでしょうか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダパフェ
 
 パンダの頭は　バニラアイスで 耳や顔は　チョコレートです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わぁ～！　パフェになっても パンダって　やっぱり　かわいいね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 クマクマパフェ
 
@@ -442,8 +442,8 @@ title: "みんなのパフェ"
 
 いいね！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 南極パフェ
 
@@ -457,28 +457,28 @@ title: "みんなのパフェ"
 
 えっ！？　いいんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 では… いただきます！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まずは　パンダさんから！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　ペンギンさんも！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　シロクマさんも！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 この鼻のとこ　食べちゃおうかな！
 
@@ -488,65 +488,41 @@ title: "みんなのパフェ"
 
 よかった！　大人気です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そ…　そうだね
 
 ちょっと　聞いてよ！ また　今日も落とされたよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
 
-すみません　お水ください
+
+ちょっと　聞いてよ！ また　今日も落とされたよ
+
+<audio></audio><hr>
+
 
 いつも以上に大繁盛じゃない どうしたの？
 
 新メニューのフェアが大人気らしいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　パフェフェアー？
 
 ワンプレートランチフェア
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パフェじゃないんだ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
 
-ペンギンさん　ペンギンさん
 
-どうしたの　パンダ君
 
-何も言わないで
-
-<audio>
-</audio><hr>
-
-預金通帳もらえるかな
-
-嫌だってこといいかな
-
-<audio>
-</audio><hr>
-
-白熊君　まとめて
-
-次回のしろくまカフェは
-
-ボルトがル語でお送りします
-
-日本語で行こう
-
-お楽しみに
-
-<audio>
-</audio><hr>
 
 
 

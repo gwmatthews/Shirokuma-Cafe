@@ -4,8 +4,8 @@ title: '雑誌取材がやってきた'
 
 <span id="episode-title" data-episode="15">雑誌取材がやってきた</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで　うまく いかないんだろう…
 
@@ -13,8 +13,8 @@ title: '雑誌取材がやってきた'
 
 あっ　あれ？ 縦列駐車？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うよ！
 
@@ -22,16 +22,16 @@ title: '雑誌取材がやってきた'
 
 まだ　ちゃんと　できてないけど… 違うってば！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 僕が言いたいのは　デートだよ 
 
 デートのお誘いだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 会って言えば いいんじゃないの？
 
@@ -39,22 +39,22 @@ title: '雑誌取材がやってきた'
 
 なんで？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう　いい… パンダくんに 相談するんじゃなかった
 
 シロクマさん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません 遅くなりました
 
 どなたですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 取材の人ですよ
 
@@ -64,8 +64,8 @@ title: '雑誌取材がやってきた'
 
 うん　知ってる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 『月刊　フラフラウォーカー』のライター 大崎と申します
 
@@ -75,22 +75,22 @@ title: '雑誌取材がやってきた'
 
 あの…　編集長が 先に来ているはずなんですが
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 編集長？　そういう方は まだ　お見えではないですね
 
 そうですか… どうしたんだろう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 実は こちらの　しろくまカフエを絶対　取り上げよう って言ったのは
 
 うちの編集長なんですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 知る人ぞ知る隠れ処カフェや
 
@@ -100,8 +100,8 @@ title: '雑誌取材がやってきた'
 
 聞いた？　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 雑誌の取材だって
 
@@ -111,8 +111,8 @@ title: '雑誌取材がやってきた'
 
 インタビュー？ 写真？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ファンレターとか届いたりして
 
@@ -120,15 +120,15 @@ title: '雑誌取材がやってきた'
 
 お客さんに　インタビューしたら雑誌に写真載るよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ！？　それは困るよ！
 
 僕写真写り自信ないんだよ　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああ…
 
@@ -138,8 +138,8 @@ title: '雑誌取材がやってきた'
 
 カフェを始めたいきさつなんかをお聞きしたいんですが
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いきさつ…
 
@@ -151,8 +151,8 @@ title: '雑誌取材がやってきた'
 
 それは　改札
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ…　えっと…　そのダジャレは…
 
@@ -160,8 +160,8 @@ title: '雑誌取材がやってきた'
 
 かぶせてきましたね編集長
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 マスターはダジャレが得意なナイスガイ…　と
 
@@ -169,15 +169,15 @@ title: '雑誌取材がやってきた'
 
 はい　うちの編集長 ハシビロコウさんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ですよね！ ホント今回大当たりです
 
 編集長が　本当に ここは　すばらしいカフェだと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ　そう
 
@@ -191,8 +191,8 @@ title: '雑誌取材がやってきた'
 
 話せば長くなるんだけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕はカナダのハドソン湾で生まれたの
 
@@ -202,15 +202,15 @@ title: '雑誌取材がやってきた'
 
 いつも僕だけ遅れてしまった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そして　ある吹雪の日
 
 僕はとうとう お母さんたちと はぐれてしまった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 吹雪がやむと…
 
@@ -218,8 +218,8 @@ title: '雑誌取材がやってきた'
 
 一生懸命呼んだけど 応えはない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そのうち気づいた
 
@@ -227,8 +227,8 @@ title: '雑誌取材がやってきた'
 
 僕はひとりぼっちで海の上を漂流していった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何日も　何日も…
 
@@ -236,13 +236,13 @@ title: '雑誌取材がやってきた'
 
 お腹が減って ついに動けなくなったとき
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕は通りがかった猟師の人に助けられたんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それから　僕は助けてくれた人の両親に預けられた
 
@@ -252,8 +252,8 @@ title: '雑誌取材がやってきた'
 
 僕は料理が好きになった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも　そんな生活も長くは続かなかったよ
 
@@ -261,8 +261,8 @@ title: '雑誌取材がやってきた'
 
 おじいさんと　おばあさんの家にいられなくなってしまったんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それで家を出て
 
@@ -272,8 +272,8 @@ title: '雑誌取材がやってきた'
 
 お母さんたちに会えるかもしれないから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なに！？
 
@@ -283,8 +283,8 @@ title: '雑誌取材がやってきた'
 
 シロクマくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大変だったんだね
 
@@ -292,8 +292,8 @@ title: '雑誌取材がやってきた'
 
 うん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今のところ
 
@@ -301,8 +301,8 @@ title: '雑誌取材がやってきた'
 
 カフェを始めたって 聞いたんですけど…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああ… そういうバージョンもあるね
 
@@ -310,8 +310,8 @@ title: '雑誌取材がやってきた'
 
 だから言ったのに
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ははぁ　真相は お好みってことですね
 
@@ -319,8 +319,8 @@ title: '雑誌取材がやってきた'
 
 じゃあ　次の質問ですが…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしました！？　編集長！
 
@@ -328,8 +328,8 @@ title: '雑誌取材がやってきた'
 
 このステキなアレンジメントはどなたが？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 近くの花屋さんに お願いしてるんです
 
@@ -339,8 +339,8 @@ title: '雑誌取材がやってきた'
 
 編集長！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 編集…
 
@@ -352,8 +352,8 @@ title: '雑誌取材がやってきた'
 
 さすが編集長！ どんなことも見逃しませんね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こだわりの食材
 
@@ -363,8 +363,8 @@ title: '雑誌取材がやってきた'
 
 洗練された外観
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなステキなしろくまカフェさんなんですが
 
@@ -372,8 +372,8 @@ title: '雑誌取材がやってきた'
 
 笹大盛りがオススメだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それ　料理じゃなくて素材だよね
 
@@ -385,8 +385,8 @@ title: '雑誌取材がやってきた'
 
 その他は？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ランチパスタが人気ですね
 
@@ -396,15 +396,15 @@ title: '雑誌取材がやってきた'
 
 せっかくだから 食べてもらったら　どうでしょう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうですか？　編集長
 
 パスタ　嫌いなのかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 意外とダイナミックだよね
 
@@ -412,8 +412,8 @@ title: '雑誌取材がやってきた'
 
 あぁ　そう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ！？ この間の雑誌もう出たの？
 
@@ -423,8 +423,8 @@ title: '雑誌取材がやってきた'
 
 あっ！　これだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 写ってない…
 
@@ -432,7 +432,7 @@ title: '雑誌取材がやってきた'
 
 ですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 

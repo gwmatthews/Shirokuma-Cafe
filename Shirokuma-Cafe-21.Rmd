@@ -4,8 +4,8 @@ title: "ペンギンさんの失恋"
 
 <span id="episode-title" data-episode="21">ペンギンさんの失恋</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
@@ -13,22 +13,22 @@ title: "ペンギンさんの失恋"
 
 新メニューのホットケーキ　味見してみて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹が入ってないよ
 
 普通入れないから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんか　しょっぱい
 
 シャケ入れてみた
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さんも食べてみてよ
 
@@ -36,15 +36,15 @@ title: "ペンギンさんの失恋"
 
 やっぱり　しょっぱいです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ？ ペンギンさんいつからいたの？
 
 ずっといるでしょ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちゃんと気づいてたよ
 
@@ -52,13 +52,13 @@ title: "ペンギンさんの失恋"
 
 話しかけてよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シャケ入りホットケーキ　食べる？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕は今食欲なんかないの
 
@@ -66,22 +66,22 @@ title: "ペンギンさんの失恋"
 
 見てわからない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかんないよ
 
 僕はね…　僕はね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 失恋したんだよ！
 
 失恋？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　七輪！
 
@@ -89,13 +89,13 @@ title: "ペンギンさんの失恋"
 
 それは　三輪車！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　僕は　失恋して ツッコむ気力もないの！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ツッコんでるじゃない
 
@@ -103,22 +103,22 @@ title: "ペンギンさんの失恋"
 
 決まってるじゃない！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ…　あの… なんて言ったらいいか…
 
 何も言わないで　ほっておいてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん駅前のベーグル屋さんおいしいらしいよ
 
 聞いてよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 聞いてほしいんですか？
 
@@ -126,8 +126,8 @@ title: "ペンギンさんの失恋"
 
 話せば楽になるぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 刑事さん　実は…
 
@@ -135,8 +135,8 @@ title: "ペンギンさんの失恋"
 
 で…　どうしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 見ちゃったんだよ
 
@@ -144,15 +144,15 @@ title: "ペンギンさんの失恋"
 
 ペン子さんがデートしてるところ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だ…　誰とですか？
 
 それがなんと驚いたことに…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 絶対に　ありえない相手で…
 
@@ -162,8 +162,8 @@ title: "ペンギンさんの失恋"
 
 まさかと思うくらいの…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいから　早く吐け
 
@@ -171,8 +171,8 @@ title: "ペンギンさんの失恋"
 
 さっき　公園で 目撃しちゃったんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さん！
 
@@ -180,8 +180,8 @@ title: "ペンギンさんの失恋"
 
 運命　感じちゃうな！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やぁ！　偶然ですねペン…
 
@@ -189,8 +189,8 @@ title: "ペンギンさんの失恋"
 
 じゃあ　行きましょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゾウガメさん？
 
@@ -200,20 +200,20 @@ title: "ペンギンさんの失恋"
 
 そう…　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんと待ち合わせて デートしてたんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ステキなカフェですね
 
 僕…　ここに 甲羅干しに来るんです～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ！
 
@@ -221,8 +221,8 @@ title: "ペンギンさんの失恋"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いい天気
 
@@ -232,20 +232,20 @@ title: "ペンギンさんの失恋"
 
 あ～んってしたり ボートに乗ってたんだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それ　どこで聞いてたの？
 
 そりゃ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんだか涙ぐましいね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも　それだけじゃ
 
@@ -253,15 +253,15 @@ title: "ペンギンさんの失恋"
 
 それが　決定的なことに…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 私…　大好きなんですよね
 
 カ　メ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんな～っ！
 
@@ -269,8 +269,8 @@ title: "ペンギンさんの失恋"
 
 カメのどこがいいんだろう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇどこがいいんだと思う？
 
@@ -278,22 +278,22 @@ title: "ペンギンさんの失恋"
 
 こ…　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 甲羅があるとこですかね？
 
 首とか手足が引っ込むところも キュートかも
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 千年生きるのはすごいよね
 
 ペ…　ペンギンにだって いいとこあるでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ないの！？
 
@@ -301,13 +301,13 @@ title: "ペンギンさんの失恋"
 
 僕はどうして ペンギンに生まれたんだろう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お母さん！　どうして　僕を カメに生んでくれなかったの！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　あのね
 
@@ -321,13 +321,13 @@ title: "ペンギンさんの失恋"
 
 い…　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今からでも遅くないですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 せっかく免許も取ったんだし…
 
@@ -337,8 +337,8 @@ title: "ペンギンさんの失恋"
 
 速い乗り物は 好きじゃないかもね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゆっくりじゃないとダメなのか～！
 
@@ -346,8 +346,8 @@ title: "ペンギンさんの失恋"
 
 もう　きっぱり ペン子さんのことは諦めよう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですね
 
@@ -355,8 +355,8 @@ title: "ペンギンさんの失恋"
 
 そうだよね　いつまでも 引きずってちゃダメだよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですよ
 
@@ -364,15 +364,15 @@ title: "ペンギンさんの失恋"
 
 どっちなの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも　ペン子さんには　ゾウガメさんが…
 
 ペンギンがゾウガメなんかに 負けてたまるか～っ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ　ゾウガメさん
 
@@ -380,8 +380,8 @@ title: "ペンギンさんの失恋"
 
 ライバル登場だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんの彼氏　来た
 
@@ -389,8 +389,8 @@ title: "ペンギンさんの失恋"
 
 これから決闘するの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 しないよ
 
@@ -402,15 +402,15 @@ title: "ペンギンさんの失恋"
 
 ちょっと黙っててよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 とにかく　ペン子さんと どういうおつきあいなのか
 
 はっきりさせないと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゾ…　ゾウガメ君！
 
@@ -420,29 +420,29 @@ title: "ペンギンさんの失恋"
 
 いい天気だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　はっきりさせるんじゃ なかったの？
 
 わかってるよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうかした～？
 
 あ…　いや…　あのさ！ この間さ　公園で…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごくおいしいマイワシを 食べたんだよね～
 
 おいしかった～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うでしょ？
 
@@ -450,20 +450,20 @@ title: "ペンギンさんの失恋"
 
 話には順序ってものが…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そういえば　あの公園でさ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 女の子のペンギンと 一緒にいたじゃない？
 
 あの公園　気持いいよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 で　ゾウガメさんとペン子さんは どういう関係？
 
@@ -471,8 +471,8 @@ title: "ペンギンさんの失恋"
 
 それで　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゾウガメさんは どうして一緒に？
 
@@ -482,8 +482,8 @@ title: "ペンギンさんの失恋"
 
 誘われて～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんに　誘われた！？
 
@@ -491,44 +491,44 @@ title: "ペンギンさんの失恋"
 
 カ…　メ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゾウガメさん　ペン子さんとお幸せに！ うわ～ん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ラ…
 
 ラ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや待てよ
 
 ペン子さんが そんなにカメ好きなら…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何やってるの　ペンギンさん
 
 どこから持ってきたんですか？ その甲羅
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かたい
 
@@ -536,8 +536,8 @@ title: "ペンギンさんの失恋"
 
 ああ　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんはね
 
@@ -545,23 +545,23 @@ title: "ペンギンさんの失恋"
 
 大好きなのは　カメラ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 最近　カメラが趣味らしいよ
 
 ゾウガメさんも同じ趣味みたいで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大好きなのはね　カメじゃなくてカメラだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 出直してきます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 

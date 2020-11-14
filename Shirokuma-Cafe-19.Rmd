@@ -4,15 +4,15 @@ title: "半田さんの合コン？"
 
 <span id="episode-title" data-episode="19">半田さんの合コン？</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみませんでした
 
 どうしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いつものって頼んだらさ
 
@@ -20,8 +20,8 @@ title: "半田さんの合コン？"
 
 僕　カフェで餃子頼んだことあった？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありませんでしたっけ？
 
@@ -31,8 +31,8 @@ title: "半田さんの合コン？"
 
 はい…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わざわざ　作ったの？
 
@@ -40,8 +40,8 @@ title: "半田さんの合コン？"
 
 笹子さん　偉い！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 褒めるところかな？
 
@@ -51,15 +51,15 @@ title: "半田さんの合コン？"
 
 喜ぶところかな！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ　いいや　いつものくれる？
 
 うん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何　これ
 
@@ -69,8 +69,8 @@ title: "半田さんの合コン？"
 
 ないね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 遊んでる？
 
@@ -80,8 +80,8 @@ title: "半田さんの合コン？"
 
 バイト　お疲れ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いつものちょうだい
 
@@ -91,43 +91,43 @@ title: "半田さんの合コン？"
 
 はい　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 竹大盛りとアイスコーヒーね
 
 ねぇねぇ　聞いてよ　今日ね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え～？　もう　こんな時間？
 
 まだ眠いよ もうちょっと寝よう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと待って！
 
 二度寝の話がしたいの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どっから話そうかなと思って
 
 もうちょっと　まとめてから 話してくれる？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ヒマじゃないんだから
 
 うん　わかった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 桐野君　おはよう
 
@@ -135,39 +135,39 @@ title: "半田さんの合コン？"
 
 って…　早くないよ　遅刻だよ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さんのお弁当だ 開けてみよう
 
 ダメだよ　パンダ君
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと開けるだけだよ
 
 ダーメ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ダメだからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 開けるだけだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんて　茶色いお弁当なんだろう
 
 おばあちゃんのお弁当みたいだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと待って！
 
@@ -175,41 +175,41 @@ title: "半田さんの合コン？"
 
 もう まだ　話してる途中なんだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 頼むよ！ ヒマじゃないって言ってるでしょ
 
 ヒマでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いつも　ここにいるじゃない
 
 ペンギンさんって ふだん　何してんの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 い…　いいから 早く本題に入ってよ
 
 わかったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ君　今日は午後から小学生の団体が来るから
 
 サービスしようね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい　いつもより多めに　ゴロゴロしま～す
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　常勤パンダさん
 
@@ -217,15 +217,15 @@ title: "半田さんの合コン？"
 
 今日　半田さんの お弁当見ちゃったんだけどね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 茶色くてさ　おばあちゃんの お弁当みたいだったよ
 
 おいしかったけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 食べちゃったの？
 
@@ -235,32 +235,32 @@ title: "半田さんの合コン？"
 
 うん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お弁当おいしかったけど 何ていうのかな…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 男が男のために 作ったお弁当というか
 
 まぁ　半田さんが 自分のために作った弁当だからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 というより　おばあちゃんが おばあちゃんのために作ったお弁当というか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ひと言でいうと　モテなさそう
 
 モテなさそうなお弁当なんだよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 見たかったな そのモテなさそうな弁当
 
@@ -268,20 +268,20 @@ title: "半田さんの合コン？"
 
 聞こえるように言ったんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　今度そのモテなさそうな弁当私にも見せてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと　失礼だな
 
 じゃあ　モテるの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 最近　女性と喋った？
 
@@ -289,20 +289,20 @@ title: "半田さんの合コン？"
 
 だから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 最近　女性と喋った？
 
 お母さん以外だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 動物以外だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ほらね
 
@@ -312,8 +312,8 @@ title: "半田さんの合コン？"
 
 僕が桐野くんに頼んでおいたから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え　何を
 
@@ -323,15 +323,15 @@ title: "半田さんの合コン？"
 
 何だ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 合コンですよ 半田さんがやりたいって　パンダくんが
 
 俺言ってないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなの行かないよ
 
@@ -339,8 +339,8 @@ title: "半田さんの合コン？"
 
 半田さんのために セッティングしたんですから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 相手は　ＯＬさんですよ
 
@@ -350,22 +350,22 @@ title: "半田さんの合コン？"
 
 帰って風呂の掃除しないと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは忙しいに入りませんよ
 
 行くよね　半田さん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 桐野くん　半田さんをよろしくお願いします
 
 もう　勝手に決めないで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 行きましょうよ　半田さん
 
@@ -373,34 +373,34 @@ title: "半田さんの合コン？"
 
 かわいくてもダメ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 桐野くんはね パンダくんに言われて
 
 半田さんのために やったこともない合コンをセッティングしたんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっとくらいは やったことありますけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん行こうよ！
 
 もういいよ　２人とも
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかりました　
 
 半田さんが どうしても嫌なら　断ります
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかった　行くよ
 
@@ -408,22 +408,22 @@ title: "半田さんの合コン？"
 
 よかった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 男性チームは　僕の友人が来て ３対３です
 
 じゃあ　今晩７時ですから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　ＯＬさんにお弁当見せちゃダメだよ
 
 見せないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お疲れ様
 
@@ -431,8 +431,8 @@ title: "半田さんの合コン？"
 
 シーッ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 声が大きいよ
 
@@ -440,15 +440,15 @@ title: "半田さんの合コン？"
 
 じゃあ　また明日
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これで 半田さんのお弁当も変わるな
 
 えっ　ウソ　ホントに？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうか　わかった
 
@@ -456,20 +456,20 @@ title: "半田さんの合コン？"
 
 どうしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日の合コンなんだけど 友達が来られなくなっちゃって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今からじゃ　メンバー見つからないよ
 
 桐野くん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大丈夫だよ
 
@@ -479,13 +479,13 @@ title: "半田さんの合コン？"
 
 うん　任せておいて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありがとう パンダくん　ありがとう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そういうわけなんだ
 
@@ -493,8 +493,8 @@ title: "半田さんの合コン？"
 
 要するに 合コンのメンバーが必要なんだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それでシロクマくんを誘おうと思うんだけど　どう思う？
 
@@ -502,8 +502,8 @@ title: "半田さんの合コン？"
 
 シロクマくん　今日　ヒマ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日　ヒマ？
 
@@ -511,20 +511,20 @@ title: "半田さんの合コン？"
 
 僕　結構　話　聞いてたのに
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　さっきから ヒマじゃない　ヒマじゃないって…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　まあ　そうだけど…
 
 やりくりすれば　合コンに行けないことも ないんじゃないかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ヒマじゃないんでしょ？
 
@@ -532,8 +532,8 @@ title: "半田さんの合コン？"
 
 じゃ　楽しんでくれば？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんにシロクマさん？
 
@@ -541,13 +541,13 @@ title: "半田さんの合コン？"
 
 今日の男性チームです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　頑張ろうね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　すみません 頑張りましょうね
 
@@ -555,6 +555,6 @@ title: "半田さんの合コン？"
 
 後半へつづく
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 

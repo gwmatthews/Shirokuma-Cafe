@@ -4,8 +4,8 @@ title: "サケハンター　グリズリーさん"
 
 <span id="episode-title" data-episode="16">サケハンター　グリズリーさん</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おはよう
 
@@ -13,8 +13,8 @@ title: "サケハンター　グリズリーさん"
 
 あれ！？　これ　なんの荷物？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お出かけの準備
 
@@ -22,15 +22,15 @@ title: "サケハンター　グリズリーさん"
 
 今日はお休み
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 せっかく　早起きできたからモーニング食べようと思ったのに
 
 ごめんね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どこ行くの？
 
@@ -38,8 +38,8 @@ title: "サケハンター　グリズリーさん"
 
 シロクマ！ 用意はできてんだろうな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 荷物はこれで全部か？
 
@@ -51,15 +51,15 @@ title: "サケハンター　グリズリーさん"
 
 シロクマくんとどこ行くの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　ちょっと食材をな
 
 料理の材料を発掘しに
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 発掘？ 楽しそう！
 
@@ -67,8 +67,8 @@ title: "サケハンター　グリズリーさん"
 
 遊びじゃねえんだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ　でも 遠足みたいなものかな
 
@@ -76,8 +76,8 @@ title: "サケハンター　グリズリーさん"
 
 笹はおやつに入る？ ごはんかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん…　難しいね
 
@@ -87,15 +87,15 @@ title: "サケハンター　グリズリーさん"
 
 セイウチかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何　ダラダラとくっちゃべってんだよ！
 
 行くぞ 早く乗れ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おい　シロクマ
 
@@ -109,8 +109,8 @@ title: "サケハンター　グリズリーさん"
 
 まぁ　いいじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　どこ行くの？
 
@@ -120,13 +120,13 @@ title: "サケハンター　グリズリーさん"
 
 海はかわいい女の子がいっぱいいるよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 川だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お前は店で出す分が欲しいんだろ？
 
@@ -136,8 +136,8 @@ title: "サケハンター　グリズリーさん"
 
 あっ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 魚！
 
@@ -147,8 +147,8 @@ title: "サケハンター　グリズリーさん"
 
 そうだ　サケだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんだよ？
 
@@ -158,8 +158,8 @@ title: "サケハンター　グリズリーさん"
 
 なんだ…　発掘じゃないじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 似たようなもんでしょ
 
@@ -169,8 +169,8 @@ title: "サケハンター　グリズリーさん"
 
 明日からのしろくまカフェのランチ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グリズリー君にかかってるんだから
 
@@ -180,8 +180,8 @@ title: "サケハンター　グリズリーさん"
 
 シッ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 オラァッ！
 
@@ -191,8 +191,8 @@ title: "サケハンター　グリズリーさん"
 
 まぁ　俺の手にかかりゃ こんなもんよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 さすが！
 
@@ -200,15 +200,15 @@ title: "サケハンター　グリズリーさん"
 
 ん？　このシチュエーション ガキの頃にもあったぞ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ？
 
 全然　獲れねえ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんだシロクマ！　テメエ！ 笑って見てんじゃねえ！
 
@@ -216,8 +216,8 @@ title: "サケハンター　グリズリーさん"
 
 笑ってるだろうが　口がよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 口の下が黒いだけだよ
 
@@ -227,8 +227,8 @@ title: "サケハンター　グリズリーさん"
 
 まぎらわしいヤツだな！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うおりゃ～っ！
 
@@ -242,8 +242,8 @@ title: "サケハンター　グリズリーさん"
 
 今じゃ　立派にサケが獲れるようになったんだぜ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何やってんだ
 
@@ -255,15 +255,15 @@ title: "サケハンター　グリズリーさん"
 
 ランチができてるってわけ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なかなか　いいでしょ
 
 腹にたまるもんを頼むぜ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ん？ サケがいねえ
 
@@ -271,13 +271,13 @@ title: "サケハンター　グリズリーさん"
 
 なかなか グリズリーさんみたいにはいかないね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 誰でもできそうに見えたのにな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいか　よく見てろ
 
@@ -287,8 +287,8 @@ title: "サケハンター　グリズリーさん"
 
 えっ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも疲れちゃったし お腹空いたし…
 
@@ -296,8 +296,8 @@ title: "サケハンター　グリズリーさん"
 
 同じクマとして　シロクマ！お前もコイツに何か言ってやれ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんは 竹と笹があれば満足だから
 
@@ -307,8 +307,8 @@ title: "サケハンター　グリズリーさん"
 
 クマは狩りだろ 狩ってこそのクマだろ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 タケノコだ！
 
@@ -318,8 +318,8 @@ title: "サケハンター　グリズリーさん"
 
 なるほどな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ　サケってタケノコ食べるの？
 
@@ -329,8 +329,8 @@ title: "サケハンター　グリズリーさん"
 
 パンダくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グリズリーくんが 狩りのお手本見せてくれるって
 
@@ -340,15 +340,15 @@ title: "サケハンター　グリズリーさん"
 
 まずは　標的を見つける
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 絶対に目を離さない
 
 獲物の動きを予測する
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうだ　やってみろ
 
@@ -356,8 +356,8 @@ title: "サケハンター　グリズリーさん"
 
 って食ってんじゃねえ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちゃんと泳いでるタケノコをとれ
 
@@ -367,8 +367,8 @@ title: "サケハンター　グリズリーさん"
 
 んなの知ってる！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 イライラしないで　グリズリーさん
 
@@ -376,8 +376,8 @@ title: "サケハンター　グリズリーさん"
 
 笹は健康にもいいんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お前も食わず嫌いしてないで
 
@@ -385,8 +385,8 @@ title: "サケハンター　グリズリーさん"
 
 うん　わかった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹どう？
 
@@ -396,8 +396,8 @@ title: "サケハンター　グリズリーさん"
 
 ん～　あんまり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいニオイ！
 
@@ -405,8 +405,8 @@ title: "サケハンター　グリズリーさん"
 
 おう　ありがてえ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おいしいね
 
@@ -416,8 +416,8 @@ title: "サケハンター　グリズリーさん"
 
 お前もな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おい　パンダ！　こっちだ
 
@@ -425,8 +425,8 @@ title: "サケハンター　グリズリーさん"
 
 おかげさまで大人気ですよ　ランチパスタ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これって…
 
@@ -436,15 +436,15 @@ title: "サケハンター　グリズリーさん"
 
 昨日のお礼ね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おい　パンダ　俺のタケノコお前にやる
 
 グリズリーさん　僕のサケあげるね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ　好き嫌いはダメですよ
 
@@ -456,5 +456,5 @@ title: "サケハンター　グリズリーさん"
 
 まぁ　いいじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+

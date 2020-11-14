@@ -4,8 +4,8 @@ title: "わくわくドライブレッスン"
 
 <span id="episode-title" data-episode="08">わくわくドライブレッスン</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はぁ～
 
@@ -13,29 +13,29 @@ title: "わくわくドライブレッスン"
 
 そんなんじゃないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんのことですよね
 
 違うよ　今 教習所に通ってて　それで…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 車の免許取るんだって
 
 どうして急に？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さんをドライブに誘いたいみたい
 
 どうして　それを？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ブログに書いてありましたよ
 
@@ -43,20 +43,20 @@ title: "わくわくドライブレッスン"
 
 僕は通うよ　教習所
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 人の日記勝手に読まないでよ！
 
 いや　ブログってそういうものだし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 読まれたくないなら 非公開にした方がいいですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 教習所　大変なんですか？
 
@@ -66,8 +66,8 @@ title: "わくわくドライブレッスン"
 
 まあね 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 教えてくれる教官は厳しいし
 
@@ -75,15 +75,15 @@ title: "わくわくドライブレッスン"
 
 最初は難しいよね　縦列駐車
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だよね
 
 縦列駐車？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 １０列駐車？
 
@@ -93,15 +93,15 @@ title: "わくわくドライブレッスン"
 
 １０列チュ～？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　明日１１時に集合ね
 
 もう　聞いてなかったの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 勉強に行くの
 
@@ -109,8 +109,8 @@ title: "わくわくドライブレッスン"
 
 シロクマさんに　ペンギンさんが運転の コツを教えてもらうんですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　どうせ暇でしょ？
 
@@ -118,8 +118,8 @@ title: "わくわくドライブレッスン"
 
 それって暇じゃないの？ 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まあいいや
 
@@ -129,15 +129,15 @@ title: "わくわくドライブレッスン"
 
 もう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ明日　カフェの前ね
 
 うん
  
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　まだかな？
 
@@ -145,8 +145,8 @@ title: "わくわくドライブレッスン"
 
 そのうち来るよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おはよう
 
@@ -154,15 +154,15 @@ title: "わくわくドライブレッスン"
 
 え？　何　その竹は？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ドライブに　おやつは必要だよ
 
 みんなの分も持ってきたからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　いらないから
 
@@ -170,8 +170,8 @@ title: "わくわくドライブレッスン"
 
 おやつ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　こたつ
 
@@ -181,8 +181,8 @@ title: "わくわくドライブレッスン"
 
 いいから出発しようよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ラマさんは？
 
@@ -190,8 +190,8 @@ title: "わくわくドライブレッスン"
 
 じゃあ　シロクマくん　頼むね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 後部座席って微妙だよね
 
@@ -201,8 +201,8 @@ title: "わくわくドライブレッスン"
 
 じゃあ　行くよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お～　さすが 発車からして上手だね和
 
@@ -212,8 +212,8 @@ title: "わくわくドライブレッスン"
 
 そうだね　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グッときたらピッとして ゴー！　
 
@@ -221,8 +221,8 @@ title: "わくわくドライブレッスン"
 
 抽象的だな　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 よくわかんないよ
 
@@ -234,8 +234,8 @@ title: "わくわくドライブレッスン"
 
 ますます　わかんないから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 で　どこに行く？
 
@@ -245,14 +245,14 @@ title: "わくわくドライブレッスン"
 
 その辺でいいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日は　シロクマくんの運転技術を 僕が勉強するドライブなんだからね
 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シロクマくん　免許はいつ取ったの？
 
@@ -260,8 +260,8 @@ title: "わくわくドライブレッスン"
 
 いや　そうじゃなくてさ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 終わりました
 
@@ -277,8 +277,8 @@ title: "わくわくドライブレッスン"
 
 おやつ中
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 バイバ～イ！
 
@@ -288,8 +288,8 @@ title: "わくわくドライブレッスン"
 
 あっ！　あそこ行こうよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ ご注文は　お決まりですか？
 
@@ -301,8 +301,8 @@ title: "わくわくドライブレッスン"
 
 また来ます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ ご注文は　お決まりですか？
 
@@ -314,8 +314,8 @@ title: "わくわくドライブレッスン"
 
 また来ます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ ご注文は　お決まりですか？
 
@@ -325,8 +325,8 @@ title: "わくわくドライブレッスン"
 
 あの　お客様！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ
 
@@ -342,8 +342,8 @@ title: "わくわくドライブレッスン"
 
 じゃあ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お決まりですか？
 
@@ -357,8 +357,8 @@ title: "わくわくドライブレッスン"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はぁ…
 
@@ -368,8 +368,8 @@ title: "わくわくドライブレッスン"
 
 ドライブスルーで遊ばないでください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どう？　ペンギンさん　コツは　つかめた？
 
@@ -379,8 +379,8 @@ title: "わくわくドライブレッスン"
 
 僕は　運転のコツを つかみたいんだけどな～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねえ　シロクマくん あれは　やらないの？
 
@@ -388,8 +388,8 @@ title: "わくわくドライブレッスン"
 
 ほら　わらしべ長者
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 縦列駐車のこと？
 
@@ -397,8 +397,8 @@ title: "わくわくドライブレッスン"
 
 全然　違うから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　よくわかったね
 
@@ -406,8 +406,8 @@ title: "わくわくドライブレッスン"
 
 ちゃんと運転のコツ教えてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん　わかった
 
@@ -415,8 +415,8 @@ title: "わくわくドライブレッスン"
 
 じゃあ　よく見ててね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん
 
@@ -424,8 +424,8 @@ title: "わくわくドライブレッスン"
 
 よく見て　バックね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 コツはね…
 
@@ -435,8 +435,8 @@ title: "わくわくドライブレッスン"
 
 真似できないから！　もう…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ 何？
 
@@ -444,15 +444,15 @@ title: "わくわくドライブレッスン"
 
 お～い！　笹子さ～ん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ　シロクマさん
 
 今日は皆さんでドライブですか？ どちらまで？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 当てのない旅です
 
@@ -460,8 +460,8 @@ title: "わくわくドライブレッスン"
 
 家に帰るところです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ…　そうだ
 
@@ -471,29 +471,29 @@ title: "わくわくドライブレッスン"
 
 この先に　おいしいお店があるって 聞いて　買いに行ったんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わぁ～　ありがとうO(∩_∩)O
 
 ちょうど　お腹が減ってたんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 食べてばっかりだね
 
 育ち盛りだもの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大丈夫です…　笹は別腹ですから
 
 パンダくん　夢のなかでも まだ食べてるみたいだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん？
 
@@ -501,15 +501,15 @@ title: "わくわくドライブレッスン"
 
 助手席で寝るなんて失礼なこと 僕は　しないよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさんって　黙ってると 寝てるか起きてるかわからないね
 
 起きてる！　ほんと　信じて！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　寝てても　かまわないけど
 
@@ -519,17 +519,20 @@ title: "わくわくドライブレッスン"
 
 免許取ったら　車買うの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え？　う～ん　どうしようかなぁ
 
 この車みたいなミニバンもいいよね～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああいうのも　かっこいいな～
+
+<audio></audio><hr>
+
 
 ペン子さん 君に見せたいものがあるんだ
 
@@ -537,8 +540,8 @@ title: "わくわくドライブレッスン"
 
 ほら　見てごらん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれは？
 
@@ -550,15 +553,15 @@ title: "わくわくドライブレッスン"
 
 すてき…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン子さん…　
 
 笹だらけ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ベーグル？
 
@@ -568,13 +571,13 @@ title: "わくわくドライブレッスン"
 
 ヨロレ　ヒヒ～！　ヨーデル？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん…　ツッコんでくれる 相手がいないとは　寂しいね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何なに？
 
@@ -582,8 +585,8 @@ title: "わくわくドライブレッスン"
 
 あれだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　ダンク
 
@@ -595,8 +598,8 @@ title: "わくわくドライブレッスン"
 
 いいね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何言ってるの？　よくないでしょ
 
@@ -604,8 +607,8 @@ title: "わくわくドライブレッスン"
 
 そうだなぁ 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 車屋さん呼べばいいのかなぁ
 
@@ -613,8 +616,8 @@ title: "わくわくドライブレッスン"
 
 こういうときはね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 引いて帰ればいいから
 
@@ -622,8 +625,8 @@ title: "わくわくドライブレッスン"
 
 コツは　バンパーにツメを引っ掛ける
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いろいろ 教えてもらえてよかったね
 
@@ -631,8 +634,8 @@ title: "わくわくドライブレッスン"
 
 まぁ　でも　おもしろいから 写真撮っておこう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　ペンギンさん　何か面白い話して
 
@@ -640,15 +643,15 @@ title: "わくわくドライブレッスン"
 
 絵に書いたようなむちゃぶりだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃ～今日からペンギンさんのこと　忠実な下部と考えていい
 
 ダメ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさんって　絵に書いたようにケチだね
 
@@ -662,8 +665,8 @@ title: "わくわくドライブレッスン"
 
 お楽しみに
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 

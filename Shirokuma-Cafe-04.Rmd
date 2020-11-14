@@ -5,25 +5,22 @@ title: "カフェのお花見"
 
 <span id="episode-title" data-episode="04">カフェのお花見</span>
 
-<audio>
-<source src="audio/04/001.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 誰にも言わないでよ
 
 はい
 
-<audio>
-<source src="audio/04/002.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 僕、好きなペンギンさんが居るんだ
 
 すみません、抹茶パフェください
 
-<audio>
-<source src="audio/04/003.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 それで
 
@@ -33,9 +30,8 @@ title: "カフェのお花見"
 
 ちょっと！聞く気ある？！
 
-<audio>
-<source src="audio/04/004.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
@@ -45,9 +41,8 @@ title: "カフェのお花見"
 
 いただきま～す
 
-<audio>
-<source src="audio/04/005.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 やろうか
 
@@ -55,9 +50,8 @@ title: "カフェのお花見"
 
 ん？お花見
 
-<audio>
-<source src="audio/04/006.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 すごいね、桜
 
@@ -65,17 +59,15 @@ title: "カフェのお花見"
 
 あそこにしよう
 
-<audio>
-<source src="audio/04/007.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 すごいね
 
 今年も綺麗に咲いたね
 
-<audio>
-<source src="audio/04/008.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 お摘みどうしよう
 
@@ -83,17 +75,15 @@ title: "カフェのお花見"
 
 桜は綺麗だなって話してるんだから
 
-<audio>
-<source src="audio/04/009.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 うん、お摘み持ってない？
 
 聞いてないな　まぁ、いいや
 
-<audio>
-<source src="audio/04/010.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 花弁って食べられますかね
 
@@ -101,33 +91,29 @@ title: "カフェのお花見"
 
 ラマさんは草が食べられるなら　食べられるんじゃない？
 
-<audio>
-<source src="audio/04/011.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ね～竹持ってない？
 
 持ってないよ
 
-<audio>
-<source src="audio/04/012.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 お弁当なら持って来たよ
 
 さすがしろくま君
 
-<audio>
-<source src="audio/04/013.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 僕買い出しいって来るね
 
 なまけもの君？
 
-<audio>
-<source src="audio/04/014.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 コンビニで
 
@@ -135,57 +121,50 @@ title: "カフェのお花見"
 
 いいよ、あるものだけで
 
-<audio>
-<source src="audio/04/015.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 すぐそこだから
 
 行ってくるね
 
-<audio>
-<source src="audio/04/016.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃね～
 
 いってらっしゃい
 
-<audio>
-<source src="audio/04/017.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 乾杯～
 
 最高だなぁ
 
-<audio>
-<source src="audio/04/018.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 こんなに綺麗なのに、すぐに散っちゃうんだから
 
 ホント　儚いよね
 
-<audio>
-<source src="audio/04/019.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 これ　試しに作って見たんだ
 
 あ～美味しそう　いただきます
 
-<audio>
-<source src="audio/04/020.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと、食べてばかないで
 
 もっとお花見らしいことしようよ
 
-<audio>
-<source src="audio/04/021.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 お花見らしいこと？
 
@@ -197,9 +176,8 @@ title: "カフェのお花見"
 
 同じく
 
-<audio>
-<source src="audio/04/022.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 踊るとか
 
@@ -215,17 +193,15 @@ title: "カフェのお花見"
 
 腹ダンス？
 
-<audio>
-<source src="audio/04/023.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん寝てる
 
 違うよ、ダジャレどうしようもなくて倒れちゃったんだよ
 
-<audio>
-<source src="audio/04/024.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ひどいなぁ、ペンギンさん
 
@@ -233,17 +209,15 @@ title: "カフェのお花見"
 
 お花見らしいこと、物真似とか
 
-<audio>
-<source src="audio/04/025.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 わ～～名倉さんの物真似でしょう
 
 食べてるだけなのに
 
-<audio>
-<source src="audio/04/026.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 物足りないね
 
@@ -253,17 +227,15 @@ title: "カフェのお花見"
 
 止めたほうがいいよ
 
-<audio>
-<source src="audio/04/027.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで止めるの？
 
 じゃパンダ君でいいよ
 
-<audio>
-<source src="audio/04/028.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ほら、僕を木の上に乗せて
 
@@ -271,23 +243,20 @@ title: "カフェのお花見"
 
 酔ってますね
 
-<audio>
-<source src="audio/04/029.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 飲み過ぎじゃない
 
-<audio>
-<source src="audio/04/030.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 すごいすごい
 
 お花見らしくなってきたよ、ペンギンさん
 
-<audio>
-<source src="audio/04/031.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 寝てる
 
@@ -297,9 +266,8 @@ title: "カフェのお花見"
 
 起きてるよ
 
-<audio>
-<source src="audio/04/032.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 最近の若いペンギンはなっちゃないんだよ
 
@@ -307,17 +275,15 @@ title: "カフェのお花見"
 
 そうでしょう
 
-<audio>
-<source src="audio/04/033.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 絡むね
 
 聞いてる、吉崎さん
 
-<audio>
-<source src="audio/04/034.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 誰それ
 
@@ -325,9 +291,8 @@ title: "カフェのお花見"
 
 誰かに殴られたよ？大丈夫？
 
-<audio>
-<source src="audio/04/035.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 面倒臭いな
 
@@ -335,9 +300,8 @@ title: "カフェのお花見"
 
 食べてるだけなのに
 
-<audio>
-<source src="audio/04/036.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 誰にも言わないでね
 
@@ -345,17 +309,15 @@ title: "カフェのお花見"
 
 好きなペンギンがいるんだよ
 
-<audio>
-<source src="audio/04/037.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 パン屋のバイトのペンコさんっていうんだけど
 
 ペンコさん！
 
-<audio>
-<source src="audio/04/038.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 僕パンダだよ
 
@@ -363,9 +325,8 @@ title: "カフェのお花見"
 
 お願いします
 
-<audio>
-<source src="audio/04/039.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 助けて！
 
@@ -373,9 +334,8 @@ title: "カフェのお花見"
 
 き、聞いてくれますか
 
-<audio>
-<source src="audio/04/040.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 何を
 
@@ -383,9 +343,8 @@ title: "カフェのお花見"
 
 どんな？
 
-<audio>
-<source src="audio/04/041.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 theペンコさん
 
@@ -401,9 +360,8 @@ the？
 
 僕？
 
-<audio>
-<source src="audio/04/042.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん、ちょっとペンコさんと散歩してきたら、
 
@@ -413,9 +371,8 @@ the？
 
 なんでまた僕？
 
-<audio>
-<source src="audio/04/043.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ほら、行こう
 
@@ -423,9 +380,8 @@ the？
 
 いろいろ違ってる気がするよ
 
-<audio>
-<source src="audio/04/044.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 いつまでもこうして歩いていたいなぁ
 
@@ -435,9 +391,8 @@ the？
 
 あれ！吉崎さん、いつの間に
 
-<audio>
-<source src="audio/04/045.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 吉崎さんって誰
 
@@ -445,15 +400,13 @@ the？
 
 ペンギンさん！
 
-<audio>
-<source src="audio/04/046.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 寝ている
 
-<audio>
-<source src="audio/04/047.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 お待たせ
 
@@ -461,15 +414,13 @@ the？
 
 誰もいない
 
-<audio>
-<source src="audio/04/048.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 夜桜も綺麗だよ
 
-<audio>
-<source src="audio/04/049.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 昨日はびっくりしたね
 
@@ -477,23 +428,20 @@ the？
 
 ペンギンさんって酒癖悪いね
 
-<audio>
-<source src="audio/04/050.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃい
 
 なんか頭が痛いよ
 
-<audio>
-<source src="audio/04/051.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ　それでペンコさんのパン屋さんで買ったの
 
-<audio>
-<source src="audio/04/052.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 え？なんで知ってるの
 
@@ -501,9 +449,8 @@ theペンコさん
 
 なんで僕のポエムを　なんで知ってるの
 
-<audio>
-<source src="audio/04/053.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンコさん　一生僕と同じ魚を食べてください
 
@@ -511,17 +458,15 @@ theペンコさん
 
 な　何でそれを！
 
-<audio>
-<source src="audio/04/054.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 覚えてないんですか
 
 誰にも話してないのに
 
-<audio>
-<source src="audio/04/055.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンコさんが笑う
 
@@ -531,7 +476,6 @@ theペンコさん
 
 やめて
 
-<audio>
-<source src="audio/04/056.mp3">
-</audio><hr>
+<audio></audio><hr>
+
 

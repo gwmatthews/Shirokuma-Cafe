@@ -4,33 +4,33 @@ title: "パンダくんの悩み"
 
 <span id="episode-title" data-episode="06">パンダくんの悩み</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 笹子さん　肉じゃがが好きな男って　どう思う？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え！？　今　答えなくていいですか？
 
 いいですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 つれないなぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねえ　僕　いまだに　自然体っていうのがわからないの
 
 自然体でいいです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いくら考えても　答えが出なくて
 
@@ -38,8 +38,8 @@ title: "パンダくんの悩み"
 
 寝てる！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねえ　半田さん
 
@@ -47,8 +47,8 @@ title: "パンダくんの悩み"
 
 言ったでしょ　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 「自然体でいいです」って
 
@@ -58,8 +58,8 @@ title: "パンダくんの悩み"
 
 えぇ～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんな感じだけど
 
@@ -67,8 +67,8 @@ title: "パンダくんの悩み"
 
 えぇ～～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 う～ん
 
@@ -76,8 +76,8 @@ title: "パンダくんの悩み"
 
 こんな表情？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 自然体かどうか　わかんないけど　かわいいね
 
@@ -89,27 +89,27 @@ title: "パンダくんの悩み"
 
 もう　かわいいのは　わかったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうなんだよね
 
 かわいい　かわいいって言われても　どうしていいか　わかんなくて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 いいなぁ　僕も　かわいいって　言われてみたいですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 ゴロゴロしてるだけなのになぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 楽しそうで　うらやましいよ
 
@@ -117,13 +117,13 @@ title: "パンダくんの悩み"
 
 僕さ　お腹で貝割るでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれって大変だよ　お腹痛くなる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お腹に石だよ　笹子さん　
 
@@ -131,8 +131,8 @@ title: "パンダくんの悩み"
 
 自分のお腹を石で叩いてみなよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 痛いでしょ？　
 
@@ -140,8 +140,8 @@ title: "パンダくんの悩み"
 
 お腹で割らなければいいのに
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれをやると　お客が　わくからさ
 
@@ -149,8 +149,8 @@ title: "パンダくんの悩み"
 
 出し物っていうか　習性だからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かわいいから　いいじゃないですか
 
@@ -158,8 +158,8 @@ title: "パンダくんの悩み"
 
 かわいいで言ったら　私も　かわいいんですけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 コアラさん？
 
@@ -167,15 +167,15 @@ title: "パンダくんの悩み"
 
 飽きました
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 １日それを　１キロくらい食べるんですから
 
 涙目にもなりますよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかる　わかるよ～
 
@@ -183,8 +183,8 @@ title: "パンダくんの悩み"
 
 アリクイって　やめて！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕だってね　アリばっかり　食べたくないよ！　飽きたよ。
 
@@ -194,8 +194,8 @@ title: "パンダくんの悩み"
 
 わかりません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 アリクイだからね
 
@@ -205,8 +205,8 @@ title: "パンダくんの悩み"
 
 いろんなもの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何食べたいの？
 
@@ -216,8 +216,8 @@ title: "パンダくんの悩み"
 
 いいんだよ　細かいところは
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 見てくれるだけ　いいじゃないですか
 
@@ -225,15 +225,15 @@ title: "パンダくんの悩み"
 
 僕なんて　みんな　ほぼ素通りですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いるの　気づいてます？
 
 そういえば…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 動物園に行ったとき…
 
@@ -241,15 +241,15 @@ title: "パンダくんの悩み"
 
 ほらね　ラマなんて　そんなものですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もっと　じっくり見たり
 
 行列つくって　感想とか言ってほしいです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わぁ～い　ラマさん！
 
@@ -257,8 +257,8 @@ title: "パンダくんの悩み"
 
 草　食べてるだけ？　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 地味だね
 
@@ -268,8 +268,8 @@ title: "パンダくんの悩み"
 
 どっちかというと　ラクダです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 コブは？　
 
@@ -281,8 +281,8 @@ title: "パンダくんの悩み"
 
 あと　まつ毛が長いです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 できるといいね　行列
 
@@ -290,34 +290,34 @@ title: "パンダくんの悩み"
 
 バクさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕なんて　夢を食べる動物って　言われがちだけど
 
 見た人に夢がないなんて　言われてさ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 夢を食べる動物って何？
 
 ハードル上げすぎなんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁまぁ…　ジュゴンさんよりは　いいよ
 
 人魚って　前振りされてるんだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ママ！　人魚さん　どこ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 見た人　みんな黙っちゃうよ
 
@@ -325,15 +325,15 @@ title: "パンダくんの悩み"
 
 私に聞かないでください…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　そうだね…
 
 ジュゴンさんに比べたら　僕は　まだ　マシかもね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕も…　
 
@@ -341,20 +341,20 @@ title: "パンダくんの悩み"
 
 動物園とは関係ないけど…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕って　一日中　木に　ぶら下がってるイメージあるけど…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 実際　どうなの？
 
 実際　そうだけど…　大変　腕　パンパン
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 一日中　木に　ぶら下がったことある？笹子さん
 
@@ -366,8 +366,8 @@ title: "パンダくんの悩み"
 
 もっと言って
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 みんな悩んでるんだな
 
@@ -375,15 +375,15 @@ title: "パンダくんの悩み"
 
 実は　好きなペンギンがいてさ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 誰にも　言わないでほしいんだけどね
 
 あぁ　やっぱり　いろいろと　皆さん悩みが尽きないんですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうだよね
 
@@ -393,8 +393,8 @@ title: "パンダくんの悩み"
 
 シロクマさんは　悩みはないの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あるよ　
 
@@ -402,15 +402,15 @@ title: "パンダくんの悩み"
 
 アイドルにならないかって　言われてるんだけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 アイドルと学業の両立がねぇ
 
 また嘘ばっかり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さんは？
 
@@ -424,20 +424,20 @@ title: "パンダくんの悩み"
 
 ん？　何？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 雛人形って　燃えるゴミなのか、燃えないゴミなのか　どっちなんだろうって
 
 いいかな？　それは　あとで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕なんてさ　パン屋に行くたびに思うよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いい？　誰にも言わないでよ
 
@@ -445,8 +445,8 @@ title: "パンダくんの悩み"
 
 どう思う？　パンダくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 フフフ…　
 
@@ -454,8 +454,8 @@ title: "パンダくんの悩み"
 
 寝てる！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えぇと…
 
@@ -463,8 +463,8 @@ title: "パンダくんの悩み"
 
 チャーシューの話のあとくらいじゃない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 前半ですね
 
@@ -472,8 +472,8 @@ title: "パンダくんの悩み"
 
 おかわり　お願いします　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん
 
@@ -485,8 +485,8 @@ title: "パンダくんの悩み"
 
 そうですね　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃい
 
@@ -494,22 +494,22 @@ title: "パンダくんの悩み"
 
 パンダくん　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なぁに？
 
 あれから　ずっと考えてたんだけどさ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんにとって　自然体っていうのはさ
 
 君が　いちばんリラックスできる場所
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ！
 
@@ -523,6 +523,6 @@ title: "パンダくんの悩み"
 
 肉まんでいいんじゃない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 

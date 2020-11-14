@@ -4,15 +4,15 @@ title: "パンダくんのダイエット"
 
 <span id="episode-title" data-episode="11">パンダくんのダイエット</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ　
 
 どうしたの？　元気ないね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　いつもの？
 
@@ -20,15 +20,15 @@ title: "パンダくんのダイエット"
 
 あぁ　いや…　普通盛りで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ！？　大盛りじゃないの？
 
 今日から　ダイエットするの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ダイエット？
 
@@ -38,36 +38,36 @@ title: "パンダくんのダイエット"
 
 それは　カルテット
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの？　急に
 
 実は　今日　動物園でさ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダさん！
 
 サービス　サービス
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え～っ！？　ケガしなくて　よかったね
 
 それで　ダイエット？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ　昔から　
 
 スマートな動物に 生まれたかったなって　思ってたんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 スタイル　気になるの？
 
@@ -75,15 +75,15 @@ title: "パンダくんのダイエット"
 
 生まれたときから おっさん体型なんだもん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうなりたいの？
 
 僕の理想はね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もっと　脚が長くて
 
@@ -91,8 +91,8 @@ title: "パンダくんのダイエット"
 
 顔も逆三角形なの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ドリームパンダ　ハハハハハ！
 
@@ -100,8 +100,8 @@ title: "パンダくんのダイエット"
 
 パンダくん 悪いヤツみたいになっちゃうね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいの 僕　ワルに憧れてるから
 
@@ -109,8 +109,8 @@ title: "パンダくんのダイエット"
 
 はい　普通盛りね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やっぱり　いつもので
 
@@ -120,8 +120,8 @@ title: "パンダくんのダイエット"
 
 明日からにするよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　起きなさい！
 
@@ -131,8 +131,8 @@ title: "パンダくんのダイエット"
 
 はい　パンダだんご
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらない
 
@@ -146,8 +146,8 @@ title: "パンダくんのダイエット"
 
 なんにもしてないな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 昨日は　すべり台を 壊しちゃったしさ…
 
@@ -157,8 +157,8 @@ title: "パンダくんのダイエット"
 
 パンダくんのせいじゃないから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それに　まだ若いのに おっさん体型だし…
 
@@ -166,15 +166,15 @@ title: "パンダくんのダイエット"
 
 そもそも パンダの名前の由来を知らないの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ　何？　かわいいとか？
 
 まぁ　いろんな説があるんだけどさ 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そのうちの一つは…
 
@@ -182,8 +182,8 @@ title: "パンダくんのダイエット"
 
 外国人が　中国を 探検していたときのこと…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 what's the name of that animal?
 
@@ -191,15 +191,15 @@ what's the name of that animal?
 
 ah~ they're called pandas
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こうして　中国語の 「太った」という意味のパンダが
 
 名前として 広まったという説があるんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　僕って…
 
@@ -209,15 +209,15 @@ ah~ they're called pandas
 
 なんか　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごくへこんできた…
 
 世の中には　知らないほうが 幸せなこともあるよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 バイトのせいだよ
 
@@ -225,8 +225,8 @@ ah~ they're called pandas
 
 おやつを食べて　お昼寝するしかないから 太っちゃったんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ヒマじゃないでしょう！
 
@@ -240,8 +240,8 @@ ah~ they're called pandas
 
 ねぇ　フィットネスゲーム持ってきていい？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ダメ！
 
@@ -253,8 +253,8 @@ ah~ they're called pandas
 
 ダメだってば！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はぁ～あ… なんか　きっかけさえあれば
 
@@ -268,15 +268,15 @@ ah~ they're called pandas
 
 じゃあ　ちゃんと頼むよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダさん　起きて～！
 
 パンダさん　かわいい！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 サービス　サービス！
 
@@ -290,8 +290,8 @@ ah~ they're called pandas
 
 メタボパンダさんだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 目指せ　ドリームパンダ！
 
@@ -299,8 +299,8 @@ ah~ they're called pandas
 
 パパンダー　パンパンパン　パパンダー
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ダイエット！
 
@@ -308,8 +308,8 @@ ah~ they're called pandas
 
 ダイエット…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダさ～ん！
 
@@ -319,8 +319,8 @@ ah~ they're called pandas
 
 ダイエット　ダイエット！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何だか　ドキドキするね
 
@@ -328,13 +328,13 @@ ah~ they're called pandas
 
 ここんとこ ずっと頑張ってたんだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 目標　とりあえず　１３０キロ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やった！
 
@@ -348,8 +348,8 @@ ah~ they're called pandas
 
 えっ　何？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 楽しく滑れるように 工夫してみたんだ
 
@@ -357,15 +357,15 @@ ah~ they're called pandas
 
 半田さん　ありがとう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 待ってたよ　一緒に初滑りしよう
 
 うん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ワーイ！
 
@@ -377,5 +377,5 @@ ah~ they're called pandas
 
 ハァー　作り直しかな…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+

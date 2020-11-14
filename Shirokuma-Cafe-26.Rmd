@@ -4,13 +4,13 @@ title: "パンダくんの願い"
 
 <span id="episode-title" data-episode="26">パンダくんの願い</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ほほう…　半田さんがね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで　はっきり言わないのかな？
 
@@ -18,15 +18,15 @@ title: "パンダくんの願い"
 
 そうなの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 雑誌なんかで知識は豊富そうだけど
 
 いざとなるとてんで勇気が出ないタイプだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　知ってる
 
@@ -34,15 +34,15 @@ title: "パンダくんの願い"
 
 ツッコみづらい間違え方しないでよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さんにアドバイスしたいんだけど 何かない？
 
 こっちに振るの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だって　常勤パンダさん経験豊富でしょ？　
 
@@ -50,8 +50,8 @@ title: "パンダくんの願い"
 
 勝手に　バツ２にしないでって 言ったでしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でもさ　
 
@@ -59,8 +59,8 @@ title: "パンダくんの願い"
 
 あぁ　それは確かにね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ここに来るお客さんは カップル多いもんね
 
@@ -68,8 +68,8 @@ title: "パンダくんの願い"
 
 初デートのカップルなんてういういしいよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 手を繋ぐことも できなかったりしてさ
 
@@ -79,8 +79,8 @@ title: "パンダくんの願い"
 
 こっちから見てても わかるっていうか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そう？
 
@@ -88,8 +88,8 @@ title: "パンダくんの願い"
 
 今ちょっと気まずい感じだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　本当だ
 
@@ -97,8 +97,8 @@ title: "パンダくんの願い"
 
 そこで　僕らを見つけると…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダだ
 
@@ -110,8 +110,8 @@ title: "パンダくんの願い"
 
 うん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねね　次はどこ行こっか
 
@@ -119,8 +119,8 @@ title: "パンダくんの願い"
 
 常勤パンダさん　すご～い
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうかな？
 
@@ -128,34 +128,34 @@ title: "パンダくんの願い"
 
 また　そんなキャラ付けする…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 アドバイス　お願いします！
 
 ガテン系の常勤パンダさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　ツッコミづらいって…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ　アドバイスとしては
 
 一歩前へ出るのが大事だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どすこ～い！
 
 全然　恋の予感がしないよ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 相撲して どうするの
 
@@ -165,8 +165,8 @@ title: "パンダくんの願い"
 
 なんにしても 恋は積極性が大事だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 説教くせぇか…
 
@@ -174,8 +174,8 @@ title: "パンダくんの願い"
 
 積極性だよ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お疲れさまでした
 
@@ -183,8 +183,8 @@ title: "パンダくんの願い"
 
 お疲れさま
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でさ…
 
@@ -194,8 +194,8 @@ title: "パンダくんの願い"
 
 えっ　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうなの？
 
@@ -203,20 +203,20 @@ title: "パンダくんの願い"
 
 い…　いや…　別に
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　やめとく？
 
 えっ！　せ…　せっかくだから 一応聞くよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも　こんなものを飾って
 
@@ -224,8 +224,8 @@ title: "パンダくんの願い"
 
 もう…　何悩んでるの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ほら！　恋は積極性が大事！
 
@@ -233,8 +233,8 @@ title: "パンダくんの願い"
 
 パンダくん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは～
 
@@ -246,8 +246,8 @@ title: "パンダくんの願い"
 
 おじゃまします
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいタイミングだね
 
@@ -257,22 +257,22 @@ title: "パンダくんの願い"
 
 これが　最後ね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕が作った飾りだ～
 
 じゃあ　一番上に
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今度は願いごとの短冊を つるしますよ～
 
 皆さ～ん　どうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何　書いたの？
 
@@ -280,8 +280,8 @@ title: "パンダくんの願い"
 
 Stop 地球温暖化
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 切実だからね
 
@@ -289,8 +289,8 @@ Stop 地球温暖化
 
 ペンこさんから告白されますように
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ずうずうしいね
 
@@ -301,8 +301,8 @@ Stop 地球温暖化
 どっちなの？
 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん お願い書いてきました？
 
@@ -312,15 +312,15 @@ Stop 地球温暖化
 
 いや　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 その…
 
 恋は　積極性が大事
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 書いてきました
 
@@ -328,8 +328,8 @@ Stop 地球温暖化
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　彼女いないんですか？
 
@@ -339,34 +339,34 @@ Stop 地球温暖化
 
 早くできるといいですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
 そろそろ締め切り
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　願いごとつるした？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう　忘れてたの？
 
 う～ん　どうしよう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっと　足が長くなりますように
 
 おこづかいアップ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 テレビ出たい…　
 
@@ -374,29 +374,29 @@ Stop 地球温暖化
 
 まだ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 飾るよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 きれい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 涼しいですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 七夕　晴れてよかったですね
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 

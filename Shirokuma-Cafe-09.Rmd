@@ -4,8 +4,8 @@ title: "パンダくん　張り切る"
 
 <span id="episode-title" data-episode="09">パンダくん　張り切る</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの？　パンダくん
 
@@ -15,8 +15,8 @@ title: "パンダくん　張り切る"
 
 親戚の結婚式で　しばらく 実家の中国に帰るんだって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんで　それで 元気ないの？
 
@@ -26,8 +26,8 @@ title: "パンダくん　張り切る"
 
 代わりにバイト　フルに 入ることになっちゃったんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 動物園のバイト？
 
@@ -37,8 +37,8 @@ title: "パンダくん　張り切る"
 
 １週間も　だよ～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 早起きできるかな…　しかも毎日
 
@@ -46,8 +46,8 @@ title: "パンダくん　張り切る"
 
 大変なのは早起きじゃなくて 満員電車じゃない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 満員電車？
 
@@ -55,15 +55,15 @@ title: "パンダくん　張り切る"
 
 満員電車だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕ら　コウテイペンギンは 慣れてるからいいけど…
 
 え？　ペンギンさんも電車　乗るの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うよ
 
@@ -71,15 +71,15 @@ title: "パンダくん　張り切る"
 
 もう　満員電車並みの混雑だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 みんな おしくらまんじゅう状態だもんね
 
 おしくらまんじゅう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 楽しそうだね
 
@@ -89,20 +89,20 @@ title: "パンダくん　張り切る"
 
 じゃあ…　ごちそうさま
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大丈夫かな…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ…　早く　早く
 
 急がないと 満員電車に乗れないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おはよう　パンダくん
 
@@ -110,8 +110,8 @@ title: "パンダくん　張り切る"
 
 バイト？　頑張ってね～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 行ってきま～す
 
@@ -121,37 +121,37 @@ title: "パンダくん　張り切る"
 
 お花　選んでいただけますか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おしくらまんじゅうだね～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ドアが閉まります ご注意ください　ドアが閉まります
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません パンダ専用車両はどこですか？
 
 ないと思います…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ど…　どこか… 空いてるところは…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 きついよ…
 
 この先　揺れますので ご注意ください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダく～ん
 
@@ -159,8 +159,8 @@ title: "パンダくん　張り切る"
 
 そこ　置いといて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 うん…
@@ -169,8 +169,8 @@ title: "パンダくん　張り切る"
 
 もう少し　お客さんにサービスしてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 もう　満員電車やだ…
@@ -179,21 +179,21 @@ title: "パンダくん　張り切る"
 
 やだって言ったって 仕方ないでしょう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 僕　もう少し遅く来るから 朝だけパンダ代わって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 代われって言われても　無理だし
 
 大丈夫　体型似てるから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いやいや…
 
@@ -201,8 +201,8 @@ title: "パンダくん　張り切る"
 
 ごはん　ここ置いとくからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 チェッ
 
@@ -210,8 +210,8 @@ title: "パンダくん　張り切る"
 
 食欲が出ないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん
 
@@ -219,8 +219,8 @@ title: "パンダくん　張り切る"
 
 花？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いつも見てます お仕事頑張ってね
 
@@ -228,8 +228,8 @@ title: "パンダくん　張り切る"
 
 僕のファン！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リンリンちゃん
 
@@ -239,32 +239,32 @@ title: "パンダくん　張り切る"
 
 すごいわね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リンリンちゃん
 
 いってきます！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もしかして　リンリンちゃん？
 
 もしもし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リンリンちゃん　僕　頑張るからね！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リンリンちゃんが 見ててくれるんだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 きっと…　あのなかに リンリンちゃんが…
 
@@ -272,8 +272,8 @@ title: "パンダくん　張り切る"
 
 でも　どうして？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お疲れ様
 
@@ -281,8 +281,8 @@ title: "パンダくん　張り切る"
 
 うん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お土産もらった
 
@@ -290,15 +290,15 @@ title: "パンダくん　張り切る"
 
 すごいじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大切な人が見ててくれるから
 
 それにしても なんかすごく疲れてない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんだか　あちこち ボロボロで汚れてるし
 
@@ -306,8 +306,8 @@ title: "パンダくん　張り切る"
 
 ゆっくり 休んだほうがいいと思うよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん あの子に こんな格好見せられないし
 
@@ -317,15 +317,15 @@ title: "パンダくん　張り切る"
 
 あ　忘れてるよ　天津甘栗チョコレート！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 昨日もステキ 今日も頑張ってね
 
 リンリンちゃん　１週間　僕頑張ったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 急がなくっちゃ
 
@@ -333,8 +333,8 @@ title: "パンダくん　張り切る"
 
 すれ違いになったら大変
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おはよう　パンダくん
 
@@ -342,8 +342,8 @@ title: "パンダくん　張り切る"
 
 今日から　通常勤務じゃないの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ？　ああ…　うん…
 
@@ -353,8 +353,8 @@ title: "パンダくん　張り切る"
 
 えっ？　ああ　リンリンちゃんのお花？ 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大切にしてるよ
 
@@ -364,8 +364,8 @@ title: "パンダくん　張り切る"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日は　リンリンちゃん　来てないの？
 
@@ -373,27 +373,27 @@ title: "パンダくん　張り切る"
 
 林厘太郎
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ　大好きなんだ
 
 あっ　パンダくんは その中でも別格だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リンリンズ　ベストショットは　これ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お気に入りだから 大きくしてみたんだ
 
 パンダくんにもあげるね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらない…
 
@@ -405,5 +405,5 @@ title: "パンダくん　張り切る"
 
 あっ　パンダくん！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+

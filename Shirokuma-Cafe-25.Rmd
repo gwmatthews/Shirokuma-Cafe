@@ -4,8 +4,8 @@ title: "七夕飾り"
 
 <span id="episode-title" data-episode="25">七夕飾り</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ？
 
@@ -13,8 +13,8 @@ title: "七夕飾り"
 
 ちょっと味見
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おいしい！
 
@@ -26,8 +26,8 @@ title: "七夕飾り"
 
 あっ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん
 
@@ -39,8 +39,8 @@ title: "七夕飾り"
 
 笹だらけのパーティーだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 七夕飾りに使うんだよ
 
@@ -48,8 +48,8 @@ title: "七夕飾り"
 
 七夕？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　棚ぼた
 
@@ -61,8 +61,8 @@ title: "七夕飾り"
 
 夏のお祭りだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 年に１回のね
 
@@ -72,22 +72,22 @@ title: "七夕飾り"
 
 違うの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それで神様が怒ってしまい
 
 彦星と引き離されたんだよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 で　七夕っていうのは
 
 その彦星と織姫の２人がね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 鬼姫？
 
@@ -95,13 +95,13 @@ title: "七夕飾り"
 
 つまりね　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 彦星と織姫と鬼姫の３人が揃うと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 夏の夜空に大三角が完成
 
@@ -111,15 +111,15 @@ title: "七夕飾り"
 
 それも違うよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でね　その彦星と織姫の２人が…
 
 って…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おいしい！
 
@@ -127,15 +127,15 @@ title: "七夕飾り"
 
 聞いてるよ　鬼の三角関係
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うってば　もう…
 
 七夕のこと教えてって言ったのパンダくんでしょう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それで　笹はいつ食べるの？
 
@@ -145,32 +145,32 @@ title: "七夕飾り"
 
 それから　願いごとを書いた短冊なんかもぶら下げるんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなに　いろいろつけたら食べるとき邪魔だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 聞いてないな あの笹は食べないんだって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それを先に言ってよ
 
 言ってるよ！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹を食べずに 短冊をぶら下げたら
 
 願いごとが叶うよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どんな願いごとでも？
 
@@ -178,36 +178,36 @@ title: "七夕飾り"
 
 大きい願いはダメなの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 中くらいなら大丈夫じゃない？
 
 何なの？　それ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　笹子さん
 
 それが願いごとを書く紙？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああ… これは飾りを作ってるんだよ
 
 おもしろそうだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんもやる？
 
 うん！　やる　やる！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
@@ -215,8 +215,8 @@ title: "七夕飾り"
 
 あっ…　どうも
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　動物園は今日はお休みなんですか？
 
@@ -228,13 +228,13 @@ title: "七夕飾り"
 
 いや　はい！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こ…　ここに来ると…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい？
 
@@ -244,15 +244,15 @@ title: "七夕飾り"
 
 そうなんですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ　じゃあ お邪魔しちゃ悪いですね
 
 ごゆっくり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　笹子さん　これ　どうやるの？
 
@@ -260,8 +260,8 @@ title: "七夕飾り"
 
 どうしたらこうなるか不思議だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ある意味　器用だね
 
@@ -269,8 +269,8 @@ title: "七夕飾り"
 
 いい？　ここはね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まずはこっちから折るんだよ
 
@@ -278,15 +278,15 @@ title: "七夕飾り"
 
 パンダくん　反対
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それを３枚におろして…
 
 できた！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何それ？
 
@@ -296,8 +296,8 @@ title: "七夕飾り"
 
 白黒模様ではあるね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい　笹子さん
 
@@ -305,15 +305,15 @@ title: "七夕飾り"
 
 次は　短冊を作るね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 願いごとを書くやつ？
 
 そうそう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これに願いごとを書いてね
 
@@ -321,8 +321,8 @@ title: "七夕飾り"
 
 笹につるすから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これに中くらいまでの願いごとを書くの？
 
@@ -330,22 +330,22 @@ title: "七夕飾り"
 
 えっ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんでもいいの？
 
 なんでもいいんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしようかな～！
 
 はい　ペンギンさんも　どうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 真剣だね
 
@@ -353,15 +353,15 @@ title: "七夕飾り"
 
 ペン子さんへの気持は なんでもよくないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 １枚じゃ足りないな
 
 笹子さん　１０枚ちょうだい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ずるい
 
@@ -369,8 +369,8 @@ title: "七夕飾り"
 
 １人１枚です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうぞ
 
@@ -378,13 +378,13 @@ title: "七夕飾り"
 
 半田さんも　はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 短冊です　七夕の
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありがとうございます
 
@@ -394,8 +394,8 @@ title: "七夕飾り"
 
 それじゃ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お願い　何書こう
 
@@ -403,13 +403,13 @@ title: "七夕飾り"
 
 どうかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんいつもいっぱい食べてるじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさんは　何書いたの？
 
@@ -417,39 +417,39 @@ title: "七夕飾り"
 
 １枚しかないから迷っちゃうね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 みんな何書いてるんだろう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お嫁さんが欲しい
 
 いや　そもそもその前に彼女だよな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません
 
 は～い！ちょっと　お待ちくださ～い！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さん　かわいいな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません なんでもないです　はい
 
 パンダくん　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 聞いた？
 
@@ -459,8 +459,8 @@ title: "七夕飾り"
 
 こ…　このカフェ　コーヒーおいしいし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん 動物園で会えるのに
 
@@ -468,22 +468,22 @@ title: "七夕飾り"
 
 もう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かわいいからね　僕
 
 違うでしょ！ かわいいのは笹子さん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さん！
 
 あのね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ダメ！！
 
@@ -491,22 +491,22 @@ title: "七夕飾り"
 
 まだ　そんな 関係じゃないから！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうなの！
 
 わかった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　笹子さん
 
 動物の世話好きな男性とかどう思う？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あと　パンダみたいな体型の男の人…
 
@@ -518,11 +518,11 @@ title: "七夕飾り"
 
 何やってんの？　あれ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 さぁね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 

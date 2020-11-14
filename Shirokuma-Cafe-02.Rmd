@@ -4,22 +4,22 @@ title: "パンダ君の就職 "
 
 <span id="episode-title" data-episode="02">パンダ君の就職</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい、しろくまカフェです
 
 あ　こんにちは　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 先日面接にいった、パンダですよ
 
 ああ　不合格の～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 出前を お願いしたいんです
 
@@ -29,14 +29,14 @@ title: "パンダ君の就職 "
 
 今忙しいし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 どうすれば出前してくれるの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと
 
@@ -44,13 +44,13 @@ title: "パンダ君の就職 "
 
 またゴロゴロして
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今仕事探してたの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねえねえ　家近いんだから、出前してよ
 
@@ -58,22 +58,22 @@ title: "パンダ君の就職 "
 
 あああ～～～～　吸わないで～～～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ
 
 こんにちは
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何しますか？
 
 ペンギンさん、何にする？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうだね
 
@@ -85,20 +85,20 @@ title: "パンダ君の就職 "
 
 えっ？！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いつものやつって  言われたんですけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 任せて
 
 カレーライスです。。。。
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違ったみたいですよ
 
@@ -106,8 +106,8 @@ title: "パンダ君の就職 "
 
 ちょっと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あの、竹か笹はないんですか
 
@@ -115,13 +115,13 @@ title: "パンダ君の就職 "
 
 じゃ～アイスコーヒー
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ、君バイト探してたよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんなのあるよ
 
@@ -131,13 +131,13 @@ title: "パンダ君の就職 "
 
 どう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 嫌だよ、僕泳げないし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こっちのがいいじやない？
 
@@ -145,8 +145,8 @@ title: "パンダ君の就職 "
 
 呼び相談におします
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 先ずはお電話ください　フリアイ動物園
 
@@ -154,13 +154,13 @@ title: "パンダ君の就職 "
 
 しろくまさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 動物園か　面白そう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 えっと  週二日の勤務希望ですか？
@@ -169,15 +169,15 @@ title: "パンダ君の就職 "
 
 では、パンダの仕事はどうでしょう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 常勤パンダさんが一頭いるですが
 
 非常勤でもう一頭募集してるんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 パンダって　あのパンダですよね
@@ -186,16 +186,16 @@ title: "パンダ君の就職 "
 
 でしたら　月の輪熊とゴリラも募集していますよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 パンダでいいです
 
 そうですか、では、来週から来てください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 僕、バイト決まったよ
@@ -206,8 +206,8 @@ title: "パンダ君の就職 "
 
 違うよ　動物園～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 動物園のバイトって、何やるんですか
@@ -216,22 +216,22 @@ title: "パンダ君の就職 "
 
 なんで照れてんの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 いよいよ今日からバイトか　ドキドキしちゃうなぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 改めまして、半田と申します
 
 今日は幼稚園から園児たちが来ます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 少しサービスしてあげてください
@@ -240,16 +240,16 @@ title: "パンダ君の就職 "
 
 サービスですね　分かりました
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 それ以外の時間はどんな感じで？
 
 自然態でいいです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ね　しろくま君
 
@@ -259,15 +259,15 @@ title: "パンダ君の就職 "
 
 引っ張るねぇ～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ、カフェモカちょうだい
 
 って、それは  影武者、いいから、そういうの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え　一週七日も
 
@@ -275,8 +275,8 @@ title: "パンダ君の就職 "
 
 あたしは常勤パンダですからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも月に二日くらいは休みますよ
 
@@ -284,8 +284,8 @@ title: "パンダ君の就職 "
 
 ハハハハ　まぁ　今日からよろしくお願いします
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい～！
 
@@ -297,13 +297,13 @@ title: "パンダ君の就職 "
 
 自然態でって言われたんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんな感じでしょうか？自然と一体的な？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 多分違うと思う　というか　すごく不自然
 
@@ -311,8 +311,8 @@ title: "パンダ君の就職 "
 
 あ～～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダさん～～～
 
@@ -324,8 +324,8 @@ title: "パンダ君の就職 "
 
 はい！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 
@@ -341,8 +341,8 @@ title: "パンダ君の就職 "
 
 そうね～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これでサービスになってるんですか？
 
@@ -352,8 +352,8 @@ title: "パンダ君の就職 "
 
 は、はい！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 サービス～サービス～～
 
@@ -371,27 +371,27 @@ title: "パンダ君の就職 "
 
 サービス～サー～ビス～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 は！爆睡してた！
 
 なんで起こしてくれないんですか、常勤パンダさん、え！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 閉園の時間になりました　またのご来園をお待ちしております
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お疲れ様でした
 
 お先です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ～　パンダ君
 
@@ -401,29 +401,29 @@ title: "パンダ君の就職 "
 
 僕たちも動物園でバイトしてるんですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ君　こっちこっち
 
 今日は園児が可愛かったね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕　張り切り過ぎでて  途中で  ばてちゃった
 
 わかります　わかります
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日は一日真面目に働いたなぁ
 
 そうですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すごいやりきった顔だけど　パンダ君途中からずっと寝てたらしいよ
 
@@ -431,8 +431,8 @@ title: "パンダ君の就職 "
 
 パンダ君って　割りと図々しいよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ君　一先何か頼みませんか？
 
@@ -442,8 +442,8 @@ title: "パンダ君の就職 "
 
 竹！大盛りで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 しろくま君　それは　守宮！
 
@@ -453,15 +453,15 @@ title: "パンダ君の就職 "
 
 笹子さんが突っ込みを！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　ハモリ
 
 ね～　早く頂戴～
 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 

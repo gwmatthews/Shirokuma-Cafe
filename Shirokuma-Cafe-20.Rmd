@@ -4,28 +4,28 @@ title: "半田さんの合コン！"
 
 <span id="episode-title" data-episode="20">半田さんの合コン！</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 前半からつづく
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ご注文　お決まりですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シロクマ！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そ…　それじゃ 自己紹介から始めましょうか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕からいきますね
 
@@ -33,8 +33,8 @@ title: "半田さんの合コン！"
 
 動物園の飼育員をやっています
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃ　次は先輩
 
@@ -42,8 +42,8 @@ title: "半田さんの合コン！"
 
 本日は　このように 晴れがましい合コンに　お…　お招きいただき
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 誠にありがとうございます
 
@@ -51,8 +51,8 @@ title: "半田さんの合コン！"
 
 以後　よろしく お見知りおきください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 先輩　かたい…
 
@@ -60,20 +60,20 @@ title: "半田さんの合コン！"
 
 けど　初対面だから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大丈夫です
 
 合コンって　そういう感じのものじゃないんで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 続きまして 私と同じ職場に勤める
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくんを紹介します！
 
@@ -81,8 +81,8 @@ title: "半田さんの合コン！"
 
 すみません パンダ　連れてきちゃって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダで～す
 
@@ -92,8 +92,8 @@ title: "半田さんの合コン！"
 
 では　続いて…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シロクマです ふだんは　カフェやってます
 
@@ -101,8 +101,8 @@ title: "半田さんの合コン！"
 
 カフェですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 行ってみたい！
 
@@ -110,15 +110,15 @@ title: "半田さんの合コン！"
 
 しろくまカフェ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そのまんまなんですね
 
 あの　もしかして 雑誌とかに載ってないですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 時々
 
@@ -128,15 +128,15 @@ title: "半田さんの合コン！"
 
 もちろん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こっちも大好評だな…
 
 趣味は　アザラシの捕獲
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何ですか？それ
 
@@ -144,8 +144,8 @@ title: "半田さんの合コン！"
 
 やめたほうがいいよ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　女子 いきますね　
 
@@ -153,8 +153,8 @@ title: "半田さんの合コン！"
 
 先輩　ヒロミちゃん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 リカです
 
@@ -164,15 +164,15 @@ title: "半田さんの合コン！"
 
 ミズキちゃん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わかってるよ　大丈夫 聞こえるから
 
 ご注文　どうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 とりあえず　生
 
@@ -182,8 +182,8 @@ title: "半田さんの合コン！"
 
 竹？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと 置いてないんですが…
 
@@ -191,15 +191,15 @@ title: "半田さんの合コン！"
 
 笹も　ないんですが…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ　みんな　どうしてるの？
 
 ビール　飲んだり…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 枝豆　食べたり…
 
@@ -207,8 +207,8 @@ title: "半田さんの合コン！"
 
 とりあえず　アザラシ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ないです
 
@@ -218,29 +218,29 @@ title: "半田さんの合コン！"
 
 とりあえず　生６つと ジュース１つでいいです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕　竹がいいよ
 
 そうよね　パンダっていったら やっぱり竹よね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 食べてるとこ　見てみたい
 
 かわいいかも！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや～ん！ 竹　食べて！
 
 何なんだ？　この合コン…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　僕はね　合コンに行きたいって言ってるわけじゃないんだよ
 
@@ -248,22 +248,22 @@ title: "半田さんの合コン！"
 
 ただね　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕がずっとパンダくんの話を聞いていたわけだからさ
 
 誘うなら　僕を誘うでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕にはペン子さんとい ペンギンがいるわけだから
 
 別に行きたくはないんだけど 社会勉強というか…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 行きたいんですか？
 
@@ -271,8 +271,8 @@ title: "半田さんの合コン！"
 
 笹子さんも　笹子さんでしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 誘うなら　シロクマさんじゃなくてペンギンさんですよってひと言…
 
@@ -280,8 +280,8 @@ title: "半田さんの合コン！"
 
 行きたいんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 行きたいよ
 
@@ -289,8 +289,8 @@ title: "半田さんの合コン！"
 
 笹子さん カフェモカおかわり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
@@ -298,36 +298,36 @@ title: "半田さんの合コン！"
 
 そうなんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうそう　動物園にカピバラいますか？
 
 今　流行ってますよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 カピバラはネズミだってホントですか？
 
 じゃあ　動物園にはカピバラの温泉とか あるんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 先輩　声に出して しゃべってください
 
 っていうか　さっきから何も　しゃべって ないじゃないですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 俺そろそろ…
 
 何か用事あるんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　風呂の掃除があるから
 
@@ -339,43 +339,43 @@ title: "半田さんの合コン！"
 
 どうかしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 い…　いや大丈夫
 
 先輩　ちょっと酔っちゃって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 掃除がどうかしたんですか？
 
 ソ…　ソーセージ注文しようかって 先輩が
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねっ　先輩　僕注文しますね
 
 ソーセージ盛り合わせ２つ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お刺身　盛り合わせも
 
 シロクマさん　すみません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ？　パンダくんは？
 
 お待ちどおさま！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 待ってないよ！
 
@@ -383,8 +383,8 @@ title: "半田さんの合コン！"
 
 だって　ここ　何もないんだもん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あるでしょ　いろいろ！
 
@@ -392,8 +392,8 @@ title: "半田さんの合コン！"
 
 いただきま～す
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かわいい！
 
@@ -403,8 +403,8 @@ title: "半田さんの合コン！"
 
 写メ　撮っていいですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 持ち込みはダメだって書いてあるよ
 
@@ -412,13 +412,13 @@ title: "半田さんの合コン！"
 
 お待ちどおさまで…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません　持ち込みはダメだって 言ったんですけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 か…かわいい！
 
@@ -428,13 +428,13 @@ title: "半田さんの合コン！"
 
 いいです　いいです！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さんは何の動物の飼育を しているんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パ…　パンダとか
 
@@ -442,8 +442,8 @@ title: "半田さんの合コン！"
 
 え…　えぇ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かわいい！
 
@@ -451,20 +451,20 @@ title: "半田さんの合コン！"
 
 パンダの話 
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いろいろ　聞かせてください！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 昼寝しているところ
 
 キャーッ！　かわいい！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 遊んでいるところ
 
@@ -476,8 +476,8 @@ title: "半田さんの合コン！"
 
 よく　見分けがつきますね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 一応　プロだから
 
@@ -485,20 +485,20 @@ title: "半田さんの合コン！"
 
 もっと聞かせてください！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダは腸が短くて　竹からだと あまり栄養がとれないんです
 
 だから量で補うために１日中竹を食べているんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 腸が短いんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 かわいい！
 
@@ -506,8 +506,8 @@ title: "半田さんの合コン！"
 
 半田さん　もっと教えてあげて 僕のかわいいとこ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 竹しか食べてないから
 
@@ -515,8 +515,8 @@ title: "半田さんの合コン！"
 
 ちょっと レモンのにおいに似ているんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ…　これ　これ
 
@@ -524,29 +524,29 @@ title: "半田さんの合コン！"
 
 どうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 先輩！　その情報は いらないんじゃないですか？
 
 もう！　もっと かわいいエピソードにしてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ！？　そう？
 
 あっ！　パンダって 垂れ目でかわいい感じでしょ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれって　実際の目は 小さくて　鋭いんですよ
 
 それも　いらないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうなの？
 
@@ -554,22 +554,22 @@ title: "半田さんの合コン！"
 
 もう！　半田さん！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　カフェモカ　おかわり お待たせしました
 
 あれ？　いない…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今度　パンダコーナー 遊びにいってもいいですか？
 
 もちろんです　見にきてください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 常勤パンダさんも紹介しますよ
 
@@ -577,8 +577,8 @@ title: "半田さんの合コン！"
 
 週２のバイトなんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 へぇ～　アルバイトなんだ？
 
@@ -590,15 +590,15 @@ title: "半田さんの合コン！"
 
 ねっ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ！
 
 どうしたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 な…　何？
 
@@ -608,15 +608,15 @@ title: "半田さんの合コン！"
 
 何しにきたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 忙しいんじゃなかったの？ ペンギンさん
 
 いや　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは…
 
@@ -624,8 +624,8 @@ title: "半田さんの合コン！"
 
 えっ！？　そこも？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 マ·マ·マハロ
 
@@ -635,8 +635,8 @@ title: "半田さんの合コン！"
 
 しようがないな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 「ぐぅ」？
 
@@ -644,8 +644,8 @@ title: "半田さんの合コン！"
 
 パンダくん　起きて！　パンダくん！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 って…　先輩まで！
 
@@ -653,13 +653,13 @@ title: "半田さんの合コン！"
 
 ねぇ　なんか似てない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 このカフェにたどり着いた ラッキーボーイズ　アンド　ガールズ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日は　ありがとうございました
 
@@ -667,15 +667,15 @@ title: "半田さんの合コン！"
 
 また　パンダの話聞かせてください
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えぇ　動物園に遊びにきてください
 
 はい じゃあ　おやすみなさい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それじゃ　俺も 風呂の掃除あるから　帰るわ
 
@@ -683,15 +683,15 @@ title: "半田さんの合コン！"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さんらしいや
 
 うちで　コーヒーでも飲んでく？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい　シロクマさん
 
@@ -703,8 +703,8 @@ title: "半田さんの合コン！"
 
 おしまい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 

@@ -4,22 +4,22 @@ title: "真夏の雑草取り"
 
 <span id="episode-title" data-episode="29">真夏の雑草取り</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やっと着いた
 
 近道しようとしたら　雑草がすごくて迷ちゃったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうなの　迷ちゃうお客さんもいるみたい
 
 隣なのに家から20分かかちゃったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 雑草すごいね
 
@@ -27,20 +27,20 @@ title: "真夏の雑草取り"
 
 よし　やろう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
 
-よいしょ(」・ω・)」
+
+よいしょ
 
 何してるの　白熊君
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 テラスで風を感じながら キンキンに冷したミントティーを飲んでる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうじゃなくて
 
@@ -48,8 +48,8 @@ title: "真夏の雑草取り"
 
 君がテラスをすすんでるの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕は普通寒いところにいるでしょう
 
@@ -57,8 +57,8 @@ title: "真夏の雑草取り"
 
 真夏に雑草取りをするペンギンなんて どこの世界にいるの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ごちそうさまでした
 
@@ -66,8 +66,8 @@ title: "真夏の雑草取り"
 
 らまさん　どこ行くの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう食べられないんで　失礼しようかなって
 
@@ -75,8 +75,8 @@ title: "真夏の雑草取り"
 
 僕たちの雑草取り始まったばかりでしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 けど　もうお腹いっぱいですよ
 
@@ -84,22 +84,22 @@ title: "真夏の雑草取り"
 
 もうちょっと頑張ろうよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕　もうお腹はじけちゃいますよ
 
 そうじゃなくて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 食べる以外の方法で雑草を取れないのかな
 
 そうでしたか　ちょっと考えてみます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 寝てる
 
@@ -109,8 +109,8 @@ title: "真夏の雑草取り"
 
 ミントティー　どう？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ　いただきます
 
@@ -118,15 +118,15 @@ title: "真夏の雑草取り"
 
 頑張りたいんだけど　僕ユーカリしか食べられなっくて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　食べない方法もあるんじゃないかな
 
 ペンギンさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 変な形の石拾った
 
@@ -134,8 +134,8 @@ title: "真夏の雑草取り"
 
 ペンギンさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さん　それは？
 
@@ -145,8 +145,8 @@ title: "真夏の雑草取り"
 
 要らない報告でした
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何　この庭
 
@@ -158,8 +158,8 @@ title: "真夏の雑草取り"
 
 面白い顔だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕だけかな　雑草取り真面目にやってるの
 
@@ -171,15 +171,15 @@ title: "真夏の雑草取り"
 
 怠け者くん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 が～ん～ば～る～ぞ～
 
 やる気はあるんだけどな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 クーラーは涼しいな
 
@@ -187,8 +187,8 @@ title: "真夏の雑草取り"
 
 涼しいでしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ　ペンギンさん何してるの
 
@@ -196,8 +196,8 @@ title: "真夏の雑草取り"
 
 ペンギンさんはなんでそんなに雑草取りがすきなの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 好きじゃないよ
 
@@ -205,8 +205,8 @@ title: "真夏の雑草取り"
 
 分かったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう
 
@@ -214,8 +214,8 @@ title: "真夏の雑草取り"
 
 うん　昼寝してからすぐ行くよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ～～～吸わないで～～～
 
@@ -223,8 +223,8 @@ title: "真夏の雑草取り"
 
 僕だって暑いよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何！　え！　火事？
 
@@ -232,8 +232,8 @@ title: "真夏の雑草取り"
 
 パンダ君　急ごう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと　何してるの
 
@@ -241,8 +241,8 @@ title: "真夏の雑草取り"
 
 らまさん　お腹いっぱいだって言ってたでしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 バーベキューは別腹ですよ
 
@@ -250,15 +250,15 @@ title: "真夏の雑草取り"
 
 ペンギンさん　そこで拾った土偶です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 また？
 
 だから　すごいんだけれど　要らないよ　その報告は
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 見せて　見せて
 
@@ -274,8 +274,8 @@ title: "真夏の雑草取り"
 
 ペンギンさん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ナイス　ショット
 
@@ -283,15 +283,15 @@ title: "真夏の雑草取り"
 
 何してるの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ゴルフ
 
 誰も僕を見習って頑張ろうとしないなんて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ごめん
 
@@ -303,8 +303,8 @@ title: "真夏の雑草取り"
 
 え？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 この木陰なら涼しいし
 
@@ -312,20 +312,20 @@ title: "真夏の雑草取り"
 
 テラスが日が射してきちゃって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ごめんね
 
 友達と一緒に賑やかにできたほうがいいなぁって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だって　みんなでこうしてるだけで　楽しいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうだね
 
@@ -335,8 +335,8 @@ title: "真夏の雑草取り"
 
 うん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 私たちは　雑草取りに戻りましょうか
 
@@ -348,15 +348,15 @@ title: "真夏の雑草取り"
 
 もう一頑張りしますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう食べられません
 
 ペンギンさん　出番が来たよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 大～丈～夫～　
 
@@ -368,8 +368,8 @@ title: "真夏の雑草取り"
 
 バービキュ食べ過ぎて　僕もう草は食べられません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もしもし
 
@@ -379,8 +379,8 @@ title: "真夏の雑草取り"
 
 庭の雑草？　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 白熊　
 
@@ -392,8 +392,8 @@ title: "真夏の雑草取り"
 
 じゃねぇー
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これでいいのか
 
@@ -403,8 +403,8 @@ title: "真夏の雑草取り"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うめぇー！
 
@@ -414,41 +414,41 @@ title: "真夏の雑草取り"
 
 今日はおごるよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ぺんぎんさんにも迷惑かけちゃったし
 
 飲もうか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やぁ　今日は働いたね
 
 白熊さんもこっちに来て飲みましょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 楽しにゃ
 
 でしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 白熊君相談って何
 
 それが
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたの　僕でよかったら相談に乗るよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え
 
@@ -456,15 +456,15 @@ title: "真夏の雑草取り"
 
 夏の雑草は　伸びるの早いんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕が手伝う理由が見えないんだけど
 
 ほら　僕は寒いところの生き物だから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　僕もだよ
 
@@ -472,6 +472,6 @@ title: "真夏の雑草取り"
 
 笹子さん　その報告はもういいから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 

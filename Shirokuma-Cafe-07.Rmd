@@ -4,23 +4,23 @@ title: "スマフォに夢中"
 
 <span id="episode-title" data-episode="07">スマフォに夢中</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　シロクマくん
 
 それ　楽しい？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 そういう時もあるね
 
 どんな時？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 こんなのが折れた時
@@ -30,8 +30,8 @@ title: "スマフォに夢中"
 
 シロクマだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　どうやったの？
 
@@ -41,8 +41,8 @@ title: "スマフォに夢中"
 
 写真撮っていいかな？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 写真？　カメラ持ってるんだ？
 
@@ -50,13 +50,13 @@ title: "スマフォに夢中"
 
 買ったんだ　スマフォ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なに？　スマフォって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　す巻き
 
@@ -72,44 +72,44 @@ title: "スマフォに夢中"
 
 スマフォだよ！　ス　マ　フォ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 スマートフォン　携帯電話の一種だよ
 
 あっ！　ペンギンさん それが　スマートフォンですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 私も　よく知らないんですよね
 
 え？　笹子さんも？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何ができるんですか？
 
 いろいろ便利だよ　アプリも多いし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 地図とかも見られますしね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ネットだって見られるんだよ　ほら
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんか　小さくて 字　読みづらくないですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなことないよ こういう時はね　こうするの
 
@@ -119,15 +119,15 @@ title: "スマフォに夢中"
 
 違うよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ピンチ操作じゃないですか？
 
 似たようなもんでしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですか
 
@@ -137,8 +137,8 @@ title: "スマフォに夢中"
 
 よっ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 本当に　それ　便利なんですか？
 
@@ -146,15 +146,15 @@ title: "スマフォに夢中"
 
 え～と　こうやって…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そのうち　簡単に 操作できるようになるよ
 
 あれ？　シロクマくんも持ってたの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁね　見てて
 
@@ -164,8 +164,8 @@ title: "スマフォに夢中"
 
 シロクマさん　器用ですね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それほどでも アヤメの花　折ってみた
 
@@ -173,8 +173,8 @@ title: "スマフォに夢中"
 
 ほんと器用ですね！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 よ～し　こうやって…
 
@@ -182,8 +182,8 @@ title: "スマフォに夢中"
 
 駄目だ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まぁ　慣れですよ　慣れ
 
@@ -191,8 +191,8 @@ title: "スマフォに夢中"
 
 僕も　スマフォですし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ　そうなの？
 
@@ -200,15 +200,15 @@ title: "スマフォに夢中"
 
 ラマさん　そういう君こそ 上手に操作できるの？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もちろんですよ　見ててください
 
 おぉ～　すごい！ なんて柔軟な発想！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうか… わぁ…
 
@@ -216,15 +216,15 @@ title: "スマフォに夢中"
 
 するする
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お勧めの便利なアプリ　知ってるよ
 
 え？ なになに？　教えて！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やっぱ時代は　スマフォだよね
 
@@ -232,8 +232,8 @@ title: "スマフォに夢中"
 
 そうだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 スマフォがあると すっごく便利なんだから
 
@@ -241,41 +241,41 @@ title: "スマフォに夢中"
 
 えっとね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 画面を ちまちま触って操作したり…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なめたり…
 
 くちばしで　つついたり…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんでもって 字が　すっごく小さくて
 
 読みづらいんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 便利なの？それ
 
 あれ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 とにかく　外で働いてるパンダが ケータイ持ってないなんて
 
 駄目だよ　困るよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 別に困らないわよ
 
@@ -283,8 +283,8 @@ title: "スマフォに夢中"
 
 それだと困るなぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何が？
 
@@ -292,8 +292,8 @@ title: "スマフォに夢中"
 
 何かあったときね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　キッチンのバルサミコ酢が きれちゃったの
 
@@ -301,8 +301,8 @@ title: "スマフォに夢中"
 
 うん　いいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 便利じゃない！
 
@@ -310,8 +310,8 @@ title: "スマフォに夢中"
 
 やった～！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ほら　見て見て～
 
@@ -319,8 +319,8 @@ title: "スマフォに夢中"
 
 この前撮った写真 待ち受けにしてみたんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 へぇ～　今日は 折り紙折らないんですか？
 
@@ -328,8 +328,8 @@ title: "スマフォに夢中"
 
 そっちの感想！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは～
 
@@ -337,8 +337,8 @@ title: "スマフォに夢中"
 
 パンダくん　嬉しそうだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 実はさぁ…
 
@@ -350,8 +350,8 @@ title: "スマフォに夢中"
 
 かわいいね！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいでしょう～ 見つけるの苦労したんだよ
 
@@ -359,23 +359,23 @@ title: "スマフォに夢中"
 
 やっぱり便利だよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ほら　好きな時に　いつだって 天気予報も見られるしね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 地図も見られるから 迷子にならなくて済むし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 頭にのせて バランス感覚も　みがけるし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それ スマフォの使い方じゃないけどね
 
@@ -383,8 +383,8 @@ title: "スマフォに夢中"
 
 ぼ　僕だって 待ち受けかえてるし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 他にも…
 
@@ -392,8 +392,8 @@ title: "スマフォに夢中"
 
 音楽だって聴けるしね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だ　大丈夫だよ　パンダくん
 
@@ -401,8 +401,8 @@ title: "スマフォに夢中"
 
 だって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　元気出して
 
@@ -410,34 +410,34 @@ title: "スマフォに夢中"
 
 はい　パンダくん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕にとって…　スマフォは パンダカバーのおまけだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あら　ちょっと スマホは　どうしたの？　スマホは
 
 さっき電話したのよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　聞こえてる？
 
  バ　ル　サ　ミ　コ　酢よ　バールーサーミーコー酢！
  
- <audio>
-</audio><hr>
+ <audio></audio><hr>
+
 
 この電話は　お客様の 都合により　出られません
 
 えっ？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちっとも便利じゃないわね　スマホ
 
@@ -445,29 +445,29 @@ title: "スマフォに夢中"
 
 どっちだっていいじゃない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは
 
 シロクマくん　いつものお願い
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　ひょっとして 立ち直った？
 
 何が？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 心配した僕が　バカだったよ
 
 パンダくんのスマフォ　ここにあるからね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　スマフォなら　もういいんだ
 
@@ -475,27 +475,27 @@ title: "スマフォに夢中"
 
 本気　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だって　パンダじゃないし
 
 えっ？　せっかく買ったんだから 大事に使ったら？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　これ見て　スマフォのケース
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんなの折ってみた
 
 あっ　パンダだ～！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 これなら　紙だから割れないね
 
@@ -503,13 +503,13 @@ title: "スマフォに夢中"
 
 シロクマさん　さすが！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 フフッ　やっぱり　パンダは最高だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 

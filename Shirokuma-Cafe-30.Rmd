@@ -4,8 +4,8 @@ title: "ペンギンさんのロマンス"
 
 <span id="episode-title" data-episode="30">ペンギンさんのロマンス</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 夏ですね
 
@@ -13,20 +13,20 @@ title: "ペンギンさんのロマンス"
 
 今年は蝉がよく泣きますね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 雄は腹腔内の発音筋と発音膜で音を
 
 出して共鳴室で音を大きく出して雌を呼んでるね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 情緒のない言い方やめてくれますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうしたのパンダ君
 
@@ -34,13 +34,13 @@ title: "ペンギンさんのロマンス"
 
 体調悪いの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 毎日パンじゃなくて　たまには高級フルーツでも買ってきてよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 果物屋にはペン子さんがいないじゃない
 
@@ -48,29 +48,29 @@ title: "ペンギンさんのロマンス"
 
 何？　パン食べる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいえ　そうじゃなくて
 
 ペンギンさん　夏にはペン子さんに告白して ドライブって言ってませんでしたっけ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう夏だね
 
 夏とは言ったけど今年のとはいってないでしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 来年かもしれないし　再来年かもしれないし　
 
 十年後の夏かもしれないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんな長いスパンの話なんですか
 
@@ -78,8 +78,8 @@ title: "ペンギンさんのロマンス"
 
 チョロっとって　ちょっと待ってよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いいんじゃないですか　告白してきたら
 
@@ -87,22 +87,22 @@ title: "ペンギンさんのロマンス"
 
 いやいや　その前に心の準備の用意の前振りをだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも早く告白しないと　
 
 ペン子さん取られちゃうかもしれないですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 けど　ふられたらどうしよう
 
 大丈夫だよ　まだふられたわけじゃないんだから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですよ
 
@@ -110,8 +110,8 @@ title: "ペンギンさんのロマンス"
 
 白熊さん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうだね
 
@@ -119,15 +119,15 @@ title: "ペンギンさんのロマンス"
 
 もう告白してしまおうかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですよ
 
 そうだよ　ふられるなら　早いほうがいいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ君
 
@@ -135,8 +135,8 @@ title: "ペンギンさんのロマンス"
 
 これで　ようやく彼女の名前も分かるしね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何？
 
@@ -148,8 +148,8 @@ title: "ペンギンさんのロマンス"
 
 僕が彼女に付けた名前だよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まさか　名前知らないんですか
 
@@ -157,22 +157,22 @@ title: "ペンギンさんのロマンス"
 
 悪い？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だって
 
 じゃ　笹子さんは名前も知らない花をきれいだなって思ったことはないですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 名前も知らない美味しい魚を食べたことはないですか
 
 名前も知らない曲に心揺さぶれたことはないですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 名前も知らない未知の風景に美しいと思ったことはないですか
 
@@ -180,15 +180,15 @@ title: "ペンギンさんのロマンス"
 
 じゃ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 名前も知らないんですね
 
 大丈夫ですかね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありがとうございました
 
@@ -198,13 +198,13 @@ title: "ペンギンさんのロマンス"
 
 今日はサービス券もらいに来たんじゃないです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 言わなくていい言葉だった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 待とう　人がいなくなるのを
 
@@ -212,22 +212,22 @@ title: "ペンギンさんのロマンス"
 
 ありがとうございました
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いまだ　今しかない　でも緊張してきた
 
 こういう時どうするんだっけ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 人という字3回書いて呑むんだ
 
 いや　待ってよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンの場合は　ペンギンって3回書いて呑む方がいいのかな
 
@@ -237,36 +237,36 @@ title: "ペンギンさんのロマンス"
 
 ペ－ン－ギ－ン
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなたくさんの文字呑めるか
 
 あのう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません　大きいな声出して
 
 いいえ　いつもありがとうございます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いえ　そんな大したこと
 
 分かります　すごく好きなんだなって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンが
 
 ありがとうございました
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あのう
 
@@ -280,8 +280,8 @@ title: "ペンギンさんのロマンス"
 
 それじゃ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれからペンギンさん　毎日パン屋さんに行ってデートに誘ってるらしいですよ
 
@@ -289,8 +289,8 @@ title: "ペンギンさんのロマンス"
 
 ＯＫもらうまで通うって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 しつこくない
 
@@ -298,20 +298,20 @@ title: "ペンギンさんのロマンス"
 
 ペンギンさん頑張ってるよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹子さんは毎日毎日しつこく誘われたらどうなの
 
 え　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは嫌ですけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 今日で一週間ですよ
 
@@ -319,8 +319,8 @@ title: "ペンギンさんのロマンス"
 
 こんなふうに一途に思われたら
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そう
 
@@ -328,13 +328,13 @@ title: "ペンギンさんのロマンス"
 
 笹子さんは一週間　毎日毎日しつこくされるのはどうなの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは嫌ですけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 前からあなたの事が好きでした
 
@@ -342,64 +342,64 @@ title: "ペンギンさんのロマンス"
 
 日曜日駅前で一時にまってます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 日曜日って明日ですよね
 
 うん　はい　急ですね　すみません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 分かりました　
 
 え？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕らはね　最初から愛し合っていたんじゃないかな
 
 一週間毎日パン屋さんに行って　告白をしたわけだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でね　とうとう一週間目のことだよ
 
 それでさ　ペン美ちゃんがね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ　彼女ペン子ちゃんじゃなくて　ペン美ちゃんって名前だったんだけど
 
 ペン美ちゃんがどうしたって聞いてみて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう5回目だよ
 
 聞いたほうがいいんですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だから　ペン美ちゃんがどうしたか聞いてみて
 
 ペン美ちゃんがどうしたんですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 日曜日って明日ですかって聞いてきたの
 
 もう分かったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 きっと僕たちは　愛し合う運命だったんだよ
 
@@ -407,20 +407,20 @@ title: "ペンギンさんのロマンス"
 
 じゃ　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 また明日～
 
 明日は何回聞けばいいのかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 20回くらい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペン美ちゃんまだかな
 
@@ -428,15 +428,15 @@ title: "ペンギンさんのロマンス"
 
 ペン美ちゃん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 おい　ペン美ちゃん
 
 え　あたしペン子だけど
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え
 
@@ -446,8 +446,8 @@ title: "ペンギンさんのロマンス"
 
 何言ってるの　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 わたし　ペン花よ
 
@@ -455,8 +455,8 @@ title: "ペンギンさんのロマンス"
 
 ちょっとあんた　あたしのこと好きだったんじゃないの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ　君がペン美ちゃん？
 
@@ -466,8 +466,8 @@ title: "ペンギンさんのロマンス"
 
 どういうこと？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 違うんだペン美ちゃん　
 
@@ -475,8 +475,8 @@ title: "ペンギンさんのロマンス"
 
 ペンジョリナ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと　ペンギンさん
 
@@ -488,8 +488,8 @@ title: "ペンギンさんのロマンス"
 
 ペンニュエル！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん
 
@@ -499,13 +499,13 @@ title: "ペンギンさんのロマンス"
 
 どういうこと？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや　どういう事なんだろ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どういうこと？
 
@@ -517,20 +517,20 @@ title: "ペンギンさんのロマンス"
 
 ペン美ちゃん　ペン美ちゃん　助けて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まさか七人いるなんて思わなかった
 
 毎日違う子に告白してたなんて
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パン屋さんのシフトのせいだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 シフト目
 
@@ -540,8 +540,8 @@ title: "ペンギンさんのロマンス"
 
 気配がするんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん　告白できてよかったね
 
@@ -549,14 +549,14 @@ title: "ペンギンさんのロマンス"
 
 笹子さんは　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 毎日毎日しつこくノロケ話を聞かされるのってどうなの
 
 さあー
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 

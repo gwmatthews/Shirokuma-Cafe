@@ -4,15 +4,15 @@ title: "半田さん改造計画"
 
 <span id="episode-title" data-episode="13">半田さん改造計画</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇねぇ モテ期って知ってる？
 
 モテ期？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは　汽笛
 
@@ -22,8 +22,8 @@ title: "半田さん改造計画"
 
 モテ期って？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 人は一生のうちすごくモテる時期があって
 
@@ -31,22 +31,22 @@ title: "半田さん改造計画"
 
 それ繁殖期でしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 だよね
 
 ちょっと違うらしいよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 繁殖期は　季節が巡ってこないと 訪れないんだけど
 
 モテ期は　努力によって くるらしいんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 何のお話ですか？
 
@@ -58,8 +58,8 @@ title: "半田さん改造計画"
 
 はい！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お面？
 
@@ -73,8 +73,8 @@ title: "半田さん改造計画"
 
 僕　体重１００キロ以上あるんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そう
 
@@ -90,15 +90,15 @@ title: "半田さん改造計画"
 
 モテるには　お面で野菜で 重かったりするはずなんだけど…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あの…　
 
 イケメンで優しくて おもしろかったりしたらじゃ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと違った
 
@@ -106,8 +106,8 @@ title: "半田さん改造計画"
 
 いや　大きく間違ってるから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ！ 配達ですか？
 
@@ -115,8 +115,8 @@ title: "半田さん改造計画"
 
 ありがとうございます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれがモテ期かぁ
 
@@ -124,8 +124,8 @@ title: "半田さん改造計画"
 
 行っちゃイヤ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 す…　すみません
 
@@ -133,8 +133,8 @@ title: "半田さん改造計画"
 
 大丈夫ですか？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ケガはないかい？
 
@@ -147,8 +147,8 @@ title: "半田さん改造計画"
 
 よかった
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 心配しちゃったよ
 
@@ -156,8 +156,8 @@ title: "半田さん改造計画"
 
 僕が力になるよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 なんとかしてあげるから
 
@@ -165,13 +165,13 @@ title: "半田さん改造計画"
 
 リンリンは　僕のこと必要ないでしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 さあ　半田さん行こう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こんにちは！ 聞いて　聞いて！
 
@@ -181,15 +181,15 @@ title: "半田さん改造計画"
 
 ついにだよ　とうとうだよ！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ？　シロクマくんはいないの？
 
 大切な用事があるからって…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ここでやるの？
 
@@ -197,8 +197,8 @@ title: "半田さん改造計画"
 
 パンダくん　やる気だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いろいろ情報　仕入れてきたよ
 
@@ -206,15 +206,15 @@ title: "半田さん改造計画"
 
 さあ　行くよ　半田さん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えっ？　どこへ？
 
 半田さん改造計画！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 まずは　ファッションだよ
 
@@ -222,22 +222,22 @@ title: "半田さん改造計画"
 
 う～ん　ちょっとカタイね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンクはどう？
 
 う～ん　これもね…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 渋谷系とか
 
 というより　サブカル系？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ～！　これ　これ
 
@@ -247,8 +247,8 @@ title: "半田さん改造計画"
 
 う～ん　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃあ…
 
@@ -256,8 +256,8 @@ title: "半田さん改造計画"
 
 オスとして 強く　アピールできるものがいいよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ニワトリなら　立派なトサカだし
 
@@ -265,8 +265,8 @@ title: "半田さん改造計画"
 
 鳥なら　羽でしょ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 でも　やっぱ　これだよね　
 
@@ -274,8 +274,8 @@ title: "半田さん改造計画"
 
 半田さん 日ごろの僕を見てて　わからない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 モテモテだよ
 
@@ -287,8 +287,8 @@ title: "半田さん改造計画"
 
 パンダくんの代わりに 動物園で働こうかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ムリでしょ
 
@@ -296,15 +296,15 @@ title: "半田さん改造計画"
 
 お財布　持ってきてない
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありがとうございました
 
 じゃあ　次
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 グルメ情報も大事らしいよ
 
@@ -314,8 +314,8 @@ title: "半田さん改造計画"
 
 そうなんだ…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう！　何？　そのやる気のなさ
 
@@ -323,13 +323,13 @@ title: "半田さん改造計画"
 
 おいしそうなもの いっぱい　あるね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ～！　笹まんじゅう 笹だんご　笹ようかん
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 買ってあげなよ
 
@@ -337,8 +337,8 @@ title: "半田さん改造計画"
 
 これも　よろしく
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん！
 
@@ -348,8 +348,8 @@ title: "半田さん改造計画"
 
 シロクマくん　何やってるの！？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さん　いっぱい　持ってるね　モテモテだよ
 
@@ -357,8 +357,8 @@ title: "半田さん改造計画"
 
 いや…　それ　戦っちゃうから
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうする？
 
@@ -366,8 +366,8 @@ title: "半田さん改造計画"
 
 なんだろう？　こっち　見てるよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あの…
 
@@ -375,8 +375,8 @@ title: "半田さん改造計画"
 
 もし　よかったら…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 一緒に写真　撮ってもらえますか？
 
@@ -386,29 +386,29 @@ title: "半田さん改造計画"
 
 お願いします！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダくん　人気者だね
 
 僕も一緒に撮ってくる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう１枚　撮りますよ
 
 は～い！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あぁ　楽しかった！
 
 おかえり　遅かったね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 すみません！ 注文　お願いします
 
@@ -418,15 +418,15 @@ title: "半田さん改造計画"
 
 ただ今！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 忙しそうだな
 
 笹子さん　モテモテだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あっ！ 半田さんじゃないですか
 
@@ -436,15 +436,15 @@ title: "半田さん改造計画"
 
 半田さ～ん…
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ここに座らないように言って
 
 はい　はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん　ありがとうございます
 
@@ -458,8 +458,8 @@ title: "半田さん改造計画"
 
 ありがとう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 半田さんにも　やっと…
 
@@ -473,8 +473,8 @@ title: "半田さん改造計画"
 
 半田さん　
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 こっちもかいて
 
@@ -484,8 +484,8 @@ title: "半田さん改造計画"
 
 なんだい？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 

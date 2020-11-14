@@ -4,72 +4,72 @@ title: "シロクマ　カフェー へようこそ"
 
 <span id="episode-title" data-episode="01">シロクマ　カフェー へようこそ</span>
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 笹を食べながらのんびりするのは最高だなぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと  またこの子は昼間からゴロゴロして
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 掃除の邪魔よ  どきなさい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はいー
 
 お母さん  おかわり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 どうするの  あなた将来は
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう  ゴロゴロしてるときに  将来の話なんかしないでよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 暇があるなら  ちょっとはバイトでも探しなさい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ええ  ゴロゴロするのに忙しいから  後にするよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ああー  吸わないで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう
 
 どうしてお母さんはゴロゴロする忙しさが分かんないんだろな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 えーと  働かないでお金がもらえる仕事が載っているのはどれですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ないと思います
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え
 
@@ -77,54 +77,54 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  これいいな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
 あ  もしもし  パンダと申しますが
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そちらでデザインなー  デザイナーのアルバイト募集してますよね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ええ  そうですよ  経験は？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ありません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パソコンのマウスは使えますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 使えないです  あんまり細かい作業はできません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そうですか  
 
 得意なことはありますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あります
 
 笹を食べたり  寝ながらぼんやりするのが得意です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ  もしもーし
 
@@ -132,47 +132,47 @@ title: "シロクマ　カフェー へようこそ"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 インテリアコーディネーターって  なんですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 またゴロゴロして
 
 アルバイト見つかったの
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 全然ないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 確かコンビニで募集してたでしょう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 コンビニ
 
 品数多過ぎるよ  覚えられないよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あー  吸わないで
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 もう  外でだらだらしようっと
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ははは  あら  糸屑
 
@@ -182,56 +182,56 @@ title: "シロクマ　カフェー へようこそ"
 
 ありがとう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じっとしてて
 
 あ  待って
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 へぇー  こんな所にカフェがあったんだ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いらっしゃいませ
 
 ようこそ  しろくまカフェへ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お客様  お一人様ですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ  別に僕は
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 お好きな席へどうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 ご注文は
 
 えーと  竹はありますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 竹はないです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 じゃ  笹ください
 
@@ -241,16 +241,16 @@ title: "シロクマ　カフェー へようこそ"
 
 はい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 ねえ  白熊くん
 
 財布のポイントカードって増えすぎちゃわな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ペンギンさん  ポイント貯める派
 
@@ -258,84 +258,84 @@ title: "シロクマ　カフェー へようこそ"
 
 あ  カフェモカお願い  おかわり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それはひまわり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは日替わり
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは薪割り
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それは西瓜割り
 
 「おかわり」ね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい  カフェモカ
 
 このカフェ  ダジャレがなければなぁ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そういえば  アルバイト募集してるんだって
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 うん  人手が足りなくて
 
 ペンギンさん  どう
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え？僕お客とバイトの両立  できるかな
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ウーソ  これから四名ほど  面接に来るんだよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 なんだ  ちょっと考えちゃったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕もいいですか
 
 僕もアルバイトしたいと思って
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 受けてみる  面接
 
 あ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 では  最初の方  どうぞ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい
 
@@ -343,20 +343,20 @@ title: "シロクマ　カフェー へようこそ"
 
 えーと  ホール係やれますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 はい  ホールなら任せてください
 
 穴を掘るの  得意なんです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いや  そのホールは違うし
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 次の方
 
@@ -364,15 +364,15 @@ title: "シロクマ　カフェー へようこそ"
 
 ゾ～ウ～ガ～メ～で～す
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 料理とか  運べますか
 
 は～い～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ヨ～イ～ショー
 
@@ -382,42 +382,42 @@ title: "シロクマ　カフェー へようこそ"
 
 百年くらい働かせて～
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 いえ  そんなには
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 マンドリルです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 食べるのが得意です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ちょっと  それは
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 小蟻食です
 
 い  威嚇ができます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 それだけ
 
 みたいだね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 最後の方  どうぞ
 
@@ -427,53 +427,53 @@ title: "シロクマ　カフェー へようこそ"
 
 よろしくです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 やっとまともな人が来たね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 パンダ君  何か得意なことはありますか
 
 はい  ゴロゴロしながら笹を食べることです
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あれ
 
 えーと  条件に希望はありますか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 週二日希望です
 
 うん  週二日ですか
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 え  週一日でいいんですか
 
 いや  せめて週四日くらい
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 そんなの無理です
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ  けど
 
 呼びに来てくれたら  すぐ行きます
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 僕が呼びに行くんですか
 
@@ -481,46 +481,46 @@ title: "シロクマ　カフェー へようこそ"
 
 遅刻した場合だけですよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 遅刻する気満々だね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 ちなみに  やる気はありますか
 
 そんなにありません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 発表します
 
 全員不合格
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 えー工
 
 そこ驚くとこ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 結局バイトの人
 
 見つからなかったね
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 残念だね
 
@@ -530,37 +530,37 @@ title: "シロクマ　カフェー へようこそ"
 
 す  吸われる
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 うん　ゴーって
 
 あのう　面接中すみません
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 住み込み希望でーす
 
 不合格
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あのう  アルバイト希望じゃないみたいですよ
 
 庭に住み込みたいんですー
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 
 ここまで運んで欲しいって　頼まれちゃいまして
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あなた  お名前は
 
@@ -572,29 +572,29 @@ title: "シロクマ　カフェー へようこそ"
 
 え
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 ねぇ　お母さん
 
 僕今日、すごくいい感じのカフェ見つけちゃったよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 しろくまカフェって言うんだけど
 
 なんに言ってるの？知ってるわよ
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 へ？！そうなの？
 
 ずっと前からあるじゃない？
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
 
 あ？
 
@@ -602,5 +602,5 @@ title: "シロクマ　カフェー へようこそ"
 
 へーーーーーーーー！！！！
 
-<audio>
-</audio><hr>
+<audio></audio><hr>
+
