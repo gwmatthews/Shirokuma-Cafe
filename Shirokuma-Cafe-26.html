@@ -567,9 +567,12 @@ $(document).ready(function () {
 <hr>
 
 <script>
-// get episode number
-const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
 // get audio clips
 const clips = document.getElementsByTagName('audio');
@@ -581,6 +584,7 @@ function insertAfter(referenceNode, newNode) {
 
 // assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
 function setup(){
+  
   for (let i = 0; i < clips.length; i++){
   clips[i].id = i;
   clips[i].src = `audio/${episode}/${i}.mp3`
@@ -589,6 +593,7 @@ function setup(){
   el.innerHTML = "&#128265";
   let div = document.getElementById(i);
   insertAfter(div, el);
+  
   }
 }
 
@@ -621,7 +626,10 @@ function toggleSound(number){
 }
 
 setup();
+
 insertSound();
+
+}
 
 </script>
 

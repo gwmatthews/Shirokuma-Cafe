@@ -296,7 +296,7 @@ $(document).ready(function () {
 
 
 <div id="what-is-this-anyway" class="section level3">
-<h3><span id="episode-title" data-episode="null">What is this anyway?</span></h3>
+<h3>What is this anyway?</h3>
 <p>This project grew out of the combination of intensive study of Japanese by the immersion method championed by <a href="https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ">Cure Dolly</a> my android sensei and my continuing education as a web developer.</p>
 </div>
 <div id="training-wheels-for-japanese-literacy" class="section level3">
@@ -309,9 +309,12 @@ $(document).ready(function () {
 </div>
 
 <script>
-// get episode number
-const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
 // get audio clips
 const clips = document.getElementsByTagName('audio');
@@ -323,6 +326,7 @@ function insertAfter(referenceNode, newNode) {
 
 // assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
 function setup(){
+  
   for (let i = 0; i < clips.length; i++){
   clips[i].id = i;
   clips[i].src = `audio/${episode}/${i}.mp3`
@@ -331,6 +335,7 @@ function setup(){
   el.innerHTML = "&#128265";
   let div = document.getElementById(i);
   insertAfter(div, el);
+  
   }
 }
 
@@ -363,7 +368,10 @@ function toggleSound(number){
 }
 
 setup();
+
 insertSound();
+
+}
 
 </script>
 

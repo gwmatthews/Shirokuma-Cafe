@@ -296,7 +296,7 @@ $(document).ready(function () {
 
 
 <div id="シロクマ-カフェー" class="section level2">
-<h2><span id="episode-title" data-episode="null">シロクマ　カフェー</span></h2>
+<h2>シロクマ　カフェー</h2>
 <p>episode 1</p>
 <ul>
 <li><a href="Shirokuma-Cafe-01.html">シロクマ　カフェー へようこそ</a></li>
@@ -375,9 +375,12 @@ $(document).ready(function () {
 </div>
 
 <script>
-// get episode number
-const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
 
 // get audio clips
 const clips = document.getElementsByTagName('audio');
@@ -389,6 +392,7 @@ function insertAfter(referenceNode, newNode) {
 
 // assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
 function setup(){
+  
   for (let i = 0; i < clips.length; i++){
   clips[i].id = i;
   clips[i].src = `audio/${episode}/${i}.mp3`
@@ -397,6 +401,7 @@ function setup(){
   el.innerHTML = "&#128265";
   let div = document.getElementById(i);
   insertAfter(div, el);
+  
   }
 }
 
@@ -429,7 +434,10 @@ function toggleSound(number){
 }
 
 setup();
+
 insertSound();
+
+}
 
 </script>
 
