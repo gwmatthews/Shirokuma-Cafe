@@ -19,11 +19,11 @@ This project was built with the following open source tools:
 
 First you'll need to install [Rstudio](https://rstudio.com/products/rstudio/), [ffmpeg](https://ffmpeg.org/) and [Audacity](https://www.audacityteam.org/). Depending on your machine those might require additional software as dependencies but it's all free and open source. I use linux Mint on my computer, but this all should work on machines running other operating systems.
 
-In addition to this software you'll also need the Japanese subtitle files rather than substitles that are hard coded into the video. Many are available at [kitsuneko](https://kitsunekko.net/). Typically these are in the form of .ass or .srt files which are just plain text files with lots of additional code with timestamps that tell your video player when to insert each line. I clean these of extra code in a text editor (knowledge of regular expressions helps make this much easier) and use the resulting plain text files.
+In addition to this software you'll also need the Japanese subtitle files rather than subtitles that are hard coded into the video. Many are available at [kitsuneko](https://kitsunekko.net/). Typically these are in the form of .ass or .srt files which are just plain text files with lots of additional code with timestamps that tell your video player when to insert each line. I clean these of extra code in a text editor (knowledge of regular expressions helps make this much easier) and use the resulting plain text files.
 
 #### Step 1: Create a new Rstudio project.
 
-From the Rstudio main menu select "File" > "New Project" then choose "simple R Markdown website", give it a name and put it in whatever location you want. (NOTE: if you do not see this option in RStudio, you will have to first install the package called "rmarkdown" in the packages tab wihch should appear in the lower right pane of Rstudio. I forget whether this is installed by default.)  This creates a directory with the name you gave it as well as four files:
+From the Rstudio main menu select "File" > "New Project" then choose "simple R Markdown website", give it a name and put it in whatever location you want. (NOTE: if you do not see this option in RStudio, you will have to first install the package called "rmarkdown" in the packages tab which should appear in the lower right pane of Rstudio. I forget whether this is installed by default.)  This creates a directory with the name you gave it as well as four files:
 
 `_site.yml` which has basic configuration instructions for the site.
 
