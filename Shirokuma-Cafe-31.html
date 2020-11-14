@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>グリズリーさん　旅立つ</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">グリズリーさん　旅立つ</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="31"> グリズリーさん　旅立つ </span></p>
+<audio>
+</audio>
+<hr>
+<p>シロクマが おいしい季節でやんすよ</p>
+<audio>
+</audio>
+<hr>
+<p>お前… シロクマ　食ったこと　あんのか？</p>
+<p>えぇ　今日も昼に食べましたよ</p>
+<p>夏はおいしいんだ</p>
+<p>シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>カワウソが　シロクマを！？</p>
+<p>ありえねえ！ お前　１人でやったのか？</p>
+<p>いや　いや…　仲間と一緒に</p>
+<audio>
+</audio>
+<hr>
+<p>えっ！？　仲間とシロクマを？</p>
+<audio>
+</audio>
+<hr>
+<p>クマ食うヤツが俺の店に来るんじゃねえ！</p>
+<p>ふざけやがって！</p>
+<p>シロクマが あんなヤロウどもに食われるかよ！</p>
+<p>今日の昼</p>
+<audio>
+</audio>
+<hr>
+<p>シロクマ　はじめました？</p>
+<audio>
+</audio>
+<hr>
+<p>いらっしゃい</p>
+<p>シロクマくん　ごめんね</p>
+<p>何？　パンダくん</p>
+<audio>
+</audio>
+<hr>
+<p>僕…　今までシロクマくんのこと シロクマだと思っていたけど</p>
+<p>まだ　シロクマじゃなかったんだね</p>
+<audio>
+</audio>
+<hr>
+<p>パンダくん…　何言ってるの？</p>
+<p>表に　「白くま　はじめました」って</p>
+<p>いや　あれはさ…</p>
+<audio>
+</audio>
+<hr>
+<p>だったら　今までは　ただのシロ？　ただのクマ？</p>
+<p>白くまっていうのはかき氷の名前だよ</p>
+<audio>
+</audio>
+<hr>
+<p>かき氷なの？</p>
+<p>そう　練乳かけて フルーツをのせたやつだよ</p>
+<audio>
+</audio>
+<hr>
+<p>なんでも　上にのせたフルーツが シロクマの顔に見えたのが由来とか</p>
+<p>ペンギンさんの退屈な話はいいから</p>
+<p>それ　食べてみたい！</p>
+<p>退屈かどうかは　最後まで 聞いてから　判断してほしいね</p>
+<audio>
+</audio>
+<hr>
+<p>これが白くまだよ</p>
+<p>上から見てね</p>
+<p>本当だ！</p>
+<p>シロクマだ！</p>
+<audio>
+</audio>
+<hr>
+<p>しろくまカフェで　白くまを…</p>
+<p>とっても　涼しい感じ？</p>
+<p>ものすごく涼しいよ</p>
+<p>そして現在</p>
+<audio>
+</audio>
+<hr>
+<p>ウソだろ！？　シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>ほら！　ガセだ　ガセ</p>
+<audio>
+</audio>
+<hr>
+<p>マジか！　マジだったのか！！</p>
+<p>ごちそうさまでした</p>
+<p>あぁ…　そんな！</p>
+<audio>
+</audio>
+<hr>
+<p>「白くま　はじめました」</p>
+<p>「はじめました」じゃねえだろ お前！</p>
+<p>人生 終わっちまってんじゃねえかよ！</p>
+<audio>
+</audio>
+<hr>
+<p>やっぱり　ムリですよ！　ハバネロは… 辛すぎます</p>
+<p>そう？　結構　クセになるよ　ハバネロ</p>
+<audio>
+</audio>
+<hr>
+<p>シロクマ…　お前とは ガキの頃からのつきあいだったよな</p>
+<p>ハ…　ハチミツ　食べたい！</p>
+<p>大丈夫かよ？　シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>頑張れ！</p>
+<p>ワカサギ　食べたい！</p>
+<p>大丈夫かよ？　シロクマ…</p>
+<audio>
+</audio>
+<hr>
+<p>キノコ　食べたい！</p>
+<p>大丈夫かよ？　シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>なんか　ろくな思い出がねえな…</p>
+<p>とはいえ　懐かしい思い出だぜ</p>
+<audio>
+</audio>
+<hr>
+<p>あぁ…　ダメだ！こうしていると お前のことばかり思い出しちまう</p>
+<p>シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>ビール買う？</p>
+<p>持ってきたよ　ほい</p>
+<p>それは　リール</p>
+<p>ダジャレ！</p>
+<audio>
+</audio>
+<hr>
+<p>シロクマ！</p>
+<p>孤独よ… 俺の悲しみを癒やしてくれ</p>
+<audio>
+</audio>
+<hr>
+<p>クマだ！かわいい！</p>
+<p>何してるの～？</p>
+<p>こっち向いて～</p>
+<audio>
+</audio>
+<hr>
+<p>ねぇ　グリズリーさんのお店　ずっとお休みしてるって　ホント？</p>
+<audio>
+</audio>
+<hr>
+<p>旅行にでも行ってるのかも</p>
+<p>旅かぁ…　やっぱり　ワイルドな旅なんだろうね</p>
+<audio>
+</audio>
+<hr>
+<p>おそらく</p>
+<p>あてもなく　北へと向かうグリズリー</p>
+<audio>
+</audio>
+<hr>
+<p>ふと立ち寄った居酒屋で…</p>
+<p>どうぞ</p>
+<p>頼んでねえぜ？</p>
+<p>サービスですよ</p>
+<audio>
+</audio>
+<hr>
+<p>お客さん　旅の方でしょ？</p>
+<p>わかるかい？</p>
+<audio>
+</audio>
+<hr>
+<p>都会のニオイがしますよ</p>
+<p>…と　そこへ現れる　人相の悪い男</p>
+<p>よう　女将！ 今日も来てやったぜ</p>
+<audio>
+</audio>
+<hr>
+<p>帰っとくれ！ アンタが来るおかげで　他のお客さんが 寄りつきゃしないよ</p>
+<audio>
+</audio>
+<hr>
+<p>生意気な口をきくと　タダじゃ…</p>
+<p>出ていきな　文句があるなら 俺が相手になるぜ</p>
+<p>すみません！</p>
+<audio>
+</audio>
+<hr>
+<p>ありがとうございます</p>
+<p>サケのお礼さ</p>
+<p>それがきっかけで グリズリーは居酒屋の用心棒になった</p>
+<audio>
+</audio>
+<hr>
+<p>女将の幼い子供たちも懐き…</p>
+<p>グリズリーおじちゃん</p>
+<p>近所のお年寄りたちとも馴染み…</p>
+<audio>
+</audio>
+<hr>
+<p>悪いね</p>
+<p>気にすんなって</p>
+<p>いつしか　グリズリーはなくてはならない存在になっていた</p>
+<audio>
+</audio>
+<hr>
+<p>パンダくん　そんな　リアリティーのない話を 本気にしちゃダメだよ</p>
+<audio>
+</audio>
+<hr>
+<p>まさか　こんな展開になるとはな</p>
+<p>グリの兄貴も一緒にどうっすか？</p>
+<p>シャケをサカナに　おシャケを一杯… なんつって！</p>
+<audio>
+</audio>
+<hr>
+<p>シロクマ…</p>
+<p>ちょっと！ ダジャレはダメだって言ったでしょ</p>
+<p>すみません…</p>
+<audio>
+</audio>
+<hr>
+<p>しょせん俺たちは弱肉強食の世界を生きる者</p>
+<audio>
+</audio>
+<hr>
+<p>もう　俺は泣かないぜ！</p>
+<audio>
+</audio>
+<hr>
+<p>また　いつでもおいで おじちゃん　バイバーイ！</p>
+<p>あばよ　シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>この店は俺が引き継ぐ！</p>
+<p>どうしたんですか？　急に</p>
+<p>アイツの代わりが務まるのは 親友の俺しかいねえだろ</p>
+<audio>
+</audio>
+<hr>
+<p>俺が　シロクマ始める！</p>
+<p>しろくまカフェの店長やるの？</p>
+<p>今日から　マスターと呼びな</p>
+<audio>
+</audio>
+<hr>
+<p>グリズリー　バーは？</p>
+<p>やる！　昼も夜も働く！</p>
+<p>いつ　寝るんですか？</p>
+<p>合間に寝る</p>
+<audio>
+</audio>
+<hr>
+<p>ダジャレだってやるぜ！ 何しろ　俺が　この店の…</p>
+<audio>
+</audio>
+<hr>
+<p>シスターだろ！</p>
+<p>それじゃあ…</p>
+<audio>
+</audio>
+<hr>
+<p>イースターだろ！</p>
+<p>それじゃあ　これで　どうだ？</p>
+<audio>
+</audio>
+<hr>
+<p>ポスターだろ！</p>
+<p>これは　ダスター</p>
+<p>ダスターで　顔拭くんじゃねえ！</p>
+<audio>
+</audio>
+<hr>
+<p>テメエ　なんで生きてるんだよ！</p>
+<p>お母さんが産んだから</p>
+<p>そうじゃねえ！</p>
+<p>お前　カワウソに食われたんじゃ！？</p>
+<audio>
+</audio>
+<hr>
+<p>ちは～　今日も　白くま 食べにきたでやんす</p>
+<audio>
+</audio>
+<hr>
+<p>どういうことだ！</p>
+<audio>
+</audio>
+<hr>
+<p>まぎらわしい名前 つけてんじゃねえ</p>
+<p>ったく…　驚かせやがって</p>
+<p>悲しみにくれた 俺の時間はいったい…</p>
+<audio>
+</audio>
+<hr>
+<p>思い出すと泣いちゃうほど ショックだったの？</p>
+<p>キーン！　ってなってんだよ！</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
