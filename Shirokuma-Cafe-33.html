@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>キャンプに行こう！</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">キャンプに行こう！</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="33"> キャンプに行こう！ </span></p>
+<audio>
+</audio>
+<hr>
+<p>荷物　多いね</p>
+<p>キャンプだからね</p>
+<audio>
+</audio>
+<hr>
+<p>キャンプ？</p>
+<p>それは　チャンプ</p>
+<p>それは　スランプ</p>
+<p>それは　バグパイプ</p>
+<p>それは　ゴーヤチャンプルー</p>
+<audio>
+</audio>
+<hr>
+<p>僕　キャンプって　したことないんだよ</p>
+<p>キャンプっていうのはね…</p>
+<audio>
+</audio>
+<hr>
+<p>真っ暗な山の中で　ひっそり寂しく 冷たい地べたの上で寝るんだよ</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさん　真っ暗なところで ひっそり寝るのが好きなの？</p>
+<p>好きじゃないよ</p>
+<p>キャンプっていうのは大自然のなかでおいしいご飯食べて</p>
+<p>テント張ってきれいな星空眺めたりするものでしょ！</p>
+<audio>
+</audio>
+<hr>
+<p>笹か竹があればいいよ</p>
+<p>それじゃ いつもと変わらないじゃない…</p>
+<audio>
+</audio>
+<hr>
+<p>もうすぐ　グリズリーくんも来るよ</p>
+<p>えっ？　それ　誰？</p>
+<p>草むしりのとき　来てたよ</p>
+<p>草むしり？</p>
+<audio>
+</audio>
+<hr>
+<p>あぁ！　あの　パーッと来て ピューッて帰ったクマね</p>
+<audio>
+</audio>
+<hr>
+<p>よう！　シロクマ</p>
+<p>おはよう　グリズリーさん</p>
+<p>おっ！　パンダも行くのか</p>
+<p>このちっちぇえのは　鳥か？</p>
+<p>ペンギンだよ！</p>
+<audio>
+</audio>
+<hr>
+<p>ちっちゃくて わかんなかったぜ</p>
+<p>コウテイペンギンは　ペンギン界のなかでは 最大のペンギンだよ！</p>
+<audio>
+</audio>
+<hr>
+<p>クマより　ちっちぇえのに 変わりはないだろう？</p>
+<p>なっ！？</p>
+<p>ほら！　行くぞ</p>
+<audio>
+</audio>
+<hr>
+<p>あのクマ！　失礼しちゃうな</p>
+<p>グリズリーさん わりと　ざっくりしてるからね</p>
+<p>キミが言わないで</p>
+<audio>
+</audio>
+<hr>
+<p>涼しいね</p>
+<p>さすが　大自然は気持いいね</p>
+<audio>
+</audio>
+<hr>
+<p>よし！　じゃあ　まず…</p>
+<p>キャンプの係を決めようぜ！</p>
+<p>ちょっと　ちょっと！ わきから　仕切らないでよ</p>
+<p>いいだろ？ 別に　誰が仕切っても</p>
+<audio>
+</audio>
+<hr>
+<p>お前ら！</p>
+<p>何やってんの？</p>
+<p>大自然のなかで読書</p>
+<p>え～　どうしたの？ あっ！　もう　ご飯の時間？</p>
+<p>違うよ！</p>
+<audio>
+</audio>
+<hr>
+<p>とっとと準備しねえと 日が暮れちまうぞ</p>
+<p>きちんと 準備しようよ　ペンギンさん</p>
+<audio>
+</audio>
+<hr>
+<p>今　その話をしていたんだよ！</p>
+<p>まずは係を決めようよ　グリズリーくん</p>
+<p>だから　そう言ってんだろ！</p>
+<audio>
+</audio>
+<hr>
+<p>何から　するの？</p>
+<p>まずはテントの設営だな　それから　火起こし　調理飯炊きは分担するか</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ…　ご飯ができたら起こして</p>
+<p>おい！　パンダくんもやるの！</p>
+<audio>
+</audio>
+<hr>
+<p>そうなの？</p>
+<p>そうなの！</p>
+<p>係は　どうする？</p>
+<p>そうだね…</p>
+<p>テントはみんなで　火起こしはシロクマ</p>
+<p>調理が俺で　飯炊きはペンギンだ</p>
+<p>ちょっと！ 勝手にどんどん決めないでよ</p>
+<audio>
+</audio>
+<hr>
+<p>細けぇこと　気にすんなよ　鳥！</p>
+<p>と…　鳥！？</p>
+<p>ねぇ　僕は？</p>
+<p>お前は手伝い係ってとこか？</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ　まずはテント張ろう</p>
+<p>テントできた！</p>
+<p>できてないよ！</p>
+<p>それ　テントじゃねえだろ！</p>
+<audio>
+</audio>
+<hr>
+<p>完成だね</p>
+<p>いつもは野暮ったいペンギンさんが 輝いてみえるよ</p>
+<p>パンダくん そういう感想はいらないから</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ　中に入ってみよう</p>
+<audio>
+</audio>
+<hr>
+<p>狭いだろ！</p>
+<p>これは全員入るのはムリだね</p>
+<p>どうすんだよ　シロクマ！</p>
+<audio>
+</audio>
+<hr>
+<p>名案があるよ</p>
+<p>どうするの？</p>
+<p>テントをもう一つ持ってきたから</p>
+<audio>
+</audio>
+<hr>
+<p>２つ建てよう</p>
+<p>あんのかよ！</p>
+<p>先に言ってよ！</p>
+<audio>
+</audio>
+<hr>
+<p>さぁ　夕食の支度するぞ</p>
+<p>薪は　どうなった？</p>
+<p>それは…</p>
+<p>マス！</p>
+<p>シロクマくんは　マスじゃなくて 薪を集めてよ！</p>
+<p>火起こし係なんだから！</p>
+<audio>
+</audio>
+<hr>
+<p>みんな　真面目に 自分の係やってほしいよ</p>
+<p>まったくだな</p>
+<audio>
+</audio>
+<hr>
+<p>アチッ！　アチチチ！ うわっ　アチッ！</p>
+<p>ちょっと　やめてよ！ 火が　はぜるでしょ！</p>
+<p>え～　せっかく　集めてきたのに</p>
+<audio>
+</audio>
+<hr>
+<p>何やってんだ！</p>
+<p>切り株はやめてよ！ むしろ　火が消えちゃうよ</p>
+<p>せっかく　集めてきたのに</p>
+<audio>
+</audio>
+<hr>
+<p>まったく　パンダもシロクマも…</p>
+<p>手がかかるよね</p>
+<audio>
+</audio>
+<hr>
+<p>いいニオイ…</p>
+<p>何作ってるの？</p>
+<p>カレーだ</p>
+<p>キャンプの定番だよね</p>
+<p>あっ　そうだ！</p>
+<audio>
+</audio>
+<hr>
+<p>隠し味～！</p>
+<p>入れんなよ！</p>
+<p>笹がないカレーなんて…</p>
+<p>ないの！　普通は</p>
+<audio>
+</audio>
+<hr>
+<p>まったく　油断も隙もねえ</p>
+<p>シロクマくん！</p>
+<p>余計なもん 入れんなって言ってんだろ！</p>
+<audio>
+</audio>
+<hr>
+<p>シーフードカレーにしようかと…</p>
+<p>シーじゃなくて レークになっちゃうでしょ</p>
+<audio>
+</audio>
+<hr>
+<p>ねぇ 焦げ臭くない？</p>
+<p>真っ黒だ…</p>
+<audio>
+</audio>
+<hr>
+<p>アイツらかまってて　忘れてたな</p>
+<p>ごめん…</p>
+<p>気にすんな</p>
+<p>お～い！　小麦粉　持ってきてるよ</p>
+<audio>
+</audio>
+<hr>
+<p>カレーだし　ナンでも焼くか</p>
+<audio>
+</audio>
+<hr>
+<p>おいしいね～</p>
+<p>苦労して作った甲斐があるね</p>
+<p>シロクマくん　すご～い！</p>
+<p>ピザじゃないんだよ！</p>
+<p>おもに作ったのは 僕とグリズリーくんだけど…</p>
+<p>だよな</p>
+<audio>
+</audio>
+<hr>
+<p>よし　沸いたな</p>
+<p>１ば～ん！</p>
+<p>お前は後だ</p>
+<p>ペンギン　お前から入れよ</p>
+<audio>
+</audio>
+<hr>
+<p>お前が　いちばん働いたからな</p>
+<p>ありがとう</p>
+<audio>
+</audio>
+<hr>
+<p>どうだ？　湯かげんは</p>
+<p>本当は　あったかいお風呂より 冷たいほうがいいけど…</p>
+<p>ちょうどいいよ</p>
+<audio>
+</audio>
+<hr>
+<p>そうか　ま　あったまれよ</p>
+<audio>
+</audio>
+<hr>
+<p>いい気持…</p>
+<audio>
+</audio>
+<hr>
+<p>どう？　湯かげんは</p>
+<p>パンダくん　煮えてるよ！</p>
+<p>氷風呂もあるよ</p>
+<p>シロクマくん　最初から言ってよ！</p>
+<audio>
+</audio>
+<hr>
+<p>そろそろ寝るか</p>
+<p>じゃあ　誰と誰が同じテントになるか　くじ引きしよう</p>
+<p>みんな　１本ずつ引いてくれ</p>
+<audio>
+</audio>
+<hr>
+<p>葉っぱがついてるよ</p>
+<p>ひとつは　シロクマとパンダ</p>
+<p>もうひとつは俺とお前だな</p>
+<audio>
+</audio>
+<hr>
+<p>今日はお疲れ</p>
+<p>だね</p>
+<p>お前も大変だろう</p>
+<p>えっ？</p>
+<p>ったく　シロクマもパンダも 何もしやしねえどころか</p>
+<p>面倒ばかりかけやがるからな</p>
+<audio>
+</audio>
+<hr>
+<p>そうそう</p>
+<p>世話が焼けるよな</p>
+<p>でも　何だか</p>
+<p>放っとけねえんだよな</p>
+<audio>
+</audio>
+<hr>
+<p>飲むか　とっておきの 持ってきたんだよ</p>
+<p>いいね！</p>
+<p>俺たちも苦労するよな</p>
+<audio>
+</audio>
+<hr>
+<p>なぁ　ペンギン</p>
+<p>まったくだよ　面倒見きれないよ！</p>
+<p>あ～　叫びたいぜ！</p>
+<p>叫ぼう！</p>
+<audio>
+</audio>
+<hr>
+<p>何やってるんだろう？</p>
+<p>騒がしいね</p>
+<audio>
+</audio>
+<hr>
+<p>こんなところで寝てると 風邪ひくよ</p>
+<p>もう　ペンギンさんも グリズリーくんもホントに…</p>
+<p>世話が焼けるね</p>
+<p>それは…</p>
+<p>そっちだ</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

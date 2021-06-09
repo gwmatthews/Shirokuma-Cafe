@@ -2,6 +2,15 @@
 title: "シロクマ　カフェー へようこそ"
 ---
 
+<!--
+
+<a href="../" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>
+
+
+-->
+
 <span id="episode-title" data-episode="01">シロクマ　カフェー へようこそ</span>
 
 <audio></audio><hr>

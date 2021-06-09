@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>カフェの怪談</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">カフェの怪談</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="35"> カフェの怪談 </span></p>
+<audio>
+</audio>
+<hr>
+<p>笹子さん 今日の夜　あれやるよ</p>
+<p>えっ！？ あれ　ホントに　やるんですか？</p>
+<p>何？　あれって…</p>
+<audio>
+</audio>
+<hr>
+<p>ほら　夏の定番の…</p>
+<p>定番？</p>
+<p>それは　黒板</p>
+<audio>
+</audio>
+<hr>
+<p>それは　食パン</p>
+<p>それは　海パン</p>
+<p>それは　階段</p>
+<p>大当たり！</p>
+<p>怪談やるよ</p>
+<audio>
+</audio>
+<hr>
+<p>これでだいたい揃ったかな</p>
+<p>僕　帰ってもいいですか？</p>
+<p>怖い話 聞きたいっていうから　連れてきたよ</p>
+<audio>
+</audio>
+<hr>
+<p>苦手だって言ってるのに…</p>
+<p>ロウソクは　これでいいですか？</p>
+<p>うん</p>
+<p>そんなのいらないですよ！</p>
+<audio>
+</audio>
+<hr>
+<p>ほら～　やっぱり　こうなっちゃう</p>
+<p>ムードがあって　いいんじゃない？</p>
+<p>しろくまカフェ怪談ナイトにようこそ</p>
+<audio>
+</audio>
+<hr>
+<p>帰りたいな</p>
+<p>帰り道に おばけが出るかもしれないよ</p>
+<p>なんでそういうこと言うの！？</p>
+<p>わかりましたよ！　いますよ</p>
+<audio>
+</audio>
+<hr>
+<p>始めようか</p>
+<p>じゃあ　僕から</p>
+<p>これは　僕が実際に体験した</p>
+<p>動物園のラマコーナーで 起こったことなんですけど</p>
+<audio>
+</audio>
+<hr>
+<p>その夜　ラマコーナーには　残業していた 僕しかいなかったんです</p>
+<audio>
+</audio>
+<hr>
+<p>僕が　いつものように 草を食べていると</p>
+<p>ふと　何かの気配を感じたんです</p>
+<audio>
+</audio>
+<hr>
+<p>け…　気配？</p>
+<p>けど　他のラマたちはいるはずがありません</p>
+<p>錯覚だろうと思って 僕はまた草を食べ始めました</p>
+<audio>
+</audio>
+<hr>
+<p>ところが… やっぱり何かの気配を感じます</p>
+<audio>
+</audio>
+<hr>
+<p>その気配は どんどん近づいてきて</p>
+<p>ついに　僕のすぐ後ろに…</p>
+<p>僕は　思い切って振り返ったんです</p>
+<p>そこにはいるはずのない</p>
+<p>シマウマが…</p>
+<audio>
+</audio>
+<hr>
+<p>いるはずのない　シマウマの姿は</p>
+<p>次の瞬間 跡形もなく消えていました</p>
+<p>あぁ～！！</p>
+<audio>
+</audio>
+<hr>
+<p>あれ？　怖くなかったですか？</p>
+<p>シマウマの霊ですよ？</p>
+<p>なんか　シマウマの霊って言われても ピンと　こないっていうか…</p>
+<audio>
+</audio>
+<hr>
+<p>僕は話してるだけで ゾッとしますよ</p>
+<p>シマウマ…　シマウマ…</p>
+<p>全然　怖くないよ じゃあ</p>
+<p>次　僕ね</p>
+<audio>
+</audio>
+<hr>
+<p>パンダくん？</p>
+<p>あっ！　寝てる！</p>
+<p>パンダくん！</p>
+<p>あっ　暗いと眠くなるね</p>
+<audio>
+</audio>
+<hr>
+<p>頑張ろうよ</p>
+<p>こないだの夜 僕がベッドで寝ようとしたとき…</p>
+<audio>
+</audio>
+<hr>
+<p>あれ？　何時頃に寝たんだっけ？</p>
+<p>いいよ　そこは何時でも　続けて</p>
+<audio>
+</audio>
+<hr>
+<p>けど　今が眠いよ</p>
+<p>頑張ろうよ　パンダくん</p>
+<p>わかった！</p>
+<audio>
+</audio>
+<hr>
+<p>僕が　ベッドで寝てると</p>
+<p>枕もとで変な音がしたんだよ</p>
+<audio>
+</audio>
+<hr>
+<p>変な音っていうのは どんな音かな？</p>
+<p>僕に聞かれても困るよ</p>
+<p>どんな音だったの？</p>
+<audio>
+</audio>
+<hr>
+<p>忘れたよ</p>
+<p>パンダくん　もういいから… キミ　聞いてて</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ　僕が話すよ</p>
+<p>去年の夏のことだけど…</p>
+<p>やめて！</p>
+<p>まだ　何も話してないのに</p>
+<p>顔　怖すぎ！</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ　僕が…</p>
+<p>ゾウガメくん　頼むよ　思いっきり　怖いやつ</p>
+<p>動物好きの～　</p>
+<audio>
+</audio>
+<hr>
+<p>タカシくんは～</p>
+<p>ペース　上げられないかな？</p>
+<p>わかった～</p>
+<audio>
+</audio>
+<hr>
+<p>タカシくんが亡くなりました～</p>
+<p>お母さんは　毎日　お墓に</p>
+<p>タカシくんが好きだった パンの耳を持っていきました～</p>
+<audio>
+</audio>
+<hr>
+<p>もう　オチ　いこう　終わらないから</p>
+<p>うん</p>
+<p>ある日　お墓から声が…</p>
+<audio>
+</audio>
+<hr>
+<p>お母さん… もう　パンの耳は飽きたよ</p>
+<p>じゃあ　何がいいの？</p>
+<p>それは…</p>
+<p>お前の耳だ～</p>
+<audio>
+</audio>
+<hr>
+<p>あれ？</p>
+<p>寝てた～？</p>
+<p>遅いんだな 怖がるタイミングを逃しちゃうよ</p>
+<p>み　み…　耳！　耳！！</p>
+<audio>
+</audio>
+<hr>
+<p>半田さん　よく怖がれるね</p>
+<p>じゃあ　次は　僕が話すよ</p>
+<audio>
+</audio>
+<hr>
+<p>あるペンギンが体験した</p>
+<p>皆さんの知らない世界の話を お聞かせします</p>
+<p>そのペンギンが　あるパン屋に 出かけたときのことです</p>
+<audio>
+</audio>
+<hr>
+<p>そこには　１人の 看板ペンギンの女の子がいました</p>
+<p>彼女に会うため　ペンギンは 毎日　毎日　パン屋に通いました</p>
+<p>ところが　ある日</p>
+<audio>
+</audio>
+<hr>
+<p>１人だと思っていた ペンギンの女の子が</p>
+<p>７人いたのです！</p>
+<audio>
+</audio>
+<hr>
+<p>それは　怖かっただろうね</p>
+<p>怖かった…</p>
+<p>けど　そういう 怖いのじゃなくて…</p>
+<p>怖いのは おばけじゃなくて　ペンギンだよ</p>
+<audio>
+</audio>
+<hr>
+<p>大変なんだね　ペンギンさん</p>
+<p>つらいよ　毎日が</p>
+<audio>
+</audio>
+<hr>
+<p>実は　僕にもつらくて怖い話があるんだよ</p>
+<p>そうなの？</p>
+<p>そう</p>
+<audio>
+</audio>
+<hr>
+<p>あれは…</p>
+<p>その昔　僕の毛が まだ　黒かった頃のこと</p>
+<p>ちょっと待って！</p>
+<audio>
+</audio>
+<hr>
+<p>なんだろう？　その話…</p>
+<p>待たなくていい？</p>
+<p>うん　という答えも待たずに 話は続くんでしょ？</p>
+<audio>
+</audio>
+<hr>
+<p>ある日　川で 鮭をたくさんとったあと</p>
+<p>お腹がいっぱいになって 昼寝していた　僕の耳もとで何か音がした</p>
+<audio>
+</audio>
+<hr>
+<p>なんと　ネズミが 僕の耳をかじっていた</p>
+<p>あまりの恐怖で…</p>
+<audio>
+</audio>
+<hr>
+<p>こうして　僕の毛は白くなった</p>
+<p>だから僕は今でもネズミが怖い…</p>
+<p>待って！</p>
+<p>別の意味で怖いよ　その話</p>
+<audio>
+</audio>
+<hr>
+<p>ダメ？</p>
+<p>ダメ！</p>
+<p>どういう意味？</p>
+<p>知らなくていいの</p>
+<p>ネ…　ネ…　ネズミ…　ネズミ…</p>
+<audio>
+</audio>
+<hr>
+<p>半田さん　いいお客だな</p>
+<p>じゃあ　次　笹子さん</p>
+<audio>
+</audio>
+<hr>
+<p>私　あんまりうまくないんですよ</p>
+<p>怖い話とか苦手で…</p>
+<p>あっ！　ぼ…　僕も同じです</p>
+<p>あ…　でも　笹子さんの話 聞いてみたいな</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあ　ちょっとだけ</p>
+<audio>
+</audio>
+<hr>
+<p>と　振り返ると…</p>
+<p>やめて～っ！</p>
+<audio>
+</audio>
+<hr>
+<p>怖すぎるね…</p>
+<p>もういい！</p>
+<p>けど　ここからが怖いんですよ？</p>
+<p>ごめん…　もういいから</p>
+<p>半田さん！</p>
+<audio>
+</audio>
+<hr>
+<p>じゃあね　半田さん</p>
+<p>もし　おばけ見たら　電話してね</p>
+<p>バイバーイ</p>
+<audio>
+</audio>
+<hr>
+<p>やっぱり　今日は 誰かと一緒に帰ろうかな</p>
+<audio>
+</audio>
+<hr>
+<p>半田さん</p>
+<p>半田さん　１人で帰るの 怖いんじゃないですか？</p>
+<audio>
+</audio>
+<hr>
+<p>あ…　それは…</p>
+<p>でしたら…　私でよかったら 送っていきますよ</p>
+<audio>
+</audio>
+<hr>
+<p>あ…　じゃ…　じゃあ…</p>
+<p>そうですか</p>
+<p>僕　半田さんと 方向　一緒ですから</p>
+<audio>
+</audio>
+<hr>
+<p>それなら 僕が　送っていきますよ</p>
+<p>あ…　けど…</p>
+<p>気にしないでください</p>
+<audio>
+</audio>
+<hr>
+<p>それじゃあ ラマさん　半田さん　また</p>
+<p>また</p>
+<p>また…</p>
+<audio>
+</audio>
+<hr>
+<p>ねぇ　これでよかったのかな？</p>
+<p>よかったんじゃない？ 怖くなく帰れて</p>
+<audio>
+</audio>
+<hr>
+<p>半田さん　ラクダの霊って 見たことありますか？</p>
+<p>えぇ？　ないよ</p>
+<p>僕　この前　トイレで見たんですよ</p>
+<p>えっ　そうなの！？</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
