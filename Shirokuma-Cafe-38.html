@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>バイセンって　ナンダ！？</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">バイセンって　ナンダ！？</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="38"> バイセンって　ナンダ！？ </span></p>
+<audio>
+</audio>
+<hr>
+<p>うま～！</p>
+<p>しろくまカフェのパフェって マジ　最高！</p>
+<audio>
+</audio>
+<hr>
+<p>あれ？　ペンギンさんじゃない</p>
+<p>あ…　どうも　俺…</p>
+<p>人間くんだよ</p>
+<p>シロクマさん… 間違ってはないんすけど</p>
+<p>マサキくんだよ</p>
+<audio>
+</audio>
+<hr>
+<p>パンダくんは　いつものでいい？</p>
+<p>うん　コーヒー 今日は　ブラックにする</p>
+<p>パンダさん　コーヒーっすか？</p>
+<p>渋いっすね</p>
+<p>違いのわかるパンダって呼んで</p>
+<audio>
+</audio>
+<hr>
+<p>ブラックって　苦くて おいしくなくないっすか？</p>
+<p>おいしくなくなくないよ</p>
+<audio>
+</audio>
+<hr>
+<p>違いのわかるパンダだから</p>
+<p>え～っ！　でも　苦いんでしょ？</p>
+<p>飲んでみる？</p>
+<p>しろくまカフェのは　おいしいよ</p>
+<audio>
+</audio>
+<hr>
+<p>ホントにおいしいじゃん！</p>
+<p>そうでしょう？</p>
+<p>めっちゃいい香りだし</p>
+<p>こんなコーヒー淹れられるなんて すげぇっすね！</p>
+<audio>
+</audio>
+<hr>
+<p>おいしさの秘密は 焙煎にあるんだよ</p>
+<p>バイセン？　それ何？</p>
+<audio>
+</audio>
+<hr>
+<p>それ　海鮮だし！</p>
+<p>それ　対戦だし！</p>
+<p>それ　ゲーセンだし！</p>
+<p>バイセンってなんだよ！</p>
+<audio>
+</audio>
+<hr>
+<p>焙煎って コーヒー豆を煎ることですよ</p>
+<p>豆を煎る？</p>
+<p>うちは　達人が焙煎した豆を 仕入れてるから</p>
+<p>達人？</p>
+<audio>
+</audio>
+<hr>
+<p>へぇ～　知らなかった</p>
+<p>会ってみてぇ！</p>
+<p>連れていってあげてもいいよ</p>
+<p>マジっすか？</p>
+<audio>
+</audio>
+<hr>
+<p>ちょっと　遠いよ？</p>
+<p>え…　外国っすか？ ブラジル？　コロンビア？</p>
+<audio>
+</audio>
+<hr>
+<p>着いた　着いた</p>
+<p>シロクマさん…</p>
+<p>何？</p>
+<p>めっちゃ　近いじゃないっすか！</p>
+<p>うん　だから ちょっとだけ遠い</p>
+<audio>
+</audio>
+<hr>
+<p>こんにちは</p>
+<p>あら　シロクマさん！</p>
+<p>エゾリスママさん 達人に用があるんだけど…</p>
+<audio>
+</audio>
+<hr>
+<p>ごめんなさい 今　手が離せないところなのよ</p>
+<p>リスが焙煎してんだ</p>
+<p>パートのママさんたちだよ</p>
+<audio>
+</audio>
+<hr>
+<p>あ…　あの人が？</p>
+<p>うん　達人のキノボリカンガルーさん</p>
+<audio>
+</audio>
+<hr>
+<p>よし</p>
+<p>なんの用だ？</p>
+<p>キノボリカンガルーさん　このマサキくんが…</p>
+<p>弟子になりたいです！</p>
+<p>えっ！？</p>
+<p>僕も弟子になりたいです！</p>
+<p>え？</p>
+<audio>
+</audio>
+<hr>
+<p>やめときなさいよ</p>
+<p>焙煎士なんて地味な仕事よ</p>
+<p>私たち　パートだけど…</p>
+<p>根気がいるし</p>
+<p>力仕事だし</p>
+<p>じゃあ　やめときます</p>
+<audio>
+</audio>
+<hr>
+<p>最初から　やる気ないでしょ</p>
+<p>うん</p>
+<p>俺は　マジっす</p>
+<p>今日 しろくまカフェのコーヒーを飲んで</p>
+<p>俺　生まれて初めて ブラックがおいしいと思ったんです</p>
+<audio>
+</audio>
+<hr>
+<p>あんなおいしいコーヒーを 自分でも作ってみたいんです</p>
+<p>ムリよ</p>
+<p>弟子を置かない主義らしいから</p>
+<audio>
+</audio>
+<hr>
+<p>いいだろう</p>
+<p>えっ！？</p>
+<p>ホントですか！？</p>
+<p>あぁ</p>
+<p>や…　やった～！</p>
+<p>まぁ　しばらく 通ってみればいいさ</p>
+<p>頑張ります！</p>
+<audio>
+</audio>
+<hr>
+<p>達人！　今日から お世話になります　マサキです</p>
+<p>あぁ　エゾリスたちに教わるといい</p>
+<p>はい！</p>
+<p>わぁ…　豆が白いっつうか　薄緑？</p>
+<p>カビ生えてるの？</p>
+<p>イタッ！</p>
+<p>これは　コーヒーの生豆よ！</p>
+<p>生豆？</p>
+<audio>
+</audio>
+<hr>
+<p>これを煎るから茶色になるの</p>
+<p>なるほど</p>
+<p>じゃあ　まず 豆のよりわけ方から教えるわね</p>
+<p>はい</p>
+<audio>
+</audio>
+<hr>
+<p>コーヒーを焙煎する前に 悪い豆を取り除いておくのよ</p>
+<p>１粒ずつ？</p>
+<p>混ざると味が悪くなるのよ</p>
+<p>うわ～　大変っすね</p>
+<p>悪い豆っていうのは こういう虫が食ってるやつ</p>
+<audio>
+</audio>
+<hr>
+<p>腐ってるやつ</p>
+<p>そういう豆は見逃さないで 絶対取らないとダメよ</p>
+<p>はい</p>
+<audio>
+</audio>
+<hr>
+<p>あ　大きい豆も取って</p>
+<p>何で？大きいのいいじゃん</p>
+<p>アタッ！</p>
+<p>大きいと火のとおりに ムラが出るでしょ</p>
+<audio>
+</audio>
+<hr>
+<p>これ全部やるんすか？</p>
+<p>そうよ　今日中よ</p>
+<p>マジ？</p>
+<p>さぁ　急いで</p>
+<p>はい</p>
+<audio>
+</audio>
+<hr>
+<p>遅いわよ</p>
+<p>はい</p>
+<p>もっと　チャッチャと</p>
+<p>はい</p>
+<audio>
+</audio>
+<hr>
+<p>もっと　リズミカルに</p>
+<p>何だよ　もう！</p>
+<p>俺は　キノボリカンガルーさんに 弟子入りしたのに</p>
+<p>アタッ！</p>
+<p>下っ端が口ごたえしない！</p>
+<p>口より手を動かす</p>
+<audio>
+</audio>
+<hr>
+<p>はい</p>
+<p>ほら　チャッチャと</p>
+<p>マサキ　手が止まってる！</p>
+<p>動かしてるよ</p>
+<audio>
+</audio>
+<hr>
+<p>マサキくん　どうなりましたかね</p>
+<p>誰　それ</p>
+<p>えっ？</p>
+<p>キミが　すすめたブラックコーヒーに 感動したって人でしょ</p>
+<audio>
+</audio>
+<hr>
+<p>ああ</p>
+<p>ああって</p>
+<p>僕　ワルだから 過去は　振り返らないの</p>
+<p>カフェモカちょうだい</p>
+<audio>
+</audio>
+<hr>
+<p>ごちそうさま</p>
+<audio>
+</audio>
+<hr>
+<p>ねぇ　マサキ</p>
+<p>腹ごなしに　バレーボールやらない</p>
+<p>いいっすよ</p>
+<audio>
+</audio>
+<hr>
+<p>できた！</p>
+<p>これが　ネットね</p>
+<p>何気に　本格的っすね</p>
+<p>じゃあ　ゲーム開始よ</p>
+<p>いきます！</p>
+<p>ほい！ センター！</p>
+<p>はい！ アタック！</p>
+<p>アタッ！</p>
+<p>ナイスコース！</p>
+<p>イタッ！　よし　本気出すぞ</p>
+<p>ヒューヒュー！</p>
+<audio>
+</audio>
+<hr>
+<p>ねぇ　あれから ペン子さんたちとはどうなったの？</p>
+<p>思い出させないでくれる</p>
+<p>カフェモカ　おかわり</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさんも たまには　ブラック飲めば？</p>
+<p>これ以上 苦い思いはしたくないよ</p>
+<p>はい　ブラック　サービスね</p>
+<audio>
+</audio>
+<hr>
+<p>苦いんでしょ</p>
+<p>あっ　キノボリカンガルーさん</p>
+<p>ほい　豆</p>
+<p>いつも　お疲れさまです</p>
+<p>マサキくん　頑張ってる？</p>
+<p>ああ　まぁ　</p>
+<audio>
+</audio>
+<hr>
+<p>エゾリスたちとは 打ち解けたみたいだな</p>
+<p>イタッ！</p>
+<p>イエーイ　ストレート勝ち！</p>
+<p>やったわ！</p>
+<p>もういっちょ！</p>
+<audio>
+</audio>
+<hr>
+<p>あっ　おいしい</p>
+<p>でしょ</p>
+<p>まろやかで　あと味　スッキリ</p>
+<p>すごく平凡な感想だね</p>
+<p>えっ！</p>
+<p>だな</p>
+<p>えっ！</p>
+<audio>
+</audio>
+<hr>
+<p>グルメレポーター失格だね</p>
+<p>ちょっと待って</p>
+<p>ペンギンさん　いつから グルメレポーターになったんですか？</p>
+<p>今日から</p>
+<p>なってないから！</p>
+<p>なってないのに レポーター気取りなの？</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

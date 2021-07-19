@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ペンギンにも いろいろあるよ</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="includes/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">ペンギンにも いろいろあるよ</h1>
+
+</div>
+
+
+<p><span id="episode-title" data-episode="37"> ペンギンにも いろいろあるよ </span></p>
+<audio>
+</audio>
+<hr>
+<p>わかった　先に入ってる</p>
+<p>笹子さん　なんって？</p>
+<p>海が　きれいだって</p>
+<audio>
+</audio>
+<hr>
+<p>なんで　海にいるの？</p>
+<p>久しぶりに電車に乗ったから　方向間違えたって</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさんも遅いね</p>
+<p>また　逃げ回ってるんじゃないの？ ペン子さんズから</p>
+<audio>
+</audio>
+<hr>
+<p>７人もいるから　名前を覚えるだけで 大変だね</p>
+<audio>
+</audio>
+<hr>
+<p>お待たせ！</p>
+<p>誰？</p>
+<p>ペン子さん８号？</p>
+<p>やめてよ</p>
+<p>この子は僕の甥っ子</p>
+<audio>
+</audio>
+<hr>
+<p>こんにちは</p>
+<p>かわいい！</p>
+<p>コウテイペンギンのヒナって 本当に　かわいいよね</p>
+<audio>
+</audio>
+<hr>
+<p>あら　アンタも来てたの？</p>
+<p>げっ！？</p>
+<p>ペン子さん８号？</p>
+<p>しつこいね</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンさんのお友達？</p>
+<p>まあ　失礼な！！</p>
+<p>コウテイペンギンなんかと 仲間にしないでよ！</p>
+<p>それはこっちのセリフだよ！</p>
+<p>えっ？</p>
+<audio>
+</audio>
+<hr>
+<p>どっちも コウテイペンギンさんじゃないの？</p>
+<p>違うよ！ 違うわよ！</p>
+<p>僕が　正真正銘のコウテイペンギン！</p>
+<p>私が　正真正銘のキングペンギン！</p>
+<audio>
+</audio>
+<hr>
+<p>こんな図体がでかいだけのヤツと 一緒にしないでちょうだい！</p>
+<p>イタッ！　こっちこそ 一緒にされたくないね</p>
+<audio>
+</audio>
+<hr>
+<p>ド派手なオレンジ色の キングペンギンなんかと</p>
+<p>ド派手じゃなくて　エレガント！！</p>
+<p>イタッ！</p>
+<audio>
+</audio>
+<hr>
+<p>なんか　仲　悪いね</p>
+<p>僕らは　平和主義なのに</p>
+<p>キングペンギンたちが　やたらと ケンカを売ってくるから</p>
+<audio>
+</audio>
+<hr>
+<p>原因はアンタたちでしょ</p>
+<p>コウテイペンギンのせいで　私たちはいっつも大迷惑しているんだから</p>
+<audio>
+</audio>
+<hr>
+<p>大迷惑？</p>
+<p>そうよ　例えば…</p>
+<p>動物園じゃ　キングペンギンのほうが 大活躍しているのに</p>
+<audio>
+</audio>
+<hr>
+<p>人間たちは 平気で間違うのよ！</p>
+<p>ハア…　大迷惑よ</p>
+<audio>
+</audio>
+<hr>
+<p>ペンギンにも　いろいろあるんだね</p>
+<p>まあ　大人同士は 多少　似てるかもしれないけど</p>
+<p>キングペンギンのヒナときたら</p>
+<p>まるで 汚れたモップみたいなんだから</p>
+<p>まあ　</p>
+<audio>
+</audio>
+<hr>
+<p>失礼ね！！</p>
+<p>イタッ！　乱暴しないでよ！！</p>
+<p>あれ？　その子は？</p>
+<audio>
+</audio>
+<hr>
+<p>家の息子よ かわいいでしょ？</p>
+<p>かわいいというより…</p>
+<audio>
+</audio>
+<hr>
+<p>ちょっと　怖いかも</p>
+<p>失礼ね！　こういうのが ブスかわいいっていうのよ！！</p>
+<audio>
+</audio>
+<hr>
+<p>ぼ…　僕… モップとか言って　ごめんね</p>
+<audio>
+</audio>
+<hr>
+<p>フワフワ…</p>
+<p>モコモコ…</p>
+<p>フワフワ…</p>
+<p>モコモコ…</p>
+<audio>
+</audio>
+<hr>
+<p>こっちは 仲よくなってるよ</p>
+<p>そっちも仲よくしたら？</p>
+<p>ま…　まあ 僕は　もともと　平和主義だし…</p>
+<audio>
+</audio>
+<hr>
+<p>しかたないわね 特別に停戦してあげるわ</p>
+<p>よかった</p>
+<p>南極平和条約　締結だね</p>
+<audio>
+</audio>
+<hr>
+<p>おっ　コウテイペンギンだぞ</p>
+<p>本当だ！</p>
+<audio>
+</audio>
+<hr>
+<p>うわぁ～！</p>
+<p>プール！　プール！</p>
+<p>僕でも余裕の広さだね</p>
+<audio>
+</audio>
+<hr>
+<p>最近　飲みすぎで　メタボ気味だから</p>
+<p>今日は　いっぱい泳ごう</p>
+<p>あっ　ペンギンさん　発見！</p>
+<p>ペンギンさん　ひどい！ どうして私を誘ってくれないの？</p>
+<audio>
+</audio>
+<hr>
+<p>さて　ここで問題です</p>
+<p>ペンジョリーナさんは 右から何番目でしょう？</p>
+<p>それ　難しいね</p>
+<audio>
+</audio>
+<hr>
+<p>どうして　ここに？</p>
+<p>けさ　スマホで つぶやいてたでしょ？</p>
+<p>甥っ子をよろしく！</p>
+<p>あっ　逃げた！</p>
+<p>あ～～～</p>
+<p>待ってーー</p>
+<p>ペンギンさん　今日は　いっぱい 泳げそうだね</p>
+<p>ペンギンさん～～</p>
+<audio>
+</audio>
+<hr>
+<p>私が　ペン子</p>
+<p>私が　ペン美</p>
+<p>私が　ペン乃</p>
+<p>私が　ペン花</p>
+<p>私が　ペン奈</p>
+<p>私が　ペンニュエル</p>
+<p>私が　ペンジョリーナ</p>
+<p>私が…</p>
+<audio>
+</audio>
+<hr>
+<p>あれ剥製じゃないよね？</p>
+<p>話かけようか？</p>
+<p>やばいよ！目玉　つつかれるぞ！</p>
+<audio>
+</audio>
+<hr>
+<p>パンダくん　せっかく プールに来たんだから　泳ごうよ</p>
+<p>泳ごうよ！</p>
+<audio>
+</audio>
+<hr>
+<p>えぇ～？ 僕　涼みに来たんだもん</p>
+<p>食っちゃ寝してたら太るよ</p>
+<p>太るよ</p>
+<audio>
+</audio>
+<hr>
+<p>いいも～ん</p>
+<p>運動　嫌いだもん</p>
+<p>シロクマさん！ 一緒に遊びましょう！</p>
+<audio>
+</audio>
+<hr>
+<p>いいよ</p>
+<p>わぁ　やった！</p>
+<p>少しは運動しなよ</p>
+<p>はぁ～　極楽　極楽</p>
+<audio>
+</audio>
+<hr>
+<p>あっ　コウテイペンギンだ！</p>
+<p>違うわよ　私は　キングペンギンよ！</p>
+<p>あっ　コウテイペンギンだろ？</p>
+<p>イテテテ！</p>
+<p>もう！　人間たちって　どうして 私たちを間違うのかしらね</p>
+<p>なんで　キングとコウテイなの？</p>
+<audio>
+</audio>
+<hr>
+<p>あんまり言いたくないけど…</p>
+<p>昔むかし</p>
+<p>人間が　まだ 南極へ行けなかった頃のことよ</p>
+<audio>
+</audio>
+<hr>
+<p>でかっ！ なんて　でかいペンギンなんだ！</p>
+<p>最大のペンギン　まさに王様　キングペンギンと名づけよう</p>
+<audio>
+</audio>
+<hr>
+<p>当時　人が見たことのある 一番大きなペンギンはあたしたちだったの</p>
+<p>へぇ～　かっこいい　それで？</p>
+<audio>
+</audio>
+<hr>
+<p>その後　人間が南極大陸へ 行けるようになって</p>
+<p>そこには　ヤツらがいたのよ！</p>
+<audio>
+</audio>
+<hr>
+<p>あっ　でかっ！　隊長！ キングペンギンより　でかいっすよ！</p>
+<p>名前どうしましょう？</p>
+<p>あぁ…　それじゃあ　もう 王様の上の皇帝ってことで</p>
+<p>コウテイペンギンにしちゃえ</p>
+<p>えっ！？　</p>
+<audio>
+</audio>
+<hr>
+<p>そんなに簡単に？</p>
+<p>そうよ！</p>
+<p>適当なネーミングをしたのは 人間なのに</p>
+<p>その人間に コウテイと間違われるなんて…</p>
+<p>悔しいわ！</p>
+<audio>
+</audio>
+<hr>
+<p>そんなの気にしなくても 大丈夫だよ</p>
+<p>ほら　人生　山あり谷ありって 言うじゃない？</p>
+<audio>
+</audio>
+<hr>
+<p>山には　竹あり</p>
+<p>お腹が空いたら　竹あり笹あり</p>
+<p>ピシッ！　ムカつく！</p>
+<p>なんか　アンタ　ムカつくのよ！</p>
+<p>ピシッ　ピシッ…</p>
+<p>あっ　あぁ…　やめて！</p>
+<audio>
+</audio>
+<hr>
+<p>あっ　パンダくん！</p>
+<p>なんか運動してる！</p>
+<p>楽しそう！</p>
+<audio>
+</audio>
+<hr>
+<p>ひぃ～　だぁ～！</p>
+<p>待って！</p>
+<p>あっ　ペンギンさん！</p>
+<p>ペンギンさんも運動してる！</p>
+<p>楽しそう！</p>
+<p>私が…</p>
+<audio>
+</audio>
+<hr>
+<p>人気ナンバーワンのパンダに 私の気持なんか　わかんないわ！</p>
+<p>こんにちは！</p>
+<audio>
+</audio>
+<hr>
+<p>また　ペンギン？</p>
+<p>南極の恋人 アデリーペンギンです</p>
+<p>渋めで地味め アゴヒモペンギンです</p>
+<p>オシャレな性格美人 ジェンツーペンギンです</p>
+<audio>
+</audio>
+<hr>
+<p>３羽合わせて　ピゴセリス属！</p>
+<p>決まったね</p>
+<p>決まった</p>
+<audio>
+</audio>
+<hr>
+<p>ピ…　ピゴ？</p>
+<p>ピゴセリス！</p>
+<p>アンタたちの属性は呼びにくいのよ</p>
+<p>お久しぶりです　キングペンギンさん</p>
+<audio>
+</audio>
+<hr>
+<p>キングペンギンさんのアプテノディテス属のほうが 呼びにくいです</p>
+<p>同じく　アプテノディテス属の コウテイペンギンさんとは仲よくしてますか？</p>
+<audio>
+</audio>
+<hr>
+<p>フン！　アイツのまぎらわしい名前で 迷惑しているわ</p>
+<p>それを言うなら 僕らの名前も適当なもんです</p>
+<audio>
+</audio>
+<hr>
+<p>そうなの？</p>
+<p>僕ら　アデリーペンギンなんて　探検家の奥さんの名前なんです</p>
+<p>だから　オスでも　アデリーちゃん</p>
+<audio>
+</audio>
+<hr>
+<p>私たちは アゴヒモをしてることにされて</p>
+<p>アゴヒモペンギンに…</p>
+<audio>
+</audio>
+<hr>
+<p>僕ら　ジェンツーペンギンなんか</p>
+<p>頭の白い模様が ターバンに似てるから</p>
+<p>ポルトガル語で　異教徒を意味する ジェンツーだなんて！</p>
+<audio>
+</audio>
+<hr>
+<p>本当に適当だね</p>
+<p>アンタたちも　いろいろ　あんのね…</p>
+<p>どうです？　パンダくん！</p>
+<p>僕たちのこと 覚えてくれました？</p>
+<audio>
+</audio>
+<hr>
+<p>えっ？</p>
+<p>助けて！</p>
+<p>ペンギンさん！</p>
+<p>助けて！</p>
+<p>ペンギン！</p>
+<p>助けて！</p>
+<p>ペンギン！！</p>
+<audio>
+</audio>
+<hr>
+<p>覚えてくれました？</p>
+<p>ピ…　ピ…</p>
+<p>なかなか　覚えられませんよね</p>
+<p>しかも　ペンギンは 全部で　１８種類もいるんですよ！</p>
+<p>えっ！？</p>
+<audio>
+</audio>
+<hr>
+<p>でも　大丈夫！</p>
+<p>そこで　この…　ペンギンカード！</p>
+<p>遊びながら　楽しく覚えられて…</p>
+<p>今なら　特別価格の５００円！</p>
+<p>何　営業してんのよ！？</p>
+<audio>
+</audio>
+<hr>
+<p>電車って難しい…</p>
+<p>特別快速とか　通勤急行とか いろいろ　ありすぎ</p>
+<p>バスみたいに　ボタン押したら 止まってくれればいいのに</p>
+<audio>
+</audio>
+<hr>
+<p>なんで　コウテイが最強カードなのよ！？</p>
+<p>知らないよ…</p>
+<p>シロクマさん！　ほいっと</p>
+<p>こっち　こっち！</p>
+<audio>
+</audio>
+<hr>
+<p>泳ごっと！</p>
+<audio>
+</audio>
+<hr>
+
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

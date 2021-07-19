@@ -79,6 +79,7 @@ episode 14
 
 episode 15
 
+
 - [真夏の雑草取り](Shirokuma-Cafe-29.html)
 - [ペンギンさんのロマンス](Shirokuma-Cafe-30.html)
 
@@ -96,3 +97,8 @@ episode 18
 
 - [カフェの怪談](Shirokuma-Cafe-35.html)
 - [パンダくんの家出](Shirokuma-Cafe-36.html)
+
+episode 19
+
+- [ペンギンにも いろいろあるよ](Shirokuma-Cafe-37.html)
+- [バイセンって　ナンダ！？](Shirokuma-Cafe-38.html)
