@@ -6,25 +6,35 @@ import openai
 from dotenv import load_dotenv
 import json
 
-
-def translate_with_context(context, current_sentence):
-    # return "placeholder", 0
-
+def translate_with_context(context, current_sentence, lang):
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    context_str = "\n".join([f"Context sentence {i+1}: {s}" for i, s in enumerate(context)])
-    prompt = (
-        "Traduci il seguente dialogo dal giapponese all'italiano. Utilizza il seguente contesto, ovvero le linee di dialogo precedenti, per essere più accurato.\n\n"
-        f"{context_str}\n\n"
-        f"Dialogo da tradurre: {current_sentence}\n\n"
-        "Scrivi solo la traduzione in italiano, senza testo aggiuntivo."
-    )
+    context = "\n".join([f"{i+1}: {s}" for i, s in enumerate(context)])
+    if lang == "it":
+        prompt1 = "Sei un traduttore professionista. Fornisci una traduzione in italiano accurata, naturale e idiomatica."
+        prompt2 = (
+            "Traduci il seguente dialogo dal giapponese all'italiano. Utilizza il seguente contesto, ovvero le linee di dialogo precedenti, per essere più accurato.\n\n"
+            f"Frasi precedenti:\n{context}\n\n"
+            f"Dialogo da tradurre: {current_sentence}\n\n"
+            "Scrivi solo la traduzione in italiano, senza testo aggiuntivo."
+        )
+    elif lang == "en":
+        prompt1 = "You're a professional translator. Write an English translation that's accurate, natural and idiomatic."
+        prompt2 = (
+            "Translate the following dialogue from japanese to english. Use the following context to improve accuracy. \n\n"
+            f"Previous lines of dialogue:\n{context}\n\n"
+            f"Dialogue to translate: {current_sentence}\n\n"
+            "Just write the english translation, no other text"
+        )
+    else:
+        print(f"Language {lang} is not supported")
+        sys.exit(1)
 
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {"role": "system", "content": "Sei un traduttore professionista. Fornisci una traduzione in italiano accurata, naturale e idiomatica."},
-            {"role": "user", "content": prompt}
+            {"role": "system", "content": prompt1},
+            {"role": "user", "content": prompt2}
         ],
         temperature=0
     )
@@ -46,7 +56,8 @@ def translate_with_context(context, current_sentence):
     return translation, total_cost
 
 
-def process_html(input_html, output_json):
+
+def process_html(input_html, output_json, language):
     with open(input_html, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'html.parser')
 
@@ -64,7 +75,7 @@ def process_html(input_html, output_json):
         
         if text:
             try:
-                translation, cost = translate_with_context(context_sentences, text)
+                translation, cost = translate_with_context(context_sentences, text, language)
                 total_cost += cost
 
                 output.append([text, translation])
@@ -89,10 +100,11 @@ if __name__ == "__main__":
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
     if len(sys.argv) != 3:
-        print("Usage: python translate.py input.html output.html")
+        print("Usage: python translate.py input.html language")
         sys.exit(1)
 
     input_file = sys.argv[1]
-    output_file = sys.argv[2]
+    language = sys.argv[2]
+    output_file = os.path.splitext(input_file)[0] + f"-{language}.json"
 
-    process_html(input_file, output_file)
+    process_html(input_file, output_file, language)
