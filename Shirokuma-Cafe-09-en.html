@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="IE=EDGE" http-equiv="X-UA-Compatible"/>
+<title>パンダくん　張り切る</title>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet"/>
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet"/>
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+<link href="includes/style.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+<!-- tabsets -->
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+<!-- code folding -->
+</head>
+<body>
+<div class="container-fluid main-container">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html"></a>
+</div>
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav">
+<li>
+<a href="index.html">シロクマ　カフェー</a>
+</li>
+<li>
+<a href="about.html">about</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container -->
+</div><!--/.navbar -->
+<div id="header">
+<h1 class="title toc-ignore">パンダくん　張り切る</h1>
+</div>
+<span>0</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0"><span data-episode="09" id="episode-title">パンダくん　張り切る</span></p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Panda is all fired up.</p>
+
+<hr/>
+<span>1</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">どうしたの？　パンダくん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">What's wrong, Panda-kun?</p>
+<p style="padding-top: 0; margin-top: 0">元気ないですね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">You don't seem very energetic.</p>
+<p style="padding-top: 0; margin-top: 0">実はさ…　常勤パンダさんが</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Actually... it's about Full-time Panda.</p>
+<p style="padding-top: 0; margin-top: 0">親戚の結婚式で　しばらく 実家の中国に帰るんだって</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">He's going back to his family home in China for a while for a relative's wedding.</p>
+
+<hr/>
+<span>2</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">なんで　それで 元気ないの？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Why does that make you feel down?</p>
+<p style="padding-top: 0; margin-top: 0">それがね…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Well, you see...</p>
+<p style="padding-top: 0; margin-top: 0">１週間留守にするからって</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">He said he'll be away for a week.</p>
+<p style="padding-top: 0; margin-top: 0">代わりにバイト　フルに 入ることになっちゃったんだよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I ended up having to work full shifts as a substitute.</p>
+
+<hr/>
+<span>3</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">動物園のバイト？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">The zoo job?</p>
+<p style="padding-top: 0; margin-top: 0">そう</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Yes.</p>
+<p style="padding-top: 0; margin-top: 0">でも　たった１週間でしょ？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">But it's just one week, right?</p>
+<p style="padding-top: 0; margin-top: 0">１週間も　だよ～</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's a whole week, you know!</p>
+
+<hr/>
+<span>4</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">早起きできるかな…　しかも毎日</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I wonder if I can wake up early... and every day, too.</p>
+<p style="padding-top: 0; margin-top: 0">自信がないよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm not confident.</p>
+<p style="padding-top: 0; margin-top: 0">大変なのは早起きじゃなくて 満員電車じゃない？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Isn't the hard part not waking up early, but the crowded train?</p>
+
+<hr/>
+<span>5</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">満員電車？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Crowded train?</p>
+<p style="padding-top: 0; margin-top: 0">朝　会社に行く人たちで電車がいっぱいになるのが</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">In the morning, the trains get packed with people going to work.</p>
+<p style="padding-top: 0; margin-top: 0">満員電車だよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's a packed train.</p>
+
+<hr/>
+<span>6</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">僕ら　コウテイペンギンは 慣れてるからいいけど…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">We Emperor Penguins are used to it, so it's fine...</p>
+<p style="padding-top: 0; margin-top: 0">え？　ペンギンさんも電車　乗るの？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Huh? Do penguins ride trains too?</p>
+
+<hr/>
+<span>7</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">違うよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">No, that's not it.</p>
+<p style="padding-top: 0; margin-top: 0">南極じゃ　みんな集まって 子育てするから</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">In Antarctica, everyone gathers together to raise their young.</p>
+<p style="padding-top: 0; margin-top: 0">もう　満員電車並みの混雑だよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's as crowded as a packed train.</p>
+
+<hr/>
+<span>8</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">みんな おしくらまんじゅう状態だもんね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Everyone's packed in like sardines, you know.</p>
+<p style="padding-top: 0; margin-top: 0">おしくらまんじゅう？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Pushing and shoving?</p>
+
+<hr/>
+<span>9</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">楽しそうだね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">That sounds fun.</p>
+<p style="padding-top: 0; margin-top: 0">なんだか　楽しみになってきたよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Somehow, I'm starting to look forward to it.</p>
+<p style="padding-top: 0; margin-top: 0">早く帰って　明日に備えなくちゃ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I need to get home early and prepare for tomorrow.</p>
+<p style="padding-top: 0; margin-top: 0">じゃあ…　ごちそうさま</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Well then... thank you for the meal.</p>
+
+<hr/>
+<span>10</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">大丈夫かな…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I wonder if it'll be okay...</p>
+
+<hr/>
+<span>11</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">あ…　早く　早く</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Oh... hurry, hurry</p>
+<p style="padding-top: 0; margin-top: 0">急がないと 満員電車に乗れないよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">If we don't hurry, we won't be able to get on the crowded train.</p>
+
+<hr/>
+<span>12</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">おはよう　パンダくん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Good morning, Panda-kun.</p>
+<p style="padding-top: 0; margin-top: 0">おはようございま～す</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Good morniiiing!</p>
+<p style="padding-top: 0; margin-top: 0">バイト？　頑張ってね～</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Part-time job? Good luck!</p>
+
+<hr/>
+<span>13</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">行ってきま～す</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm off!</p>
+<p style="padding-top: 0; margin-top: 0">すみませ～ん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Excuse me~</p>
+<p style="padding-top: 0; margin-top: 0">いらっしゃいませ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Welcome!</p>
+<p style="padding-top: 0; margin-top: 0">お花　選んでいただけますか？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Could you help me choose some flowers?</p>
+
+<hr/>
+<span>14</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">おしくらまんじゅうだね～</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's like a game of "push and shove," isn't it?</p>
+
+<hr/>
+<span>15</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">ドアが閉まります ご注意ください　ドアが閉まります</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">The doors are closing. Please be careful. The doors are closing.</p>
+
+<hr/>
+<span>16</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">すみません パンダ専用車両はどこですか？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Excuse me, where is the panda-only car?</p>
+<p style="padding-top: 0; margin-top: 0">ないと思います…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I don't think there is one...</p>
+
+<hr/>
+<span>17</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">ど…　どこか… 空いてるところは…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">"Is there... anywhere... with some space?"</p>
+
+<hr/>
+<span>18</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">きついよ…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's tight...</p>
+<p style="padding-top: 0; margin-top: 0">この先　揺れますので ご注意ください</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Please be careful, as it will be bumpy ahead.</p>
+
+<hr/>
+<span>19</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">パンダく～ん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Panda-kun!</p>
+<p style="padding-top: 0; margin-top: 0">ごはんだよ？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's time to eat, okay?</p>
+<p style="padding-top: 0; margin-top: 0">そこ　置いといて</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Just leave it there.</p>
+
+<hr/>
+<span>20</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">うん…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Yeah...</p>
+<p style="padding-top: 0; margin-top: 0">朝からバイトで大変なのは わかるけどさ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I understand it's tough having a part-time job from the morning, but...</p>
+<p style="padding-top: 0; margin-top: 0">もう少し　お客さんにサービスしてよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Please give the customers a little more service.</p>
+
+<hr/>
+<span>21</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">もう　満員電車やだ…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm so tired of crowded trains...</p>
+<p style="padding-top: 0; margin-top: 0">半田さん　朝代わってよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Handa, can you take the morning shift for me?</p>
+<p style="padding-top: 0; margin-top: 0">やだって言ったって 仕方ないでしょう？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Even if you say you don't want to, there's nothing you can do about it, right?</p>
+
+<hr/>
+<span>22</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">僕　もう少し遅く来るから 朝だけパンダ代わって</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'll come a little later, so just cover for me in the morning, Panda.</p>
+
+<hr/>
+<span>23</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">代われって言われても　無理だし</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Even if you tell me to switch, it's impossible.</p>
+<p style="padding-top: 0; margin-top: 0">大丈夫　体型似てるから</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It's fine, our body types are similar.</p>
+
+<hr/>
+<span>24</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">いやいや…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">No way...</p>
+<p style="padding-top: 0; margin-top: 0">ありえないから 頑張ってよ　約束でしょ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">"It's impossible, but do your best. It's a promise, right?"</p>
+<p style="padding-top: 0; margin-top: 0">ごはん　ここ置いとくからね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'll leave the food here, okay?</p>
+
+<hr/>
+<span>25</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">チェッ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Tch</p>
+<p style="padding-top: 0; margin-top: 0">あ～　満員電車のこと考えると</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Ah, when I think about the crowded train...</p>
+<p style="padding-top: 0; margin-top: 0">食欲が出ないよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I don't have an appetite.</p>
+
+<hr/>
+<span>26</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">パンダくん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Panda-kun</p>
+<p style="padding-top: 0; margin-top: 0">パンダくんにお届け物です</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">A delivery for Panda-kun.</p>
+<p style="padding-top: 0; margin-top: 0">花？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Flowers?</p>
+
+<hr/>
+<span>27</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">いつも見てます お仕事頑張ってね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm always watching. Keep up the good work!</p>
+<p style="padding-top: 0; margin-top: 0">あなたのファンより　リンリン</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">From your fan, Lin Lin</p>
+<p style="padding-top: 0; margin-top: 0">僕のファン！？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">My fan!?</p>
+
+<hr/>
+<span>28</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">リンリンちゃん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin-chan</p>
+<p style="padding-top: 0; margin-top: 0">僕　頑張るよ！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'll do my best!</p>
+<p style="padding-top: 0; margin-top: 0">ママ　パンダさん立った！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Mom, the panda stood up!</p>
+<p style="padding-top: 0; margin-top: 0">すごいわね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">That's amazing!</p>
+
+<hr/>
+<span>29</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">リンリンちゃん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin!</p>
+<p style="padding-top: 0; margin-top: 0">いってきます！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm off!</p>
+
+<hr/>
+<span>30</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">もしかして　リンリンちゃん？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Could it be Linlin-chan?</p>
+<p style="padding-top: 0; margin-top: 0">もしもし</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Hello?</p>
+
+<hr/>
+<span>31</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">リンリンちゃん　僕　頑張るからね！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin-chan, I'll do my best!</p>
+
+<hr/>
+<span>32</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">リンリンちゃんが 見ててくれるんだから</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Because Rinrin-chan is watching over me.</p>
+
+<hr/>
+<span>33</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">きっと…　あのなかに リンリンちゃんが…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm sure... Rinrin-chan is in there...</p>
+<p style="padding-top: 0; margin-top: 0">ここんとこ 張り切ってるな　パンダくん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">You've been really enthusiastic lately, Panda-kun.</p>
+<p style="padding-top: 0; margin-top: 0">でも　どうして？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">But why?</p>
+
+<hr/>
+<span>34</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">お疲れ様</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Good job.</p>
+<p style="padding-top: 0; margin-top: 0">今日　常勤パンダさん 戻って来たんでしょ？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I heard that the full-time panda came back today, right?</p>
+<p style="padding-top: 0; margin-top: 0">うん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Yeah.</p>
+
+<hr/>
+<span>35</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">お土産もらった</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I got a souvenir.</p>
+<p style="padding-top: 0; margin-top: 0">パンダくん１日も 遅刻しなかったんだってね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I heard Panda-kun didn't arrive late even once.</p>
+<p style="padding-top: 0; margin-top: 0">すごいじゃない</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">That's impressive.</p>
+
+<hr/>
+<span>36</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">大切な人が見ててくれるから</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Because someone important is watching over me.</p>
+<p style="padding-top: 0; margin-top: 0">それにしても なんかすごく疲れてない？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Still, don't you seem really tired?</p>
+
+<hr/>
+<span>37</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">なんだか　あちこち ボロボロで汚れてるし</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Somehow, I'm all worn out and dirty all over.</p>
+<p style="padding-top: 0; margin-top: 0">頑張りすぎなんじゃない</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Maybe you're trying too hard.</p>
+<p style="padding-top: 0; margin-top: 0">ゆっくり 休んだほうがいいと思うよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I think you should take it easy and get some rest.</p>
+
+<hr/>
+<span>38</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">うん あの子に こんな格好見せられないし</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Yeah, I can't let that kid see me looking like this.</p>
+<p style="padding-top: 0; margin-top: 0">あの子？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">That kid?</p>
+<p style="padding-top: 0; margin-top: 0">今日はもう帰るね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm going to head home for today.</p>
+<p style="padding-top: 0; margin-top: 0">あ　忘れてるよ　天津甘栗チョコレート！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Oh, you forgot your Tianjin chestnut chocolate!</p>
+
+<hr/>
+<span>39</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">昨日もステキ 今日も頑張ってね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">You were wonderful yesterday, and do your best today too!</p>
+<p style="padding-top: 0; margin-top: 0">リンリンちゃん　１週間　僕頑張ったよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin-chan, I worked hard for a week.</p>
+
+<hr/>
+<span>40</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">急がなくっちゃ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I have to hurry.</p>
+<p style="padding-top: 0; margin-top: 0">リンリンちゃん　今日も　僕が 朝からいるって思ってないかな</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin, do you think I might be here from the morning again today?</p>
+<p style="padding-top: 0; margin-top: 0">すれ違いになったら大変</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">It would be a problem if we miss each other.</p>
+
+<hr/>
+<span>41</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">おはよう　パンダくん</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Good morning, Panda-kun.</p>
+<p style="padding-top: 0; margin-top: 0">おはようございます</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Good morning.</p>
+<p style="padding-top: 0; margin-top: 0">今日から　通常勤務じゃないの？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Aren't you back to your regular shift starting today?</p>
+
+<hr/>
+<span>42</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">えっ？　ああ…　うん…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Huh? Oh... yeah...</p>
+<p style="padding-top: 0; margin-top: 0">だよね　ドキッとしちゃったよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">"Right? It made my heart skip a beat."</p>
+<p style="padding-top: 0; margin-top: 0">僕が選んだ花　気に入ってくれた？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Did you like the flowers I chose?</p>
+<p style="padding-top: 0; margin-top: 0">えっ？　ああ　リンリンちゃんのお花？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">"Huh? Oh, the flowers from Rinrin?"</p>
+
+<hr/>
+<span>43</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">大切にしてるよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'm taking good care of them.</p>
+<p style="padding-top: 0; margin-top: 0">あっ　そうだ　ちょっと 見せたいものがあるんだ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Oh, right, there's something I want to show you.</p>
+<p style="padding-top: 0; margin-top: 0">待ってて</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Wait here.</p>
+<p style="padding-top: 0; margin-top: 0">はい</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Sure.</p>
+
+<hr/>
+<span>44</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">今日は　リンリンちゃん　来てないの？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Isn't Rinrin-chan coming today?</p>
+<p style="padding-top: 0; margin-top: 0">ああ　リンリンって　僕のことね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Oh, by "Rinrin," you mean me.</p>
+<p style="padding-top: 0; margin-top: 0">林厘太郎</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rin Rintaro</p>
+
+<hr/>
+<span>45</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">パンダ　大好きなんだ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I love pandas.</p>
+<p style="padding-top: 0; margin-top: 0">あっ　パンダくんは その中でも別格だよ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Oh, but Panda-kun is in a league of his own.</p>
+
+<hr/>
+<span>46</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">リンリンズ　ベストショットは　これ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Rinrin's best shot is this one.</p>
+
+<hr/>
+<span>47</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">お気に入りだから 大きくしてみたんだ</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I made it bigger because it's my favorite.</p>
+<p style="padding-top: 0; margin-top: 0">パンダくんにもあげるね</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'll give one to Panda-kun too.</p>
+
+<hr/>
+<span>48</span><audio>
+</audio><p style="padding-top: 0; margin-top: 0">いらない…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I don't need it...</p>
+<p style="padding-top: 0; margin-top: 0">これ　返す…</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">I'll give this back...</p>
+<p style="padding-top: 0; margin-top: 0">なんで？</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Why?</p>
+<p style="padding-top: 0; margin-top: 0">ウワーン！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Waaah!</p>
+<p style="padding-top: 0; margin-top: 0">あっ　パンダくん！</p><p onmouseout="this.style.backgroundColor='#777'" onmouseover="this.style.backgroundColor='transparent'" style="font-size: 100%; background-color: #777; transition: color 0.3s ease-in-out; cursor: pointer; display: inline; padding: 2px;">Ah, Panda-kun!</p>
+
+<hr/>
+<script>
+
+if (document.querySelector('#episode-title')) {
+
+// get episode number
+
+const episode = document.getElementById('episode-title').getAttribute('data-episode');
+
+// get audio clips
+const clips = document.getElementsByTagName('audio');
+
+// enables placing sound symbol after audio tag
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+// assign ID's to all audio elements, add audio src attribute, add sound symbol beneath
+function setup(){
+  
+  for (let i = 0; i < clips.length; i++){
+  clips[i].id = i;
+  clips[i].src = `audio/${episode}/${i}.mp3`
+  let el = document.createElement("div");
+  el.setAttribute('class', 'sound');
+  el.innerHTML = "&#128265";
+  let div = document.getElementById(i);
+  insertAfter(div, el);
+  
+  }
+}
+
+// get sound buttons
+const buttons = document.getElementsByClassName('sound');
+
+// add toggle sound function to sound symbol with reference to correct source
+function insertSound(){
+  for (let i = 0; i < buttons.length; i++){
+    buttons[i].setAttribute('onclick', 'toggleSound('+ i +')');
+  }
+}
+
+// play or pause audio
+function toggleSound(number){
+  let aud = document.getElementById(number);
+  
+  if (aud.paused) {
+    aud.play();
+    aud.nextSibling.style.opacity = '0.5';
+    
+  } else {
+    aud.pause();
+  }
+  
+  aud.onpause = function() {
+    aud.nextSibling.style.opacity = '1';
+    
+  }
+}
+
+setup();
+
+insertSound();
+
+}
+
+</script>
+</div>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+<!-- code folding -->
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+</html>

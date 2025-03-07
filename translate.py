@@ -78,15 +78,17 @@ def process_html(input_html, output_json, language):
                 translation, cost = translate_with_context(context_sentences, text, language)
                 total_cost += cost
 
-                output.append([text, translation])
-
-                # Update context for next translations
-                context_sentences.append(text)
-                if len(context_sentences) > 5:  # Keep only last 5 sentences
-                    context_sentences.pop(0)
-
             except Exception as e:
                 print(f"Error translating: {text} -> {str(e)}")
+                translation = ""
+
+            output.append([text, translation])
+
+            # Update context for next translations
+            context_sentences.append(text)
+            if len(context_sentences) > 5:  # Keep only last 5 sentences
+                context_sentences.pop(0)
+
 
     # Save modified HTML
     with open(output_json, 'w', encoding='utf-8') as f:
