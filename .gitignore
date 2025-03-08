@@ -2,3 +2,5 @@ media/
 .Rproj.user
 .Rhistory
 subtitles/
+*.old
+.env
